@@ -1,0 +1,11 @@
+/**
+ * Services — couche d'accès aux données externes.
+ *
+ * Chaque module de service encapsule les appels à une API tierce.
+ * Aucun composant React ne doit appeler une API directement.
+ *
+ * Exemple de structure attendue :
+ *   services/weather.ts    — Open-Meteo, Meteoblue…
+ *   services/astronomy.ts  — ephémèrides, Voie Lactée…
+ *   services/lightPollution.ts
+ */

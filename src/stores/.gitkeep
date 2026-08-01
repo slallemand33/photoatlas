@@ -1,0 +1,10 @@
+/**
+ * Stores Zustand — état global de l'application.
+ *
+ * Chaque store est autonome et scopé à une fonctionnalité.
+ *
+ * Exemple de structure attendue :
+ *   stores/useMapStore.ts      — position, zoom, couches actives
+ *   stores/useWeatherStore.ts  — données météo chargées
+ *   stores/useUiStore.ts       — état de l'interface (sidebar ouverte, etc.)
+ */

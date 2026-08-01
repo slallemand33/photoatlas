@@ -1,0 +1,7 @@
+/**
+ * Hooks personnalisés — logique réutilisable entre composants.
+ *
+ * Exemple de structure attendue :
+ *   hooks/useGeolocation.ts  — position GPS de l'utilisateur
+ *   hooks/useDebounce.ts     — debounce générique
+ */

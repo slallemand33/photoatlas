@@ -1,0 +1,1 @@
+export { LightPollutionLegend } from "./LightPollutionLegend";

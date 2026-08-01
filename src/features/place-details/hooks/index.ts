@@ -1,0 +1,1 @@
+export { usePlaceDetails } from "./usePlaceDetails";

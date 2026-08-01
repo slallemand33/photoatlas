@@ -1,0 +1,10 @@
+/**
+ * Types TypeScript globaux partagés entre plusieurs features.
+ *
+ * Les types propres à une feature restent dans features/<name>/types.ts.
+ *
+ * Exemple de structure attendue :
+ *   types/geo.ts       — coordonnées GPS, bounding box…
+ *   types/weather.ts   — conditions météo communes
+ *   types/api.ts       — réponses API génériques
+ */

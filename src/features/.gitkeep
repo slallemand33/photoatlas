@@ -1,0 +1,12 @@
+/**
+ * Features — modules fonctionnels indépendants.
+ *
+ * Chaque feature regroupe ses propres composants, hooks et types.
+ *
+ * Exemple de structure attendue :
+ *   features/map/           — carte interactive MapLibre GL
+ *   features/weather/       — couches météo
+ *   features/astronomy/     — Soleil, Lune, Voie Lactée
+ *   features/lightPollution/ — carte de pollution lumineuse
+ *   features/spots/         — spots photo
+ */
