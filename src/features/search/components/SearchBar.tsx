@@ -4,8 +4,8 @@ import { Loader2, Search, X } from "lucide-react";
 import { useCallback, useEffect, useRef, useState } from "react";
 
 import { useMap } from "@/components/map";
-import { cn } from "@/lib/utils";
 import { usePlaceStore } from "@/features/place-details/store/usePlaceStore";
+import { cn } from "@/lib/utils";
 import { useSearchStore } from "@/stores/useSearchStore";
 
 import { useSearch } from "../hooks/useSearch";
@@ -13,7 +13,6 @@ import { useSearchMarker } from "../hooks/useSearchMarker";
 import type { SearchResult } from "../types";
 import { getZoomForResult } from "../utils/zoom";
 
-import { SearchInfoPanel } from "./SearchInfoPanel";
 import { SearchResultItem } from "./SearchResultItem";
 
 export function SearchBar() {
@@ -23,9 +22,9 @@ export function SearchBar() {
 
   const { results, isLoading } = useSearch(query);
   const map = useMap();
-  const { showMarker } = useSearchMarker();
-  const { selectedResult, setSelectedResult, addToRecent } = useSearchStore();
-  const selectPlace = usePlaceStore((s) => s.selectPlace);
+  const { showMarker, clearMarker } = useSearchMarker();
+  const { setSelectedResult, addToRecent } = useSearchStore();
+  const { selectPlace, closePanel } = usePlaceStore();
 
   const inputRef = useRef<HTMLInputElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -54,14 +53,6 @@ export function SearchBar() {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  // Afficher les suggestions quand les résultats arrivent
-  useEffect(() => {
-    if (results.length > 0 && query.trim().length >= 3) {
-      setShowSuggestions(true);
-      setActiveIndex(-1);
-    }
-  }, [results, query]);
-
   const handleSelect = useCallback(
     (result: SearchResult) => {
       setSelectedResult(result);
@@ -72,13 +63,23 @@ export function SearchBar() {
       selectPlace(result);
 
       if (map) {
-        map.flyTo({
-          center: [result.longitude, result.latitude],
-          zoom: getZoomForResult(result),
-          duration: 1200,
-          essential: true,
+        // Attendre que le panneau latéral ait redimensionné la carte afin que
+        // le lieu soit centré dans la zone réellement visible.
+        requestAnimationFrame(() => {
+          requestAnimationFrame(() => {
+            map.resize();
+            map.flyTo({
+              center: [result.longitude, result.latitude],
+              zoom: getZoomForResult(result),
+              bearing: 0,
+              pitch: 0,
+              duration: 1600,
+              curve: 1.35,
+              essential: true,
+            });
+            showMarker(result.latitude, result.longitude);
+          });
         });
-        showMarker(result.latitude, result.longitude);
       }
     },
     [map, setSelectedResult, addToRecent, showMarker, selectPlace],
@@ -111,13 +112,12 @@ export function SearchBar() {
   const handleClear = () => {
     setQuery("");
     setSelectedResult(null);
+    clearMarker();
+    closePanel();
     setShowSuggestions(false);
     setActiveIndex(-1);
     inputRef.current?.focus();
   };
-
-  const showInfoPanel =
-    selectedResult !== null && !showSuggestions && query === selectedResult.name;
 
   return (
     <div
@@ -127,29 +127,31 @@ export function SearchBar() {
       {/* Champ de saisie */}
       <div
         className={cn(
-          "flex h-9 items-center gap-2 rounded-md border bg-muted/20 px-3 text-sm transition-colors",
-          showSuggestions || showInfoPanel
+          "bg-muted/20 flex h-9 items-center gap-2 rounded-md border px-3 text-sm transition-colors",
+          showSuggestions
             ? "border-border/80 bg-muted/40"
             : "border-border/50 hover:border-border/70",
         )}
       >
-        <Search className="h-4 w-4 shrink-0 text-muted-foreground/60" aria-hidden="true" />
+        <Search className="text-muted-foreground/60 h-4 w-4 shrink-0" aria-hidden="true" />
 
         <input
           ref={inputRef}
           type="text"
           value={query}
           onChange={(e) => {
-            setQuery(e.target.value);
+            const nextQuery = e.target.value;
+            setQuery(nextQuery);
             setSelectedResult(null);
-            if (e.target.value.trim().length < 3) setShowSuggestions(false);
+            setShowSuggestions(nextQuery.trim().length >= 3);
+            setActiveIndex(-1);
           }}
           onFocus={() => {
             if (results.length > 0 && query.trim().length >= 3) setShowSuggestions(true);
           }}
           onKeyDown={handleKeyDown}
           placeholder="Rechercher un lieu…"
-          className="flex-1 bg-transparent text-sm text-foreground placeholder:text-muted-foreground/60 focus:outline-none"
+          className="text-foreground placeholder:text-muted-foreground/60 flex-1 bg-transparent text-sm focus:outline-none"
           aria-label="Rechercher un lieu"
           aria-autocomplete="list"
           aria-controls="search-listbox"
@@ -161,13 +163,16 @@ export function SearchBar() {
         />
 
         {isLoading && (
-          <Loader2 className="h-3.5 w-3.5 animate-spin text-muted-foreground/40" aria-hidden="true" />
+          <Loader2
+            className="text-muted-foreground/40 h-3.5 w-3.5 animate-spin"
+            aria-hidden="true"
+          />
         )}
 
         {query && !isLoading && (
           <button
             onClick={handleClear}
-            className="shrink-0 text-muted-foreground/40 transition-colors hover:text-muted-foreground"
+            className="text-muted-foreground/40 hover:text-muted-foreground shrink-0 transition-colors"
             aria-label="Effacer la recherche"
             tabIndex={-1}
           >
@@ -177,7 +182,7 @@ export function SearchBar() {
 
         {!query && (
           <kbd
-            className="hidden shrink-0 rounded bg-muted/60 px-1.5 py-0.5 font-mono text-[10px] text-muted-foreground/50 lg:block"
+            className="bg-muted/60 text-muted-foreground/50 hidden shrink-0 rounded px-1.5 py-0.5 font-mono text-[10px] lg:block"
             aria-label="Raccourci clavier : Commande K"
           >
             ⌘K
@@ -191,7 +196,7 @@ export function SearchBar() {
           id="search-listbox"
           role="listbox"
           aria-label="Suggestions de lieux"
-          className="absolute left-0 right-0 top-full z-50 mt-1 overflow-hidden rounded-lg border border-border/40 bg-card py-1 shadow-xl"
+          className="border-border/40 bg-card absolute top-full right-0 left-0 z-50 mt-1 overflow-hidden rounded-lg border py-1 shadow-xl"
         >
           {results.map((result, index) => (
             <SearchResultItem
@@ -203,11 +208,6 @@ export function SearchBar() {
             />
           ))}
         </ul>
-      )}
-
-      {/* Panneau d'informations */}
-      {showInfoPanel && (
-        <SearchInfoPanel result={selectedResult} onClose={handleClear} />
       )}
     </div>
   );

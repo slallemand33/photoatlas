@@ -1,97 +1,86 @@
 import type { LucideIcon } from "lucide-react";
-import { Camera, Cloud, Eye, Lightbulb, Moon, Star, Sun, Wind, Zap } from "lucide-react";
+import { Camera, CloudSun, Lightbulb, MoonStar, NotebookPen, Sparkles } from "lucide-react";
 
-function SectionTitle({ icon: Icon, label }: { icon: LucideIcon; label: string }) {
+import { PlaceDashboardSection } from "./PlaceDashboardSection";
+
+function ConditionPlaceholder({
+  icon: Icon,
+  description,
+}: {
+  icon: LucideIcon;
+  description: string;
+}) {
   return (
-    <div className="mb-2.5 flex items-center gap-2">
-      <Icon className="h-3.5 w-3.5 text-muted-foreground" aria-hidden="true" />
-      <span className="text-[11px] font-semibold uppercase tracking-[0.1em] text-muted-foreground">
-        {label}
+    <div className="flex items-center gap-3">
+      <span className="bg-muted/35 text-muted-foreground/45 grid h-10 w-10 shrink-0 place-items-center rounded-xl">
+        <Icon className="h-4 w-4" aria-hidden="true" />
       </span>
-    </div>
-  );
-}
-
-function DataRow({ icon: Icon, label }: { icon: LucideIcon; label: string }) {
-  return (
-    <div className="flex items-center justify-between border-b border-border/20 px-3 py-2.5 last:border-0">
-      <div className="flex items-center gap-2.5">
-        <Icon className="h-3.5 w-3.5 shrink-0 text-muted-foreground/60" aria-hidden="true" />
-        <span className="text-sm text-foreground/80">{label}</span>
+      <div className="min-w-0">
+        <p className="text-foreground/75 text-sm font-medium">Données à venir</p>
+        <p className="text-muted-foreground/55 mt-0.5 text-xs leading-relaxed">{description}</p>
       </div>
-      <span className="rounded-full bg-muted/50 px-2 py-0.5 text-[10px] font-medium text-muted-foreground">
-        Bientôt
-      </span>
     </div>
   );
 }
 
 export function PlacePhotoConditions() {
   return (
-    <div className="flex flex-col gap-4 px-4 py-4">
-      {/* Score global — élément héro */}
-      <div>
-        <SectionTitle icon={Camera} label="Score Photo" />
-        <div className="rounded-xl border border-border/25 bg-muted/10 px-5 py-6 text-center">
-          <div className="flex items-baseline justify-center gap-2">
-            <span className="text-6xl font-black leading-none tabular-nums text-foreground/25">—</span>
-            <span className="text-xl font-semibold text-muted-foreground">/100</span>
+    <div className="grid gap-3">
+      <PlaceDashboardSection
+        title="Photo Score"
+        icon={Camera}
+        status="À venir"
+        className="border-primary/15 from-primary/6 via-background/35 to-background/35 bg-gradient-to-br"
+      >
+        <div className="flex items-center gap-4">
+          <div className="border-primary/20 bg-background/45 relative grid h-20 w-20 shrink-0 place-items-center rounded-full border">
+            <div className="border-primary/20 absolute inset-1.5 rounded-full border border-dashed" />
+            <div className="relative text-center">
+              <span className="text-foreground/30 block text-3xl leading-none font-black">—</span>
+              <span className="text-muted-foreground/60 text-[10px] font-semibold">/ 100</span>
+            </div>
           </div>
-          <p className="mt-3 text-xs text-muted-foreground">En attente des données photo</p>
-          <div className="mt-3 flex justify-center gap-1.5">
-            {["Météo", "Astronomie", "Pollution"].map((tag) => (
-              <span
-                key={tag}
-                className="rounded-full border border-border/30 px-2 py-0.5 text-[10px] text-muted-foreground/70"
-              >
-                {tag}
-              </span>
-            ))}
+          <div>
+            <div className="text-foreground/85 flex items-center gap-1.5 text-sm font-semibold">
+              <Sparkles className="text-primary h-3.5 w-3.5" aria-hidden="true" />
+              Potentiel photographique
+            </div>
+            <p className="text-muted-foreground/60 mt-1.5 text-xs leading-relaxed">
+              Synthèse future de la météo, du ciel et de la lumière pour ce lieu.
+            </p>
           </div>
         </div>
-      </div>
+      </PlaceDashboardSection>
 
-      {/* Lumière */}
-      <div>
-        <SectionTitle icon={Sun} label="Lumière" />
-        <div className="overflow-hidden rounded-lg border border-border/20 bg-card">
-          <DataRow icon={Sun} label="Lever du soleil" />
-          <DataRow icon={Sun} label="Coucher du soleil" />
-          <DataRow icon={Sun} label="Heure dorée · bleue" />
-          <DataRow icon={Moon} label="Phase de lune" />
-        </div>
-      </div>
+      <PlaceDashboardSection title="Conditions météo" icon={CloudSun} status="À venir">
+        <ConditionPlaceholder
+          icon={CloudSun}
+          description="Nuages, vent, visibilité et précipitations."
+        />
+      </PlaceDashboardSection>
 
-      {/* Météo */}
-      <div>
-        <SectionTitle icon={Cloud} label="Météo" />
-        <div className="overflow-hidden rounded-lg border border-border/20 bg-card">
-          <DataRow icon={Wind} label="Vent" />
-          <DataRow icon={Cloud} label="Couverture nuageuse" />
-          <DataRow icon={Eye} label="Visibilité" />
-          <DataRow icon={Zap} label="Orages" />
-        </div>
-      </div>
+      <PlaceDashboardSection title="Conditions astro" icon={MoonStar} status="À venir">
+        <ConditionPlaceholder
+          icon={MoonStar}
+          description="Lune, Voie Lactée, heures dorée et bleue."
+        />
+      </PlaceDashboardSection>
 
-      {/* Pollution lumineuse */}
-      <div>
-        <SectionTitle icon={Lightbulb} label="Pollution lumineuse" />
-        <div className="overflow-hidden rounded-lg border border-border/20 bg-card">
-          <DataRow icon={Lightbulb} label="Niveau Bortle" />
-          <DataRow icon={Eye} label="Luminance du ciel" />
-        </div>
-      </div>
+      <PlaceDashboardSection title="Pollution lumineuse" icon={Lightbulb} status="À venir">
+        <ConditionPlaceholder
+          icon={Lightbulb}
+          description="Classe Bortle et qualité estimée du ciel nocturne."
+        />
+      </PlaceDashboardSection>
 
-      {/* Astronomie */}
-      <div>
-        <SectionTitle icon={Star} label="Astronomie" />
-        <div className="overflow-hidden rounded-lg border border-border/20 bg-card">
-          <DataRow icon={Star} label="Seeing" />
-          <DataRow icon={Eye} label="Transparence atmosphérique" />
-          <DataRow icon={Star} label="Voie Lactée" />
+      <PlaceDashboardSection title="Notes" icon={NotebookPen} status="À venir">
+        <div className="border-border/35 bg-muted/10 rounded-lg border border-dashed px-3 py-4 text-center">
+          <NotebookPen className="text-muted-foreground/35 mx-auto h-4 w-4" aria-hidden="true" />
+          <p className="text-muted-foreground/55 mt-2 text-xs leading-relaxed">
+            Vos repérages et idées de prise de vue seront regroupés ici.
+          </p>
         </div>
-      </div>
+      </PlaceDashboardSection>
     </div>
   );
 }
-

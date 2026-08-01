@@ -1,11 +1,11 @@
 "use client";
 
-import { Bookmark, Copy, MapPin, Navigation, X } from "lucide-react";
+import { Check, Copy, MapPin, Navigation, X } from "lucide-react";
 import { useCallback, useState } from "react";
 
 import { useMap } from "@/components/map";
-import { cn } from "@/lib/utils";
 import type { SearchResult } from "@/features/search/types";
+import { cn } from "@/lib/utils";
 
 import { formatPlaceType, getZoomForPlace } from "../utils/format";
 
@@ -37,16 +37,20 @@ export function PlaceHeader({ place, onClose }: PlaceHeaderProps) {
   }, [place]);
 
   return (
-    <div className="shrink-0 border-b border-border/30 px-4 pb-4 pt-4">
+    <div className="border-border/30 relative shrink-0 overflow-hidden border-b px-5 pt-4 pb-5">
+      <div
+        className="bg-primary/8 pointer-events-none absolute -top-20 -right-16 h-48 w-48 rounded-full blur-3xl"
+        aria-hidden="true"
+      />
       {/* Type chip + bouton fermeture */}
-      <div className="mb-3 flex items-center justify-between">
-        <span className="inline-flex items-center gap-1.5 rounded-full border border-border/30 bg-muted/40 px-2.5 py-1 text-[11px] font-medium text-muted-foreground">
+      <div className="relative mb-4 flex items-center justify-between">
+        <span className="border-primary/20 bg-primary/8 text-primary inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-[11px] font-semibold">
           <MapPin className="h-3 w-3" aria-hidden="true" />
           {formatPlaceType(place.type)}
         </span>
         <button
           onClick={onClose}
-          className="rounded-md p-1.5 text-muted-foreground/60 transition-colors hover:bg-accent hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+          className="text-muted-foreground/60 hover:bg-accent hover:text-foreground focus-visible:ring-ring rounded-md p-1.5 transition-colors focus-visible:ring-2 focus-visible:outline-none"
           aria-label="Fermer la fiche"
         >
           <X className="h-4 w-4" aria-hidden="true" />
@@ -54,16 +58,19 @@ export function PlaceHeader({ place, onClose }: PlaceHeaderProps) {
       </div>
 
       {/* Nom du lieu */}
-      <h2 className="mb-4 text-xl font-bold leading-tight tracking-tight text-foreground">
+      <h2 className="text-foreground relative text-2xl leading-[1.08] font-bold tracking-tight">
         {place.name}
       </h2>
+      <p className="text-muted-foreground/75 relative mt-2 line-clamp-2 text-xs leading-relaxed">
+        {place.displayName}
+      </p>
 
       {/* Actions */}
-      <div className="flex flex-wrap gap-2">
+      <div className="relative mt-4 flex flex-wrap gap-2">
         <button
           onClick={handleCenterMap}
           disabled={!map}
-          className="flex items-center gap-1.5 rounded-md border border-border/40 bg-muted/20 px-3 py-1.5 text-xs font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:opacity-40"
+          className="border-border/40 bg-muted/20 text-muted-foreground hover:bg-accent hover:text-foreground focus-visible:ring-ring flex items-center gap-1.5 rounded-md border px-3 py-1.5 text-xs font-medium transition-colors focus-visible:ring-2 focus-visible:outline-none disabled:opacity-40"
           aria-label="Centrer la carte sur ce lieu"
         >
           <Navigation className="h-3.5 w-3.5" aria-hidden="true" />
@@ -73,28 +80,21 @@ export function PlaceHeader({ place, onClose }: PlaceHeaderProps) {
         <button
           onClick={handleCopyCoords}
           className={cn(
-            "flex items-center gap-1.5 rounded-md border px-3 py-1.5 text-xs font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring",
+            "focus-visible:ring-ring flex items-center gap-1.5 rounded-md border px-3 py-1.5 text-xs font-medium transition-colors focus-visible:ring-2 focus-visible:outline-none",
             copied
               ? "border-green-500/40 bg-green-500/10 text-green-400"
               : "border-border/40 bg-muted/20 text-muted-foreground hover:bg-accent hover:text-foreground",
           )}
           aria-label="Copier les coordonnées GPS"
         >
-          <Copy className="h-3.5 w-3.5" aria-hidden="true" />
-          {copied ? "Copié !" : "Coordonnées"}
-        </button>
-
-        <button
-          disabled
-          className="flex cursor-not-allowed items-center gap-1.5 rounded-md border border-border/20 px-3 py-1.5 text-xs font-medium text-muted-foreground/40"
-          title="Bientôt disponible"
-          aria-label="Ajouter aux favoris (bientôt disponible)"
-        >
-          <Bookmark className="h-3.5 w-3.5" aria-hidden="true" />
-          Favoris
+          {copied ? (
+            <Check className="h-3.5 w-3.5" aria-hidden="true" />
+          ) : (
+            <Copy className="h-3.5 w-3.5" aria-hidden="true" />
+          )}
+          {copied ? "Copié" : "Copier GPS"}
         </button>
       </div>
     </div>
   );
 }
-

@@ -1,6 +1,7 @@
 "use client";
 
 import { Aperture, Bell, Menu, User } from "lucide-react";
+import Link from "next/link";
 
 import { SearchBar } from "@/features/search/components";
 
@@ -27,14 +28,14 @@ export function Header({ onMobileMenuToggle, mobileSidebarOpen }: HeaderProps) {
       </button>
 
       {/* Logo */}
-      <a
+      <Link
         href="/"
         className="flex shrink-0 items-center gap-2 rounded-md px-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
         aria-label="PhotoAtlas — Accueil"
       >
         <Aperture className="h-6 w-6 text-primary" aria-hidden="true" />
         <span className="text-base font-semibold tracking-tight">PhotoAtlas</span>
-      </a>
+      </Link>
 
       {/* Barre de recherche */}
       <SearchBar />

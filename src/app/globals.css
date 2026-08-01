@@ -129,3 +129,82 @@
     @apply font-sans;
   }
 }
+
+@keyframes photoatlas-marker-enter {
+  0% {
+    opacity: 0;
+    transform: translateY(-18px) scale(0.65);
+  }
+  65% {
+    opacity: 1;
+    transform: translateY(3px) scale(1.08);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes photoatlas-marker-pulse {
+  0% {
+    opacity: 0.55;
+    transform: translate(-50%, -50%) scale(0.35);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1.8);
+  }
+}
+
+.photoatlas-place-marker {
+  position: relative;
+  width: 42px;
+  height: 52px;
+}
+
+.photoatlas-place-marker__visual {
+  position: absolute;
+  inset: 0;
+  animation: photoatlas-marker-enter 500ms cubic-bezier(0.2, 0.9, 0.25, 1.2) both;
+  filter: drop-shadow(0 8px 8px rgb(0 0 0 / 35%));
+}
+
+.photoatlas-place-marker__pin {
+  position: absolute;
+  left: 50%;
+  top: 4px;
+  display: grid;
+  width: 32px;
+  height: 32px;
+  place-items: center;
+  border: 3px solid white;
+  border-radius: 50% 50% 50% 0;
+  background: #f97316;
+  transform: translateX(-50%) rotate(-45deg);
+  box-shadow: 0 4px 14px rgb(0 0 0 / 30%);
+}
+
+.photoatlas-place-marker__center {
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: white;
+}
+
+.photoatlas-place-marker__pulse {
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  width: 30px;
+  height: 12px;
+  border: 2px solid #f97316;
+  border-radius: 999px;
+  animation: photoatlas-marker-pulse 1.8s ease-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .photoatlas-place-marker__visual,
+  .photoatlas-place-marker__pulse {
+    animation: none;
+  }
+}

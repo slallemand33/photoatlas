@@ -1,10 +1,11 @@
-import { Building2, Globe, Home, MapPin, Navigation, Route } from "lucide-react";
+import { Building2, Globe, Home, MapPin, Navigation, Route, type LucideIcon } from "lucide-react";
+import { createElement } from "react";
 
 import { cn } from "@/lib/utils";
 
 import type { SearchResult, SearchResultType } from "../types";
 
-const TYPE_ICONS: Partial<Record<SearchResultType, React.ComponentType<{ className?: string }>>> = {
+const TYPE_ICONS: Partial<Record<SearchResultType, LucideIcon>> = {
   city: Building2,
   town: Building2,
   village: Home,
@@ -17,7 +18,7 @@ const TYPE_ICONS: Partial<Record<SearchResultType, React.ComponentType<{ classNa
   country: Globe,
 };
 
-function getIcon(type: SearchResultType) {
+function getIcon(type: SearchResultType): LucideIcon {
   return TYPE_ICONS[type] ?? MapPin;
 }
 
@@ -34,8 +35,6 @@ export function SearchResultItem({
   onSelect,
   onMouseEnter,
 }: SearchResultItemProps) {
-  const Icon = getIcon(result.type);
-
   const subtitle = [result.locality, result.department, result.region, result.country]
     .filter(Boolean)
     .join(", ");
@@ -51,11 +50,14 @@ export function SearchResultItem({
         isActive ? "bg-accent text-accent-foreground" : "hover:bg-accent/40",
       )}
     >
-      <Icon className="h-4 w-4 shrink-0 text-muted-foreground/60" aria-hidden="true" />
+      {createElement(getIcon(result.type), {
+        className: "h-4 w-4 shrink-0 text-muted-foreground/60",
+        "aria-hidden": true,
+      })}
       <div className="min-w-0 flex-1">
-        <p className="truncate text-sm font-medium leading-snug">{result.name}</p>
+        <p className="truncate text-sm leading-snug font-medium">{result.name}</p>
         {subtitle && (
-          <p className="truncate text-xs leading-snug text-muted-foreground/60">{subtitle}</p>
+          <p className="text-muted-foreground/60 truncate text-xs leading-snug">{subtitle}</p>
         )}
       </div>
     </li>

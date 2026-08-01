@@ -1,45 +1,66 @@
-import { Globe } from "lucide-react";
+import { Bookmark, Compass, Crosshair, MapPin, Tag } from "lucide-react";
 
 import type { SearchResult } from "@/features/search/types";
 
-import { formatGPSCoordinates } from "../utils/format";
+import { formatGPSCoordinates, formatPlaceType } from "../utils/format";
+
+import { PlaceDashboardSection } from "./PlaceDashboardSection";
 
 interface PlaceGeoInfoProps {
   place: SearchResult;
 }
 
-function GeoRow({ label, value }: { label: string; value: string }) {
-  if (!value) return null;
-  return (
-    <div className="flex items-baseline gap-3 border-b border-border/20 px-3 py-2.5 last:border-0">
-      <span className="w-24 shrink-0 text-xs text-muted-foreground">{label}</span>
-      <span className="text-sm text-foreground/90">{value}</span>
-    </div>
-  );
-}
-
 export function PlaceGeoInfo({ place }: PlaceGeoInfoProps) {
-  return (
-    <div className="px-4 py-4">
-      <div className="mb-2.5 flex items-center gap-2">
-        <Globe className="h-3.5 w-3.5 text-muted-foreground" aria-hidden="true" />
-        <span className="text-[11px] font-semibold uppercase tracking-[0.1em] text-muted-foreground">
-          Localisation
-        </span>
-      </div>
+  const hierarchy = [place.locality, place.department, place.region, place.country].filter(
+    (value, index, values) => value && values.indexOf(value) === index,
+  );
 
-      <div className="overflow-hidden rounded-lg border border-border/20 bg-card">
-        <GeoRow label="Commune" value={place.locality} />
-        <GeoRow label="Département" value={place.department} />
-        <GeoRow label="Région" value={place.region} />
-        <GeoRow label="Pays" value={place.country} />
-        <div className="border-t border-border/20 px-3 py-2.5">
-          <p className="font-mono text-xs text-muted-foreground">
+  return (
+    <div className="grid gap-3">
+      <PlaceDashboardSection title="Informations générales" icon={MapPin}>
+        <p className="text-foreground/90 text-sm leading-relaxed font-medium">{place.name}</p>
+        {hierarchy.length > 0 && (
+          <div className="mt-3 flex flex-wrap gap-1.5">
+            {hierarchy.map((item) => (
+              <span
+                key={item}
+                className="border-border/25 bg-muted/30 text-muted-foreground rounded-md border px-2 py-1 text-[11px]"
+              >
+                {item}
+              </span>
+            ))}
+          </div>
+        )}
+      </PlaceDashboardSection>
+
+      <div className="grid grid-cols-2 gap-3">
+        <PlaceDashboardSection title="Coordonnées" icon={Crosshair}>
+          <p className="text-foreground/80 font-mono text-[11px] leading-relaxed">
             {formatGPSCoordinates(place.latitude, place.longitude)}
           </p>
-        </div>
+        </PlaceDashboardSection>
+
+        <PlaceDashboardSection title="Catégorie" icon={Tag}>
+          <p className="text-foreground/90 text-sm font-semibold">{formatPlaceType(place.type)}</p>
+          <p className="text-muted-foreground/65 mt-1 truncate text-[11px]">{place.class}</p>
+        </PlaceDashboardSection>
       </div>
+
+      <PlaceDashboardSection title="Favoris" icon={Bookmark} status="À venir">
+        <div className="flex items-center gap-3">
+          <span className="bg-muted/40 text-muted-foreground/50 grid h-9 w-9 shrink-0 place-items-center rounded-full">
+            <Compass className="h-4 w-4" aria-hidden="true" />
+          </span>
+          <div>
+            <p className="text-foreground/80 text-sm font-medium">
+              Garder ce spot à portée de main
+            </p>
+            <p className="text-muted-foreground/60 mt-0.5 text-xs">
+              La sauvegarde sera disponible prochainement.
+            </p>
+          </div>
+        </div>
+      </PlaceDashboardSection>
     </div>
   );
 }
-
