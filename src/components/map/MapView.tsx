@@ -4,6 +4,7 @@ import { AlertCircle } from "lucide-react";
 import type { Map as MaplibreMap } from "maplibre-gl";
 import { useEffect, useRef, useState } from "react";
 
+import { AstroModeLayer, AstroTimeSlider } from "@/features/astronomy/milky-way/components";
 import { BasemapSwitcher } from "@/features/basemaps/components";
 import { BASEMAP_DEFINITIONS, DEFAULT_BASEMAP_ID } from "@/features/basemaps/definitions";
 import { hasMaptilerKey } from "@/features/basemaps/services/maptiler";
@@ -49,6 +50,7 @@ export function MapView() {
         <>
           <MapCanvas />
           <BasemapSwitcher />
+          <AstroTimeSlider />
         </>
       ) : (
         <NoKeyOverlay />
@@ -182,6 +184,7 @@ function MapCanvas() {
       />
       <RadarLayer />
       <LightningLayer />
+      <AstroModeLayer />
     </>
   );
 }

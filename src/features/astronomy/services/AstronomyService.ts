@@ -18,6 +18,7 @@ import type {
   DailyLightWindows,
   GalacticCenterEvents,
   IAstronomyService,
+  MilkyWaySkyPosition,
   SkyPosition,
   TimeInterval,
   TwilightWindows,
@@ -237,6 +238,28 @@ export class AstronomyService implements IAstronomyService {
       GALACTIC_CENTER_RA_HOURS,
       GALACTIC_CENTER_DEC_DEGREES,
     );
+  }
+
+  getMilkyWayPosition(location: AstronomyLocation, date: Date): MilkyWaySkyPosition {
+    const observer = new Observer(
+      location.latitude,
+      location.longitude,
+      location.elevationMeters ?? 0,
+    );
+    return {
+      core: getFixedSkyPosition(
+        observer,
+        date,
+        GALACTIC_CENTER_RA_HOURS,
+        GALACTIC_CENTER_DEC_DEGREES,
+      ),
+      antiCenter: getFixedSkyPosition(
+        observer,
+        date,
+        GALACTIC_ANTI_CENTER_RA_HOURS,
+        GALACTIC_ANTI_CENTER_DEC_DEGREES,
+      ),
+    };
   }
 }
 

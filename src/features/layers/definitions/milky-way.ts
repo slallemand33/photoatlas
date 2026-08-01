@@ -1,19 +1,21 @@
-import { Star } from "lucide-react";
+import { Sparkles } from "lucide-react";
 
 import type { LayerDefinition } from "../types";
 
 export const milkyWayLayer: LayerDefinition = {
   id: "milky-way",
   name: "Voie Lactée",
-  description: "Visibilité de la Voie Lactée selon la pollution lumineuse",
+  description: "Orientation et trajectoire du noyau galactique depuis le lieu sélectionné",
   group: "astronomy",
   type: "custom",
   source: null,
   metadata: {
-    dataProvider: "Stellarium",
+    dataProvider: "Astronomy Engine",
+    license: "MIT · calculs locaux PhotoAtlas",
+    updateIntervalSeconds: 300,
   },
-  icon: Star,
+  icon: Sparkles,
   defaultOpacity: 0.9,
   defaultVisible: false,
-  defaultZIndex: 5,
+  defaultZIndex: 50,
 };

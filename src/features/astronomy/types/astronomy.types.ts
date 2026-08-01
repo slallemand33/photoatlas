@@ -68,6 +68,11 @@ export interface MilkyWayEvents {
   antiCenter: SkyPosition;
 }
 
+export interface MilkyWaySkyPosition {
+  core: SkyPosition;
+  antiCenter: SkyPosition;
+}
+
 export interface AstronomySnapshot {
   calculatedAt: string;
   location: Required<AstronomyLocation>;
@@ -79,4 +84,5 @@ export interface AstronomySnapshot {
 export interface IAstronomyService {
   calculate(location: AstronomyLocation, date?: Date): AstronomySnapshot;
   getGalacticCenterPosition(location: AstronomyLocation, date: Date): SkyPosition;
+  getMilkyWayPosition(location: AstronomyLocation, date: Date): MilkyWaySkyPosition;
 }
