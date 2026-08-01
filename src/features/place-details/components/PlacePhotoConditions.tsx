@@ -1,6 +1,6 @@
-import type { LucideIcon } from "lucide-react";
-import { Camera, MoonStar, NotebookPen, Sparkles } from "lucide-react";
+import { Camera, NotebookPen, Sparkles } from "lucide-react";
 
+import { AstronomyPanelCard } from "@/features/astronomy/components/AstronomyPanelCard";
 import type { SearchResult } from "@/features/search/types/search.types";
 
 import { PlaceCloudCoverCard } from "./PlaceCloudCoverCard";
@@ -8,26 +8,6 @@ import { PlaceDashboardSection } from "./PlaceDashboardSection";
 import { PlaceLightningCard } from "./PlaceLightningCard";
 import { PlaceLightPollutionCard } from "./PlaceLightPollutionCard";
 import { PlaceRainRadarCard } from "./PlaceRainRadarCard";
-
-function ConditionPlaceholder({
-  icon: Icon,
-  description,
-}: {
-  icon: LucideIcon;
-  description: string;
-}) {
-  return (
-    <div className="flex items-center gap-3">
-      <span className="bg-muted/35 text-muted-foreground/45 grid h-10 w-10 shrink-0 place-items-center rounded-xl">
-        <Icon className="h-4 w-4" aria-hidden="true" />
-      </span>
-      <div className="min-w-0">
-        <p className="text-foreground/75 text-sm font-medium">Données à venir</p>
-        <p className="text-muted-foreground/55 mt-0.5 text-xs leading-relaxed">{description}</p>
-      </div>
-    </div>
-  );
-}
 
 export function PlacePhotoConditions({ place }: { place: SearchResult }) {
   return (
@@ -64,12 +44,7 @@ export function PlacePhotoConditions({ place }: { place: SearchResult }) {
 
       <PlaceLightningCard place={place} />
 
-      <PlaceDashboardSection title="Conditions astro" icon={MoonStar} status="À venir">
-        <ConditionPlaceholder
-          icon={MoonStar}
-          description="Lune, Voie Lactée, heures dorée et bleue."
-        />
-      </PlaceDashboardSection>
+      <AstronomyPanelCard place={place} />
 
       <PlaceLightPollutionCard place={place} />
 
