@@ -1,1 +1,6 @@
-// Réservé aux futurs usages spécifiques à la couche pollution lumineuse
+export type {
+  LightPollutionEstimate,
+  LightPollutionLocation,
+  SkyComment,
+  SkyQuality,
+} from "./lightPollution.types";

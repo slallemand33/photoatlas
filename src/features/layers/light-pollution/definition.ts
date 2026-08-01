@@ -4,7 +4,7 @@ import type { RasterLayerSpecification } from "maplibre-gl";
 import type { LayerDefinition, LayerState } from "../types";
 
 import { LightPollutionLegend } from "./components";
-import { getLightPollutionSourceSpec } from "./services/lightPollutionService";
+import { lightPollutionDataSource } from "./data-sources/lightPollutionDataSource";
 
 export const lightPollutionLayer: LayerDefinition = {
   id: "light-pollution",
@@ -14,20 +14,19 @@ export const lightPollutionLayer: LayerDefinition = {
   type: "raster",
   source: {
     type: "raster",
-    url: "https://www.lightpollutionmap.info/tiles/{z}/{x}/{y}.png",
-    attribution: "© Falchi et al. 2016 / lightpollutionmap.info",
+    url: lightPollutionDataSource.tileUrl,
+    attribution: "NASA GIBS / ESDIS — Earth at Night 2012",
   },
   metadata: {
-    dataProvider: "LightPollutionMap.info",
-    license: "Creative Commons BY NC SA",
-    updateIntervalSeconds: 86400 * 365,
+    dataProvider: "NASA GIBS / ESDIS",
+    license: "NASA Earthdata — attribution requise",
   },
   icon: Lightbulb,
   defaultOpacity: 0.7,
   defaultVisible: false,
   defaultZIndex: 10,
 
-  getSourceSpec: () => getLightPollutionSourceSpec(),
+  getSourceSpec: () => lightPollutionDataSource.getSourceSpecification(),
 
   getLayerSpecs: (state: LayerState): RasterLayerSpecification[] => [
     {
@@ -36,6 +35,9 @@ export const lightPollutionLayer: LayerDefinition = {
       source: "light-pollution",
       paint: {
         "raster-opacity": state.opacity,
+        "raster-contrast": 0.18,
+        "raster-saturation": 0.12,
+        "raster-fade-duration": 280,
       },
     },
   ],

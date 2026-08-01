@@ -1,15 +1,9 @@
-import type { ComponentType } from "react";
-
 import type { LucideIcon } from "lucide-react";
 import type { LayerSpecification, SourceSpecification } from "maplibre-gl";
+import type { ComponentType } from "react";
 
 export type LayerGroup =
-  | "base-map"
-  | "weather"
-  | "astronomy"
-  | "light-pollution"
-  | "spots"
-  | "navigation";
+  "base-map" | "weather" | "astronomy" | "light-pollution" | "spots" | "navigation";
 
 export type LayerType = "raster" | "vector" | "geojson" | "custom";
 
@@ -46,6 +40,8 @@ export interface LayerDefinition {
   getLayerSpecs?: (state: LayerState) => LayerSpecification[];
   /** Composant de légende affiché dans la Sidebar quand la couche est active */
   LegendComponent?: ComponentType;
+  /** Contrôles métier affichés sous la couche quand elle est active */
+  ControlsComponent?: ComponentType;
 }
 
 /** État runtime d'une couche (géré par le store) */

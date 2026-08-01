@@ -1,7 +1,13 @@
 import type { LucideIcon } from "lucide-react";
-import { Camera, CloudSun, Lightbulb, MoonStar, NotebookPen, Sparkles } from "lucide-react";
+import { Camera, MoonStar, NotebookPen, Sparkles } from "lucide-react";
 
+import type { SearchResult } from "@/features/search/types/search.types";
+
+import { PlaceCloudCoverCard } from "./PlaceCloudCoverCard";
 import { PlaceDashboardSection } from "./PlaceDashboardSection";
+import { PlaceLightningCard } from "./PlaceLightningCard";
+import { PlaceLightPollutionCard } from "./PlaceLightPollutionCard";
+import { PlaceRainRadarCard } from "./PlaceRainRadarCard";
 
 function ConditionPlaceholder({
   icon: Icon,
@@ -23,7 +29,7 @@ function ConditionPlaceholder({
   );
 }
 
-export function PlacePhotoConditions() {
+export function PlacePhotoConditions({ place }: { place: SearchResult }) {
   return (
     <div className="grid gap-3">
       <PlaceDashboardSection
@@ -52,12 +58,11 @@ export function PlacePhotoConditions() {
         </div>
       </PlaceDashboardSection>
 
-      <PlaceDashboardSection title="Conditions météo" icon={CloudSun} status="À venir">
-        <ConditionPlaceholder
-          icon={CloudSun}
-          description="Nuages, vent, visibilité et précipitations."
-        />
-      </PlaceDashboardSection>
+      <PlaceCloudCoverCard place={place} />
+
+      <PlaceRainRadarCard place={place} />
+
+      <PlaceLightningCard place={place} />
 
       <PlaceDashboardSection title="Conditions astro" icon={MoonStar} status="À venir">
         <ConditionPlaceholder
@@ -66,12 +71,7 @@ export function PlacePhotoConditions() {
         />
       </PlaceDashboardSection>
 
-      <PlaceDashboardSection title="Pollution lumineuse" icon={Lightbulb} status="À venir">
-        <ConditionPlaceholder
-          icon={Lightbulb}
-          description="Classe Bortle et qualité estimée du ciel nocturne."
-        />
-      </PlaceDashboardSection>
+      <PlaceLightPollutionCard place={place} />
 
       <PlaceDashboardSection title="Notes" icon={NotebookPen} status="À venir">
         <div className="border-border/35 bg-muted/10 rounded-lg border border-dashed px-3 py-4 text-center">

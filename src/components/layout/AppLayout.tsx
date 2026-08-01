@@ -1,8 +1,8 @@
 "use client";
 
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { useState } from "react";
 
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 import { MapProvider } from "@/components/map";
 import { PlaceDetailsPanel } from "@/features/place-details";

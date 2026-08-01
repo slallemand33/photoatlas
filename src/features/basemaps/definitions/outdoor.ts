@@ -1,5 +1,5 @@
-import type { BasemapDefinition } from "../types";
 import { getMaptilerStyleUrl } from "../services/maptiler";
+import type { BasemapDefinition } from "../types";
 
 export const outdoorBasemap: BasemapDefinition = {
   id: "outdoor",

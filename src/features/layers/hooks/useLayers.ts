@@ -1,6 +1,6 @@
-import type { LayerWithState } from "../types";
 import { registry } from "../store/registry";
 import { useLayerStore } from "../store/useLayerStore";
+import type { LayerWithState } from "../types";
 
 /** Retourne toutes les couches disponibles avec leur état runtime fusionné */
 export function useLayers(): LayerWithState[] {

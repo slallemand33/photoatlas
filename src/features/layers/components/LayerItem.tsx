@@ -3,12 +3,12 @@
 import { Settings2 } from "lucide-react";
 import { useState } from "react";
 
-import { cn } from "@/lib/utils";
 import { Slider } from "@/components/ui/slider";
 import { Switch } from "@/components/ui/switch";
+import { cn } from "@/lib/utils";
 
-import type { LayerWithState } from "../types";
 import { useLayerStore } from "../store/useLayerStore";
+import type { LayerWithState } from "../types";
 
 interface LayerItemProps {
   layer: LayerWithState;
@@ -17,7 +17,7 @@ interface LayerItemProps {
 function InfoRow({ label, value }: { label: string; value: string }) {
   return (
     <div className="flex items-start gap-2 text-xs">
-      <span className="w-16 shrink-0 text-muted-foreground/60">{label}</span>
+      <span className="text-muted-foreground/60 w-16 shrink-0">{label}</span>
       <span className="text-muted-foreground/90">{value}</span>
     </div>
   );
@@ -31,6 +31,7 @@ export function LayerItem({ layer }: LayerItemProps) {
   const Icon = layer.icon;
   const opacityPercent = Math.round(layer.state.opacity * 100);
   const LegendComp = layer.LegendComponent;
+  const ControlsComp = layer.ControlsComponent;
 
   return (
     <div className="flex flex-col px-3 py-2.5">
@@ -63,9 +64,7 @@ export function LayerItem({ layer }: LayerItemProps) {
           onClick={() => setShowInfo((v) => !v)}
           className={cn(
             "shrink-0 rounded p-0.5 transition-colors",
-            showInfo
-              ? "text-foreground"
-              : "text-muted-foreground/60 hover:text-muted-foreground",
+            showInfo ? "text-foreground" : "text-muted-foreground/60 hover:text-muted-foreground",
           )}
           aria-label={`${showInfo ? "Masquer" : "Afficher"} les informations de ${layer.name}`}
           aria-expanded={showInfo}
@@ -93,7 +92,7 @@ export function LayerItem({ layer }: LayerItemProps) {
           className="flex-1"
           aria-label={`Opacité de ${layer.name} : ${opacityPercent}%`}
         />
-        <span className="w-9 shrink-0 text-right font-mono text-xs tabular-nums text-muted-foreground/70">
+        <span className="text-muted-foreground/70 w-9 shrink-0 text-right font-mono text-xs tabular-nums">
           {opacityPercent}%
         </span>
       </div>
@@ -105,9 +104,16 @@ export function LayerItem({ layer }: LayerItemProps) {
         </div>
       )}
 
+      {/* Contrôles propres aux couches dynamiques */}
+      {layer.state.visible && ControlsComp && (
+        <div className="pl-[26px]">
+          <ControlsComp />
+        </div>
+      )}
+
       {/* Panneau d'informations */}
       {showInfo && (
-        <div className="mt-2 flex flex-col gap-1.5 rounded-md bg-muted/30 px-3 py-2.5 pl-[26px]">
+        <div className="bg-muted/30 mt-2 flex flex-col gap-1.5 rounded-md px-3 py-2.5 pl-[26px]">
           <InfoRow label="Source" value={layer.metadata.dataProvider ?? "—"} />
           <InfoRow label="Licence" value={layer.metadata.license ?? "—"} />
           {layer.metadata.updateIntervalSeconds !== undefined && (
@@ -127,4 +133,3 @@ export function LayerItem({ layer }: LayerItemProps) {
     </div>
   );
 }
-

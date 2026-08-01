@@ -1,20 +1,28 @@
 import { CloudRain } from "lucide-react";
 
+import { RadarControls } from "@/features/weather/radar/components/RadarControls";
+
 import type { LayerDefinition } from "../types";
 
 export const rainRadarLayer: LayerDefinition = {
   id: "rain-radar",
   name: "Radar pluie",
-  description: "Précipitations en temps réel — données radar",
+  description: "Animation des précipitations radar observées durant les deux dernières heures",
   group: "weather",
   type: "raster",
-  source: null,
+  source: {
+    type: "raster",
+    url: "https://api.rainviewer.com/public/weather-maps.json",
+    attribution: "Radar météo © RainViewer",
+  },
   metadata: {
     dataProvider: "RainViewer",
+    license: "API publique RainViewer — usage personnel et éducatif",
     updateIntervalSeconds: 600,
   },
   icon: CloudRain,
-  defaultOpacity: 0.8,
+  defaultOpacity: 0.75,
   defaultVisible: false,
   defaultZIndex: 30,
+  ControlsComponent: RadarControls,
 };

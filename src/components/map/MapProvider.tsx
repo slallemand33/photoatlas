@@ -1,5 +1,6 @@
 "use client";
 
+import type { Map as MaplibreMap } from "maplibre-gl";
 import {
   createContext,
   useCallback,
@@ -9,7 +10,6 @@ import {
   type ReactNode,
 } from "react";
 
-import type { Map as MaplibreMap } from "maplibre-gl";
 
 interface MapContextValue {
   map: MaplibreMap | null;

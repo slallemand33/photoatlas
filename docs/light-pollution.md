@@ -1,240 +1,104 @@
-# Couche Pollution Lumineuse — Architecture de référence
+# Couche Pollution lumineuse
 
-> Cette couche est le **modèle de référence** pour toutes les futures couches de PhotoAtlas.  
-> Lire ce document avant de développer toute nouvelle couche.
+Cette couche est la première couche métier de PhotoAtlas. Elle superpose les lumières nocturnes observées à la carte et fournit, pour le lieu sélectionné, une estimation simple de la qualité du ciel.
 
----
+## Source publique
 
-## Rôle de la couche
+La couche utilise **Earth at Night 2012 / VIIRS City Lights**, diffusée par le service public **NASA Global Imagery Browse Services (GIBS)** :
 
-La couche "Pollution lumineuse" affiche la luminosité artificielle nocturne mondiale en utilisant les données du *World Atlas of Artificial Night Sky Brightness* (Falchi et al. 2016), servies par [lightpollutionmap.info](https://www.lightpollutionmap.info).
+| Propriété        | Valeur                                 |
+| ---------------- | -------------------------------------- |
+| Fournisseur      | NASA GIBS, composant de NASA ESDIS     |
+| Instrument       | Suomi NPP / VIIRS                      |
+| Couche           | `VIIRS_CityLights_2012`                |
+| Service          | WMTS REST public, projection EPSG:3857 |
+| Matrice          | `GoogleMapsCompatible_Level8`          |
+| Format           | JPEG, tuiles de 256 px                 |
+| Zoom             | 0 à 8                                  |
+| Authentification | Aucune                                 |
 
-Elle est indispensable pour l'astrophotographie : elle permet de choisir des lieux avec un ciel noir.
+Documentation officielle :
 
----
+- [NASA GIBS API](https://nasa-gibs.github.io/gibs-api-docs/)
+- [Accès aux services GIBS](https://nasa-gibs.github.io/gibs-api-docs/access-basics/)
+- [Catalogue WMTS EPSG:3857](https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/)
 
-## Architecture du module
+Attribution affichée sur la carte : _Imagery provided by NASA GIBS / ESDIS_.
 
-```
-src/features/layers/light-pollution/
-├── components/
-│   ├── LightPollutionLegend.tsx   ← légende couleurs Bortle (indépendante)
-│   └── index.ts
-├── hooks/                         ← futurs hooks spécifiques (accès API, etc.)
-├── services/
-│   └── lightPollutionService.ts   ← URL des tuiles + spec source MapLibre
-├── types/                         ← futurs types spécifiques à la couche
-├── utils/                         ← futurs utilitaires
-├── definition.ts                  ← LayerDefinition complète (cœur du module)
-└── index.ts                       ← exports publics
-```
+Le chemin WMTS REST suit l’ordre `TileMatrix/TileRow/TileCol`. Le modèle de tuile MapLibre est donc volontairement `{z}/{y}/{x}`, et non `{z}/{x}/{y}`.
 
-### Principe d'isolation totale
+## Ce que montre la couche
 
-Ce module **ne connaît pas** :
-- le composant `MapView`
-- le `LayerStore`
-- les autres couches
-- l'interface utilisateur (Sidebar, LayerItem)
+Le raster représente la lumière artificielle nocturne observée depuis l’espace. Les zones sombres sont bleu-noir et les zones urbaines apparaissent en tons chauds. Une opacité initiale de 70 % conserve le contexte du fond de carte.
 
-Il expose uniquement une `LayerDefinition` que le Layer Manager utilise.
+Ce jeu de données ne mesure pas directement la luminosité du ciel vue depuis le sol. Il constitue un excellent indicateur visuel de l’éclairage artificiel, mais pas une carte Bortle scientifique.
 
----
+Limites principales :
 
-## Flux de données
+- composite statique de 2012, donc les évolutions urbaines récentes ne sont pas visibles ;
+- résolution limitée par le niveau 8 de la matrice NASA ;
+- halos, relief, humidité, aérosols et sources masquées ne sont pas modélisés ;
+- l’indice Bortle affiché est une estimation et non une mesure sur site.
 
-```
-Utilisateur active "Pollution lumineuse"
-  ↓
-LayerItem → useLayerStore.toggleLayer("light-pollution")
-  ↓
-Zustand notifie les abonnés
-  ↓
-MapCanvas (abonné via useLayerStore) → syncLayersToMap(map, layerStates)
-  ↓
-syncLayers.ts :
-  registry.get("light-pollution").getSourceSpec(state) → RasterSourceSpecification
-  map.addSource("light-pollution", sourceSpec)
-  registry.get("light-pollution").getLayerSpecs(state) → [RasterLayerSpecification]
-  map.addLayer(layerSpec)
-  ↓
-MapLibre GL rend les tuiles raster sur la carte
+## Architecture
+
+```text
+light-pollution/
+├── components/LightPollutionLegend.tsx
+├── data-sources/lightPollutionDataSource.ts
+├── hooks/useLightPollutionEstimate.ts
+├── services/nasaGibsService.ts
+├── types/lightPollution.types.ts
+└── definition.ts
 ```
 
----
+`nasaGibsService.ts` connaît uniquement le service NASA et construit les URL. `lightPollutionDataSource.ts` fournit le contrat utilisé par le métier : spécification raster MapLibre et estimation à des coordonnées. La définition de couche relie cette DataSource au Layer Manager.
 
-## Source de données
+Lors de l’activation, `syncLayersToMap` ajoute la source et le layer raster. Lors de la désactivation, il retire d’abord le layer puis sa source ; MapLibre peut alors libérer les tuiles. L’opacité est mise à jour sur le paint `raster-opacity` sans recréer la source.
 
-### Source actuelle
+La légende est déclarée dans `LayerDefinition.LegendComponent`. Le composant générique `LayerItem` ne la rend que si la couche est visible.
 
-| Propriété | Valeur |
-|---|---|
-| Fournisseur | lightpollutionmap.info (Jurij Stare) |
-| Données | World Atlas 2016 — Falchi et al. |
-| Format | Tuiles raster XYZ (PNG) |
-| URL | `https://www.lightpollutionmap.info/tiles/{z}/{x}/{y}.png` |
-| Zoom max | 8 |
-| Licence | Creative Commons BY NC SA |
+## Estimation du lieu sélectionné
 
-### Changer de source
+Lorsque la couche et le panneau d’un lieu sont ouverts, `useLightPollutionEstimate` demande uniquement la tuile NASA contenant le point. La DataSource lit un petit voisinage autour des coordonnées, en extrait une luminosité robuste, puis la convertit en classe Bortle indicative de 1 à 9.
 
-**Modifier une seule ligne** dans `services/lightPollutionService.ts` :
+Si la lecture de la tuile échoue, une heuristique locale basée sur la catégorie et l’importance du lieu assure un résultat de repli. Le champ `method` (`viirs-raster` ou `place-heuristic`) rend ce comportement explicite.
 
-```typescript
-// Remplacer par n'importe quelle URL de tuiles raster compatible MapLibre
-export const LIGHT_POLLUTION_TILE_URL = "https://new-source/{z}/{x}/{y}.png";
-```
+Pour remplacer l’estimation par un calcul scientifique, il suffit d’implémenter `estimateAt()` dans la DataSource en conservant le type `LightPollutionEstimate`. Le panneau n’a pas à changer.
 
-### Alternatives documentées
+## Ajouter une autre couche raster
 
-| Source | URL | Notes |
-|---|---|---|
-| NASA Black Marble | WMS GIBS | Lumières nocturnes VIIRS, pas de couleurs Bortle |
-| LightPollution Map 2023 | `...tiles/viirs_2023/...` | Plus récent, même format |
+1. Créer un module dans `src/features/layers/<nom>/`.
+2. Isoler l’URL, l’authentification éventuelle et le format dans `services/`.
+3. Créer une DataSource qui retourne un `RasterSourceSpecification`.
+4. Déclarer une `LayerDefinition` avec `getSourceSpec`, `getLayerSpecs`, une opacité par défaut et, si nécessaire, un `LegendComponent`.
+5. Ajouter la définition dans `src/features/layers/definitions/index.ts`.
 
----
+Exemple minimal :
 
-## Connexion avec MapLibre
-
-La couche fournit deux méthodes à `LayerDefinition` :
-
-### `getSourceSpec(state)` → `RasterSourceSpecification`
-
-```typescript
-getSourceSpec: () => ({
+```ts
+export const exampleLayer: LayerDefinition = {
+  id: "example",
+  name: "Exemple",
+  description: "Couche raster d’exemple",
+  group: "weather",
   type: "raster",
-  tiles: [LIGHT_POLLUTION_TILE_URL],
-  tileSize: 256,
-  attribution: "...",
-  minzoom: 0,
-  maxzoom: 8,
-}),
-```
-
-### `getLayerSpecs(state)` → `RasterLayerSpecification[]`
-
-```typescript
-getLayerSpecs: (state) => ([{
-  id: "light-pollution-raster",
-  type: "raster",
-  source: "light-pollution",
-  paint: { "raster-opacity": state.opacity },
-}]),
-```
-
-L'`id` de la source MapLibre = l'`id` de la `LayerDefinition` (`"light-pollution"`).  
-L'`id` du layer MapLibre = `"${layerId}-raster"` par convention.
-
----
-
-## Synchronisation MapView ↔ Layer Manager
-
-Le composant `MapCanvas` (`components/map/MapView.tsx`) :
-
-1. S'abonne au `useLayerStore` avec `useLayerStore(s => s.layers)`
-2. Appelle `syncLayersToMap(map, layerStates)` à chaque changement
-3. La carte est exposée via `useMap()` uniquement **après** l'événement `'load'`, garantissant que `map.addSource()` est toujours disponible
-
-```
-MapCanvas
-  ├── useEffect([setMap]) → initialise MapLibre, appelle setMap() après 'load'
-  └── useEffect([map, layerStates]) → syncLayersToMap(map, layerStates)
-```
-
-### Gestion des états dans `syncLayers.ts`
-
-| Situation | Action |
-|---|---|
-| visible=true, source absente | `addSource()` + `addLayer()` |
-| visible=false, source présente | `removeLayer()` + `removeSource()` |
-| visible=true, source présente | `setPaintProperty("raster-opacity", opacity)` |
-
----
-
-## Légende
-
-`LightPollutionLegend` est un composant React **indépendant** qui affiche l'échelle de Bortle simplifiée. Il est référencé dans la `LayerDefinition` via la propriété :
-
-```typescript
-LegendComponent: LightPollutionLegend,
-```
-
-`LayerItem` rend automatiquement `<LegendComponent />` quand la couche est active :
-
-```tsx
-{layer.state.visible && LegendComp && <LegendComp />}
-```
-
----
-
-## Comment créer une nouvelle couche similaire
-
-### 1. Créer le dossier
-
-```
-src/features/layers/<nom-couche>/
-├── components/   (légende si nécessaire)
-├── services/     (URL des tuiles ou client HTTP)
-├── definition.ts
-└── index.ts
-```
-
-### 2. Implémenter la `LayerDefinition`
-
-```typescript
-// definition.ts
-export const myLayer: LayerDefinition = {
-  id: "my-layer",           // ← identifiant unique
-  name: "Ma Couche",
-  group: "weather",         // ← catégorie
-  type: "raster",
-  icon: MyIcon,
+  source: { type: "raster", url: dataSource.tileUrl },
+  metadata: { dataProvider: "Fournisseur documenté" },
+  icon: Layers,
   defaultOpacity: 0.7,
   defaultVisible: false,
   defaultZIndex: 20,
-  // ...metadata, source, description
-
-  getSourceSpec: () => ({
-    type: "raster",
-    tiles: ["https://.../{z}/{x}/{y}.png"],
-    tileSize: 256,
-  }),
-
-  getLayerSpecs: (state) => ([{
-    id: "my-layer-raster",  // ← convention: "${id}-${type}"
-    type: "raster",
-    source: "my-layer",
-    paint: { "raster-opacity": state.opacity },
-  }]),
-
-  LegendComponent: MyLegend, // optionnel
+  getSourceSpec: () => dataSource.getSourceSpecification(),
+  getLayerSpecs: (state) => [
+    {
+      id: "example-raster",
+      type: "raster",
+      source: "example",
+      paint: { "raster-opacity": state.opacity },
+    },
+  ],
 };
 ```
 
-### 3. Enregistrer dans `definitions/index.ts`
-
-```typescript
-import { myLayer } from "../my-layer/definition";
-
-export const LAYER_DEFINITIONS: LayerDefinition[] = [
-  // ... couches existantes ...
-  myLayer, // ← ajouter ici
-];
-```
-
-**C'est tout.** La couche apparaît dans la Sidebar, ses contrôles fonctionnent, et elle s'affiche sur la carte dès son activation.
-
----
-
-## Ce que ce modèle NE fait PAS (délibérément)
-
-| Fonctionnalité | Raison de l'absence |
-|---|---|
-| Appels API en temps réel | Données statiques (atlas annuel) |
-| Cache TanStack Query | Pas de requête réseau (tuiles gérées par MapLibre) |
-| Store propre à la couche | Inutile — le Layer Store gère tout |
-| Logique de filtrage | Couche future (années/saisons) |
-
----
-
-*Dernière mise à jour : sprint 6 — Couche Pollution Lumineuse*
+Le Layer Manager prend ensuite automatiquement en charge activation, désactivation, opacité et cycle de vie de la source.

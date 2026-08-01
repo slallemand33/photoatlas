@@ -11,8 +11,8 @@ import {
   X,
 } from "lucide-react";
 
-import { cn } from "@/lib/utils";
 import { LayerPanel } from "@/features/layers/components";
+import { cn } from "@/lib/utils";
 
 interface NavItem {
   id: string;

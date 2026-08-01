@@ -22,7 +22,7 @@ function PanelContent() {
           </span>
           <div className="bg-border/25 h-px flex-1" />
         </div>
-        <PlacePhotoConditions />
+        <PlacePhotoConditions place={selectedPlace} />
       </div>
     </>
   );

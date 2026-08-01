@@ -1,15 +1,17 @@
 "use client";
 
-import type { Map as MaplibreMap } from "maplibre-gl";
 import { AlertCircle } from "lucide-react";
+import type { Map as MaplibreMap } from "maplibre-gl";
 import { useEffect, useRef, useState } from "react";
 
-import { useLayerStore } from "@/features/layers/store/useLayerStore";
-import { BASEMAP_DEFINITIONS, DEFAULT_BASEMAP_ID } from "@/features/basemaps/definitions";
-import { useBasemapStore } from "@/features/basemaps/store/useBasemapStore";
-import { hasMaptilerKey } from "@/features/basemaps/services/maptiler";
-import { applyBasemap } from "@/features/basemaps/utils/applyBasemap";
 import { BasemapSwitcher } from "@/features/basemaps/components";
+import { BASEMAP_DEFINITIONS, DEFAULT_BASEMAP_ID } from "@/features/basemaps/definitions";
+import { hasMaptilerKey } from "@/features/basemaps/services/maptiler";
+import { useBasemapStore } from "@/features/basemaps/store/useBasemapStore";
+import { applyBasemap } from "@/features/basemaps/utils/applyBasemap";
+import { useLayerStore } from "@/features/layers/store/useLayerStore";
+import { LightningLayer } from "@/features/weather/lightning/components/LightningLayer";
+import { RadarLayer } from "@/features/weather/radar/components/RadarLayer";
 
 import { useMap, useSetMap } from "./MapProvider";
 import { syncLayersToMap } from "./utils/syncLayers";
@@ -21,18 +23,17 @@ const MAX_ZOOM = 22;
 
 function NoKeyOverlay() {
   return (
-    <div className="absolute inset-0 z-20 flex items-center justify-center bg-background/95">
-      <div className="max-w-sm rounded-xl border border-border/30 bg-card p-6 text-center shadow-xl">
+    <div className="bg-background/95 absolute inset-0 z-20 flex items-center justify-center">
+      <div className="border-border/30 bg-card max-w-sm rounded-xl border p-6 text-center shadow-xl">
         <AlertCircle className="mx-auto mb-3 h-8 w-8 text-yellow-500" aria-hidden="true" />
-        <h3 className="text-sm font-semibold text-foreground">Clé MapTiler manquante</h3>
-        <p className="mt-2 text-xs leading-relaxed text-muted-foreground">
+        <h3 className="text-foreground text-sm font-semibold">Clé MapTiler manquante</h3>
+        <p className="text-muted-foreground mt-2 text-xs leading-relaxed">
           Ajoutez la variable{" "}
-          <code className="rounded bg-muted px-1.5 py-0.5 font-mono text-foreground/80">
+          <code className="bg-muted text-foreground/80 rounded px-1.5 py-0.5 font-mono">
             NEXT_PUBLIC_MAPTILER_KEY
           </code>{" "}
-          dans votre fichier{" "}
-          <code className="font-mono text-foreground/80">.env.local</code>{" "}
-          puis redémarrez le serveur.
+          dans votre fichier <code className="text-foreground/80 font-mono">.env.local</code> puis
+          redémarrez le serveur.
         </p>
       </div>
     </div>
@@ -101,10 +102,7 @@ function MapCanvas() {
 
         instance.touchZoomRotate.disableRotation();
 
-        instance.addControl(
-          new maplibregl.NavigationControl({ showCompass: false }),
-          "top-right",
-        );
+        instance.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
         instance.addControl(
           new maplibregl.ScaleControl({ maxWidth: 100, unit: "metric" }),
           "bottom-left",
@@ -145,7 +143,7 @@ function MapCanvas() {
         pendingMap = null;
       }
     };
-  }, [setMap, initialBasemap]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [setMap, initialBasemap]);
 
   // ── Synchronisation des couches ─────────────────────────────────────────
   useEffect(() => {
@@ -175,11 +173,15 @@ function MapCanvas() {
   }, [currentBasemapId, map, layerStates, setCurrentBasemapId]);
 
   return (
-    <div
-      ref={containerRef}
-      className="h-full w-full"
-      role="application"
-      aria-label="Carte interactive PhotoAtlas"
-    />
+    <>
+      <div
+        ref={containerRef}
+        className="h-full w-full"
+        role="application"
+        aria-label="Carte interactive PhotoAtlas"
+      />
+      <RadarLayer />
+      <LightningLayer />
+    </>
   );
 }

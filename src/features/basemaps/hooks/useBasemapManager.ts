@@ -1,5 +1,5 @@
-import { useBasemapStore } from "../store/useBasemapStore";
 import { BASEMAP_DEFINITIONS } from "../definitions";
+import { useBasemapStore } from "../store/useBasemapStore";
 
 export function useBasemapManager() {
   const { currentId, setCurrentId } = useBasemapStore();

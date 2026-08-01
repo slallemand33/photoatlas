@@ -1,12 +1,12 @@
-import type { BasemapDefinition } from "../types";
 import { getMaptilerStyleUrl } from "../services/maptiler";
+import type { BasemapDefinition } from "../types";
 
 export const satelliteBasemap: BasemapDefinition = {
   id: "satellite",
   name: "Satellite",
-  description: "Imagerie aérienne haute résolution",
+  description: "Imagerie aérienne avec villes et repères",
   provider: "MapTiler",
-  styleSource: getMaptilerStyleUrl("satellite"),
+  styleSource: getMaptilerStyleUrl("hybrid"),
   category: "satellite",
   dark: true,
   maxZoom: 22,
