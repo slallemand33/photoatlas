@@ -5,6 +5,9 @@ import {
   NASA_GIBS_MAX_ZOOM,
 } from "@/features/layers/light-pollution/services/nasaGibsService";
 
+export const runtime = "edge";
+export const preferredRegion = ["cdg1"];
+
 interface LightPollutionTileContext {
   params: Promise<{ z: string; x: string; y: string }>;
 }
@@ -30,14 +33,21 @@ export async function GET(request: Request, context: LightPollutionTileContext) 
     return NextResponse.json({ error: "Tuile hors limites" }, { status: 400 });
   }
 
+  const upstreamUrl = getNasaGibsTileUrl(zoom, x, y);
+
   try {
-    const upstream = await fetch(getNasaGibsTileUrl(zoom, x, y), {
+    const upstream = await fetch(upstreamUrl, {
+      headers: {
+        Accept: "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+        "User-Agent": "PhotoAtlas/1.0 (+https://photoatlas.vercel.app)",
+      },
       signal: request.signal,
       cache: "no-store",
+      redirect: "follow",
     });
     if (!upstream.ok) {
       console.error(`[Light Pollution Tiles] NASA GIBS a répondu ${upstream.status}`);
-      return NextResponse.json({ error: "Tuile de pollution indisponible" }, { status: 502 });
+      return NextResponse.redirect(upstreamUrl, 307);
     }
 
     return new NextResponse(await upstream.arrayBuffer(), {
@@ -48,6 +58,6 @@ export async function GET(request: Request, context: LightPollutionTileContext) 
     });
   } catch {
     console.error("[Light Pollution Tiles] Échec de la requête NASA GIBS");
-    return NextResponse.json({ error: "Tuile de pollution indisponible" }, { status: 502 });
+    return NextResponse.redirect(upstreamUrl, 307);
   }
 }

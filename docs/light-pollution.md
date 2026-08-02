@@ -32,7 +32,9 @@ d’interroger NASA.
 Le navigateur charge ces images via la route interne
 `/api/layers/light-pollution/{z}/{x}/{y}`. Cette route valide les coordonnées, relaie la tuile NASA
 et applique un cache CDN. La carte ne dépend ainsi pas des politiques réseau du fournisseur dans le
-navigateur et aucune clé API n’est nécessaire.
+navigateur et aucune clé API n’est nécessaire. La route s’exécute sur le réseau Edge, au plus près
+des utilisateurs. Si le relais NASA est momentanément inaccessible depuis Vercel, elle redirige le
+navigateur vers l’URL GIBS publique au lieu de renvoyer une tuile vide.
 
 ## Ce que montre la couche
 
