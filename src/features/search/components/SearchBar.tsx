@@ -77,7 +77,7 @@ export function SearchBar() {
               curve: 1.35,
               essential: true,
             });
-            showMarker(result.latitude, result.longitude);
+            showMarker(result.latitude, result.longitude, result.name);
           });
         });
       }

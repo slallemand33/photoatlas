@@ -11,6 +11,7 @@ import { useBasemapStore } from "@/features/basemaps/store/useBasemapStore";
 import { applyBasemap } from "@/features/basemaps/utils/applyBasemap";
 import { useLayerStore } from "@/features/layers/store/useLayerStore";
 import { PhotoGuidesLayer } from "@/features/photo-guides";
+import { PlaceReopenControl } from "@/features/place-details";
 import { PhotoTimeline24h } from "@/features/timeline";
 import { LightningLayer } from "@/features/weather/lightning/components/LightningLayer";
 import { RadarLayer } from "@/features/weather/radar/components/RadarLayer";
@@ -50,6 +51,7 @@ export function MapView() {
       {hasKey ? (
         <>
           <MapCanvas />
+          <PlaceReopenControl />
           <BasemapSwitcher />
           <PhotoTimeline24h />
         </>

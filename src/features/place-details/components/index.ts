@@ -7,3 +7,4 @@ export { PlaceLightPollutionCard } from "./PlaceLightPollutionCard";
 export { PlaceLightningCard } from "./PlaceLightningCard";
 export { PlacePhotoConditions } from "./PlacePhotoConditions";
 export { PlaceRainRadarCard } from "./PlaceRainRadarCard";
+export { PlaceReopenControl } from "./PlaceReopenControl";

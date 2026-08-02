@@ -315,8 +315,18 @@ a:focus-visible {
 
 .photoatlas-place-marker {
   position: relative;
-  width: 42px;
+  width: 44px;
   height: 52px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.photoatlas-place-marker:focus-visible {
+  border-radius: 12px;
+  outline: 3px solid var(--ring);
+  outline-offset: 3px;
 }
 
 .photoatlas-place-marker__visual {
