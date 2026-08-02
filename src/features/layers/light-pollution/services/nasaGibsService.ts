@@ -8,11 +8,19 @@ export const NASA_GIBS_LAYER_ID = "VIIRS_CityLights_2012";
 export const NASA_GIBS_TILE_MATRIX = "GoogleMapsCompatible_Level8";
 export const NASA_GIBS_MAX_ZOOM = 8;
 
-export const LIGHT_POLLUTION_TILE_URL =
+export const NASA_GIBS_TILE_URL =
   `${GIBS_WMTS_ROOT}/${NASA_GIBS_LAYER_ID}/default/` + `${NASA_GIBS_TILE_MATRIX}/{z}/{y}/{x}.jpg`;
+
+export const LIGHT_POLLUTION_TILE_URL = "/api/layers/light-pollution/{z}/{x}/{y}";
 
 export function getLightPollutionTileUrl(zoom: number, x: number, y: number): string {
   return LIGHT_POLLUTION_TILE_URL.replace("{z}", String(zoom))
+    .replace("{x}", String(x))
+    .replace("{y}", String(y));
+}
+
+export function getNasaGibsTileUrl(zoom: number, x: number, y: number): string {
+  return NASA_GIBS_TILE_URL.replace("{z}", String(zoom))
     .replace("{x}", String(x))
     .replace("{y}", String(y));
 }

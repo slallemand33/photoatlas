@@ -25,7 +25,14 @@ Documentation officielle :
 
 Attribution affichée sur la carte : _Imagery provided by NASA GIBS / ESDIS_.
 
-Le chemin WMTS REST suit l’ordre `TileMatrix/TileRow/TileCol`. Le modèle de tuile MapLibre est donc volontairement `{z}/{y}/{x}`, et non `{z}/{x}/{y}`.
+Le chemin WMTS REST NASA suit l’ordre `TileMatrix/TileRow/TileCol`, soit `{z}/{y}/{x}`. La route
+interne conserve l’ordre MapLibre habituel `{z}/{x}/{y}`, puis traduit les coordonnées avant
+d’interroger NASA.
+
+Le navigateur charge ces images via la route interne
+`/api/layers/light-pollution/{z}/{x}/{y}`. Cette route valide les coordonnées, relaie la tuile NASA
+et applique un cache CDN. La carte ne dépend ainsi pas des politiques réseau du fournisseur dans le
+navigateur et aucune clé API n’est nécessaire.
 
 ## Ce que montre la couche
 
