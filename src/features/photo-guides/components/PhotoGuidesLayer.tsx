@@ -5,7 +5,6 @@ import { useEffect, useMemo, useState } from "react";
 
 import { useMap } from "@/components/map/MapProvider";
 import { getProjectionRadiusKm } from "@/features/astronomy/milky-way/utils/projection";
-import { useAstronomyStore } from "@/features/astronomy/store";
 import { usePlaceStore } from "@/features/place-details/store";
 
 import { usePhotoGuidePlan } from "../hooks";
@@ -30,11 +29,8 @@ export function PhotoGuidesLayer() {
   const map = useMap();
   const place = usePlaceStore((state) => state.selectedPlace);
   const enabled = usePhotoGuidesStore((state) => state.enabled);
-  const initialize = usePhotoGuidesStore((state) => state.initialize);
   const compositionMode = usePhotoGuidesStore((state) => state.compositionMode);
   const setCompositionPoint = usePhotoGuidesStore((state) => state.setCompositionPoint);
-  const selectedTime = usePhotoGuidesStore((state) => state.selectedTime);
-  const setAstronomyDate = useAstronomyStore((state) => state.setSelectedDate);
   const [zoom, setZoom] = useState(map?.getZoom() ?? 7);
   const active = Object.values(enabled).some(Boolean);
   const plan = usePhotoGuidePlan(place);
@@ -43,12 +39,6 @@ export function PhotoGuidesLayer() {
     [enabled, plan, zoom],
   );
 
-  useEffect(() => {
-    if (place) initialize(new Date());
-  }, [initialize, place]);
-  useEffect(() => {
-    if (selectedTime) setAstronomyDate(new Date(selectedTime));
-  }, [selectedTime, setAstronomyDate]);
   useEffect(() => {
     if (!map) return;
     const onZoom = () => setZoom(map.getZoom());

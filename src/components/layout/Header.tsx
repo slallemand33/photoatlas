@@ -13,7 +13,7 @@ interface HeaderProps {
 export function Header({ onMobileMenuToggle, mobileSidebarOpen }: HeaderProps) {
   return (
     <header
-      className="border-border bg-background/95 relative z-10 flex h-16 shrink-0 items-center gap-3 border-b px-4 shadow-sm backdrop-blur-xl"
+      className="border-border bg-background/95 relative z-10 flex min-h-16 shrink-0 flex-wrap items-center gap-3 border-b px-4 py-2 shadow-sm backdrop-blur-xl md:h-16 md:flex-nowrap md:py-0"
       role="banner"
     >
       {/* Hamburger — mobile uniquement */}

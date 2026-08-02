@@ -9,7 +9,6 @@ import { usePhotoScore } from "../hooks";
 
 import { DailyRecommendationCard } from "./DailyRecommendationCard";
 import { PhotoRecommendationCard } from "./PhotoRecommendationCard";
-import { PhotoTimeline } from "./PhotoTimeline";
 
 export function PhotoScoreDashboard({ place }: { place: SearchResult }) {
   const { data, isLoading, isError, isFetching } = usePhotoScore(place);
@@ -41,7 +40,6 @@ export function PhotoScoreDashboard({ place }: { place: SearchResult }) {
       {data.recommendations.map((recommendation) => (
         <PhotoRecommendationCard key={recommendation.kind} recommendation={recommendation} />
       ))}
-      <PhotoTimeline events={data.timeline} />
     </div>
   );
 }

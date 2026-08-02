@@ -122,7 +122,7 @@ export function SearchBar() {
   return (
     <div
       ref={containerRef}
-      className="relative mx-2 hidden flex-1 md:block md:max-w-sm lg:max-w-md"
+      className="relative order-last w-full basis-full md:order-none md:mx-2 md:block md:max-w-sm md:min-w-0 md:flex-1 md:basis-auto lg:max-w-md"
     >
       {/* Champ de saisie */}
       <div
@@ -149,7 +149,7 @@ export function SearchBar() {
           }}
           onKeyDown={handleKeyDown}
           placeholder="Rechercher un lieu…"
-          className="text-foreground placeholder:text-muted-foreground flex-1 bg-transparent text-base focus:outline-none"
+          className="text-foreground placeholder:text-muted-foreground min-w-0 flex-1 bg-transparent text-base focus:outline-none"
           aria-label="Rechercher un lieu"
           aria-autocomplete="list"
           aria-controls="search-listbox"
