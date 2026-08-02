@@ -1,3 +1,5 @@
+"use client";
+
 import type { LucideIcon } from "lucide-react";
 import {
   Bookmark,
@@ -6,10 +8,13 @@ import {
   ChevronRight,
   Cloud,
   Map,
+  CircleHelp,
   Settings2,
   Star,
   X,
 } from "lucide-react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 import { LayerPanel } from "@/features/layers/components";
 import { cn } from "@/lib/utils";
@@ -18,10 +23,12 @@ interface NavItem {
   id: string;
   label: string;
   icon: LucideIcon;
+  href?: string;
 }
 
 const PRIMARY_NAV: NavItem[] = [
-  { id: "map", label: "Carte", icon: Map },
+  { id: "map", label: "Carte", icon: Map, href: "/" },
+  { id: "why", label: "Pourquoi PhotoAtlas ?", icon: CircleHelp, href: "/pourquoi-photoatlas" },
   { id: "weather", label: "Conditions météo", icon: Cloud },
   { id: "astronomy", label: "Astronomie", icon: Star },
   { id: "spots", label: "Spots photo", icon: Camera },
@@ -37,21 +44,40 @@ interface NavItemButtonProps {
 
 function NavItemButton({ item, collapsed }: NavItemButtonProps) {
   const Icon = item.icon;
-  return (
-    <button
-      title={collapsed ? item.label : undefined}
-      className={cn(
-        "text-muted-foreground flex min-h-11 w-full items-center gap-3 rounded-xl py-3 text-base font-medium",
-        "hover:bg-accent hover:text-accent-foreground transition-colors",
-        "focus-visible:ring-ring focus-visible:ring-2 focus-visible:outline-none focus-visible:ring-inset",
-        collapsed ? "lg:justify-center lg:px-2" : "px-3",
-        // Sur mobile la sidebar est toujours expanded
-        "px-3",
-      )}
-      aria-label={item.label}
-    >
+  const pathname = usePathname();
+  const active = item.href ? pathname === item.href : false;
+  const className = cn(
+    "flex min-h-11 w-full items-center gap-3 rounded-xl py-3 text-base font-medium",
+    active
+      ? "bg-accent text-accent-foreground"
+      : "text-muted-foreground hover:bg-accent hover:text-accent-foreground",
+    "transition-colors focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-inset",
+    collapsed ? "lg:justify-center lg:px-2" : "px-3",
+    "px-3",
+  );
+  const content = (
+    <>
       <Icon className="h-5 w-5 shrink-0" aria-hidden="true" />
       <span className={cn("truncate", collapsed && "lg:hidden")}>{item.label}</span>
+    </>
+  );
+  return item.href ? (
+    <Link
+      href={item.href}
+      title={collapsed ? item.label : undefined}
+      className={className}
+      aria-label={item.label}
+      aria-current={active ? "page" : undefined}
+    >
+      {content}
+    </Link>
+  ) : (
+    <button
+      title={collapsed ? item.label : undefined}
+      className={className}
+      aria-label={item.label}
+    >
+      {content}
     </button>
   );
 }
@@ -64,6 +90,7 @@ interface SidebarProps {
 }
 
 export function Sidebar({ collapsed, onCollapsedToggle, mobileOpen, onMobileClose }: SidebarProps) {
+  const pathname = usePathname();
   return (
     <aside
       id="app-sidebar"
@@ -131,11 +158,18 @@ export function Sidebar({ collapsed, onCollapsedToggle, mobileOpen, onMobileClos
       </nav>
 
       {/* Panneau des couches — masqué sur desktop replié */}
-      <div
-        className={cn("border-border/20 flex-1 overflow-y-auto border-t", collapsed && "lg:hidden")}
-      >
-        <LayerPanel />
-      </div>
+      {pathname === "/" ? (
+        <div
+          className={cn(
+            "border-border/20 flex-1 overflow-y-auto border-t",
+            collapsed && "lg:hidden",
+          )}
+        >
+          <LayerPanel />
+        </div>
+      ) : (
+        <div className="flex-1" />
+      )}
 
       {/* Navigation secondaire */}
       <nav

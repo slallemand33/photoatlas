@@ -1,5 +1,7 @@
 "use client";
 
+import { PhotoGuidesPanel } from "@/features/photo-guides";
+
 import { useLayers } from "../hooks/useLayers";
 
 import { LayerItem } from "./LayerItem";
@@ -10,6 +12,7 @@ export function LayerPanel() {
 
   return (
     <div className="flex flex-col">
+      <PhotoGuidesPanel />
       {/* En-tête de section */}
       <div className="border-border flex items-center justify-between border-b px-4 py-4">
         <span className="text-muted-foreground text-sm font-bold tracking-[0.12em] uppercase">

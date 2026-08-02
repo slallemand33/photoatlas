@@ -1,6 +1,7 @@
 "use client";
 
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 import { MapProvider } from "@/components/map";
@@ -15,6 +16,7 @@ interface AppLayoutProps {
 }
 
 export function AppLayout({ children }: AppLayoutProps) {
+  const pathname = usePathname();
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
   const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false);
   const [queryClient] = useState(
@@ -63,7 +65,7 @@ export function AppLayout({ children }: AppLayoutProps) {
                 {children}
                 <Footer />
               </div>
-              <PlaceDetailsPanel />
+              {pathname === "/" && <PlaceDetailsPanel />}
             </div>
           </div>
         </>

@@ -51,10 +51,14 @@ function createBoltImage(): ImageData {
 }
 
 function removeLightning(map: MaplibreMap): void {
-  if (map.getLayer(SYMBOL_LAYER_ID)) map.removeLayer(SYMBOL_LAYER_ID);
-  if (map.getLayer(PULSE_LAYER_ID)) map.removeLayer(PULSE_LAYER_ID);
-  if (map.getSource(SOURCE_ID)) map.removeSource(SOURCE_ID);
-  if (map.hasImage(ICON_ID)) map.removeImage(ICON_ID);
+  try {
+    if (map.getLayer(SYMBOL_LAYER_ID)) map.removeLayer(SYMBOL_LAYER_ID);
+    if (map.getLayer(PULSE_LAYER_ID)) map.removeLayer(PULSE_LAYER_ID);
+    if (map.getSource(SOURCE_ID)) map.removeSource(SOURCE_ID);
+    if (map.hasImage(ICON_ID)) map.removeImage(ICON_ID);
+  } catch {
+    // La carte peut déjà être détruite lors d'un changement de route.
+  }
 }
 
 export function LightningLayer() {

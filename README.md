@@ -8,6 +8,8 @@ PhotoAtlas est une plateforme web destinée aux photographes de paysage, d'astro
 
 Au lieu d'ouvrir Windy, Meteoblue, Light Pollution Map, PhotoPills, Clear Outside ou Blitzortung séparément, PhotoAtlas centralise toutes ces informations dans une interface unifiée.
 
+La page éditoriale **[Pourquoi PhotoAtlas ?](http://localhost:3000/pourquoi-photoatlas)** présente l’origine du projet, sa démarche photographique, les outils déjà disponibles et la vision de son évolution.
+
 ---
 
 ## Fonctionnalités prévues
@@ -24,17 +26,17 @@ Au lieu d'ouvrir Windy, Meteoblue, Light Pollution Map, PhotoPills, Clear Outsid
 
 ## Stack technique
 
-| Outil | Rôle |
-|---|---|
-| [Next.js 16](https://nextjs.org) | Framework React (App Router) |
-| [React 19](https://react.dev) | Interface utilisateur |
-| [TypeScript](https://www.typescriptlang.org) | Typage statique |
-| [Tailwind CSS v4](https://tailwindcss.com) | Styles utilitaires |
-| [shadcn/ui](https://ui.shadcn.com) | Composants UI accessibles |
-| [MapLibre GL](https://maplibre.org) | Carte interactive open-source |
-| [Zustand](https://zustand-demo.pmnd.rs) | État global léger |
+| Outil                                        | Rôle                                 |
+| -------------------------------------------- | ------------------------------------ |
+| [Next.js 16](https://nextjs.org)             | Framework React (App Router)         |
+| [React 19](https://react.dev)                | Interface utilisateur                |
+| [TypeScript](https://www.typescriptlang.org) | Typage statique                      |
+| [Tailwind CSS v4](https://tailwindcss.com)   | Styles utilitaires                   |
+| [shadcn/ui](https://ui.shadcn.com)           | Composants UI accessibles            |
+| [MapLibre GL](https://maplibre.org)          | Carte interactive open-source        |
+| [Zustand](https://zustand-demo.pmnd.rs)      | État global léger                    |
 | [TanStack Query](https://tanstack.com/query) | Cache et synchronisation des données |
-| [pnpm](https://pnpm.io) | Gestionnaire de paquets |
+| [pnpm](https://pnpm.io)                      | Gestionnaire de paquets              |
 
 ---
 
@@ -139,7 +141,6 @@ pnpm type-check     # TypeScript (sans compilation)
 ## Licence
 
 Projet privé — tous droits réservés.
-
 
 ## Getting Started
 
