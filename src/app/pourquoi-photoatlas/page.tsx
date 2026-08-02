@@ -3,6 +3,7 @@ import {
   Binoculars,
   CloudRain,
   Compass,
+  ExternalLink,
   History,
   Layers3,
   MapPinned,
@@ -22,10 +23,18 @@ import {
 import type { Metadata } from "next";
 import Link from "next/link";
 
+import { PROJECT_IDENTITY } from "@/lib/projectIdentity";
+
 export const metadata: Metadata = {
   title: "Pourquoi PhotoAtlas ? — PhotoAtlas",
   description:
-    "Découvrez pourquoi PhotoAtlas réunit météo, astronomie et cartographie dans un assistant pensé par un photographe pour les photographes.",
+    "Découvrez l’histoire de PhotoAtlas, un assistant de préparation imaginé et développé par Sébastien Lallemand, photographe de paysage et d’astrophotographie.",
+  openGraph: {
+    title: "Pourquoi PhotoAtlas ? — Un projet de photographe pour photographes",
+    description:
+      "L’histoire d’un outil né sur le terrain, imaginé et développé par Sébastien Lallemand.",
+    type: "article",
+  },
 };
 
 interface StoryCard {
@@ -219,28 +228,57 @@ export default function WhyPhotoAtlasPage() {
         </section>
 
         <section className="story-reveal mb-28 grid items-center gap-10 lg:grid-cols-[0.8fr_1.2fr]">
-          <div className="border-astro/30 bg-astro/10 mx-auto grid h-52 w-52 place-items-center rounded-full border">
-            <div className="bg-card grid h-28 w-28 place-items-center rounded-full shadow-2xl">
-              <UserRound className="text-astro h-14 w-14" aria-hidden="true" />
+          <aside className="border-astro/25 bg-card mx-auto w-full max-w-sm overflow-hidden rounded-3xl border shadow-xl">
+            <div className="bg-astro/10 border-astro/20 flex items-center gap-4 border-b p-6">
+              <span className="bg-card grid h-14 w-14 shrink-0 place-items-center rounded-2xl shadow-sm">
+                <UserRound className="text-astro h-7 w-7" aria-hidden="true" />
+              </span>
+              <div>
+                <p className="text-astro text-xs font-black tracking-[0.16em] uppercase">
+                  Créé par
+                </p>
+                <p className="text-foreground mt-1 text-xl font-black">
+                  {PROJECT_IDENTITY.creator}
+                </p>
+              </div>
             </div>
-          </div>
+            <div className="p-6">
+              <p className="text-foreground font-semibold">{PROJECT_IDENTITY.creatorRole}</p>
+              <a
+                href={PROJECT_IDENTITY.afficheParNatureUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-foreground mt-5 inline-flex min-h-11 items-center gap-2 text-sm font-semibold underline-offset-4 transition-colors hover:underline"
+              >
+                Fondateur d’Affiche par Nature
+                <ExternalLink className="h-4 w-4" aria-hidden="true" />
+              </a>
+            </div>
+          </aside>
           <div>
             <p className="text-astro mb-3 text-sm font-black tracking-[0.16em] uppercase">
-              La démarche
+              À l’origine du projet
             </p>
             <h2 className="text-3xl font-black tracking-tight sm:text-4xl">
               Un photographe avant un produit.
             </h2>
             <div className="text-muted-foreground mt-6 space-y-4 text-lg leading-relaxed">
               <p>
-                PhotoAtlas est développé par un photographe de paysage et d’astrophotographie. Il ne
-                vient pas d’une liste abstraite de fonctionnalités, mais des hésitations très
-                concrètes qui précèdent une sortie.
+                PhotoAtlas est imaginé et développé par Sébastien Lallemand, photographe de paysage
+                et d’astrophotographie. Le projet ne vient pas d’une liste abstraite de
+                fonctionnalités, mais des hésitations très concrètes qui précèdent une sortie.
               </p>
               <p>
-                Chaque module cherche à résoudre un problème rencontré sur le terrain : choisir un
-                lieu, comprendre une fenêtre de lumière, anticiper le ciel ou préparer une
-                composition.
+                Sur le terrain, préparer une image signifie souvent consulter plusieurs cartes,
+                comparer la météo et les éphémérides, puis essayer de réunir mentalement toutes ces
+                informations. PhotoAtlas est né de ce besoin réel : rendre cette préparation plus
+                simple, plus lisible et plus proche de la décision photographique.
+              </p>
+              <p>
+                Chaque module cherche ainsi à résoudre un problème vécu : choisir un lieu,
+                comprendre une fenêtre de lumière, anticiper le ciel ou préparer une composition.
+                C’est une démarche de photographe pour photographes, construite progressivement à
+                partir de l’expérience du terrain.
               </p>
             </div>
           </div>
