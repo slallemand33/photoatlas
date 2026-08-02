@@ -78,9 +78,15 @@ export function PhotoGuidesPanel() {
             setCompositionMode(!compositionMode);
           }}
           aria-pressed={compositionMode}
+          aria-label={
+            compositionMode
+              ? "Arrêter de choisir le point de prise de vue"
+              : "Choisir le point de prise de vue sur la carte"
+          }
           className={`flex w-full items-center justify-center gap-2 rounded-xl border px-4 text-sm font-bold transition-colors ${compositionMode ? "border-primary bg-primary text-primary-foreground" : "border-border bg-muted text-foreground hover:bg-accent"}`}
         >
-          <Camera className="h-5 w-5" aria-hidden="true" /> Mode Composition
+          <Camera className="h-5 w-5" aria-hidden="true" />
+          {compositionMode ? "Point de prise de vue actif" : "Choisir le point de prise de vue"}
         </button>
       </div>
       {showLocationNotice && !selectedPlace && (
