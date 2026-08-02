@@ -68,7 +68,7 @@ export function RadarControls() {
           className={cn(
             "grid h-8 w-8 place-items-center rounded-full transition disabled:opacity-30",
             isPlaying
-              ? "bg-sky-500 text-white shadow-sm shadow-sky-500/25"
+              ? "bg-info text-primary-foreground shadow-sm"
               : "bg-foreground text-background",
           )}
           aria-label={isPlaying ? "Mettre le radar en pause" : "Lire l’animation radar"}

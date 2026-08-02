@@ -15,10 +15,10 @@ import { cn } from "@/lib/utils";
 import { PlaceDashboardSection } from "./PlaceDashboardSection";
 
 const ACTIVITY_STYLES: Record<LightningActivityLevel, string> = {
-  none: "border-slate-300/20 bg-slate-400/8 text-slate-600 dark:text-slate-300",
-  low: "border-sky-300/25 bg-sky-400/10 text-sky-600 dark:text-sky-300",
-  moderate: "border-amber-300/25 bg-amber-400/10 text-amber-700 dark:text-amber-300",
-  high: "border-rose-300/25 bg-rose-400/10 text-rose-600 dark:text-rose-300",
+  none: "border-border bg-muted text-muted-foreground",
+  low: "border-info/30 bg-info/10 text-info",
+  moderate: "border-warning/30 bg-warning/10 text-warning",
+  high: "border-destructive/30 bg-destructive/10 text-destructive",
 };
 
 function Metric({
@@ -69,7 +69,7 @@ export function PlaceLightningCard({ place }: { place: SearchResult }) {
       title="Activité orageuse"
       icon={Zap}
       status={snapshot ? "Observations" : "Chargement…"}
-      className="via-background/40 border-amber-300/20 bg-gradient-to-br from-amber-400/8 to-violet-400/5"
+      className="border-storm/30 from-storm/10 via-card to-card bg-gradient-to-br"
     >
       {!snapshot ? (
         <div className="text-muted-foreground/60 flex min-h-20 items-center justify-center gap-2 text-xs">

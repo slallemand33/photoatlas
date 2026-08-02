@@ -36,11 +36,11 @@ export function LightningControls() {
         </span>
       </div>
       {snapshot?.simulated ? (
-        <p className="rounded-md border border-amber-300/20 bg-amber-400/8 px-2 py-1.5 leading-relaxed text-amber-700 dark:text-amber-300">
+        <p className="border-warning/30 bg-warning/10 text-warning rounded-md border px-2 py-1.5 leading-relaxed">
           Prototype · impacts simulés, pas des observations réelles.
         </p>
       ) : (
-        <p className="rounded-md border border-emerald-300/20 bg-emerald-400/8 px-2 py-1.5 leading-relaxed text-emerald-700 dark:text-emerald-300">
+        <p className="border-success/30 bg-success/10 text-success rounded-md border px-2 py-1.5 leading-relaxed">
           Impacts observés durant les deux dernières heures, dans un rayon maximal de 50 km.
         </p>
       )}

@@ -37,31 +37,31 @@ export function PlaceHeader({ place, onClose }: PlaceHeaderProps) {
   }, [place]);
 
   return (
-    <div className="border-border/30 relative shrink-0 overflow-hidden border-b px-5 pt-4 pb-5">
+    <div className="border-border relative shrink-0 overflow-hidden border-b px-6 pt-5 pb-6">
       <div
         className="bg-primary/8 pointer-events-none absolute -top-20 -right-16 h-48 w-48 rounded-full blur-3xl"
         aria-hidden="true"
       />
       {/* Type chip + bouton fermeture */}
       <div className="relative mb-4 flex items-center justify-between">
-        <span className="border-primary/20 bg-primary/8 text-primary inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-[11px] font-semibold">
-          <MapPin className="h-3 w-3" aria-hidden="true" />
+        <span className="border-primary/25 bg-primary/10 text-primary inline-flex min-h-11 items-center gap-2 rounded-full border px-4 py-2 text-sm font-bold">
+          <MapPin className="h-4 w-4" aria-hidden="true" />
           {formatPlaceType(place.type)}
         </span>
         <button
           onClick={onClose}
-          className="text-muted-foreground/60 hover:bg-accent hover:text-foreground focus-visible:ring-ring rounded-md p-1.5 transition-colors focus-visible:ring-2 focus-visible:outline-none"
+          className="text-muted-foreground hover:bg-accent hover:text-foreground grid h-11 w-11 place-items-center rounded-xl transition-colors"
           aria-label="Fermer la fiche"
         >
-          <X className="h-4 w-4" aria-hidden="true" />
+          <X className="h-5 w-5" aria-hidden="true" />
         </button>
       </div>
 
       {/* Nom du lieu */}
-      <h2 className="text-foreground relative text-2xl leading-[1.08] font-bold tracking-tight">
+      <h2 className="text-foreground relative text-4xl leading-tight font-black tracking-tight">
         {place.name}
       </h2>
-      <p className="text-muted-foreground/75 relative mt-2 line-clamp-2 text-xs leading-relaxed">
+      <p className="text-muted-foreground relative mt-3 line-clamp-3 text-base leading-relaxed">
         {place.displayName}
       </p>
 
@@ -70,7 +70,7 @@ export function PlaceHeader({ place, onClose }: PlaceHeaderProps) {
         <button
           onClick={handleCenterMap}
           disabled={!map}
-          className="border-border/40 bg-muted/20 text-muted-foreground hover:bg-accent hover:text-foreground focus-visible:ring-ring flex items-center gap-1.5 rounded-md border px-3 py-1.5 text-xs font-medium transition-colors focus-visible:ring-2 focus-visible:outline-none disabled:opacity-40"
+          className="border-border bg-muted text-foreground hover:bg-accent flex min-h-11 items-center gap-2 rounded-xl border px-4 py-2 text-base font-semibold transition-colors disabled:opacity-60"
           aria-label="Centrer la carte sur ce lieu"
         >
           <Navigation className="h-3.5 w-3.5" aria-hidden="true" />
@@ -80,10 +80,10 @@ export function PlaceHeader({ place, onClose }: PlaceHeaderProps) {
         <button
           onClick={handleCopyCoords}
           className={cn(
-            "focus-visible:ring-ring flex items-center gap-1.5 rounded-md border px-3 py-1.5 text-xs font-medium transition-colors focus-visible:ring-2 focus-visible:outline-none",
+            "flex min-h-11 items-center gap-2 rounded-xl border px-4 py-2 text-base font-semibold transition-colors",
             copied
-              ? "border-green-500/40 bg-green-500/10 text-green-400"
-              : "border-border/40 bg-muted/20 text-muted-foreground hover:bg-accent hover:text-foreground",
+              ? "border-success/40 bg-success/10 text-success"
+              : "border-border bg-muted text-foreground hover:bg-accent",
           )}
           aria-label="Copier les coordonnées GPS"
         >

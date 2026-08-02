@@ -46,18 +46,18 @@ export function SearchResultItem({
       onClick={onSelect}
       onMouseEnter={onMouseEnter}
       className={cn(
-        "flex cursor-pointer items-center gap-3 px-3 py-2.5 transition-colors",
+        "flex min-h-14 cursor-pointer items-center gap-3 px-4 py-3 transition-colors",
         isActive ? "bg-accent text-accent-foreground" : "hover:bg-accent/40",
       )}
     >
       {createElement(getIcon(result.type), {
-        className: "h-4 w-4 shrink-0 text-muted-foreground/60",
+        className: "h-5 w-5 shrink-0 text-muted-foreground",
         "aria-hidden": true,
       })}
       <div className="min-w-0 flex-1">
-        <p className="truncate text-sm leading-snug font-medium">{result.name}</p>
+        <p className="truncate text-base leading-snug font-semibold">{result.name}</p>
         {subtitle && (
-          <p className="text-muted-foreground/60 truncate text-xs leading-snug">{subtitle}</p>
+          <p className="text-muted-foreground truncate text-sm leading-relaxed">{subtitle}</p>
         )}
       </div>
     </li>

@@ -26,7 +26,7 @@ function NoKeyOverlay() {
   return (
     <div className="bg-background/95 absolute inset-0 z-20 flex items-center justify-center">
       <div className="border-border/30 bg-card max-w-sm rounded-xl border p-6 text-center shadow-xl">
-        <AlertCircle className="mx-auto mb-3 h-8 w-8 text-yellow-500" aria-hidden="true" />
+        <AlertCircle className="text-warning mx-auto mb-3 h-8 w-8" aria-hidden="true" />
         <h3 className="text-foreground text-sm font-semibold">Clé MapTiler manquante</h3>
         <p className="text-muted-foreground mt-2 text-xs leading-relaxed">
           Ajoutez la variable{" "}

@@ -41,9 +41,9 @@ function NavItemButton({ item, collapsed }: NavItemButtonProps) {
     <button
       title={collapsed ? item.label : undefined}
       className={cn(
-        "flex w-full items-center gap-3 rounded-md py-2.5 text-sm text-muted-foreground",
-        "transition-colors hover:bg-accent hover:text-accent-foreground",
-        "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-ring",
+        "text-muted-foreground flex min-h-11 w-full items-center gap-3 rounded-xl py-3 text-base font-medium",
+        "hover:bg-accent hover:text-accent-foreground transition-colors",
+        "focus-visible:ring-ring focus-visible:ring-2 focus-visible:outline-none focus-visible:ring-inset",
         collapsed ? "lg:justify-center lg:px-2" : "px-3",
         // Sur mobile la sidebar est toujours expanded
         "px-3",
@@ -69,27 +69,27 @@ export function Sidebar({ collapsed, onCollapsedToggle, mobileOpen, onMobileClos
       id="app-sidebar"
       className={cn(
         // Base
-        "flex flex-col overflow-hidden border-r border-border/40 bg-card",
+        "border-border/40 bg-card flex flex-col overflow-hidden border-r",
         "transition-all duration-300 ease-in-out",
         // Mobile : overlay absolu dans le conteneur de contenu (sous le header)
-        "absolute inset-y-0 left-0 z-40 w-72",
+        "absolute inset-y-0 left-0 z-40 w-80",
         mobileOpen ? "translate-x-0 shadow-2xl" : "-translate-x-full",
         // Desktop : élément inline du flex, largeur variable
         "lg:relative lg:inset-auto lg:z-auto lg:h-full lg:translate-x-0 lg:shadow-none",
-        collapsed ? "lg:w-14" : "lg:w-60",
+        collapsed ? "lg:w-[4.5rem]" : "lg:w-72",
       )}
       aria-label="Navigation principale"
     >
       {/* Barre d'outils de la sidebar */}
       <div
         className={cn(
-          "flex h-12 shrink-0 items-center justify-between border-b border-border/40 px-3",
+          "border-border flex h-14 shrink-0 items-center justify-between border-b px-4",
           collapsed && "lg:justify-center",
         )}
       >
         <span
           className={cn(
-            "text-xs font-medium uppercase tracking-wider text-muted-foreground/60",
+            "text-muted-foreground text-sm font-bold tracking-[0.12em] uppercase",
             collapsed && "lg:hidden",
           )}
         >
@@ -99,7 +99,7 @@ export function Sidebar({ collapsed, onCollapsedToggle, mobileOpen, onMobileClos
         <div className="flex items-center">
           {/* Bouton fermeture — mobile uniquement */}
           <button
-            className="flex h-8 w-8 items-center justify-center rounded-md text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring lg:hidden"
+            className="text-muted-foreground hover:bg-accent hover:text-accent-foreground flex h-11 w-11 items-center justify-center rounded-xl transition-colors lg:hidden"
             onClick={onMobileClose}
             aria-label="Fermer la navigation"
           >
@@ -108,7 +108,7 @@ export function Sidebar({ collapsed, onCollapsedToggle, mobileOpen, onMobileClos
 
           {/* Bouton collapse — desktop uniquement */}
           <button
-            className="hidden h-8 w-8 items-center justify-center rounded-md text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring lg:flex"
+            className="text-muted-foreground hover:bg-accent hover:text-accent-foreground hidden h-11 w-11 items-center justify-center rounded-xl transition-colors lg:flex"
             onClick={onCollapsedToggle}
             aria-label={collapsed ? "Développer la barre latérale" : "Réduire la barre latérale"}
             aria-expanded={!collapsed}
@@ -132,17 +132,14 @@ export function Sidebar({ collapsed, onCollapsedToggle, mobileOpen, onMobileClos
 
       {/* Panneau des couches — masqué sur desktop replié */}
       <div
-        className={cn(
-          "flex-1 overflow-y-auto border-t border-border/20",
-          collapsed && "lg:hidden",
-        )}
+        className={cn("border-border/20 flex-1 overflow-y-auto border-t", collapsed && "lg:hidden")}
       >
         <LayerPanel />
       </div>
 
       {/* Navigation secondaire */}
       <nav
-        className="flex flex-col gap-0.5 border-t border-border/40 p-2"
+        className="border-border/40 flex flex-col gap-0.5 border-t p-2"
         aria-label="Navigation secondaire"
       >
         {SECONDARY_NAV.map((item) => (

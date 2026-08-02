@@ -10,8 +10,8 @@ interface SearchInfoPanelProps {
 
 function InfoRow({ label, value }: { label: string; value: string }) {
   return (
-    <div className="flex items-start gap-2 text-xs">
-      <span className="w-20 shrink-0 text-muted-foreground/50">{label}</span>
+    <div className="flex items-start gap-3 text-sm">
+      <span className="text-muted-foreground/50 w-20 shrink-0">{label}</span>
       <span className="text-muted-foreground/80">{value}</span>
     </div>
   );
@@ -20,19 +20,19 @@ function InfoRow({ label, value }: { label: string; value: string }) {
 export function SearchInfoPanel({ result, onClose }: SearchInfoPanelProps) {
   return (
     <div
-      className="absolute left-0 right-0 top-full z-50 mt-1 overflow-hidden rounded-lg border border-border/40 bg-card shadow-xl"
+      className="border-border/40 bg-card absolute top-full right-0 left-0 z-50 mt-1 overflow-hidden rounded-lg border shadow-xl"
       role="region"
       aria-label={`Informations sur ${result.name}`}
     >
       {/* En-tête */}
-      <div className="flex items-start justify-between gap-2 border-b border-border/20 px-3 py-2.5">
+      <div className="border-border/20 flex items-start justify-between gap-2 border-b px-3 py-2.5">
         <div className="flex min-w-0 items-center gap-2">
-          <MapPin className="h-4 w-4 shrink-0 text-primary" aria-hidden="true" />
+          <MapPin className="text-primary h-4 w-4 shrink-0" aria-hidden="true" />
           <h3 className="truncate text-sm font-semibold">{result.name}</h3>
         </div>
         <button
           onClick={onClose}
-          className="shrink-0 rounded p-0.5 text-muted-foreground/40 transition-colors hover:text-muted-foreground"
+          className="text-muted-foreground/40 hover:text-muted-foreground shrink-0 rounded p-0.5 transition-colors"
           aria-label="Fermer"
         >
           <X className="h-3.5 w-3.5" aria-hidden="true" />
@@ -51,10 +51,10 @@ export function SearchInfoPanel({ result, onClose }: SearchInfoPanelProps) {
       </div>
 
       {/* Bouton favoris */}
-      <div className="border-t border-border/20 px-3 pb-2.5 pt-2">
+      <div className="border-border/20 border-t px-3 pt-2 pb-2.5">
         <button
           disabled
-          className="flex w-full items-center justify-center gap-1.5 rounded-md border border-border/30 py-1.5 text-xs text-muted-foreground/40 disabled:cursor-not-allowed"
+          className="border-border text-muted-foreground flex min-h-11 w-full items-center justify-center gap-2 rounded-xl border py-2 text-sm font-semibold disabled:cursor-not-allowed"
           aria-label="Ajouter aux favoris (bientôt disponible)"
         >
           <Bookmark className="h-3.5 w-3.5" aria-hidden="true" />

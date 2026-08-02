@@ -11,19 +11,19 @@ export function LayerPanel() {
   return (
     <div className="flex flex-col">
       {/* En-tête de section */}
-      <div className="flex items-center justify-between border-b border-border/20 px-3 py-2.5">
-        <span className="text-[11px] font-semibold uppercase tracking-[0.1em] text-muted-foreground">
+      <div className="border-border flex items-center justify-between border-b px-4 py-4">
+        <span className="text-muted-foreground text-sm font-bold tracking-[0.12em] uppercase">
           Couches
         </span>
         {activeCount > 0 && (
-          <span className="rounded-full bg-primary/15 px-2 py-0.5 text-[11px] font-semibold tabular-nums text-primary">
+          <span className="bg-primary/15 text-primary min-w-7 rounded-full px-2 py-1 text-center text-sm font-bold tabular-nums">
             {activeCount}
           </span>
         )}
       </div>
 
       {/* Liste des couches */}
-      <div className="flex flex-col divide-y divide-border/15">
+      <div className="divide-border flex flex-col divide-y">
         {layers.map((layer) => (
           <LayerItem key={layer.id} layer={layer} />
         ))}
@@ -31,4 +31,3 @@ export function LayerPanel() {
     </div>
   );
 }
-

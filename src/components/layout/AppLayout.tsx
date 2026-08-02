@@ -3,7 +3,6 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { useState } from "react";
 
-
 import { MapProvider } from "@/components/map";
 import { PlaceDetailsPanel } from "@/features/place-details";
 
@@ -33,12 +32,12 @@ export function AppLayout({ children }: AppLayoutProps) {
         <>
           <a
             href="#main-content"
-            className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-background focus:px-4 focus:py-2 focus:text-sm focus:ring-2 focus:ring-ring"
+            className="focus:bg-background focus:ring-ring sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:rounded-md focus:px-4 focus:py-2 focus:text-sm focus:ring-2"
           >
             Aller au contenu principal
           </a>
 
-          <div className="flex h-dvh flex-col bg-background text-foreground">
+          <div className="bg-background text-foreground flex h-dvh flex-col">
             <Header
               onMobileMenuToggle={() => setMobileSidebarOpen((v) => !v)}
               mobileSidebarOpen={mobileSidebarOpen}
@@ -47,7 +46,7 @@ export function AppLayout({ children }: AppLayoutProps) {
             <div className="relative flex flex-1 overflow-hidden">
               {mobileSidebarOpen && (
                 <div
-                  className="fixed inset-0 z-30 bg-black/60 backdrop-blur-sm lg:hidden"
+                  className="bg-overlay fixed inset-0 z-30 backdrop-blur-sm lg:hidden"
                   onClick={() => setMobileSidebarOpen(false)}
                   aria-hidden="true"
                 />

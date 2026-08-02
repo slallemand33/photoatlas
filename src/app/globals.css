@@ -28,6 +28,28 @@
   --color-input: var(--input);
   --color-border: var(--border);
   --color-destructive: var(--destructive);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-info: var(--info);
+  --color-score-excellent: var(--score-excellent);
+  --color-score-good: var(--score-good);
+  --color-score-average: var(--score-average);
+  --color-score-poor: var(--score-poor);
+  --color-astro: var(--astro);
+  --color-sunrise: var(--sunrise);
+  --color-sunset: var(--sunset);
+  --color-landscape: var(--landscape);
+  --color-storm: var(--storm);
+  --color-overlay: var(--overlay);
+  --color-light-1: var(--light-1);
+  --color-light-2: var(--light-2);
+  --color-light-3: var(--light-3);
+  --color-light-4: var(--light-4);
+  --color-light-5: var(--light-5);
+  --color-light-6: var(--light-6);
+  --color-light-7: var(--light-7);
+  --color-light-8: var(--light-8);
+  --color-light-9: var(--light-9);
   --color-accent-foreground: var(--accent-foreground);
   --color-accent: var(--accent);
   --color-muted-foreground: var(--muted-foreground);
@@ -65,6 +87,28 @@
   --accent: oklch(0.97 0 0);
   --accent-foreground: oklch(0.205 0 0);
   --destructive: oklch(0.577 0.245 27.325);
+  --success: oklch(0.52 0.16 150);
+  --warning: oklch(0.58 0.15 75);
+  --info: oklch(0.52 0.14 245);
+  --score-excellent: oklch(0.48 0.16 150);
+  --score-good: oklch(0.56 0.15 105);
+  --score-average: oklch(0.58 0.15 75);
+  --score-poor: oklch(0.55 0.2 28);
+  --astro: oklch(0.54 0.19 290);
+  --sunrise: oklch(0.62 0.16 75);
+  --sunset: oklch(0.58 0.19 35);
+  --landscape: oklch(0.5 0.14 155);
+  --storm: oklch(0.58 0.16 95);
+  --overlay: oklch(0.18 0.02 265 / 92%);
+  --light-1: oklch(0.16 0.02 265);
+  --light-2: oklch(0.24 0.08 265);
+  --light-3: oklch(0.34 0.13 255);
+  --light-4: oklch(0.46 0.14 155);
+  --light-5: oklch(0.6 0.16 125);
+  --light-6: oklch(0.72 0.15 90);
+  --light-7: oklch(0.67 0.18 55);
+  --light-8: oklch(0.58 0.2 28);
+  --light-9: oklch(0.86 0.13 330);
   --border: oklch(0.922 0 0);
   --input: oklch(0.922 0 0);
   --ring: oklch(0.708 0 0);
@@ -73,7 +117,7 @@
   --chart-3: oklch(0.439 0 0);
   --chart-4: oklch(0.371 0 0);
   --chart-5: oklch(0.269 0 0);
-  --radius: 0.625rem;
+  --radius: 0.75rem;
   --sidebar: oklch(0.985 0 0);
   --sidebar-foreground: oklch(0.145 0 0);
   --sidebar-primary: oklch(0.205 0 0);
@@ -96,13 +140,35 @@
   --secondary: oklch(0.269 0 0);
   --secondary-foreground: oklch(0.985 0 0);
   --muted: oklch(0.255 0 0);
-  --muted-foreground: oklch(0.72 0 0);
+  --muted-foreground: oklch(0.79 0 0);
   --accent: oklch(0.269 0 0);
   --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 14%);
-  --input: oklch(1 0 0 / 18%);
-  --ring: oklch(0.65 0 0);
+  --destructive: oklch(0.75 0.16 22.216);
+  --success: oklch(0.76 0.16 150);
+  --warning: oklch(0.82 0.15 85);
+  --info: oklch(0.78 0.13 245);
+  --score-excellent: oklch(0.78 0.16 150);
+  --score-good: oklch(0.82 0.16 105);
+  --score-average: oklch(0.84 0.15 82);
+  --score-poor: oklch(0.76 0.18 28);
+  --astro: oklch(0.78 0.15 290);
+  --sunrise: oklch(0.84 0.14 78);
+  --sunset: oklch(0.78 0.17 35);
+  --landscape: oklch(0.76 0.14 155);
+  --storm: oklch(0.84 0.14 95);
+  --overlay: oklch(0.16 0.02 265 / 94%);
+  --light-1: oklch(0.12 0.02 265);
+  --light-2: oklch(0.22 0.08 265);
+  --light-3: oklch(0.34 0.13 255);
+  --light-4: oklch(0.5 0.14 155);
+  --light-5: oklch(0.63 0.16 125);
+  --light-6: oklch(0.76 0.15 90);
+  --light-7: oklch(0.7 0.18 55);
+  --light-8: oklch(0.62 0.2 28);
+  --light-9: oklch(0.88 0.13 330);
+  --border: oklch(1 0 0 / 20%);
+  --input: oklch(1 0 0 / 24%);
+  --ring: oklch(0.78 0.13 245);
   --chart-1: oklch(0.87 0 0);
   --chart-2: oklch(0.556 0 0);
   --chart-3: oklch(0.439 0 0);
@@ -123,11 +189,102 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground text-base leading-relaxed antialiased;
   }
   html {
     @apply font-sans;
   }
+}
+
+/* Garde-fou d’accessibilité : aucun texte fonctionnel historique ne descend sous 14 px. */
+.text-xs,
+[class~="text-[8px]"],
+[class~="text-[9px]"],
+[class~="text-[10px]"],
+[class~="text-[11px]"],
+[class~="text-[12px]"],
+[class~="text-[13px]"],
+[class~="text-[0.8rem]"] {
+  font-size: 0.875rem !important;
+  line-height: 1.25rem !important;
+}
+
+[class*="text-muted-foreground/"],
+[class*="text-foreground/"] {
+  color: var(--muted-foreground) !important;
+}
+
+[class*="text-foreground/"] {
+  color: var(--foreground) !important;
+}
+
+button,
+[role="button"],
+[role="option"] {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+button:focus-visible,
+[role="button"]:focus-visible,
+input:focus-visible,
+a:focus-visible {
+  outline: 3px solid color-mix(in oklch, var(--ring) 75%, transparent);
+  outline-offset: 2px;
+}
+
+.photo-score-card {
+  --score-accent: var(--info);
+  background: linear-gradient(
+    135deg,
+    color-mix(in oklch, var(--score-accent) 12%, var(--card)),
+    var(--card) 58%
+  );
+  border-color: color-mix(in oklch, var(--score-accent) 35%, var(--border));
+}
+
+.photo-score-card:has([data-category="astro"]) {
+  --score-accent: var(--astro);
+}
+.photo-score-card:has([data-category="sunrise"]) {
+  --score-accent: var(--sunrise);
+}
+.photo-score-card:has([data-category="sunset"]) {
+  --score-accent: var(--sunset);
+}
+.photo-score-card:has([data-category="landscape"]) {
+  --score-accent: var(--landscape);
+}
+.photo-score-card:has([data-category="storms"]) {
+  --score-accent: var(--storm);
+}
+
+.score-indicator {
+  --score-color: var(--score-average);
+}
+.score-indicator[data-tone="excellent"] {
+  --score-color: var(--score-excellent);
+}
+.score-indicator[data-tone="good"] {
+  --score-color: var(--score-good);
+}
+.score-indicator[data-tone="average"] {
+  --score-color: var(--score-average);
+}
+.score-indicator[data-tone="poor"] {
+  --score-color: var(--score-poor);
+}
+
+.score-indicator__ring {
+  background: conic-gradient(var(--score-color) var(--score-angle), var(--muted) 0);
+}
+
+.score-indicator__label {
+  color: var(--score-color);
+}
+
+.photo-timeline-line {
+  background: linear-gradient(var(--info), var(--astro));
 }
 
 @keyframes photoatlas-marker-enter {
@@ -177,9 +334,9 @@
   width: 32px;
   height: 32px;
   place-items: center;
-  border: 3px solid white;
+  border: 3px solid var(--primary-foreground);
   border-radius: 50% 50% 50% 0;
-  background: #f97316;
+  background: var(--sunset);
   transform: translateX(-50%) rotate(-45deg);
   box-shadow: 0 4px 14px rgb(0 0 0 / 30%);
 }
@@ -188,7 +345,7 @@
   width: 8px;
   height: 8px;
   border-radius: 999px;
-  background: white;
+  background: var(--primary-foreground);
 }
 
 .photoatlas-place-marker__pulse {
@@ -197,7 +354,7 @@
   left: 50%;
   width: 30px;
   height: 12px;
-  border: 2px solid #f97316;
+  border: 2px solid var(--sunset);
   border-radius: 999px;
   animation: photoatlas-marker-pulse 1.8s ease-out infinite;
 }

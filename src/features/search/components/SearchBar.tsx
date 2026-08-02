@@ -122,18 +122,16 @@ export function SearchBar() {
   return (
     <div
       ref={containerRef}
-      className="relative mx-2 hidden flex-1 md:block md:max-w-xs lg:max-w-sm"
+      className="relative mx-2 hidden flex-1 md:block md:max-w-sm lg:max-w-md"
     >
       {/* Champ de saisie */}
       <div
         className={cn(
-          "bg-muted/20 flex h-9 items-center gap-2 rounded-md border px-3 text-sm transition-colors",
-          showSuggestions
-            ? "border-border/80 bg-muted/40"
-            : "border-border/50 hover:border-border/70",
+          "bg-muted/40 flex h-11 items-center gap-3 rounded-xl border px-4 text-base shadow-sm transition-colors",
+          showSuggestions ? "border-ring bg-muted" : "border-border hover:border-ring/70",
         )}
       >
-        <Search className="text-muted-foreground/60 h-4 w-4 shrink-0" aria-hidden="true" />
+        <Search className="text-muted-foreground h-5 w-5 shrink-0" aria-hidden="true" />
 
         <input
           ref={inputRef}
@@ -151,7 +149,7 @@ export function SearchBar() {
           }}
           onKeyDown={handleKeyDown}
           placeholder="Rechercher un lieu…"
-          className="text-foreground placeholder:text-muted-foreground/60 flex-1 bg-transparent text-sm focus:outline-none"
+          className="text-foreground placeholder:text-muted-foreground flex-1 bg-transparent text-base focus:outline-none"
           aria-label="Rechercher un lieu"
           aria-autocomplete="list"
           aria-controls="search-listbox"
@@ -163,26 +161,23 @@ export function SearchBar() {
         />
 
         {isLoading && (
-          <Loader2
-            className="text-muted-foreground/40 h-3.5 w-3.5 animate-spin"
-            aria-hidden="true"
-          />
+          <Loader2 className="text-muted-foreground h-5 w-5 animate-spin" aria-hidden="true" />
         )}
 
         {query && !isLoading && (
           <button
             onClick={handleClear}
-            className="text-muted-foreground/40 hover:text-muted-foreground shrink-0 transition-colors"
+            className="text-muted-foreground hover:bg-accent hover:text-foreground grid h-11 w-11 shrink-0 place-items-center rounded-lg transition-colors"
             aria-label="Effacer la recherche"
             tabIndex={-1}
           >
-            <X className="h-3.5 w-3.5" aria-hidden="true" />
+            <X className="h-5 w-5" aria-hidden="true" />
           </button>
         )}
 
         {!query && (
           <kbd
-            className="bg-muted/60 text-muted-foreground/50 hidden shrink-0 rounded px-1.5 py-0.5 font-mono text-[10px] lg:block"
+            className="border-border bg-muted text-muted-foreground hidden shrink-0 rounded-md border px-2 py-1 font-mono text-sm lg:block"
             aria-label="Raccourci clavier : Commande K"
           >
             ⌘K
@@ -196,7 +191,7 @@ export function SearchBar() {
           id="search-listbox"
           role="listbox"
           aria-label="Suggestions de lieux"
-          className="border-border/40 bg-card absolute top-full right-0 left-0 z-50 mt-1 overflow-hidden rounded-lg border py-1 shadow-xl"
+          className="border-border bg-card absolute top-full right-0 left-0 z-50 mt-2 overflow-hidden rounded-xl border py-2 shadow-2xl"
         >
           {results.map((result, index) => (
             <SearchResultItem

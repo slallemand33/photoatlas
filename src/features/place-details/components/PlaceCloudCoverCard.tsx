@@ -1,8 +1,9 @@
 "use client";
 
-import { Cloud, CloudSun, LoaderCircle, Star } from "lucide-react";
+import { Cloud, CloudSun, LoaderCircle } from "lucide-react";
 
 import { useLayerStore } from "@/features/layers/store/useLayerStore";
+import { ScoreBar } from "@/features/photo-score";
 import type { SearchResult } from "@/features/search/types/search.types";
 import { getCloudPhotoQuality, useCloudCover } from "@/features/weather";
 
@@ -30,7 +31,7 @@ function CloudGauge({ label, value }: { label: string; value: number }) {
         aria-valuenow={value}
       >
         <div
-          className="h-full rounded-full bg-gradient-to-r from-sky-500/55 via-sky-200/80 to-white transition-[width] duration-700"
+          className="bg-info h-full rounded-full transition-[width] duration-700"
           style={{ width: `${value}%` }}
         />
       </div>
@@ -49,18 +50,8 @@ function PhotoQuality({ cloudCover }: { cloudCover: number }) {
         </p>
         <p className="text-foreground/90 mt-0.5 text-sm font-bold">{quality.label}</p>
       </div>
-      <div className="flex gap-0.5" aria-label={`${quality.stars} étoiles sur 5`}>
-        {Array.from({ length: 5 }, (_, index) => (
-          <Star
-            key={index}
-            className={
-              index < quality.stars
-                ? "h-4 w-4 fill-amber-400 text-amber-400"
-                : "text-muted-foreground/20 h-4 w-4"
-            }
-            aria-hidden="true"
-          />
-        ))}
+      <div className="w-24">
+        <ScoreBar score={quality.stars * 20} />
       </div>
     </div>
   );
@@ -93,7 +84,7 @@ export function PlaceCloudCoverCard({ place }: PlaceCloudCoverCardProps) {
       title="Couverture nuageuse"
       icon={CloudSun}
       status={isFetching ? "Actualisation…" : "Maintenant"}
-      className="via-background/40 border-sky-300/20 bg-gradient-to-br from-sky-400/8 to-slate-300/5"
+      className="border-info/30 from-info/10 via-card to-card bg-gradient-to-br"
     >
       {isFetching && !data ? (
         <div className="text-muted-foreground/65 flex min-h-28 items-center justify-center gap-2 text-xs">

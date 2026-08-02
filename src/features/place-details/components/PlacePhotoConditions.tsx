@@ -1,6 +1,7 @@
-import { Camera, NotebookPen, Sparkles } from "lucide-react";
+import { NotebookPen } from "lucide-react";
 
 import { AstronomyPanelCard } from "@/features/astronomy/components/AstronomyPanelCard";
+import { PhotoScoreDashboard } from "@/features/photo-score";
 import type { SearchResult } from "@/features/search/types/search.types";
 
 import { PlaceCloudCoverCard } from "./PlaceCloudCoverCard";
@@ -12,31 +13,7 @@ import { PlaceRainRadarCard } from "./PlaceRainRadarCard";
 export function PlacePhotoConditions({ place }: { place: SearchResult }) {
   return (
     <div className="grid gap-3">
-      <PlaceDashboardSection
-        title="Photo Score"
-        icon={Camera}
-        status="À venir"
-        className="border-primary/15 from-primary/6 via-background/35 to-background/35 bg-gradient-to-br"
-      >
-        <div className="flex items-center gap-4">
-          <div className="border-primary/20 bg-background/45 relative grid h-20 w-20 shrink-0 place-items-center rounded-full border">
-            <div className="border-primary/20 absolute inset-1.5 rounded-full border border-dashed" />
-            <div className="relative text-center">
-              <span className="text-foreground/30 block text-3xl leading-none font-black">—</span>
-              <span className="text-muted-foreground/60 text-[10px] font-semibold">/ 100</span>
-            </div>
-          </div>
-          <div>
-            <div className="text-foreground/85 flex items-center gap-1.5 text-sm font-semibold">
-              <Sparkles className="text-primary h-3.5 w-3.5" aria-hidden="true" />
-              Potentiel photographique
-            </div>
-            <p className="text-muted-foreground/60 mt-1.5 text-xs leading-relaxed">
-              Synthèse future de la météo, du ciel et de la lumière pour ce lieu.
-            </p>
-          </div>
-        </div>
-      </PlaceDashboardSection>
+      <PhotoScoreDashboard place={place} />
 
       <PlaceCloudCoverCard place={place} />
 

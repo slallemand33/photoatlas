@@ -13,12 +13,12 @@ interface HeaderProps {
 export function Header({ onMobileMenuToggle, mobileSidebarOpen }: HeaderProps) {
   return (
     <header
-      className="relative z-10 flex h-14 shrink-0 items-center gap-2 border-b border-border/40 bg-background/95 px-3 backdrop-blur-sm"
+      className="border-border bg-background/95 relative z-10 flex h-16 shrink-0 items-center gap-3 border-b px-4 shadow-sm backdrop-blur-xl"
       role="banner"
     >
       {/* Hamburger — mobile uniquement */}
       <button
-        className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring lg:hidden"
+        className="text-muted-foreground hover:bg-accent hover:text-accent-foreground flex h-11 w-11 shrink-0 items-center justify-center rounded-xl transition-colors lg:hidden"
         onClick={onMobileMenuToggle}
         aria-label={mobileSidebarOpen ? "Fermer le menu" : "Ouvrir le menu"}
         aria-expanded={mobileSidebarOpen}
@@ -30,11 +30,11 @@ export function Header({ onMobileMenuToggle, mobileSidebarOpen }: HeaderProps) {
       {/* Logo */}
       <Link
         href="/"
-        className="flex shrink-0 items-center gap-2 rounded-md px-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+        className="flex min-h-11 shrink-0 items-center gap-2.5 rounded-xl px-2"
         aria-label="PhotoAtlas — Accueil"
       >
-        <Aperture className="h-6 w-6 text-primary" aria-hidden="true" />
-        <span className="text-base font-semibold tracking-tight">PhotoAtlas</span>
+        <Aperture className="text-primary h-7 w-7" aria-hidden="true" />
+        <span className="text-lg font-bold tracking-tight">PhotoAtlas</span>
       </Link>
 
       {/* Barre de recherche */}
@@ -44,7 +44,7 @@ export function Header({ onMobileMenuToggle, mobileSidebarOpen }: HeaderProps) {
       <div className="ml-auto flex items-center gap-1">
         {/* Notifications — placeholder */}
         <button
-          className="hidden h-9 w-9 items-center justify-center rounded-md text-muted-foreground/50 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring sm:flex"
+          className="text-muted-foreground hidden h-11 w-11 items-center justify-center rounded-xl transition-colors sm:flex"
           aria-label="Notifications (bientôt disponible)"
           disabled
         >
@@ -53,11 +53,11 @@ export function Header({ onMobileMenuToggle, mobileSidebarOpen }: HeaderProps) {
 
         {/* Profil — placeholder */}
         <button
-          className="flex h-9 w-9 items-center justify-center rounded-full bg-muted/40 text-muted-foreground/70 transition-colors hover:bg-muted hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+          className="bg-muted text-muted-foreground hover:bg-accent hover:text-foreground flex h-11 w-11 items-center justify-center rounded-full transition-colors"
           aria-label="Profil utilisateur (bientôt disponible)"
           disabled
         >
-          <User className="h-4 w-4" aria-hidden="true" />
+          <User className="h-5 w-5" aria-hidden="true" />
         </button>
       </div>
     </header>

@@ -16,10 +16,10 @@ import { cn } from "@/lib/utils";
 import { PlaceDashboardSection } from "./PlaceDashboardSection";
 
 const INTENSITY_STYLES: Record<RainIntensity, string> = {
-  none: "border-emerald-300/20 bg-emerald-400/8 text-emerald-600 dark:text-emerald-300",
-  light: "border-sky-300/25 bg-sky-400/10 text-sky-600 dark:text-sky-300",
-  moderate: "border-amber-300/25 bg-amber-400/10 text-amber-650 dark:text-amber-300",
-  heavy: "border-rose-300/25 bg-rose-400/10 text-rose-600 dark:text-rose-300",
+  none: "border-success/30 bg-success/10 text-success",
+  light: "border-info/30 bg-info/10 text-info",
+  moderate: "border-warning/30 bg-warning/10 text-warning",
+  heavy: "border-destructive/30 bg-destructive/10 text-destructive",
 };
 
 export function PlaceRainRadarCard({ place }: { place: SearchResult }) {
@@ -57,7 +57,7 @@ export function PlaceRainRadarCard({ place }: { place: SearchResult }) {
       title="Radar pluie"
       icon={CloudRain}
       status={currentFrame ? formatRadarTime(currentFrame.time) : "Chargement…"}
-      className="via-background/40 border-sky-300/20 bg-gradient-to-br from-sky-500/8 to-indigo-400/5"
+      className="border-info/30 from-info/10 via-card to-card bg-gradient-to-br"
     >
       {loading ? (
         <div className="text-muted-foreground/65 flex min-h-24 items-center justify-center gap-2 text-xs">

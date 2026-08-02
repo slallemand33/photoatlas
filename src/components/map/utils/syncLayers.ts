@@ -8,10 +8,7 @@ import type { LayerState } from "@/features/layers/types";
  * Appelé par MapCanvas à chaque changement du store.
  * Ce fichier est le seul point de contact entre le Layer Manager et MapLibre.
  */
-export function syncLayersToMap(
-  map: MaplibreMap,
-  layerStates: Record<string, LayerState>,
-): void {
+export function syncLayersToMap(map: MaplibreMap, layerStates: Record<string, LayerState>): void {
   for (const [id, state] of Object.entries(layerStates)) {
     const def = registry.get(id);
     if (!def?.getSourceSpec || !def?.getLayerSpecs) continue;
@@ -45,11 +42,7 @@ function addLayer(
   }
 }
 
-function removeLayer(
-  map: MaplibreMap,
-  sourceId: string,
-  layerSpecs: LayerSpecification[],
-): void {
+function removeLayer(map: MaplibreMap, sourceId: string, layerSpecs: LayerSpecification[]): void {
   for (const spec of layerSpecs) {
     if (map.getLayer(spec.id)) {
       map.removeLayer(spec.id);
@@ -60,11 +53,7 @@ function removeLayer(
   }
 }
 
-function updateOpacity(
-  map: MaplibreMap,
-  layerSpecs: LayerSpecification[],
-  opacity: number,
-): void {
+function updateOpacity(map: MaplibreMap, layerSpecs: LayerSpecification[], opacity: number): void {
   for (const spec of layerSpecs) {
     if (!map.getLayer(spec.id)) continue;
     if (spec.type === "raster") {

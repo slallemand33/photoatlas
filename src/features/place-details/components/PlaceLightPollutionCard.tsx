@@ -14,15 +14,15 @@ interface PlaceLightPollutionCardProps {
 }
 
 const BORTLE_COLORS = [
-  "bg-slate-950",
-  "bg-blue-950",
-  "bg-blue-800",
-  "bg-emerald-700",
-  "bg-lime-600",
-  "bg-yellow-500",
-  "bg-orange-500",
-  "bg-red-600",
-  "bg-fuchsia-200",
+  "bg-light-1",
+  "bg-light-2",
+  "bg-light-3",
+  "bg-light-4",
+  "bg-light-5",
+  "bg-light-6",
+  "bg-light-7",
+  "bg-light-8",
+  "bg-light-9",
 ] as const;
 
 export function PlaceLightPollutionCard({ place }: PlaceLightPollutionCardProps) {
@@ -52,7 +52,7 @@ export function PlaceLightPollutionCard({ place }: PlaceLightPollutionCardProps)
       title="Pollution lumineuse"
       icon={Lightbulb}
       status={isFetching ? "Analyse…" : "Estimation"}
-      className="via-background/40 border-amber-400/20 bg-gradient-to-br from-amber-400/8 to-blue-950/10"
+      className="border-warning/30 from-warning/10 via-card to-card bg-gradient-to-br"
     >
       {isFetching || !estimate ? (
         <div className="text-muted-foreground/65 flex min-h-24 items-center justify-center gap-2 text-xs">
@@ -81,7 +81,7 @@ export function PlaceLightPollutionCard({ place }: PlaceLightPollutionCardProps)
             </div>
             <div className="min-w-0">
               <div className="text-foreground flex items-center gap-1.5 text-base font-bold">
-                <Sparkles className="h-4 w-4 text-amber-400" aria-hidden="true" />
+                <Sparkles className="text-warning h-4 w-4" aria-hidden="true" />
                 {estimate.comment}
               </div>
               <p className="text-muted-foreground/70 mt-1 text-xs">

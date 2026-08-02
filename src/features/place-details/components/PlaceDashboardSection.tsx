@@ -21,26 +21,24 @@ export function PlaceDashboardSection({
   return (
     <section
       className={cn(
-        "border-border/30 bg-background/35 overflow-hidden rounded-xl border shadow-sm",
+        "border-border bg-card overflow-hidden rounded-2xl border shadow-sm",
         className,
       )}
     >
-      <header className="border-border/20 flex items-center justify-between gap-3 border-b px-3.5 py-3">
-        <div className="flex min-w-0 items-center gap-2.5">
-          <span className="bg-primary/8 text-primary grid h-7 w-7 shrink-0 place-items-center rounded-lg">
-            <Icon className="h-3.5 w-3.5" aria-hidden="true" />
+      <header className="border-border flex items-center justify-between gap-3 border-b px-5 py-4">
+        <div className="flex min-w-0 items-center gap-3">
+          <span className="bg-primary/10 text-primary grid h-11 w-11 shrink-0 place-items-center rounded-xl">
+            <Icon className="h-5 w-5" aria-hidden="true" />
           </span>
-          <h3 className="text-foreground/85 truncate text-xs font-semibold tracking-[0.08em] uppercase">
-            {title}
-          </h3>
+          <h3 className="text-foreground truncate text-lg font-bold tracking-tight">{title}</h3>
         </div>
         {status && (
-          <span className="border-border/30 bg-muted/40 text-muted-foreground/70 shrink-0 rounded-full border px-2 py-0.5 text-[10px] font-medium">
+          <span className="border-border bg-muted text-muted-foreground shrink-0 rounded-full border px-3 py-1.5 text-sm font-semibold">
             {status}
           </span>
         )}
       </header>
-      <div className="p-3.5">{children}</div>
+      <div className="p-5">{children}</div>
     </section>
   );
 }

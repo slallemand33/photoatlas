@@ -18,13 +18,13 @@ export function BasemapSwitcher() {
   };
 
   return (
-    <div className="absolute bottom-8 right-2.5 z-10">
+    <div className="absolute right-4 bottom-12 z-10">
       {/* Menu contextuel */}
       {isOpen && (
         <>
-          <div className="absolute bottom-11 right-0 w-60 overflow-hidden rounded-xl border border-border/40 bg-card shadow-2xl">
-            <div className="border-b border-border/20 px-3 py-2">
-              <span className="text-[11px] font-semibold uppercase tracking-[0.1em] text-muted-foreground">
+          <div className="border-border bg-card absolute right-0 bottom-14 w-72 overflow-hidden rounded-2xl border shadow-2xl">
+            <div className="border-border border-b px-4 py-4">
+              <span className="text-muted-foreground text-sm font-bold tracking-[0.12em] uppercase">
                 Fond de carte
               </span>
             </div>
@@ -34,7 +34,7 @@ export function BasemapSwitcher() {
                   key={def.id}
                   onClick={() => handleSelect(def.id)}
                   className={cn(
-                    "flex w-full items-center gap-3 rounded-lg px-2 py-2 text-left transition-colors",
+                    "flex min-h-16 w-full items-center gap-3 rounded-xl px-3 py-3 text-left transition-colors",
                     currentId === def.id
                       ? "bg-accent text-accent-foreground"
                       : "hover:bg-accent/50 text-foreground/80",
@@ -44,13 +44,13 @@ export function BasemapSwitcher() {
                 >
                   {/* Miniature colorée */}
                   <div
-                    className="h-9 w-14 shrink-0 rounded-md border border-border/20"
+                    className="border-border/20 h-9 w-14 shrink-0 rounded-md border"
                     style={{ backgroundColor: def.thumbnailColor }}
                     aria-hidden="true"
                   />
                   <div className="min-w-0">
-                    <p className="text-sm font-medium leading-snug">{def.name}</p>
-                    <p className="truncate text-xs text-muted-foreground">{def.description}</p>
+                    <p className="text-base leading-snug font-bold">{def.name}</p>
+                    <p className="text-muted-foreground truncate text-sm">{def.description}</p>
                   </div>
                 </button>
               ))}
@@ -69,7 +69,7 @@ export function BasemapSwitcher() {
       <button
         onClick={() => setIsOpen((v) => !v)}
         className={cn(
-          "flex h-9 w-9 items-center justify-center rounded-lg border shadow-md transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring",
+          "flex h-12 w-12 items-center justify-center rounded-xl border shadow-lg transition-colors",
           isOpen
             ? "border-border/60 bg-accent text-accent-foreground"
             : "border-border/40 bg-card text-muted-foreground hover:bg-accent hover:text-foreground",
@@ -78,7 +78,7 @@ export function BasemapSwitcher() {
         aria-expanded={isOpen}
         aria-haspopup="listbox"
       >
-        <Layers className="h-4 w-4" aria-hidden="true" />
+        <Layers className="h-5 w-5" aria-hidden="true" />
       </button>
     </div>
   );

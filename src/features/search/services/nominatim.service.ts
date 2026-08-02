@@ -35,8 +35,7 @@ interface NominatimResult {
 
 function toSearchResult(item: NominatimResult): SearchResult {
   const addr = item.address;
-  const locality =
-    addr.city ?? addr.town ?? addr.village ?? addr.municipality ?? addr.hamlet ?? "";
+  const locality = addr.city ?? addr.town ?? addr.village ?? addr.municipality ?? addr.hamlet ?? "";
 
   return {
     id: `${item.osm_type}/${item.osm_id}`,

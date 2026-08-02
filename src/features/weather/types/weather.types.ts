@@ -11,8 +11,20 @@ export interface CloudCoverSnapshot extends WeatherLocation {
   high: number;
 }
 
+export interface PhotoWeatherSnapshot extends CloudCoverSnapshot {
+  precipitationMm: number;
+  rainMm: number;
+  windSpeedKmh: number;
+  visibilityMeters: number;
+  weatherCode: number;
+}
+
 export interface WeatherProvider {
   getCloudCover(locations: WeatherLocation[], signal?: AbortSignal): Promise<CloudCoverSnapshot[]>;
+  getPhotoConditions(
+    locations: WeatherLocation[],
+    signal?: AbortSignal,
+  ): Promise<PhotoWeatherSnapshot[]>;
 }
 
 export interface CloudPhotoQuality {

@@ -1,5 +1,5 @@
 export { CloudLegend } from "./components";
-export { useCloudCover } from "./hooks";
+export { useCloudCover, usePhotoWeather } from "./hooks";
 export { cloudTileProvider, weatherProvider } from "./services";
 export {
   DEFAULT_WEATHER_REFRESH_INTERVAL_MS,
@@ -10,6 +10,7 @@ export type {
   CloudCoverSnapshot,
   CloudPhotoQuality,
   CloudTileProvider,
+  PhotoWeatherSnapshot,
   WeatherLocation,
   WeatherProvider,
 } from "./types";
