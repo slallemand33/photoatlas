@@ -1,0 +1,1 @@
+export { webcamApi } from "./webcamApi";

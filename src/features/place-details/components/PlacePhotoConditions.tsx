@@ -4,6 +4,7 @@ import { AstronomyPanelCard } from "@/features/astronomy/components/AstronomyPan
 import { PhotoScoreDashboard } from "@/features/photo-score";
 import type { SearchResult } from "@/features/search/types/search.types";
 import { TodayTimelineCard } from "@/features/timeline";
+import { NearbyWebcamsCard } from "@/features/webcams";
 
 import { PlaceCloudCoverCard } from "./PlaceCloudCoverCard";
 import { PlaceDashboardSection } from "./PlaceDashboardSection";
@@ -23,6 +24,8 @@ export function PlacePhotoConditions({ place }: { place: SearchResult }) {
       <PlaceRainRadarCard place={place} />
 
       <PlaceLightningCard place={place} />
+
+      <NearbyWebcamsCard place={place} />
 
       <AstronomyPanelCard place={place} />
 

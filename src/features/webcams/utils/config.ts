@@ -1,0 +1,2 @@
+export const DEFAULT_WEBCAM_RADIUS_KM = 50;
+export const WEBCAM_IMAGE_REFRESH_MS = 8 * 60 * 1000;
