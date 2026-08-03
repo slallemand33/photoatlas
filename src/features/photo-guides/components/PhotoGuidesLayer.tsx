@@ -1,6 +1,6 @@
 "use client";
 
-import type { ExpressionSpecification, GeoJSONSource, MapMouseEvent } from "maplibre-gl";
+import type { ExpressionSpecification, GeoJSONSource } from "maplibre-gl";
 import { useEffect, useMemo, useState } from "react";
 
 import { useMap } from "@/components/map/MapProvider";
@@ -29,8 +29,6 @@ export function PhotoGuidesLayer() {
   const map = useMap();
   const place = usePlaceStore((state) => state.selectedPlace);
   const enabled = usePhotoGuidesStore((state) => state.enabled);
-  const compositionMode = usePhotoGuidesStore((state) => state.compositionMode);
-  const setCompositionPoint = usePhotoGuidesStore((state) => state.setCompositionPoint);
   const [zoom, setZoom] = useState(map?.getZoom() ?? 7);
   const active = Object.values(enabled).some(Boolean);
   const plan = usePhotoGuidePlan(place);
@@ -42,19 +40,11 @@ export function PhotoGuidesLayer() {
   useEffect(() => {
     if (!map) return;
     const onZoom = () => setZoom(map.getZoom());
-    const onClick = (event: MapMouseEvent) => {
-      if (usePhotoGuidesStore.getState().compositionMode)
-        setCompositionPoint({ latitude: event.lngLat.lat, longitude: event.lngLat.lng });
-    };
     map.on("zoomend", onZoom);
-    map.on("click", onClick);
-    map.getCanvas().style.cursor = compositionMode ? "crosshair" : "";
     return () => {
       map.off("zoomend", onZoom);
-      map.off("click", onClick);
-      map.getCanvas().style.cursor = "";
     };
-  }, [compositionMode, map, setCompositionPoint]);
+  }, [map]);
 
   useEffect(() => {
     if (!map) return;

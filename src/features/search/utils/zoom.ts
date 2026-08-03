@@ -15,6 +15,7 @@ const TYPE_ZOOM: Record<string, number> = {
   path: 16,
   house: 17,
   building: 17,
+  selected_point: 13,
 };
 
 export function getZoomForResult(result: SearchResult): number {

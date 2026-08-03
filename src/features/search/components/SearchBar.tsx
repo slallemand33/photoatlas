@@ -3,15 +3,13 @@
 import { Loader2, Search, X } from "lucide-react";
 import { useCallback, useEffect, useRef, useState } from "react";
 
-import { useMap } from "@/components/map";
+import { useLocationSelection } from "@/features/location-selection";
 import { usePlaceStore } from "@/features/place-details/store/usePlaceStore";
 import { cn } from "@/lib/utils";
 import { useSearchStore } from "@/stores/useSearchStore";
 
 import { useSearch } from "../hooks/useSearch";
-import { useSearchMarker } from "../hooks/useSearchMarker";
 import type { SearchResult } from "../types";
-import { getZoomForResult } from "../utils/zoom";
 
 import { SearchResultItem } from "./SearchResultItem";
 
@@ -21,10 +19,9 @@ export function SearchBar() {
   const [activeIndex, setActiveIndex] = useState(-1);
 
   const { results, isLoading } = useSearch(query);
-  const map = useMap();
-  const { showMarker, clearMarker } = useSearchMarker();
-  const { setSelectedResult, addToRecent } = useSearchStore();
-  const { selectPlace, closePanel } = usePlaceStore();
+  const { setSelectedResult } = useSearchStore();
+  const closePanel = usePlaceStore((state) => state.closePanel);
+  const { selectSearchResult, clearSelectionMarker } = useLocationSelection();
 
   const inputRef = useRef<HTMLInputElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -55,34 +52,12 @@ export function SearchBar() {
 
   const handleSelect = useCallback(
     (result: SearchResult) => {
-      setSelectedResult(result);
-      addToRecent(result);
       setQuery(result.name);
       setShowSuggestions(false);
       setActiveIndex(-1);
-      selectPlace(result);
-
-      if (map) {
-        // Attendre que le panneau latéral ait redimensionné la carte afin que
-        // le lieu soit centré dans la zone réellement visible.
-        requestAnimationFrame(() => {
-          requestAnimationFrame(() => {
-            map.resize();
-            map.flyTo({
-              center: [result.longitude, result.latitude],
-              zoom: getZoomForResult(result),
-              bearing: 0,
-              pitch: 0,
-              duration: 1600,
-              curve: 1.35,
-              essential: true,
-            });
-            showMarker(result.latitude, result.longitude, result.name);
-          });
-        });
-      }
+      selectSearchResult(result);
     },
-    [map, setSelectedResult, addToRecent, showMarker, selectPlace],
+    [selectSearchResult],
   );
 
   const handleKeyDown = useCallback(
@@ -112,7 +87,7 @@ export function SearchBar() {
   const handleClear = () => {
     setQuery("");
     setSelectedResult(null);
-    clearMarker();
+    clearSelectionMarker();
     closePanel();
     setShowSuggestions(false);
     setActiveIndex(-1);

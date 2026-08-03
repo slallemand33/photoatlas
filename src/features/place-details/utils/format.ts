@@ -26,6 +26,7 @@ const TYPE_LABELS: Record<string, string> = {
   coastline: "Littoral",
   beach: "Plage",
   cliff: "Falaise",
+  selected_point: "Point sélectionné",
 };
 
 const TYPE_ZOOM: Record<string, number> = {
@@ -45,6 +46,7 @@ const TYPE_ZOOM: Record<string, number> = {
   track: 15,
   peak: 13,
   building: 17,
+  selected_point: 13,
 };
 
 export function formatPlaceType(type: string): string {

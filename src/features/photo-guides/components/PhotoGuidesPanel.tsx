@@ -1,6 +1,6 @@
 "use client";
 
-import { Camera, Moon, Sparkles, Sun } from "lucide-react";
+import { Moon, Sparkles, Sun } from "lucide-react";
 import { useCallback, useState } from "react";
 
 import { Switch } from "@/components/ui/switch";
@@ -24,8 +24,6 @@ export function PhotoGuidesPanel() {
   const enabled = usePhotoGuidesStore((state) => state.enabled);
   const toggle = usePhotoGuidesStore((state) => state.toggle);
   const setAll = usePhotoGuidesStore((state) => state.setAll);
-  const compositionMode = usePhotoGuidesStore((state) => state.compositionMode);
-  const setCompositionMode = usePhotoGuidesStore((state) => state.setCompositionMode);
   const allVisible = Object.values(enabled).every(Boolean);
   const timeline = useTimelineStore((state) => state.result);
   const setSelectedTime = useTimelineStore((state) => state.setSelectedTime);
@@ -70,24 +68,6 @@ export function PhotoGuidesPanel() {
             />
           </div>
         ))}
-      </div>
-      <div className="p-4">
-        <button
-          onClick={() => {
-            if (!compositionMode && !requirePlace()) return;
-            setCompositionMode(!compositionMode);
-          }}
-          aria-pressed={compositionMode}
-          aria-label={
-            compositionMode
-              ? "Arrêter de choisir le point de prise de vue"
-              : "Choisir le point de prise de vue sur la carte"
-          }
-          className={`flex w-full items-center justify-center gap-2 rounded-xl border px-4 text-sm font-bold transition-colors ${compositionMode ? "border-primary bg-primary text-primary-foreground" : "border-border bg-muted text-foreground hover:bg-accent"}`}
-        >
-          <Camera className="h-5 w-5" aria-hidden="true" />
-          {compositionMode ? "Point de prise de vue actif" : "Choisir le point de prise de vue"}
-        </button>
       </div>
       {showLocationNotice && !selectedPlace && (
         <GuideLocationNotice onClose={closeLocationNotice} />
