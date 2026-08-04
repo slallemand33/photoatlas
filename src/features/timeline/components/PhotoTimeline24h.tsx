@@ -219,18 +219,18 @@ export function PhotoTimeline24h() {
 
   return (
     <section
-      className="border-border bg-overlay text-foreground absolute right-3 bottom-4 left-3 z-20 rounded-2xl border p-3 shadow-2xl backdrop-blur-xl sm:right-4 sm:left-4 sm:p-4 lg:right-auto lg:left-1/2 lg:w-[min(920px,calc(100%-3rem))] lg:-translate-x-1/2"
+      className="border-border bg-overlay text-foreground absolute right-3 bottom-4 left-3 z-20 rounded-2xl border p-3 shadow-2xl backdrop-blur-xl sm:right-4 sm:left-4 sm:p-4 lg:right-auto lg:left-1/2 lg:w-[min(650px,calc(100%-3rem))] lg:-translate-x-1/2"
       aria-label="Contrôle temporel de la journée photo"
     >
-      <div className="mb-2 flex items-center justify-between gap-3">
-        <div className="flex min-w-0 items-center gap-2">
+      <div className="mb-1 flex items-center justify-between gap-3">
+        <div className="flex min-w-0 items-center gap-1">
           <CalendarDays className="text-info h-4 w-4 shrink-0" aria-hidden="true" />
           <h2 className="truncate text-sm font-bold">Aujourd&apos;hui</h2>
         </div>
         <strong className="font-mono text-base tabular-nums sm:text-lg">{formatTime(selectedTime)}</strong>
       </div>
 
-      <div className="relative pt-8">
+      <div className="relative pt-4">
         <div
           className="absolute top-0 z-20 -translate-x-1/2 text-center"
           style={{ left: `${selectedProgress}%` }}
@@ -241,7 +241,7 @@ export function PhotoTimeline24h() {
           <span className="bg-primary mx-auto mt-1 block h-2.5 w-2.5 rounded-full shadow-lg" />
         </div>
 
-        <div className="border-border bg-muted/30 relative h-16 overflow-hidden rounded-xl border sm:h-[4.5rem]">
+        <div className="border-border bg-muted/30 relative h-12 overflow-hidden rounded-lg border sm:h-14">
           <div className="absolute inset-x-0 top-0 h-6 sm:h-7">
             {result.bands.map((band) => (
               <div
@@ -256,7 +256,7 @@ export function PhotoTimeline24h() {
             ))}
           </div>
 
-          <div className="border-border/45 absolute inset-x-0 top-6 h-px border-t sm:top-7" />
+          <div className="border-border/45 absolute inset-x-0 top-4 h-px border-t sm:top-5" />
           <div
             className="bg-primary absolute top-0 bottom-0 z-10 w-px shadow-[0_0_0_1px_var(--primary)]"
             style={{ left: `${selectedProgress}%` }}
@@ -270,7 +270,7 @@ export function PhotoTimeline24h() {
                 key={event.id}
                 type="button"
                 onClick={() => selectEvent(event)}
-                className="group absolute top-8 z-20 -translate-x-1/2 rounded-full transition-transform focus-visible:z-30 sm:top-9"
+                className="group absolute top-5 z-20 -translate-x-1/2 rounded-full transition-transform focus-visible:z-30 sm:top-6"
                 style={{ left: `${getProgress(event.minute)}%` }}
                 aria-label={`${EVENT_META[event.kind].title} à ${formatTime(event.time)}`}
                 aria-current={active ? "time" : undefined}
