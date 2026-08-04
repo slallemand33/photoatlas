@@ -1,38 +1,78 @@
 # Timeline photographique
 
+## Philosophie
+
+La Timeline n'est plus un tableau de bord. PhotoAtlas reste avant tout une application cartographique : la carte doit conserver l'espace principal et le panneau de droite reste l'endroit où consulter les détails.
+
+La Timeline devient un contrôle temporel compact. Son rôle est de choisir un moment de la journée et de donner un contexte visuel rapide sur les grandes phases lumineuses.
+
 ## Rôle
 
-La Timeline 24 h est la référence temporelle de PhotoAtlas. Elle couvre la journée locale de 00:00 à 24:00 et synchronise le panneau Astronomie ainsi que les Guides Soleil, Lune et Voie Lactée.
+Le composant `PhotoTimeline24h` permet uniquement de :
 
-## Architecture
+- lire les grandes phases de la journée;
+- déplacer le curseur temporel;
+- cliquer sur quelques événements majeurs;
+- piloter les guides Soleil, Lune et Voie Lactée via `selectedTime`.
 
-Le module `features/timeline/` est organisé en composants, hooks, services, store et types.
+Les horaires détaillés, descriptions, recommandations et analyses restent dans le panneau de droite.
 
-- `TimelineEngine` calcule les événements, leur ordre, leur minute dans la journée et les bandes colorées.
-- `useTimelineStore` conserve l’heure choisie et le résultat quotidien.
-- `useTimeline` initialise la journée du lieu, recalcule uniquement lors d’un changement de lieu ou de date et transmet l’heure à `useAstronomyStore`.
-- `PhotoTimeline24h` ne fait que représenter le résultat et transmettre les mouvements du curseur.
-- `TodayTimelineCard` affiche les trois prochains événements et leur temps restant.
+## Interface
 
-Les Guides Photo lisent directement `selectedTime` dans le store de la Timeline. Leur `GuideEngine` recalcule alors les positions exactes des trois objets célestes.
+La Timeline conserve une frise horizontale 24 h sur desktop, tablette et mobile. Elle se comporte comme un contrôle de lecture discret plutôt qu'une chronologie détaillée.
+
+Elle affiche :
+
+- les bandes Nuit astronomique, Blue Hour, Golden Hour, Journée et Voie Lactée;
+- quelques icônes Lucide pour les événements principaux;
+- le curseur temporel avec l'heure juste au-dessus;
+- les repères 00:00, 06:00, 12:00, 18:00 et 24:00;
+- une légende compacte sur les écrans assez larges.
+
+Les bandes sont semi-transparentes et servent de repères visuels. Les icônes restent espacées pour éviter les chevauchements.
 
 ## Événements
 
-La première version calcule : nuit et crépuscules astronomiques, crépuscules nautiques et civils, Blue Hours, Golden Hours, lever/coucher et midi solaire, lever/coucher de Lune, début/fin de visibilité de la Voie Lactée et culmination du noyau galactique.
+Le `TimelineEngine` continue de calculer tous les événements existants. La présentation ne montre que les repères nécessaires au contrôle temporel :
 
-Les événements sont identifiables par une icône, un libellé accessible, une heure et un tooltip. Les bandes donnent le contexte lumineux sans dépendre uniquement de la couleur.
+- Lever du soleil
+- Midi solaire
+- Coucher du soleil
+- Lever de lune
+- Coucher de lune
+- Début de visibilité de la Voie Lactée
+- Passage du noyau galactique au plus haut
+
+Les événements trop proches sont filtrés sur la frise pour préserver la lisibilité. Les informations complètes restent disponibles dans le panneau de droite.
 
 ## Synchronisation
 
-- Activation du guide Soleil : retour à l’heure actuelle.
-- Activation de Voie Lactée : positionnement au début de la nuit astronomique du soir.
-- Déplacement manuel : liberté totale sur les 1 440 minutes de la journée.
-- Changement de jour ou de lieu : recalcul des événements quotidiens.
+Le curseur et les icônes appellent `useTimelineStore.setSelectedTime(date)`.
+
+```txt
+Timeline UI
+  -> useTimelineStore.setSelectedTime(date)
+  -> useTimeline
+  -> useAstronomyStore.setSelectedDate(date)
+  -> GuideEngine / AstronomyPanel
+```
+
+Déplacer le curseur ou cliquer sur une icône recalcule donc les guides Soleil, Lune et Voie Lactée sans modifier les calculs du moteur.
+
+## Séparation Des Responsabilités
+
+La Timeline ne duplique plus :
+
+- Planning photo;
+- listes d'événements;
+- cartes détaillées;
+- descriptions longues;
+- recommandations.
+
+Le panneau de droite est l'unique source d'information détaillée. La Timeline reste un contrôle de temps.
 
 ## Performance
 
-Les événements quotidiens sont mémoïsés par lieu et date. Déplacer le curseur ne recalcule pas la frise ; seuls Astronomy Engine et GuideEngine recalculent les positions nécessaires. La visibilité galactique est échantillonnée toutes les dix minutes lors du calcul quotidien.
+La simplification ne modifie pas les calculs. Les données quotidiennes restent produites par `TimelineEngine`; le composant applique seulement un filtrage et une présentation compacte.
 
-## Extensions
-
-De nouveaux événements peuvent être ajoutés à `TimelineEventKind`, puis produits par `TimelineEngine` sans modifier les composants : marées, météo horaire, passages satellites, fenêtre de brouillard, seeing ou rendez-vous personnels.
+Déplacer le curseur ne recalcule pas toute la frise. Seules les vues dépendantes de l'heure active se mettent à jour.
