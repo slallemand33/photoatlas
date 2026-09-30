@@ -1,41 +1,25 @@
 "use client";
 
 import type { LucideIcon } from "lucide-react";
-import {
-  Bookmark,
-  Camera,
-  ChevronLeft,
-  ChevronRight,
-  Cloud,
-  Map,
-  CircleHelp,
-  Settings2,
-  Star,
-  X,
-} from "lucide-react";
+import { ChevronLeft, ChevronRight, CircleHelp, X } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 import { LayerPanel } from "@/features/layers/components";
+import { PhotoGuidesPanel } from "@/features/photo-guides";
 import { cn } from "@/lib/utils";
 
 interface NavItem {
-  id: string;
   label: string;
   icon: LucideIcon;
-  href?: string;
+  href: string;
 }
 
-const PRIMARY_NAV: NavItem[] = [
-  { id: "map", label: "Carte", icon: Map, href: "/" },
-  { id: "why", label: "Pourquoi PhotoAtlas ?", icon: CircleHelp, href: "/pourquoi-photoatlas" },
-  { id: "weather", label: "Conditions météo", icon: Cloud },
-  { id: "astronomy", label: "Astronomie", icon: Star },
-  { id: "spots", label: "Spots photo", icon: Camera },
-  { id: "favorites", label: "Favoris", icon: Bookmark },
-];
-
-const SECONDARY_NAV: NavItem[] = [{ id: "settings", label: "Paramètres", icon: Settings2 }];
+const ABOUT_NAV: NavItem = {
+  label: "Pourquoi PhotoAtlas ?",
+  icon: CircleHelp,
+  href: "/pourquoi-photoatlas",
+};
 
 interface NavItemButtonProps {
   item: NavItem;
@@ -45,7 +29,7 @@ interface NavItemButtonProps {
 function NavItemButton({ item, collapsed }: NavItemButtonProps) {
   const Icon = item.icon;
   const pathname = usePathname();
-  const active = item.href ? pathname === item.href : false;
+  const active = pathname === item.href;
   const className = cn(
     "flex min-h-11 w-full items-center gap-3 rounded-xl py-3 text-base font-medium",
     active
@@ -61,7 +45,7 @@ function NavItemButton({ item, collapsed }: NavItemButtonProps) {
       <span className={cn("truncate", collapsed && "lg:hidden")}>{item.label}</span>
     </>
   );
-  return item.href ? (
+  return (
     <Link
       href={item.href}
       title={collapsed ? item.label : undefined}
@@ -71,14 +55,6 @@ function NavItemButton({ item, collapsed }: NavItemButtonProps) {
     >
       {content}
     </Link>
-  ) : (
-    <button
-      title={collapsed ? item.label : undefined}
-      className={className}
-      aria-label={item.label}
-    >
-      {content}
-    </button>
   );
 }
 
@@ -91,6 +67,7 @@ interface SidebarProps {
 
 export function Sidebar({ collapsed, onCollapsedToggle, mobileOpen, onMobileClose }: SidebarProps) {
   const pathname = usePathname();
+
   return (
     <aside
       id="app-sidebar"
@@ -107,78 +84,65 @@ export function Sidebar({ collapsed, onCollapsedToggle, mobileOpen, onMobileClos
       )}
       aria-label="Navigation principale"
     >
-      {/* Barre d'outils de la sidebar */}
-      <div
-        className={cn(
-          "border-border flex h-14 shrink-0 items-center justify-between border-b px-4",
-          collapsed && "lg:justify-center",
-        )}
-      >
-        <span
-          className={cn(
-            "text-muted-foreground text-sm font-bold tracking-[0.12em] uppercase",
-            collapsed && "lg:hidden",
-          )}
+      <div className="border-border flex shrink-0 items-center justify-end border-b px-4 py-2 lg:hidden">
+        <button
+          className="text-muted-foreground hover:bg-accent hover:text-accent-foreground flex h-11 w-11 items-center justify-center rounded-xl transition-colors"
+          onClick={onMobileClose}
+          aria-label="Fermer la navigation"
         >
-          Navigation
-        </span>
-
-        <div className="flex items-center">
-          {/* Bouton fermeture — mobile uniquement */}
-          <button
-            className="text-muted-foreground hover:bg-accent hover:text-accent-foreground flex h-11 w-11 items-center justify-center rounded-xl transition-colors lg:hidden"
-            onClick={onMobileClose}
-            aria-label="Fermer la navigation"
-          >
-            <X className="h-4 w-4" aria-hidden="true" />
-          </button>
-
-          {/* Bouton collapse — desktop uniquement */}
-          <button
-            className="text-muted-foreground hover:bg-accent hover:text-accent-foreground hidden h-11 w-11 items-center justify-center rounded-xl transition-colors lg:flex"
-            onClick={onCollapsedToggle}
-            aria-label={collapsed ? "Développer la barre latérale" : "Réduire la barre latérale"}
-            aria-expanded={!collapsed}
-            aria-controls="app-sidebar"
-          >
-            {collapsed ? (
-              <ChevronRight className="h-4 w-4" aria-hidden="true" />
-            ) : (
-              <ChevronLeft className="h-4 w-4" aria-hidden="true" />
-            )}
-          </button>
-        </div>
+          <X className="h-4 w-4" aria-hidden="true" />
+        </button>
       </div>
 
-      {/* Navigation principale */}
-      <nav className="flex flex-col gap-0.5 p-2" aria-label="Navigation principale">
-        {PRIMARY_NAV.map((item) => (
-          <NavItemButton key={item.id} item={item} collapsed={collapsed} />
-        ))}
-      </nav>
+      <button
+        className="text-muted-foreground hover:bg-accent hover:text-accent-foreground absolute top-3 right-3 z-10 hidden h-11 w-11 items-center justify-center rounded-xl transition-colors lg:flex"
+        onClick={onCollapsedToggle}
+        aria-label={collapsed ? "Développer la barre latérale" : "Réduire la barre latérale"}
+        aria-expanded={!collapsed}
+        aria-controls="app-sidebar"
+      >
+        {collapsed ? (
+          <ChevronRight className="h-4 w-4" aria-hidden="true" />
+        ) : (
+          <ChevronLeft className="h-4 w-4" aria-hidden="true" />
+        )}
+      </button>
 
-      {/* Panneau des couches — masqué sur desktop replié */}
-      {pathname === "/" ? (
+      <div className="flex-1 overflow-y-auto">
         <div
           className={cn(
-            "border-border/20 flex-1 overflow-y-auto border-t",
+            "border-border/30 border-b px-4 pt-4 pb-4 lg:pr-16",
             collapsed && "lg:hidden",
           )}
         >
-          <LayerPanel />
+          <h2 className="text-foreground text-lg leading-tight font-bold tracking-tight">
+            Trouvez où et quand faire votre prochaine photo.
+          </h2>
+          <p className="text-muted-foreground mt-2 text-sm leading-relaxed">
+            Météo, lumière et astronomie pour préparer vos sorties photo.
+          </p>
         </div>
-      ) : (
-        <div className="flex-1" />
-      )}
 
-      {/* Navigation secondaire */}
-      <nav
-        className="border-border/40 flex flex-col gap-0.5 border-t p-2"
-        aria-label="Navigation secondaire"
-      >
-        {SECONDARY_NAV.map((item) => (
-          <NavItemButton key={item.id} item={item} collapsed={collapsed} />
-        ))}
+        {pathname === "/" ? (
+          <>
+            <section className={cn("border-border/20 border-b", collapsed && "lg:hidden")}>
+              <PhotoGuidesPanel />
+            </section>
+
+            <section className={cn(collapsed && "lg:hidden")}>
+              <div className="px-4 pt-3 pb-1.5">
+                <span className="text-muted-foreground text-sm font-bold tracking-[0.12em] uppercase">
+                  Conditions
+                </span>
+              </div>
+              <LayerPanel />
+            </section>
+          </>
+        ) : null}
+      </div>
+
+      <nav className="border-border/40 flex flex-col gap-0.5 border-t p-2" aria-label="Navigation secondaire">
+        <NavItemButton item={ABOUT_NAV} collapsed={collapsed} />
       </nav>
     </aside>
   );

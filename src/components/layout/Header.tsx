@@ -1,6 +1,6 @@
 "use client";
 
-import { Aperture, Bell, Menu, User } from "lucide-react";
+import { Aperture, Menu } from "lucide-react";
 import Link from "next/link";
 
 import { SearchBar } from "@/features/search/components";
@@ -40,26 +40,12 @@ export function Header({ onMobileMenuToggle, mobileSidebarOpen }: HeaderProps) {
       {/* Barre de recherche */}
       <SearchBar />
 
-      {/* Actions droite */}
-      <div className="ml-auto flex items-center gap-1">
-        {/* Notifications — placeholder */}
-        <button
-          className="text-muted-foreground hidden h-11 w-11 items-center justify-center rounded-xl transition-colors sm:flex"
-          aria-label="Notifications (bientôt disponible)"
-          disabled
-        >
-          <Bell className="h-5 w-5" aria-hidden="true" />
-        </button>
-
-        {/* Profil — placeholder */}
-        <button
-          className="bg-muted text-muted-foreground hover:bg-accent hover:text-foreground flex h-11 w-11 items-center justify-center rounded-full transition-colors"
-          aria-label="Profil utilisateur (bientôt disponible)"
-          disabled
-        >
-          <User className="h-5 w-5" aria-hidden="true" />
-        </button>
-      </div>
+      <Link
+        href="/pourquoi-photoatlas"
+        className="text-muted-foreground hover:bg-accent hover:text-foreground ml-auto hidden min-h-11 items-center rounded-xl px-3 text-sm font-medium transition-colors md:inline-flex"
+      >
+        À propos
+      </Link>
     </header>
   );
 }

@@ -10,7 +10,7 @@ import { hasMaptilerKey } from "@/features/basemaps/services/maptiler";
 import { useBasemapStore } from "@/features/basemaps/store/useBasemapStore";
 import { applyBasemap } from "@/features/basemaps/utils/applyBasemap";
 import { useLayerStore } from "@/features/layers/store/useLayerStore";
-import { MapLocationSelection } from "@/features/location-selection";
+import { MapEmptyState, MapLocationSelection } from "@/features/location-selection";
 import { PhotoGuidesLayer } from "@/features/photo-guides";
 import { PlaceReopenControl } from "@/features/place-details";
 import { PhotoTimeline24h } from "@/features/timeline";
@@ -52,6 +52,7 @@ export function MapView() {
       {hasKey ? (
         <>
           <MapCanvas />
+          <MapEmptyState />
           <PlaceReopenControl />
           <BasemapSwitcher />
           <PhotoTimeline24h />
