@@ -27,7 +27,7 @@ security invoker
 set search_path = pg_catalog, public
 as $$
 declare
-  target_point geography(Point, 4326);
+  target_point extensions.geography(Point, 4326);
 begin
   if input_latitude is null then
     raise exception 'Latitude manquante.';
@@ -64,7 +64,7 @@ begin
   target_point := extensions.st_setsrid(
     extensions.st_makepoint(input_longitude, input_latitude),
     4326
-  )::geography;
+  )::extensions.geography;
 
   return query
   select
