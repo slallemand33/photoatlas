@@ -1,7 +1,7 @@
 "use client";
 
 import { Compass, MapPinned } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import { useLocationSelection } from "@/features/location-selection";
 import { PlaceDashboardSection } from "@/features/place-details/components/PlaceDashboardSection";
@@ -9,10 +9,11 @@ import type { SearchResult } from "@/features/search/types/search.types";
 import { cn } from "@/lib/utils";
 
 import { useNearbySpots } from "../hooks";
+import { nearbySpotsDefaultRadiusKm, useNearbySpotsStore } from "../store";
 import type { NearbySpot } from "../types/spot.types";
+import { getRenderableNearbySpots, toSearchResult } from "../utils/selection";
 
 const RADIUS_OPTIONS = [5, 10, 25, 50] as const;
-const DEFAULT_RADIUS_KM = 10;
 const DEFAULT_LIMIT = 20;
 const VISIBLE_SPOTS_COUNT = 3;
 
@@ -35,32 +36,6 @@ function formatDistance(value: number): string {
     minimumFractionDigits: 1,
     maximumFractionDigits: 1,
   }).format(value)} km`;
-}
-
-function toSearchResult(spot: NearbySpot): SearchResult {
-  const locality = spot.locality ?? "";
-  const region = spot.region ?? "";
-  const country = spot.countryCode;
-  const displayName = [spot.name, locality, region, country].filter(Boolean).join(" · ");
-
-  return {
-    id: `spot/${spot.slug}`,
-    name: spot.name,
-    displayName,
-    type: spot.spotType,
-    class: "spot",
-    latitude: spot.latitude,
-    longitude: spot.longitude,
-    country,
-    region,
-    department: "",
-    locality,
-    importance: 0.8,
-  };
-}
-
-function isCurrentSpot(place: SearchResult, spot: NearbySpot): boolean {
-  return place.id === `spot/${spot.slug}`;
 }
 
 function LoadingRows() {
@@ -106,9 +81,18 @@ export function NearbySpotsSection({ place }: { place: SearchResult }) {
 }
 
 function NearbySpotsSectionContent({ place }: { place: SearchResult }) {
-  const [radiusKm, setRadiusKm] = useState<number>(DEFAULT_RADIUS_KM);
+  const contextPlaceId = useNearbySpotsStore((state) => state.contextPlaceId);
+  const storedRadiusKm = useNearbySpotsStore((state) => state.radiusKm);
+  const syncPlace = useNearbySpotsStore((state) => state.syncPlace);
+  const setRadiusKm = useNearbySpotsStore((state) => state.setRadiusKm);
+  const radiusKm =
+    contextPlaceId === place.id ? storedRadiusKm : nearbySpotsDefaultRadiusKm;
   const [expanded, setExpanded] = useState(false);
   const { selectSearchResult } = useLocationSelection();
+
+  useEffect(() => {
+    syncPlace(place.id);
+  }, [place.id, syncPlace]);
 
   const query = useNearbySpots({
     latitude: place.latitude,
@@ -117,7 +101,7 @@ function NearbySpotsSectionContent({ place }: { place: SearchResult }) {
     limit: DEFAULT_LIMIT,
   });
 
-  const spots = (query.data?.spots ?? []).filter((spot) => !isCurrentSpot(place, spot));
+  const spots = getRenderableNearbySpots(place, query.data?.spots ?? []);
   const visibleSpots = expanded ? spots : spots.slice(0, VISIBLE_SPOTS_COUNT);
 
   const hiddenCount = Math.max(0, spots.length - VISIBLE_SPOTS_COUNT);
@@ -126,7 +110,7 @@ function NearbySpotsSectionContent({ place }: { place: SearchResult }) {
     <PlaceDashboardSection
       title="Spots autour"
       icon={MapPinned}
-      status={query.data ? String(query.data.count) : undefined}
+      status={query.isSuccess ? String(spots.length) : undefined}
     >
       <div className="space-y-4">
         <div className="flex flex-wrap gap-2" role="group" aria-label="Choisir le rayon des spots autour">

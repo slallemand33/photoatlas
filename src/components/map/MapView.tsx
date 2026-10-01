@@ -13,6 +13,7 @@ import { useLayerStore } from "@/features/layers/store/useLayerStore";
 import { MapEmptyState, MapLocationSelection } from "@/features/location-selection";
 import { PhotoGuidesLayer } from "@/features/photo-guides";
 import { PlaceReopenControl } from "@/features/place-details";
+import { NearbySpotsLayer } from "@/features/spots";
 import { PhotoTimeline24h } from "@/features/timeline";
 import { LightningLayer } from "@/features/weather/lightning/components/LightningLayer";
 import { RadarLayer } from "@/features/weather/radar/components/RadarLayer";
@@ -190,6 +191,7 @@ function MapCanvas() {
       <RadarLayer />
       <LightningLayer />
       <MapLocationSelection />
+      <NearbySpotsLayer />
       <PhotoGuidesLayer />
     </>
   );

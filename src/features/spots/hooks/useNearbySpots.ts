@@ -9,6 +9,7 @@ interface UseNearbySpotsInput {
   longitude: number;
   radiusKm: number;
   limit?: number;
+  enabled?: boolean;
 }
 
 export function useNearbySpots({
@@ -16,6 +17,7 @@ export function useNearbySpots({
   longitude,
   radiusKm,
   limit = 20,
+  enabled = true,
 }: UseNearbySpotsInput) {
   return useQuery({
     queryKey: ["spots", "nearby", latitude, longitude, radiusKm, limit],
@@ -40,6 +42,7 @@ export function useNearbySpots({
 
       return payload as NearbySpotsResponse;
     },
+    enabled,
     staleTime: 5 * 60 * 1000,
     gcTime: 30 * 60 * 1000,
     refetchOnWindowFocus: false,
