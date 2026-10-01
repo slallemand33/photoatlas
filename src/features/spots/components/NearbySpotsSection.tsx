@@ -3,6 +3,7 @@
 import { Compass, MapPinned } from "lucide-react";
 import { useState } from "react";
 
+import { useLocationSelection } from "@/features/location-selection";
 import { PlaceDashboardSection } from "@/features/place-details/components/PlaceDashboardSection";
 import type { SearchResult } from "@/features/search/types/search.types";
 import { cn } from "@/lib/utils";
@@ -36,6 +37,32 @@ function formatDistance(value: number): string {
   }).format(value)} km`;
 }
 
+function toSearchResult(spot: NearbySpot): SearchResult {
+  const locality = spot.locality ?? "";
+  const region = spot.region ?? "";
+  const country = spot.countryCode;
+  const displayName = [spot.name, locality, region, country].filter(Boolean).join(" · ");
+
+  return {
+    id: `spot/${spot.slug}`,
+    name: spot.name,
+    displayName,
+    type: spot.spotType,
+    class: "spot",
+    latitude: spot.latitude,
+    longitude: spot.longitude,
+    country,
+    region,
+    department: "",
+    locality,
+    importance: 0.8,
+  };
+}
+
+function isCurrentSpot(place: SearchResult, spot: NearbySpot): boolean {
+  return place.id === `spot/${spot.slug}`;
+}
+
 function LoadingRows() {
   return (
     <div className="space-y-3" aria-hidden="true">
@@ -55,9 +82,14 @@ function LoadingRows() {
   );
 }
 
-function SpotRow({ spot }: { spot: NearbySpot }) {
+function SpotRow({ spot, onSelect }: { spot: NearbySpot; onSelect: () => void }) {
   return (
-    <div className="border-border bg-background/40 rounded-xl border px-4 py-3">
+    <button
+      type="button"
+      onClick={onSelect}
+      aria-label={`Afficher ${spot.name}`}
+      className="border-border bg-background/40 hover:bg-accent/40 focus-visible:ring-ring w-full cursor-pointer rounded-xl border px-4 py-3 text-left transition-colors focus-visible:ring-2"
+    >
       <p className="text-foreground line-clamp-2 text-base font-bold leading-snug">{spot.name}</p>
       <div className="mt-2 flex items-center justify-between gap-3 text-sm">
         <span className="text-muted-foreground truncate">{formatSpotType(spot.spotType)}</span>
@@ -65,7 +97,7 @@ function SpotRow({ spot }: { spot: NearbySpot }) {
           {formatDistance(spot.distanceKm)}
         </span>
       </div>
-    </div>
+    </button>
   );
 }
 
@@ -76,6 +108,7 @@ export function NearbySpotsSection({ place }: { place: SearchResult }) {
 function NearbySpotsSectionContent({ place }: { place: SearchResult }) {
   const [radiusKm, setRadiusKm] = useState<number>(DEFAULT_RADIUS_KM);
   const [expanded, setExpanded] = useState(false);
+  const { selectSearchResult } = useLocationSelection();
 
   const query = useNearbySpots({
     latitude: place.latitude,
@@ -84,7 +117,7 @@ function NearbySpotsSectionContent({ place }: { place: SearchResult }) {
     limit: DEFAULT_LIMIT,
   });
 
-  const spots = query.data?.spots ?? [];
+  const spots = (query.data?.spots ?? []).filter((spot) => !isCurrentSpot(place, spot));
   const visibleSpots = expanded ? spots : spots.slice(0, VISIBLE_SPOTS_COUNT);
 
   const hiddenCount = Math.max(0, spots.length - VISIBLE_SPOTS_COUNT);
@@ -149,7 +182,11 @@ function NearbySpotsSectionContent({ place }: { place: SearchResult }) {
         {!query.isLoading && !query.isError && spots.length > 0 ? (
           <div className="space-y-3">
             {visibleSpots.map((spot) => (
-              <SpotRow key={spot.id} spot={spot} />
+              <SpotRow
+                key={spot.id}
+                spot={spot}
+                onSelect={() => selectSearchResult(toSearchResult(spot))}
+              />
             ))}
 
             {hiddenCount > 0 && !expanded ? (

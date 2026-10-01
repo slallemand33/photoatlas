@@ -1,6 +1,7 @@
 import { Bookmark, Compass, Crosshair, MapPin, Tag } from "lucide-react";
 
 import type { SearchResult } from "@/features/search/types";
+import { NearbySpotsSection } from "@/features/spots";
 
 import { formatGPSCoordinates, formatPlaceType } from "../utils/format";
 
@@ -45,6 +46,8 @@ export function PlaceGeoInfo({ place }: PlaceGeoInfoProps) {
           <p className="text-muted-foreground/65 mt-1 truncate text-[11px]">{place.class}</p>
         </PlaceDashboardSection>
       </div>
+
+      <NearbySpotsSection place={place} />
 
       <PlaceDashboardSection title="Favoris" icon={Bookmark} status="À venir">
         <div className="flex items-center gap-3">

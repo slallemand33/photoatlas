@@ -3,8 +3,6 @@ import { NotebookPen } from "lucide-react";
 import { AstronomyPanelCard } from "@/features/astronomy/components/AstronomyPanelCard";
 import { PhotoScoreDashboard } from "@/features/photo-score";
 import type { SearchResult } from "@/features/search/types/search.types";
-import { NearbySpotsSection } from "@/features/spots";
-import { TodayTimelineCard } from "@/features/timeline";
 import { NearbyWebcamsCard } from "@/features/webcams";
 
 import { PlaceCloudCoverCard } from "./PlaceCloudCoverCard";
@@ -17,10 +15,6 @@ export function PlacePhotoConditions({ place }: { place: SearchResult }) {
   return (
     <div className="grid gap-3">
       <PhotoScoreDashboard place={place} />
-
-      <TodayTimelineCard place={place} />
-
-      <NearbySpotsSection place={place} />
 
       <PlaceCloudCoverCard place={place} />
 
