@@ -1,5 +1,6 @@
 "use client";
 
+import { Popup } from "maplibre-gl";
 import type { GeoJSONSource, Map as MaplibreMap, MapLayerMouseEvent } from "maplibre-gl";
 import { useEffect, useMemo, useRef } from "react";
 
@@ -20,6 +21,26 @@ function removeNearbySpots(map: MaplibreMap): void {
   if (map.getSource(NEARBY_SPOTS_SOURCE_ID)) map.removeSource(NEARBY_SPOTS_SOURCE_ID);
 }
 
+function buildHoverPopupContent(name: string, distanceKm: number): HTMLElement {
+  const content = document.createElement("div");
+  content.className =
+    "pointer-events-none rounded-lg border border-white/10 bg-slate-950/95 px-3 py-2 text-left shadow-xl backdrop-blur-sm";
+
+  const title = document.createElement("div");
+  title.className = "text-sm font-semibold leading-tight text-white";
+  title.textContent = name;
+
+  const distance = document.createElement("div");
+  distance.className = "text-xs leading-tight text-white/70";
+  distance.textContent = `${distanceKm.toLocaleString("fr-FR", {
+    minimumFractionDigits: 1,
+    maximumFractionDigits: 1,
+  })} km`;
+
+  content.append(title, distance);
+  return content;
+}
+
 export function NearbySpotsLayer() {
   const map = useMap();
   const selectedPlace = usePlaceStore((state) => state.selectedPlace);
@@ -28,6 +49,10 @@ export function NearbySpotsLayer() {
   const syncPlace = useNearbySpotsStore((state) => state.syncPlace);
   const { selectSearchResult } = useLocationSelection();
   const listenersBound = useRef(false);
+  const hoverFeatureId = useRef<string | null>(null);
+  const hoverPopup = useRef<Popup | null>(null);
+  const canHover =
+    typeof window !== "undefined" && window.matchMedia("(hover: hover) and (pointer: fine)").matches;
 
   const radiusKm =
     selectedPlace && contextPlaceId === selectedPlace.id
@@ -56,6 +81,55 @@ export function NearbySpotsLayer() {
   useEffect(() => {
     if (!map) return;
 
+    const clearHoverState = () => {
+      if (hoverFeatureId.current) {
+        map.setFeatureState(
+          { source: NEARBY_SPOTS_SOURCE_ID, id: hoverFeatureId.current },
+          { hover: false },
+        );
+        hoverFeatureId.current = null;
+      }
+
+      hoverPopup.current?.remove();
+      hoverPopup.current = null;
+      map.getCanvas().style.cursor = "";
+    };
+
+    const bindLayerListeners = (
+      handleClick: (event: MapLayerMouseEvent) => void,
+      handleMouseEnter: (event: MapLayerMouseEvent) => void,
+      handleMouseMove: (event: MapLayerMouseEvent) => void,
+      handleMouseLeave: () => void,
+    ) => {
+      if (listenersBound.current || !map.getLayer(NEARBY_SPOTS_LAYER_ID)) return;
+
+      map.on("click", NEARBY_SPOTS_LAYER_ID, handleClick);
+      if (canHover) {
+        map.on("mouseenter", NEARBY_SPOTS_LAYER_ID, handleMouseEnter);
+        map.on("mousemove", NEARBY_SPOTS_LAYER_ID, handleMouseMove);
+        map.on("mouseleave", NEARBY_SPOTS_LAYER_ID, handleMouseLeave);
+      }
+      listenersBound.current = true;
+    };
+
+    const unbindLayerListeners = (
+      handleClick: (event: MapLayerMouseEvent) => void,
+      handleMouseEnter: (event: MapLayerMouseEvent) => void,
+      handleMouseMove: (event: MapLayerMouseEvent) => void,
+      handleMouseLeave: () => void,
+    ) => {
+      if (!listenersBound.current) return;
+
+      map.off("click", NEARBY_SPOTS_LAYER_ID, handleClick);
+      if (canHover) {
+        map.off("mouseenter", NEARBY_SPOTS_LAYER_ID, handleMouseEnter);
+        map.off("mousemove", NEARBY_SPOTS_LAYER_ID, handleMouseMove);
+        map.off("mouseleave", NEARBY_SPOTS_LAYER_ID, handleMouseLeave);
+      }
+      listenersBound.current = false;
+      clearHoverState();
+    };
+
     const handleClick = (event: MapLayerMouseEvent) => {
       const feature = event.features?.[0];
       const featureId = feature?.properties?.id;
@@ -64,23 +138,81 @@ export function NearbySpotsLayer() {
       const spot = spots.find((entry) => entry.id === featureId);
       if (!spot) return;
 
+      clearHoverState();
       selectSearchResult(toSearchResult(spot));
     };
 
-    const handleMouseEnter = () => {
+    const applyHoverFeature = (feature: NonNullable<MapLayerMouseEvent["features"]>[number]) => {
+      const featureId = feature?.properties?.id;
+      const featureName = feature?.properties?.name;
+      const distanceKm = feature?.properties?.distanceKm;
+      const coordinates = feature?.geometry?.coordinates;
+
+      if (
+        typeof featureId !== "string" ||
+        typeof featureName !== "string" ||
+        typeof distanceKm !== "number" ||
+        !Array.isArray(coordinates) ||
+        coordinates.length !== 2
+      ) {
+        return;
+      }
+
+      if (hoverFeatureId.current && hoverFeatureId.current !== featureId) {
+        map.setFeatureState(
+          { source: NEARBY_SPOTS_SOURCE_ID, id: hoverFeatureId.current },
+          { hover: false },
+        );
+      }
+
+      hoverFeatureId.current = featureId;
+      map.setFeatureState(
+        { source: NEARBY_SPOTS_SOURCE_ID, id: featureId },
+        { hover: true },
+      );
+
+      hoverPopup.current?.remove();
+      hoverPopup.current = new Popup({
+        closeButton: false,
+        closeOnClick: false,
+        focusAfterOpen: false,
+        offset: 12,
+        className: "photoatlas-nearby-spots-popup",
+      })
+        .setLngLat([coordinates[0], coordinates[1]])
+        .setDOMContent(buildHoverPopupContent(featureName, distanceKm))
+        .addTo(map);
+
       map.getCanvas().style.cursor = "pointer";
     };
 
+    const handleMouseEnter = (event: MapLayerMouseEvent) => {
+      const feature = event.features?.[0];
+      if (feature) applyHoverFeature(feature);
+    };
+
+    const handleMouseMove = (event: MapLayerMouseEvent) => {
+      const feature = event.features?.[0];
+      if (!feature) return;
+
+      const featureId = feature.properties?.id;
+      if (typeof featureId !== "string") return;
+
+      if (hoverFeatureId.current === featureId) return;
+
+      applyHoverFeature(feature);
+    };
+
     const handleMouseLeave = () => {
-      map.getCanvas().style.cursor = "";
+      clearHoverState();
     };
 
     const ensureNearbySpots = () => {
       if (!map.isStyleLoaded()) return;
 
       if (!selectedPlace || !query.data) {
+        unbindLayerListeners(handleClick, handleMouseEnter, handleMouseMove, handleMouseLeave);
         removeNearbySpots(map);
-        listenersBound.current = false;
         return;
       }
 
@@ -90,8 +222,8 @@ export function NearbySpotsLayer() {
         query.data.radiusKm === radiusKm;
 
       if (!matchesSelection) {
+        unbindLayerListeners(handleClick, handleMouseEnter, handleMouseMove, handleMouseLeave);
         removeNearbySpots(map);
-        listenersBound.current = false;
         return;
       }
 
@@ -108,21 +240,33 @@ export function NearbySpotsLayer() {
           type: "circle",
           source: NEARBY_SPOTS_SOURCE_ID,
           paint: {
-            "circle-radius": ["interpolate", ["linear"], ["zoom"], 5, 4.5, 8, 5.5, 11, 6.5, 14, 7.5],
+            "circle-radius": [
+              "interpolate",
+              ["linear"],
+              ["zoom"],
+              5,
+              ["case", ["boolean", ["feature-state", "hover"], false], 5.1, 4.5],
+              8,
+              ["case", ["boolean", ["feature-state", "hover"], false], 6.2, 5.5],
+              11,
+              ["case", ["boolean", ["feature-state", "hover"], false], 7.2, 6.5],
+              14,
+              ["case", ["boolean", ["feature-state", "hover"], false], 8.2, 7.5],
+            ],
             "circle-color": "#f59e0b",
-            "circle-stroke-color": "#3f2a00",
-            "circle-stroke-width": 1,
-            "circle-opacity": 0.95,
+            "circle-stroke-color": [
+              "case",
+              ["boolean", ["feature-state", "hover"], false],
+              "#6b3f00",
+              "#3f2a00",
+            ],
+            "circle-stroke-width": ["case", ["boolean", ["feature-state", "hover"], false], 1.5, 1],
+            "circle-opacity": ["case", ["boolean", ["feature-state", "hover"], false], 1, 0.95],
           },
         });
       }
 
-      if (!listenersBound.current) {
-        map.on("click", NEARBY_SPOTS_LAYER_ID, handleClick);
-        map.on("mouseenter", NEARBY_SPOTS_LAYER_ID, handleMouseEnter);
-        map.on("mouseleave", NEARBY_SPOTS_LAYER_ID, handleMouseLeave);
-        listenersBound.current = true;
-      }
+      bindLayerListeners(handleClick, handleMouseEnter, handleMouseMove, handleMouseLeave);
     };
 
     ensureNearbySpots();
@@ -130,19 +274,16 @@ export function NearbySpotsLayer() {
 
     return () => {
       map.off("styledata", ensureNearbySpots);
-      if (listenersBound.current) {
-        map.off("click", NEARBY_SPOTS_LAYER_ID, handleClick);
-        map.off("mouseenter", NEARBY_SPOTS_LAYER_ID, handleMouseEnter);
-        map.off("mouseleave", NEARBY_SPOTS_LAYER_ID, handleMouseLeave);
-        listenersBound.current = false;
-      }
-      map.getCanvas().style.cursor = "";
+      unbindLayerListeners(handleClick, handleMouseEnter, handleMouseMove, handleMouseLeave);
     };
-  }, [geoJson, map, query.data, radiusKm, selectedPlace, selectSearchResult, spots]);
+  }, [canHover, geoJson, map, query.data, radiusKm, selectedPlace, selectSearchResult, spots]);
 
   useEffect(
     () => () => {
       if (!map) return;
+      hoverPopup.current?.remove();
+      hoverPopup.current = null;
+      hoverFeatureId.current = null;
       removeNearbySpots(map);
     },
     [map],

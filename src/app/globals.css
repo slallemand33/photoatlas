@@ -218,6 +218,21 @@
   color: var(--foreground) !important;
 }
 
+.photoatlas-nearby-spots-popup .maplibregl-popup-content {
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.photoatlas-nearby-spots-popup .maplibregl-popup-tip {
+  border-top-color: color-mix(in oklch, var(--card) 90%, black);
+  border-bottom-color: color-mix(in oklch, var(--card) 90%, black);
+}
+
+.photoatlas-nearby-spots-popup .maplibregl-popup-close-button {
+  display: none;
+}
+
 button,
 [role="button"],
 [role="option"] {
