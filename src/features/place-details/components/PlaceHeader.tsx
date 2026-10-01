@@ -1,6 +1,6 @@
 "use client";
 
-import { Check, Copy, MapPin, Navigation, X } from "lucide-react";
+import { Check, Copy, MapPin, Navigation, Route, X } from "lucide-react";
 import { useCallback, useState } from "react";
 
 import { useMap } from "@/components/map";
@@ -8,6 +8,21 @@ import type { SearchResult } from "@/features/search/types";
 import { cn } from "@/lib/utils";
 
 import { formatPlaceType, getZoomForPlace } from "../utils/format";
+
+function buildItineraryHref(place: { latitude: number; longitude: number }): string | null {
+  if (!Number.isFinite(place.latitude) || !Number.isFinite(place.longitude)) {
+    return null;
+  }
+
+  const url = new URL("https://www.google.com/maps/dir/");
+  url.search = new URLSearchParams({
+    api: "1",
+    destination: `${place.latitude},${place.longitude}`,
+    travelmode: "driving",
+  }).toString();
+
+  return url.toString();
+}
 
 interface PlaceHeaderProps {
   place: SearchResult;
@@ -17,6 +32,7 @@ interface PlaceHeaderProps {
 export function PlaceHeader({ place, onClose }: PlaceHeaderProps) {
   const map = useMap();
   const [copied, setCopied] = useState(false);
+  const itineraryHref = buildItineraryHref(place);
 
   const handleCenterMap = useCallback(() => {
     if (!map) return;
@@ -76,6 +92,19 @@ export function PlaceHeader({ place, onClose }: PlaceHeaderProps) {
           <Navigation className="h-3.5 w-3.5" aria-hidden="true" />
           Centrer
         </button>
+
+        {itineraryHref ? (
+          <a
+            href={itineraryHref}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`Itinéraire vers ${place.name}`}
+            className="border-border bg-muted text-foreground hover:bg-accent inline-flex min-h-11 items-center gap-2 rounded-xl border px-4 py-2 text-base font-semibold transition-colors"
+          >
+            <Route className="h-3.5 w-3.5" aria-hidden="true" />
+            Itinéraire
+          </a>
+        ) : null}
 
         <button
           onClick={handleCopyCoords}
