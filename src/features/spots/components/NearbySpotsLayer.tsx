@@ -22,14 +22,14 @@ function removeNearbySpots(map: MaplibreMap): void {
 function buildHoverPopupContent(name: string, distanceKm: number): HTMLElement {
   const content = document.createElement("div");
   content.className =
-    "pointer-events-none rounded-lg border border-white/10 bg-slate-950/95 px-3 py-2 text-left shadow-xl backdrop-blur-sm";
+    "border-border/70 bg-card/95 text-foreground pointer-events-none rounded-lg border px-3 py-2 text-left shadow-xl backdrop-blur-sm";
 
   const title = document.createElement("div");
-  title.className = "text-sm font-semibold leading-tight text-white";
+  title.className = "text-sm font-semibold leading-tight text-foreground";
   title.textContent = name;
 
   const distance = document.createElement("div");
-  distance.className = "text-xs leading-tight text-white/70";
+  distance.className = "text-muted-foreground text-xs leading-tight";
   distance.textContent = `${distanceKm.toLocaleString("fr-FR", {
     minimumFractionDigits: 1,
     maximumFractionDigits: 1,

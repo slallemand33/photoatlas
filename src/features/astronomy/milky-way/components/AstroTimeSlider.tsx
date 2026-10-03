@@ -23,7 +23,7 @@ export function AstroTimeSlider() {
 
   if (!selectedPlace || !windowStart || !windowEnd || !selectedTime) {
     return (
-      <div className="border-astro/35 bg-overlay text-foreground absolute bottom-8 left-1/2 z-20 -translate-x-1/2 rounded-2xl border px-5 py-4 text-sm shadow-2xl backdrop-blur-xl">
+      <div className="border-astro/35 bg-card/95 text-foreground absolute bottom-8 left-1/2 z-20 -translate-x-1/2 rounded-2xl border px-5 py-4 text-sm shadow-2xl backdrop-blur-xl">
         <span className="flex items-center gap-2 whitespace-nowrap">
           <MapPin className="text-astro h-5 w-5" aria-hidden="true" />
           Sélectionnez un lieu pour préparer votre composition.
@@ -41,7 +41,7 @@ export function AstroTimeSlider() {
   );
 
   return (
-    <div className="border-astro/35 bg-overlay text-foreground absolute bottom-6 left-1/2 z-20 w-[min(680px,calc(100%-2rem))] -translate-x-1/2 rounded-2xl border px-5 py-4 shadow-2xl backdrop-blur-xl">
+    <div className="border-astro/35 bg-card/95 text-foreground absolute bottom-6 left-1/2 z-20 w-[min(680px,calc(100%-2rem))] -translate-x-1/2 rounded-2xl border px-5 py-4 shadow-2xl backdrop-blur-xl">
       <div className="mb-2.5 flex items-center justify-between gap-3">
         <span className="text-astro flex min-w-0 items-center gap-2 text-sm font-bold tracking-wide uppercase">
           <Sparkles className="h-5 w-5 shrink-0" aria-hidden="true" />

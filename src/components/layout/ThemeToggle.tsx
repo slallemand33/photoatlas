@@ -40,6 +40,8 @@ export function ThemeToggle() {
       <button
         type="button"
         onClick={() => handleThemeChange("light")}
+        aria-label="Activer le thème clair"
+        title="Activer le thème clair"
         className={cn(
           "flex min-h-11 items-center gap-2 rounded-lg px-3 text-sm font-medium transition-colors",
           theme === "light"
@@ -54,6 +56,8 @@ export function ThemeToggle() {
       <button
         type="button"
         onClick={() => handleThemeChange("dark")}
+        aria-label="Activer le thème sombre"
+        title="Activer le thème sombre"
         className={cn(
           "flex min-h-11 items-center gap-2 rounded-lg px-3 text-sm font-medium transition-colors",
           theme === "dark"

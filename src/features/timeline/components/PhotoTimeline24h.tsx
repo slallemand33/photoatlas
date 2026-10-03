@@ -219,7 +219,7 @@ export function PhotoTimeline24h() {
 
   return (
     <section
-      className="border-border bg-overlay text-foreground absolute right-3 bottom-4 left-3 z-20 rounded-2xl border p-3 shadow-2xl backdrop-blur-xl sm:right-4 sm:left-4 sm:p-4 lg:right-auto lg:left-1/2 lg:w-[min(650px,calc(100%-3rem))] lg:-translate-x-1/2"
+      className="border-border bg-card/95 text-foreground absolute right-3 bottom-4 left-3 z-20 rounded-2xl border p-3 shadow-2xl backdrop-blur-xl sm:right-4 sm:left-4 sm:p-4 lg:right-auto lg:left-1/2 lg:w-[min(650px,calc(100%-3rem))] lg:-translate-x-1/2"
       aria-label="Contrôle temporel de la journée photo"
     >
       <div className="mb-1 flex items-center justify-between gap-3">

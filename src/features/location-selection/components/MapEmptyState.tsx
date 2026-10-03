@@ -11,7 +11,7 @@ export function MapEmptyState() {
 
   return (
     <section className="pointer-events-none absolute inset-x-4 top-[18%] z-10 flex justify-center sm:inset-x-6 sm:top-[20%] lg:top-1/3 lg:-translate-y-1/2">
-      <div className="border-border/50 bg-overlay text-foreground w-[min(24rem,100%)] rounded-2xl border px-4 py-3 shadow-lg backdrop-blur-md sm:px-5 sm:py-4">
+      <div className="border-border/60 bg-card/95 text-foreground w-[min(24rem,100%)] rounded-2xl border px-4 py-3 shadow-lg backdrop-blur-md sm:px-5 sm:py-4">
         <div className="flex items-start gap-3">
           <span className="bg-primary/10 text-primary grid h-10 w-10 shrink-0 place-items-center rounded-xl">
             <MapPin className="h-5 w-5" aria-hidden="true" />
