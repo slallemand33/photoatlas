@@ -1,0 +1,83 @@
+{
+  "region": "Bretagne",
+  "source": {
+    "path": "/Users/seb/Pictures/Site Web PhotoAtlas/data/osm/bretagne/bretagne-latest.osm.pbf",
+    "sizeBytes": 329503491,
+    "fileinfo": "File:\n  Name: /Users/seb/Pictures/Site Web PhotoAtlas/data/osm/bretagne/bretagne-latest.osm.pbf\n  Format: PBF\n  Compression: none\n  Size: 329503491\nHeader:\n  Bounding boxes:\n    (-5.883925,47.07722,-1.0145379,49.414549)\n  With history: no\n  Options:\n    generator=osmium/1.16.0\n    osmosis_replication_base_url=https://download.geofabrik.de/europe/france/bretagne-updates\n    osmosis_replication_sequence_number=4925\n    osmosis_replication_timestamp=2026-10-02T20:21:34Z\n    pbf_dense_nodes=true\n    pbf_optional_feature_0=Sort.Type_then_ID\n    sorting=Type_then_ID\n    timestamp=2026-10-02T20:21:34Z\nData:\n  Bounding box: (-20.0332,37.94187,-0.9212274,52.2625611)\n  Timestamps:\n    First: 2006-05-31T21:46:34Z\n    Last: 2026-10-02T19:58:03Z\n  Objects ordered (by type and id): yes\n  Multiple versions of same object: no\n  CRC32: not calculated (use --crc/-c to enable)\n  Number of changesets: 0\n  Number of nodes: 34941969\n  Number of ways: 4542613\n  Number of relations: 55513\n  Smallest changeset ID: 0\n  Smallest node ID: 368963\n  Smallest way ID: 1631480\n  Smallest relation ID: 2466\n  Largest changeset ID: 0\n  Largest node ID: 14244265544\n  Largest way ID: 1564541668\n  Largest relation ID: 21465709\n  Number of buffers: 55856 (avg 707 objects per buffer)\n  Sum of buffer sizes: 3535333944 (3.371 GB)\n  Sum of buffer capacities: 3669557248 (3.499 GB, 96% full)\nMetadata:\n  All objects have following metadata attributes: version+timestamp\n  Some objects have following metadata attributes: version+timestamp\n"
+  },
+  "extraction": {
+    "filteredPbfPath": "/tmp/photoatlas-bretagne-photo-candidates-59530.osm.pbf",
+    "exportedGeoJsonSeqPath": "/tmp/photoatlas-bretagne-photo-candidates-59530.geojsonseq",
+    "filteredFileinfo": "File:\n  Name: /tmp/photoatlas-bretagne-photo-candidates-59530.osm.pbf\n  Format: PBF\n  Compression: none\n  Size: 10430331\nHeader:\n  Bounding boxes:\n    (-5.883925,47.07722,-1.0145379,49.414549)\n  With history: no\n  Options:\n    generator=osmium/1.19.1\n    osmosis_replication_base_url=https://download.geofabrik.de/europe/france/bretagne-updates\n    osmosis_replication_sequence_number=4925\n    osmosis_replication_timestamp=2026-10-02T20:21:34Z\n    pbf_dense_nodes=true\n    pbf_optional_feature_0=Sort.Type_then_ID\n    sorting=Type_then_ID\n    timestamp=2026-10-02T20:21:34Z\nData:\n  Bounding box: (-6.0252685,45.1547604,-1.0145399,49.4889004)\n  Timestamps:\n    First: 2007-04-29T22:48:14Z\n    Last: 2026-10-02T19:52:19Z\n  Objects ordered (by type and id): yes\n  Multiple versions of same object: no\n  CRC32: not calculated (use --crc/-c to enable)\n  Number of changesets: 0\n  Number of nodes: 1410730\n  Number of ways: 61774\n  Number of relations: 1233\n  Smallest changeset ID: 0\n  Smallest node ID: 372429\n  Smallest way ID: 4006996\n  Smallest relation ID: 2466\n  Largest changeset ID: 0\n  Largest node ID: 14244165420\n  Largest way ID: 1564535941\n  Largest relation ID: 21441210\n  Number of buffers: 1768 (avg 833 objects per buffer)\n  Sum of buffer sizes: 112569008 (0.107 GB)\n  Sum of buffer capacities: 116129792 (0.11 GB, 97% full)\nMetadata:\n  All objects have following metadata attributes: version+timestamp\n  Some objects have following metadata attributes: version+timestamp\n",
+    "objectsTraversed": 100697,
+    "durationMs": 17481,
+    "selectionRate": 0.108831
+  },
+  "totalCandidates": 10959,
+  "byOsmType": {
+    "node": 4015,
+    "way": 6713,
+    "relation": 231
+  },
+  "byPhotoAtlasType": {
+    "other": 2978,
+    "lighthouse": 153,
+    "viewpoint": 241,
+    "bay": 356,
+    "wind_farm": 33,
+    "harbour": 178,
+    "summit": 93,
+    "beach": 856,
+    "pier": 492,
+    "sea_cliff": 30,
+    "ruins": 290,
+    "castle": 789,
+    "mill": 78,
+    "fortification": 141,
+    "monument": 147,
+    "waterfall": 8,
+    "observatory": 55,
+    "forest": 228,
+    "dam": 28,
+    "nature_reserve": 100,
+    "wetland": 103,
+    "wildlife_site": 3,
+    "bridge": 3569,
+    "bird_reserve": 2,
+    "dune": 1,
+    "quay": 7
+  },
+  "byPhotoAtlasFamily": {
+    "other": 2978,
+    "Maritime": 830,
+    "Relief": 334,
+    "Littoral": 1243,
+    "Structures": 139,
+    "Architecture": 4936,
+    "Nature": 441,
+    "Observation": 55,
+    "Faune": 3
+  },
+  "documentation": {
+    "wikidata": 1515,
+    "wikipedia": 765,
+    "description": 444,
+    "website": 259,
+    "protection": 103,
+    "heritage": 3074
+  },
+  "geometry": {
+    "nodes": 4015,
+    "ways": 6713,
+    "relations": 231
+  },
+  "quality": {
+    "jsonl": "PASS",
+    "placeKeyUniques": 10959,
+    "duplicatePlaceKeys": 0,
+    "invalidCoordinates": 0,
+    "invalidTypes": 0,
+    "anomalies": 0
+  },
+  "collapsedDuplicates": 2615
+}

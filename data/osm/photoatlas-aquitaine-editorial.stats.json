@@ -1,0 +1,25 @@
+{
+  "totalCandidates": 76,
+  "premium": 18,
+  "review": 44,
+  "rejected": 14,
+  "byFamily": {
+    "Maritime": 21,
+    "Littoral": 13,
+    "Observation": 3,
+    "Relief": 38,
+    "Nature": 1
+  },
+  "byType": {
+    "lighthouse": 11,
+    "dune": 11,
+    "observatory": 3,
+    "summit": 37,
+    "viewpoint": 1,
+    "oyster_harbour": 8,
+    "sandbank": 1,
+    "bird_reserve": 1,
+    "pier": 2,
+    "beach": 1
+  }
+}

@@ -1,0 +1,17 @@
+nwr/natural=beach,dune,cliff,coastline,bay,wetland,water,peak,valley,gorge,plateau
+nwr/waterway=waterfall
+nwr/tourism=viewpoint,attraction,observatory,information
+nwr/man_made=lighthouse,pier,breakwater,observatory,quay,mill,dam,windmill
+nwr/tower:type=observation
+nwr/name=*Observatoire*
+nwr/harbour
+nwr/leisure=marina,nature_reserve,wildlife_park
+nwr/boundary=protected_area
+nwr/historic=castle,ruins,monument,archaeological_site,bridge
+nwr/building=castle
+nwr/amenity=place_of_worship
+nwr/astronomy
+nwr/power=generator
+nwr/generator:source=wind
+nwr/place=village
+nwr/natural=forest

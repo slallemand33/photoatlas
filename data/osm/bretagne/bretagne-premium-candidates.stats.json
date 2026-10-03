@@ -1,0 +1,4011 @@
+{
+  "version": 1,
+  "region": "Bretagne",
+  "source": "/Users/seb/Pictures/Site Web PhotoAtlas/data/osm/bretagne/bretagne-photo-candidates.jsonl",
+  "generatedAt": "2026-10-03T18:10:28.688Z",
+  "thresholds": {
+    "remarkableThreshold": 40,
+    "photographicThreshold": 50,
+    "premiumThreshold": 80,
+    "reviewHeuristic": {
+      "baseRankingScore": 50,
+      "remarkableScore": 30,
+      "photographicScore": 40
+    }
+  },
+  "totalCandidates": 10959,
+  "outputSpots": 7230,
+  "premium": 149,
+  "review": 2422,
+  "rejected": 8388,
+  "spotStatusCounts": {
+    "rejected": 4960,
+    "review": 2131,
+    "premium": 139
+  },
+  "byPhotoAtlasType": {
+    "bridge": 1992,
+    "other": 1806,
+    "castle": 745,
+    "beach": 621,
+    "bay": 310,
+    "ruins": 246,
+    "viewpoint": 220,
+    "forest": 200,
+    "harbour": 145,
+    "monument": 136,
+    "lighthouse": 124,
+    "fortification": 99,
+    "pier": 98,
+    "wetland": 92,
+    "nature_reserve": 89,
+    "summit": 87,
+    "mill": 75,
+    "observatory": 47,
+    "dam": 27,
+    "sea_cliff": 26,
+    "wind_farm": 26,
+    "waterfall": 7,
+    "quay": 6,
+    "wildlife_site": 3,
+    "bird_reserve": 2,
+    "dune": 1
+  },
+  "byPhotoAtlasFamily": {
+    "Architecture": 3218,
+    "other": 1806,
+    "Littoral": 958,
+    "Nature": 390,
+    "Maritime": 373,
+    "Relief": 307,
+    "Structures": 128,
+    "Observation": 47,
+    "Faune": 3
+  },
+  "byPrincipalTag": {
+    "bridge=yes": 1885,
+    "historic=archaeological_site": 937,
+    "historic=castle": 730,
+    "natural=beach": 621,
+    "tourism=attraction": 401,
+    "natural=bay": 310,
+    "tourism=artwork": 269,
+    "tourism=viewpoint": 233,
+    "historic=ruins": 231,
+    "natural=wood": 199,
+    "historic=manor": 163,
+    "historic=monument": 127,
+    "man_made=lighthouse": 124,
+    "leisure=marina": 102,
+    "historic=fort": 99,
+    "man_made=pier": 98,
+    "natural=wetland": 92,
+    "natural=peak": 82,
+    "man_made=windmill": 81,
+    "leisure=nature_reserve": 73,
+    "natural=cave_entrance": 61,
+    "power=generator": 44,
+    "harbour=yes": 41,
+    "bridge=viaduct": 38,
+    "bridge=boardwalk": 38,
+    "waterway=dam": 28,
+    "natural=cliff": 26,
+    "boundary=protected_area": 18,
+    "leisure=bird_hide": 17,
+    "bridge=movable": 14,
+    "unknown": 13,
+    "tower:type=observation": 6,
+    "waterway=waterfall": 6,
+    "man_made=quay": 6,
+    "man_made=observatory": 5,
+    "historic=bridge": 5,
+    "bridge=aqueduct": 2,
+    "natural=dune": 1,
+    "harbour=marina": 1,
+    "bridge=no": 1,
+    "harbour=harbour_master": 1,
+    "bridge=low_water_crossing": 1
+  },
+  "byConfidence": {
+    "MEDIUM": 4072,
+    "HIGH": 2100,
+    "LOW": 1058
+  },
+  "byStatus": {
+    "rejected": 8388,
+    "review": 2422,
+    "premium": 149
+  },
+  "scoreBuckets": {
+    "premiumScore": {
+      "0-9": 2352,
+      "10-19": 1825,
+      "20-29": 1193,
+      "30-39": 1114,
+      "40-49": 465,
+      "50-59": 142,
+      "80-89": 133,
+      "90-99": 6
+    },
+    "remarkableScore": {
+      "10-19": 3659,
+      "20-29": 1807,
+      "50-59": 547,
+      "30-39": 500,
+      "60-69": 351,
+      "40-49": 307,
+      "70-79": 57,
+      "80-89": 1,
+      "0-9": 1
+    },
+    "photographicScore": {
+      "0-9": 3427,
+      "10-19": 1209,
+      "20-29": 1103,
+      "30-39": 579,
+      "40-49": 562,
+      "50-59": 176,
+      "60-69": 126,
+      "70-79": 35,
+      "80-89": 13
+    }
+  },
+  "scoreSummary": {
+    "remarkableScore": {
+      "min": 6,
+      "max": 82,
+      "average": 26.21,
+      "median": 18
+    },
+    "photographicScore": {
+      "min": 0,
+      "max": 82,
+      "average": 15.61,
+      "median": 12
+    },
+    "premiumScore": {
+      "min": 4,
+      "max": 91,
+      "average": 20.62,
+      "median": 16
+    }
+  },
+  "scoreByStatus": {
+    "premium": {
+      "remarkableScore": {
+        "min": 40,
+        "max": 82,
+        "average": 52.89,
+        "median": 54
+      },
+      "photographicScore": {
+        "min": 50,
+        "max": 82,
+        "average": 65.13,
+        "median": 62
+      },
+      "premiumScore": {
+        "min": 80,
+        "max": 91,
+        "average": 82.75,
+        "median": 82
+      }
+    },
+    "review": {
+      "remarkableScore": {
+        "min": 16,
+        "max": 78,
+        "average": 42.96,
+        "median": 40
+      },
+      "photographicScore": {
+        "min": 0,
+        "max": 78,
+        "average": 28.86,
+        "median": 26
+      },
+      "premiumScore": {
+        "min": 14,
+        "max": 58,
+        "average": 34.64,
+        "median": 35
+      }
+    },
+    "rejected": {
+      "remarkableScore": {
+        "min": 6,
+        "max": 28,
+        "average": 18.27,
+        "median": 16
+      },
+      "photographicScore": {
+        "min": 0,
+        "max": 39,
+        "average": 8.53,
+        "median": 0
+      },
+      "premiumScore": {
+        "min": 4,
+        "max": 34,
+        "average": 12.86,
+        "median": 11
+      }
+    }
+  },
+  "dominantTypeAnalysis": {
+    "bridge": {
+      "candidates": 1992,
+      "premium": 1,
+      "review": 66,
+      "rejected": 1925
+    },
+    "other": {
+      "candidates": 1806,
+      "premium": 0,
+      "review": 649,
+      "rejected": 1157
+    },
+    "beach": {
+      "candidates": 621,
+      "premium": 0,
+      "review": 3,
+      "rejected": 618
+    },
+    "castle": {
+      "candidates": 745,
+      "premium": 18,
+      "review": 530,
+      "rejected": 197
+    },
+    "pier": {
+      "candidates": 98,
+      "premium": 0,
+      "review": 2,
+      "rejected": 96
+    },
+    "bay": {
+      "candidates": 310,
+      "premium": 0,
+      "review": 184,
+      "rejected": 126
+    },
+    "ruins": {
+      "candidates": 246,
+      "premium": 14,
+      "review": 135,
+      "rejected": 97
+    },
+    "viewpoint": {
+      "candidates": 220,
+      "premium": 1,
+      "review": 186,
+      "rejected": 33
+    },
+    "lighthouse": {
+      "candidates": 124,
+      "premium": 73,
+      "review": 41,
+      "rejected": 10
+    },
+    "archaeological_site": {
+      "candidates": 937,
+      "premium": 0,
+      "review": 485,
+      "rejected": 452
+    },
+    "artwork": {
+      "candidates": 269,
+      "premium": 0,
+      "review": 16,
+      "rejected": 253
+    }
+  },
+  "rejectedReasonCounts": {
+    "caractère remarquable insuffisamment établi": 4960,
+    "potentiel photographique insuffisamment établi": 4960,
+    "premiumScore < 80": 4960,
+    "Caractère remarquable insuffisamment établi par les données": 4960,
+    "Intérêt photographique insuffisamment démontré par les données": 4960,
+    "Les données disponibles ne permettent pas de justifier Premium": 4960,
+    "Type PhotoAtlas générique ou bruyant": 4226,
+    "destination identifiable insuffisamment démontrée": 3276,
+    "absence de signal distinctif discriminant": 1588,
+    "confiance de typage limitée": 1088,
+    "Plage générique sans contexte distinctif explicite": 2
+  },
+  "topPremium": [
+    {
+      "name": "Phare de la Jument",
+      "type": "lighthouse",
+      "premiumScore": 91,
+      "remarkableScore": 74,
+      "photographicScore": 78,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé"
+      ]
+    },
+    {
+      "name": "Phare de Pen-Men",
+      "type": "lighthouse",
+      "premiumScore": 91,
+      "remarkableScore": 74,
+      "photographicScore": 78,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé"
+      ]
+    },
+    {
+      "name": "Phare des Roches-Douvres",
+      "type": "lighthouse",
+      "premiumScore": 91,
+      "remarkableScore": 74,
+      "photographicScore": 78,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé"
+      ]
+    },
+    {
+      "name": "Phare du Four",
+      "type": "lighthouse",
+      "premiumScore": 91,
+      "remarkableScore": 74,
+      "photographicScore": 78,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé"
+      ]
+    },
+    {
+      "name": "Phare du Petit Minou",
+      "type": "lighthouse",
+      "premiumScore": 91,
+      "remarkableScore": 74,
+      "photographicScore": 78,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé"
+      ]
+    },
+    {
+      "name": "Phare de Nividic",
+      "type": "lighthouse",
+      "premiumScore": 90,
+      "remarkableScore": 70,
+      "photographicScore": 78,
+      "confidence": "MEDIUM",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Signal phare à distinguer d'un feu maritime technique",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé"
+      ]
+    },
+    {
+      "name": "Phare des Sept-Îles",
+      "type": "lighthouse",
+      "premiumScore": 89,
+      "remarkableScore": 66,
+      "photographicScore": 78,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection présent",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé"
+      ]
+    },
+    {
+      "name": "Phare de l'île Harbour",
+      "type": "lighthouse",
+      "premiumScore": 87,
+      "remarkableScore": 52,
+      "photographicScore": 82,
+      "confidence": "MEDIUM",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Signal phare à distinguer d'un feu maritime technique",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Contexte descriptif ou institutionnel présent",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé"
+      ]
+    },
+    {
+      "name": "Phare de la Croix",
+      "type": "lighthouse",
+      "premiumScore": 87,
+      "remarkableScore": 56,
+      "photographicScore": 78,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Phare de Tévennec",
+      "type": "lighthouse",
+      "premiumScore": 87,
+      "remarkableScore": 74,
+      "photographicScore": 64,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Identité explicite du lieu",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Phare de Trézien",
+      "type": "lighthouse",
+      "premiumScore": 87,
+      "remarkableScore": 56,
+      "photographicScore": 78,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Phare des Moutons",
+      "type": "lighthouse",
+      "premiumScore": 87,
+      "remarkableScore": 56,
+      "photographicScore": 78,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Phare des Pierres-Noires",
+      "type": "lighthouse",
+      "premiumScore": 87,
+      "remarkableScore": 74,
+      "photographicScore": 64,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Identité explicite du lieu",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Phare du Créac'h",
+      "type": "lighthouse",
+      "premiumScore": 87,
+      "remarkableScore": 56,
+      "photographicScore": 78,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Phare du Grand-Jardin",
+      "type": "lighthouse",
+      "premiumScore": 87,
+      "remarkableScore": 82,
+      "photographicScore": 58,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte descriptif ou institutionnel présent",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité"
+      ]
+    },
+    {
+      "name": "Phare du Millier",
+      "type": "lighthouse",
+      "premiumScore": 87,
+      "remarkableScore": 56,
+      "photographicScore": 78,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Phare du Portzic",
+      "type": "lighthouse",
+      "premiumScore": 87,
+      "remarkableScore": 56,
+      "photographicScore": 78,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Phare du Rosédo",
+      "type": "lighthouse",
+      "premiumScore": 87,
+      "remarkableScore": 56,
+      "photographicScore": 78,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Château de Fougères",
+      "type": "castle",
+      "premiumScore": 86,
+      "remarkableScore": 70,
+      "photographicScore": 62,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte descriptif ou institutionnel présent",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Observatoire du marais de Séné",
+      "type": "observatory",
+      "premiumScore": 86,
+      "remarkableScore": 48,
+      "photographicScore": 80,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type observatory issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Contexte descriptif ou institutionnel présent",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Fonction d'observation explicitement démontrée",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo"
+      ]
+    },
+    {
+      "name": "Phare de L'Ost-Pic",
+      "type": "lighthouse",
+      "premiumScore": 86,
+      "remarkableScore": 52,
+      "photographicScore": 78,
+      "confidence": "MEDIUM",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Signal phare à distinguer d'un feu maritime technique",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Phare de Port-Maria",
+      "type": "lighthouse",
+      "premiumScore": 86,
+      "remarkableScore": 52,
+      "photographicScore": 78,
+      "confidence": "MEDIUM",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Signal phare à distinguer d'un feu maritime technique",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Phare de Sainte-Marine",
+      "type": "lighthouse",
+      "premiumScore": 86,
+      "remarkableScore": 52,
+      "photographicScore": 78,
+      "confidence": "MEDIUM",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Signal phare à distinguer d'un feu maritime technique",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Phare du Paon",
+      "type": "lighthouse",
+      "premiumScore": 86,
+      "remarkableScore": 52,
+      "photographicScore": 78,
+      "confidence": "MEDIUM",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Signal phare à distinguer d'un feu maritime technique",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Château de Rustéphan",
+      "type": "ruins",
+      "premiumScore": 85,
+      "remarkableScore": 62,
+      "photographicScore": 65,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type ruins issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Phare de Kéréon",
+      "type": "lighthouse",
+      "premiumScore": 85,
+      "remarkableScore": 74,
+      "photographicScore": 58,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé"
+      ]
+    },
+    {
+      "name": "Phare de Kergadec",
+      "type": "lighthouse",
+      "premiumScore": 85,
+      "remarkableScore": 48,
+      "photographicScore": 78,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Phare de l'Aber Ildut",
+      "type": "lighthouse",
+      "premiumScore": 85,
+      "remarkableScore": 48,
+      "photographicScore": 78,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Phare de l'île de Sein",
+      "type": "lighthouse",
+      "premiumScore": 85,
+      "remarkableScore": 74,
+      "photographicScore": 58,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé"
+      ]
+    },
+    {
+      "name": "Phare de l'Île Vierge",
+      "type": "lighthouse",
+      "premiumScore": 85,
+      "remarkableScore": 74,
+      "photographicScore": 58,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé"
+      ]
+    },
+    {
+      "name": "Phare de l'Île Wrac'h",
+      "type": "lighthouse",
+      "premiumScore": 85,
+      "remarkableScore": 48,
+      "photographicScore": 78,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Phare de la Vieille",
+      "type": "lighthouse",
+      "premiumScore": 85,
+      "remarkableScore": 74,
+      "photographicScore": 58,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé"
+      ]
+    },
+    {
+      "name": "Phare du Toulinguet",
+      "type": "lighthouse",
+      "premiumScore": 85,
+      "remarkableScore": 48,
+      "photographicScore": 78,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Phare et fort de Penfret",
+      "type": "lighthouse",
+      "premiumScore": 85,
+      "remarkableScore": 62,
+      "photographicScore": 68,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Identité explicite du lieu"
+      ]
+    },
+    {
+      "name": "Fort Cigogne",
+      "type": "fortification",
+      "premiumScore": 84,
+      "remarkableScore": 62,
+      "photographicScore": 64,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type fortification issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Phare de Goulphar",
+      "type": "lighthouse",
+      "premiumScore": 84,
+      "remarkableScore": 66,
+      "photographicScore": 58,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé"
+      ]
+    },
+    {
+      "name": "Phare de la Haize",
+      "type": "lighthouse",
+      "premiumScore": 84,
+      "remarkableScore": 44,
+      "photographicScore": 78,
+      "confidence": "MEDIUM",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Signal phare à distinguer d'un feu maritime technique",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Phare de Lanvaon",
+      "type": "lighthouse",
+      "premiumScore": 84,
+      "remarkableScore": 66,
+      "photographicScore": 58,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection présent",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé"
+      ]
+    },
+    {
+      "name": "Phare de Port Manec'h",
+      "type": "lighthouse",
+      "premiumScore": 84,
+      "remarkableScore": 44,
+      "photographicScore": 78,
+      "confidence": "MEDIUM",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Signal phare à distinguer d'un feu maritime technique",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Phare des Triagoz",
+      "type": "lighthouse",
+      "premiumScore": 84,
+      "remarkableScore": 44,
+      "photographicScore": 78,
+      "confidence": "MEDIUM",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Signal phare à distinguer d'un feu maritime technique",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Phare du Cap Fréhel",
+      "type": "lighthouse",
+      "premiumScore": 84,
+      "remarkableScore": 66,
+      "photographicScore": 58,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection présent",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé"
+      ]
+    },
+    {
+      "name": "Phare du Guilvinec",
+      "type": "lighthouse",
+      "premiumScore": 84,
+      "remarkableScore": 44,
+      "photographicScore": 78,
+      "confidence": "MEDIUM",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Signal phare à distinguer d'un feu maritime technique",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Château de Fontenay",
+      "type": "castle",
+      "premiumScore": 83,
+      "remarkableScore": 62,
+      "photographicScore": 60,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Château de Kéralio",
+      "type": "castle",
+      "premiumScore": 83,
+      "remarkableScore": 62,
+      "photographicScore": 60,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Château de la Sécardais",
+      "type": "castle",
+      "premiumScore": 83,
+      "remarkableScore": 62,
+      "photographicScore": 60,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Château de Lupin",
+      "type": "castle",
+      "premiumScore": 83,
+      "remarkableScore": 62,
+      "photographicScore": 60,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Château du Bot",
+      "type": "castle",
+      "premiumScore": 83,
+      "remarkableScore": 62,
+      "photographicScore": 60,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Feu de Corsen",
+      "type": "lighthouse",
+      "premiumScore": 83,
+      "remarkableScore": 52,
+      "photographicScore": 66,
+      "confidence": "MEDIUM",
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Signal phare à distinguer d'un feu maritime technique",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Fort de Taillefer",
+      "type": "fortification",
+      "premiumScore": 83,
+      "remarkableScore": 54,
+      "photographicScore": 64,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type fortification issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Le Vieux Pont Suspendu",
+      "type": "monument",
+      "premiumScore": 83,
+      "remarkableScore": 62,
+      "photographicScore": 59,
+      "confidence": "HIGH",
+      "reasons": [
+        "Type monument issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    }
+  ],
+  "topReview": [
+    {
+      "name": "Jetée de Sainte Evette",
+      "type": "lighthouse",
+      "score": 58,
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Signal phare à distinguer d'un feu maritime technique",
+        "Signal de feu maritime technique sans justification Premium suffisante",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium"
+      ]
+    },
+    {
+      "name": "Phare d'Ar-Men",
+      "type": "lighthouse",
+      "score": 58,
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Identité explicite du lieu",
+        "Phare structurellement caractérisé",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo"
+      ]
+    },
+    {
+      "name": "Phare de Beg Léguer",
+      "type": "lighthouse",
+      "score": 58,
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Signal phare à distinguer d'un feu maritime technique",
+        "Signal de feu maritime technique sans justification Premium suffisante",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium"
+      ]
+    },
+    {
+      "name": "Phare de Bénodet",
+      "type": "lighthouse",
+      "score": 58,
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Signal phare à distinguer d'un feu maritime technique",
+        "Signal de feu maritime technique sans justification Premium suffisante",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium"
+      ]
+    },
+    {
+      "name": "Phare de la Petite Muette",
+      "type": "lighthouse",
+      "score": 58,
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Signal phare à distinguer d'un feu maritime technique",
+        "Signal de feu maritime technique sans justification Premium suffisante",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium"
+      ]
+    },
+    {
+      "name": "Phare de Moguériec",
+      "type": "lighthouse",
+      "score": 58,
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Signal phare à distinguer d'un feu maritime technique",
+        "Signal de feu maritime technique sans justification Premium suffisante",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium"
+      ]
+    },
+    {
+      "name": "Château de Hac",
+      "type": "castle",
+      "score": 56,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte descriptif ou institutionnel présent",
+        "Contexte paysager cohérent à proximité",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Château de la Roche-Jagu",
+      "type": "castle",
+      "score": 56,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte descriptif ou institutionnel présent",
+        "Contexte paysager cohérent à proximité",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Château de Lanniron",
+      "type": "castle",
+      "score": 56,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte descriptif ou institutionnel présent",
+        "Contexte paysager cohérent à proximité",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Château de Suscinio",
+      "type": "castle",
+      "score": 56,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte descriptif ou institutionnel présent",
+        "Contexte paysager cohérent à proximité",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Fort du Loch",
+      "type": "castle",
+      "score": 56,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte descriptif ou institutionnel présent",
+        "Contexte paysager cohérent à proximité",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Fort National",
+      "type": "fortification",
+      "score": 56,
+      "reasons": [
+        "Type fortification issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte descriptif ou institutionnel présent",
+        "Contexte paysager cohérent à proximité",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Ancien Hôpital Frémeur",
+      "type": "monument",
+      "score": 55,
+      "reasons": [
+        "Type monument issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte descriptif ou institutionnel présent",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium"
+      ]
+    },
+    {
+      "name": "Pont de Saint-Goustan",
+      "type": "bridge",
+      "score": 55,
+      "reasons": [
+        "Type bridge issu de l'extraction",
+        "Pont soumis à un filtrage sévère",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Type PhotoAtlas générique ou bruyant",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Ancien manoir de Kerdrain",
+      "type": "castle",
+      "score": 54,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Manoir de Barac'h",
+      "type": "castle",
+      "score": 54,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Manoir de Bel-Air",
+      "type": "castle",
+      "score": 54,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Manoir de Tromeur",
+      "type": "castle",
+      "score": 54,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Manoir de Tronjoly",
+      "type": "castle",
+      "score": 54,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Phare de Saint-Mathieu",
+      "type": "lighthouse",
+      "score": 54,
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Phare du Four",
+      "type": "lighthouse",
+      "score": 54,
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Cap Coz",
+      "type": "lighthouse",
+      "score": 53,
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Signal phare à distinguer d'un feu maritime technique",
+        "Signal de feu maritime technique sans justification Premium suffisante",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium"
+      ]
+    },
+    {
+      "name": "Château de Callac",
+      "type": "castle",
+      "score": 53,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château de La Bruyère",
+      "type": "castle",
+      "score": 53,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château de la Haye",
+      "type": "castle",
+      "score": 53,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château de la Moglais",
+      "type": "castle",
+      "score": 53,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château de la Motte-Basse",
+      "type": "castle",
+      "score": 53,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château de Léhélec",
+      "type": "castle",
+      "score": 53,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château de Lesquiffiou",
+      "type": "castle",
+      "score": 53,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château de Lysandré",
+      "type": "castle",
+      "score": 53,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château de Montauban",
+      "type": "castle",
+      "score": 53,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château de Saint-Aubin-du-Cormier",
+      "type": "ruins",
+      "score": 53,
+      "reasons": [
+        "Type ruins issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium"
+      ]
+    },
+    {
+      "name": "Château des Nétumières",
+      "type": "castle",
+      "score": 53,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château des Rohan",
+      "type": "castle",
+      "score": 53,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château des Salles",
+      "type": "castle",
+      "score": 53,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château du Bordage",
+      "type": "castle",
+      "score": 53,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château du Restmeur",
+      "type": "castle",
+      "score": 53,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château Goëlo",
+      "type": "castle",
+      "score": 53,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Doëlan Amont",
+      "type": "lighthouse",
+      "score": 53,
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Signal phare à distinguer d'un feu maritime technique",
+        "Signal de feu maritime technique sans justification Premium suffisante",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium"
+      ]
+    },
+    {
+      "name": "Ile de Hoedic",
+      "type": "lighthouse",
+      "score": 53,
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Signal phare à distinguer d'un feu maritime technique",
+        "Signal de feu maritime technique sans justification Premium suffisante",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium"
+      ]
+    },
+    {
+      "name": "Ile Houat",
+      "type": "lighthouse",
+      "score": 53,
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Signal phare à distinguer d'un feu maritime technique",
+        "Signal de feu maritime technique sans justification Premium suffisante",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium"
+      ]
+    },
+    {
+      "name": "Ile Molene",
+      "type": "lighthouse",
+      "score": 53,
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Signal phare à distinguer d'un feu maritime technique",
+        "Signal de feu maritime technique sans justification Premium suffisante",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium"
+      ]
+    },
+    {
+      "name": "La Corne",
+      "type": "lighthouse",
+      "score": 53,
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Signal phare à distinguer d'un feu maritime technique",
+        "Signal de feu maritime technique sans justification Premium suffisante",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium"
+      ]
+    },
+    {
+      "name": "La Grande Vinotière",
+      "type": "lighthouse",
+      "score": 53,
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Signal phare à distinguer d'un feu maritime technique",
+        "Signal de feu maritime technique sans justification Premium suffisante",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium"
+      ]
+    },
+    {
+      "name": "Le Vieux Môle",
+      "type": "lighthouse",
+      "score": 53,
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Signal phare à distinguer d'un feu maritime technique",
+        "Signal de feu maritime technique sans justification Premium suffisante",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium"
+      ]
+    },
+    {
+      "name": "Môle des Noires",
+      "type": "lighthouse",
+      "score": 53,
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Signal phare à distinguer d'un feu maritime technique",
+        "Signal de feu maritime technique sans justification Premium suffisante",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium"
+      ]
+    },
+    {
+      "name": "Môle Nord",
+      "type": "lighthouse",
+      "score": 53,
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Signal phare à distinguer d'un feu maritime technique",
+        "Signal de feu maritime technique sans justification Premium suffisante",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium"
+      ]
+    },
+    {
+      "name": "Tourelle des Vieux Moines",
+      "type": "lighthouse",
+      "score": 53,
+      "reasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Signal phare à distinguer d'un feu maritime technique",
+        "Signal de feu maritime technique sans justification Premium suffisante",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium"
+      ]
+    },
+    {
+      "name": "Château",
+      "type": "nature_reserve",
+      "score": 52,
+      "reasons": [
+        "Type nature_reserve issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium"
+      ]
+    },
+    {
+      "name": "Fort de Bertheaume",
+      "type": "ruins",
+      "score": 52,
+      "reasons": [
+        "Type ruins issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "caractère remarquable insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Fort de Penthièvre",
+      "type": "fortification",
+      "score": 52,
+      "reasons": [
+        "Type fortification issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium"
+      ]
+    },
+    {
+      "name": "Fort des Sept-Îles",
+      "type": "fortification",
+      "score": 52,
+      "reasons": [
+        "Type fortification issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium"
+      ]
+    },
+    {
+      "name": "Fort du Mengant",
+      "type": "fortification",
+      "score": 52,
+      "reasons": [
+        "Type fortification issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium"
+      ]
+    },
+    {
+      "name": "Fort du Petit Bé",
+      "type": "fortification",
+      "score": 52,
+      "reasons": [
+        "Type fortification issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte descriptif ou institutionnel présent",
+        "Contexte paysager cohérent à proximité",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Fortin de Kerdonis",
+      "type": "fortification",
+      "score": 52,
+      "reasons": [
+        "Type fortification issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium"
+      ]
+    },
+    {
+      "name": "Fortin de Port Maria",
+      "type": "fortification",
+      "score": 52,
+      "reasons": [
+        "Type fortification issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium"
+      ]
+    },
+    {
+      "name": "Fortin de Port-Fouquet",
+      "type": "fortification",
+      "score": 52,
+      "reasons": [
+        "Type fortification issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium"
+      ]
+    },
+    {
+      "name": "L'observatoire",
+      "type": "observatory",
+      "score": 52,
+      "reasons": [
+        "Type observatory issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Fonction d'observation explicitement démontrée",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "caractère remarquable insuffisamment établi"
+      ]
+    },
+    {
+      "name": "L'Observatoire",
+      "type": "observatory",
+      "score": 52,
+      "reasons": [
+        "Type observatory issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Fonction d'observation explicitement démontrée",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "caractère remarquable insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Observatoire",
+      "type": "observatory",
+      "score": 52,
+      "reasons": [
+        "Type observatory issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Fonction d'observation explicitement démontrée",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "caractère remarquable insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Observatoire",
+      "type": "observatory",
+      "score": 52,
+      "reasons": [
+        "Type observatory issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Fonction d'observation explicitement démontrée",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "caractère remarquable insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Observatoire oiseaux",
+      "type": "observatory",
+      "score": 52,
+      "reasons": [
+        "Type observatory issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Fonction d'observation explicitement démontrée",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "caractère remarquable insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Observatoire ornithologique",
+      "type": "observatory",
+      "score": 52,
+      "reasons": [
+        "Type observatory issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Fonction d'observation explicitement démontrée",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "caractère remarquable insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Observatoire réalisé par des bénévoles en septembre 2003",
+      "type": "observatory",
+      "score": 52,
+      "reasons": [
+        "Type observatory issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Fonction d'observation explicitement démontrée",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "caractère remarquable insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Réserve naturelle d'Iroise",
+      "type": "nature_reserve",
+      "score": 52,
+      "reasons": [
+        "Type nature_reserve issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium"
+      ]
+    },
+    {
+      "name": "Réserve naturelle de Saint-Nicolas des Glénan",
+      "type": "nature_reserve",
+      "score": 52,
+      "reasons": [
+        "Type nature_reserve issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium"
+      ]
+    },
+    {
+      "name": "Château de Pommorio",
+      "type": "castle",
+      "score": 51,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Contexte descriptif ou institutionnel présent",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "caractère remarquable insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château des Pères",
+      "type": "castle",
+      "score": 51,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Contexte descriptif ou institutionnel présent",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "caractère remarquable insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Domaine de Keranperchec",
+      "type": "castle",
+      "score": 51,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Four à chaux de l'Aber",
+      "type": "monument",
+      "score": 51,
+      "reasons": [
+        "Type monument issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Manoir de Coatbily",
+      "type": "castle",
+      "score": 51,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Manoir de Kérat",
+      "type": "castle",
+      "score": 51,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Manoir de Kerbelven",
+      "type": "castle",
+      "score": 51,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Manoir de Kergoz",
+      "type": "castle",
+      "score": 51,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Manoir de Kerhoas",
+      "type": "castle",
+      "score": 51,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Manoir de Kerhos",
+      "type": "castle",
+      "score": 51,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Manoir de Kerivoas",
+      "type": "castle",
+      "score": 51,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Manoir de Kerviziou",
+      "type": "castle",
+      "score": 51,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Manoir de la Grande Palud",
+      "type": "castle",
+      "score": 51,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Manoir de la Vigne",
+      "type": "castle",
+      "score": 51,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Manoir de la Ville-Roger",
+      "type": "castle",
+      "score": 51,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Manoir du Cosquer",
+      "type": "castle",
+      "score": 51,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Oratoire de Saint-Sylvestre",
+      "type": "monument",
+      "score": 51,
+      "reasons": [
+        "Type monument issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Parc naturel régional d'Armorique",
+      "type": "nature_reserve",
+      "score": 51,
+      "reasons": [
+        "Type nature_reserve issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte descriptif ou institutionnel présent",
+        "Contexte paysager cohérent à proximité",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Parc naturel régional du Golfe du Morbihan",
+      "type": "nature_reserve",
+      "score": 51,
+      "reasons": [
+        "Type nature_reserve issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte descriptif ou institutionnel présent",
+        "Contexte paysager cohérent à proximité",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Rue de l'Observatoire",
+      "type": "observatory",
+      "score": 51,
+      "reasons": [
+        "Type observatory issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Fonction d'observation explicitement démontrée",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "caractère remarquable insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Rue de l'Observatoire",
+      "type": "observatory",
+      "score": 51,
+      "reasons": [
+        "Type observatory issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Fonction d'observation explicitement démontrée",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "caractère remarquable insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Rue de l'Observatoire",
+      "type": "observatory",
+      "score": 51,
+      "reasons": [
+        "Type observatory issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Fonction d'observation explicitement démontrée",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "caractère remarquable insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Château d'Ereck",
+      "type": "castle",
+      "score": 50,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château de Bagatelle",
+      "type": "castle",
+      "score": 50,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château de Beaubois",
+      "type": "castle",
+      "score": 50,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château de Beaumont",
+      "type": "castle",
+      "score": 50,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium"
+      ]
+    },
+    {
+      "name": "Château de Beauvais",
+      "type": "castle",
+      "score": 50,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium"
+      ]
+    },
+    {
+      "name": "Château de Bienassis",
+      "type": "castle",
+      "score": 50,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium"
+      ]
+    },
+    {
+      "name": "Château de Bogar",
+      "type": "castle",
+      "score": 50,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château de Bois-Joly",
+      "type": "castle",
+      "score": 50,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium"
+      ]
+    },
+    {
+      "name": "Château de Brignac",
+      "type": "castle",
+      "score": 50,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château de Castellan",
+      "type": "castle",
+      "score": 50,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château de Coat-Frec",
+      "type": "castle",
+      "score": 50,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium"
+      ]
+    },
+    {
+      "name": "Château de Dinan",
+      "type": "castle",
+      "score": 50,
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium"
+      ]
+    }
+  ],
+  "falsePositiveCandidates": [
+    {
+      "key": "lighthouse",
+      "candidates": 124,
+      "premium": 73,
+      "review": 41,
+      "rejected": 10,
+      "premiumRate": 0.5887096774193549
+    }
+  ],
+  "falseNegativeCandidates": [
+    {
+      "name": "Ancien manoir de Kerdrain",
+      "type": "castle",
+      "premiumScore": 54,
+      "remarkableScore": 62,
+      "photographicScore": 48,
+      "confidence": "HIGH",
+      "qualificationStatus": "review",
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Manoir de Barac'h",
+      "type": "castle",
+      "premiumScore": 54,
+      "remarkableScore": 62,
+      "photographicScore": 48,
+      "confidence": "HIGH",
+      "qualificationStatus": "review",
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Manoir de Bel-Air",
+      "type": "castle",
+      "premiumScore": 54,
+      "remarkableScore": 62,
+      "photographicScore": 48,
+      "confidence": "HIGH",
+      "qualificationStatus": "review",
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Manoir de Tromeur",
+      "type": "castle",
+      "premiumScore": 54,
+      "remarkableScore": 62,
+      "photographicScore": 48,
+      "confidence": "HIGH",
+      "qualificationStatus": "review",
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Manoir de Tronjoly",
+      "type": "castle",
+      "premiumScore": 54,
+      "remarkableScore": 62,
+      "photographicScore": 48,
+      "confidence": "HIGH",
+      "qualificationStatus": "review",
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Château de Callac",
+      "type": "castle",
+      "premiumScore": 53,
+      "remarkableScore": 62,
+      "photographicScore": 46,
+      "confidence": "HIGH",
+      "qualificationStatus": "review",
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château de La Bruyère",
+      "type": "castle",
+      "premiumScore": 53,
+      "remarkableScore": 62,
+      "photographicScore": 46,
+      "confidence": "HIGH",
+      "qualificationStatus": "review",
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château de la Haye",
+      "type": "castle",
+      "premiumScore": 53,
+      "remarkableScore": 62,
+      "photographicScore": 46,
+      "confidence": "HIGH",
+      "qualificationStatus": "review",
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château de la Moglais",
+      "type": "castle",
+      "premiumScore": 53,
+      "remarkableScore": 62,
+      "photographicScore": 46,
+      "confidence": "HIGH",
+      "qualificationStatus": "review",
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château de la Motte-Basse",
+      "type": "castle",
+      "premiumScore": 53,
+      "remarkableScore": 62,
+      "photographicScore": 46,
+      "confidence": "HIGH",
+      "qualificationStatus": "review",
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château de Léhélec",
+      "type": "castle",
+      "premiumScore": 53,
+      "remarkableScore": 62,
+      "photographicScore": 46,
+      "confidence": "HIGH",
+      "qualificationStatus": "review",
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château de Lesquiffiou",
+      "type": "castle",
+      "premiumScore": 53,
+      "remarkableScore": 62,
+      "photographicScore": 46,
+      "confidence": "HIGH",
+      "qualificationStatus": "review",
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château de Lysandré",
+      "type": "castle",
+      "premiumScore": 53,
+      "remarkableScore": 62,
+      "photographicScore": 46,
+      "confidence": "HIGH",
+      "qualificationStatus": "review",
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château de Montauban",
+      "type": "castle",
+      "premiumScore": 53,
+      "remarkableScore": 62,
+      "photographicScore": 46,
+      "confidence": "HIGH",
+      "qualificationStatus": "review",
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château des Nétumières",
+      "type": "castle",
+      "premiumScore": 53,
+      "remarkableScore": 62,
+      "photographicScore": 46,
+      "confidence": "HIGH",
+      "qualificationStatus": "review",
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château des Rohan",
+      "type": "castle",
+      "premiumScore": 53,
+      "remarkableScore": 62,
+      "photographicScore": 46,
+      "confidence": "HIGH",
+      "qualificationStatus": "review",
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château des Salles",
+      "type": "castle",
+      "premiumScore": 53,
+      "remarkableScore": 62,
+      "photographicScore": 46,
+      "confidence": "HIGH",
+      "qualificationStatus": "review",
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château du Bordage",
+      "type": "castle",
+      "premiumScore": 53,
+      "remarkableScore": 62,
+      "photographicScore": 46,
+      "confidence": "HIGH",
+      "qualificationStatus": "review",
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château du Restmeur",
+      "type": "castle",
+      "premiumScore": 53,
+      "remarkableScore": 62,
+      "photographicScore": 46,
+      "confidence": "HIGH",
+      "qualificationStatus": "review",
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Château Goëlo",
+      "type": "castle",
+      "premiumScore": 53,
+      "remarkableScore": 62,
+      "photographicScore": 46,
+      "confidence": "HIGH",
+      "qualificationStatus": "review",
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi",
+        "premiumScore < 80"
+      ]
+    },
+    {
+      "name": "Domaine de Keranperchec",
+      "type": "castle",
+      "premiumScore": 51,
+      "remarkableScore": 54,
+      "photographicScore": 48,
+      "confidence": "HIGH",
+      "qualificationStatus": "review",
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Four à chaux de l'Aber",
+      "type": "monument",
+      "premiumScore": 51,
+      "remarkableScore": 54,
+      "photographicScore": 49,
+      "confidence": "HIGH",
+      "qualificationStatus": "review",
+      "reasons": [
+        "Type monument issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Manoir de Coatbily",
+      "type": "castle",
+      "premiumScore": 51,
+      "remarkableScore": 54,
+      "photographicScore": 48,
+      "confidence": "HIGH",
+      "qualificationStatus": "review",
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Manoir de Kérat",
+      "type": "castle",
+      "premiumScore": 51,
+      "remarkableScore": 54,
+      "photographicScore": 48,
+      "confidence": "HIGH",
+      "qualificationStatus": "review",
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi"
+      ]
+    },
+    {
+      "name": "Manoir de Kerbelven",
+      "type": "castle",
+      "premiumScore": 51,
+      "remarkableScore": 54,
+      "photographicScore": 48,
+      "confidence": "HIGH",
+      "qualificationStatus": "review",
+      "reasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Les données disponibles ne permettent pas encore de justifier Premium",
+        "potentiel photographique insuffisamment établi"
+      ]
+    }
+  ],
+  "duplicates": {
+    "groups": 1675,
+    "examples": [
+      [
+        {
+          "placeKey": "osm:node/247070696",
+          "name": "Tours Aunis et Navarre",
+          "type": "other",
+          "status": "rejected",
+          "score": 5
+        },
+        {
+          "placeKey": "osm:node/4071656678",
+          "name": "Liaison Blosne Francisco Ferrer",
+          "type": "other",
+          "status": "rejected",
+          "score": 5
+        }
+      ],
+      [
+        {
+          "placeKey": "osm:node/262508207",
+          "name": "Tumulus avec dolmen du Mané-Nélud",
+          "type": "other",
+          "status": "review",
+          "score": 44
+        },
+        {
+          "placeKey": "osm:node/870701229",
+          "name": "Dolmen du Mané-Rutual",
+          "type": "other",
+          "status": "review",
+          "score": 39
+        },
+        {
+          "placeKey": "osm:way/1313226167",
+          "name": "Table des Marchand",
+          "type": "other",
+          "status": "review",
+          "score": 24
+        },
+        {
+          "placeKey": "osm:way/1313226168",
+          "name": "Tumulus d'Er Grah",
+          "type": "other",
+          "status": "review",
+          "score": 24
+        },
+        {
+          "placeKey": "osm:relation/19515438",
+          "name": "Grand Menhir Brisé d'Er Grah",
+          "type": "other",
+          "status": "review",
+          "score": 24
+        },
+        {
+          "placeKey": "osm:node/5203048594",
+          "name": "Menhir du Bronso",
+          "type": "other",
+          "status": "rejected",
+          "score": 19
+        }
+      ],
+      [
+        {
+          "placeKey": "osm:node/12228474252",
+          "name": "Ot ar Tres",
+          "type": "beach",
+          "status": "rejected",
+          "score": 11
+        },
+        {
+          "placeKey": "osm:node/289544491",
+          "name": "Aod ar Ouis",
+          "type": "beach",
+          "status": "rejected",
+          "score": 7
+        }
+      ],
+      [
+        {
+          "placeKey": "osm:node/5916676377",
+          "name": "Nécropole mégalithique de la pointe du Souc'h",
+          "type": "other",
+          "status": "review",
+          "score": 39
+        },
+        {
+          "placeKey": "osm:node/289644789",
+          "name": "Allée couverte de Menez Korriged à Porz Poul'han",
+          "type": "other",
+          "status": "review",
+          "score": 33
+        },
+        {
+          "placeKey": "osm:node/6781152699",
+          "name": "Grotte de Menez Dregan",
+          "type": "other",
+          "status": "review",
+          "score": 24
+        },
+        {
+          "placeKey": "osm:node/8986105836",
+          "name": "Dolmen de Menez Dregan",
+          "type": "other",
+          "status": "rejected",
+          "score": 19
+        }
+      ],
+      [
+        {
+          "placeKey": "osm:way/82579900",
+          "name": "La Pauline",
+          "type": "other",
+          "status": "rejected",
+          "score": 11
+        },
+        {
+          "placeKey": "osm:node/292747566",
+          "name": "Corps de Garde",
+          "type": "other",
+          "status": "rejected",
+          "score": 8
+        }
+      ],
+      [
+        {
+          "placeKey": "osm:node/3156286061",
+          "name": "Croix de Pen-Hir",
+          "type": "other",
+          "status": "review",
+          "score": 37
+        },
+        {
+          "placeKey": "osm:node/294001824",
+          "name": "Pointe de Pen-Hir",
+          "type": "other",
+          "status": "review",
+          "score": 18
+        }
+      ],
+      [
+        {
+          "placeKey": "osm:node/296065261",
+          "name": "Allée couverte de Kerguntuil",
+          "type": "other",
+          "status": "review",
+          "score": 33
+        },
+        {
+          "placeKey": "osm:way/272331997",
+          "name": "Dolmen et allée couverte de Kergünteil",
+          "type": "other",
+          "status": "review",
+          "score": 22
+        }
+      ],
+      [
+        {
+          "placeKey": "osm:node/296109580",
+          "name": "Dolmen d'Argenton",
+          "type": "other",
+          "status": "review",
+          "score": 37
+        },
+        {
+          "placeKey": "osm:node/2923128013",
+          "name": "Lavoir",
+          "type": "other",
+          "status": "rejected",
+          "score": 19
+        }
+      ],
+      [
+        {
+          "placeKey": "osm:node/296985282",
+          "name": "Poul-Fetan",
+          "type": "other",
+          "status": "rejected",
+          "score": 11
+        },
+        {
+          "placeKey": "osm:node/9504304348",
+          "name": "Village de Poul-Fetan",
+          "type": "other",
+          "status": "rejected",
+          "score": 5
+        }
+      ],
+      [
+        {
+          "placeKey": "osm:node/298837410",
+          "name": "Réserve ornithologique de La Fauconnière",
+          "type": "other",
+          "status": "rejected",
+          "score": 14
+        },
+        {
+          "placeKey": "osm:node/3686971776",
+          "name": "Houle aux Pigeons",
+          "type": "other",
+          "status": "rejected",
+          "score": 14
+        },
+        {
+          "placeKey": "osm:node/6156634809",
+          "name": "Grotte des Grandes Dents",
+          "type": "other",
+          "status": "rejected",
+          "score": 14
+        },
+        {
+          "placeKey": "osm:node/6156640800",
+          "name": "Grotte de l'Arche",
+          "type": "other",
+          "status": "rejected",
+          "score": 14
+        },
+        {
+          "placeKey": "osm:node/6156640813",
+          "name": "Grotte Courbée",
+          "type": "other",
+          "status": "rejected",
+          "score": 14
+        }
+      ],
+      [
+        {
+          "placeKey": "osm:node/3631938402",
+          "name": "Menhir dit La Roche Carrée",
+          "type": "other",
+          "status": "review",
+          "score": 37
+        },
+        {
+          "placeKey": "osm:node/308137394",
+          "name": "Menhir",
+          "type": "other",
+          "status": "rejected",
+          "score": 19
+        },
+        {
+          "placeKey": "osm:way/506265822",
+          "name": "Alignements de Lampouy",
+          "type": "other",
+          "status": "rejected",
+          "score": 8
+        },
+        {
+          "placeKey": "osm:way/506265823",
+          "name": "Alignements de Lampouy",
+          "type": "other",
+          "status": "rejected",
+          "score": 8
+        }
+      ],
+      [
+        {
+          "placeKey": "osm:node/3754244799",
+          "name": "Vue sur Erquy",
+          "type": "viewpoint",
+          "status": "review",
+          "score": 38
+        },
+        {
+          "placeKey": "osm:node/3754250025",
+          "name": "Vue sur Erquy",
+          "type": "viewpoint",
+          "status": "review",
+          "score": 38
+        },
+        {
+          "placeKey": "osm:node/313900366",
+          "name": "Corps de Garde",
+          "type": "viewpoint",
+          "status": "review",
+          "score": 33
+        }
+      ],
+      [
+        {
+          "placeKey": "osm:node/322118873",
+          "name": "Môle Nord",
+          "type": "lighthouse",
+          "status": "review",
+          "score": 53
+        },
+        {
+          "placeKey": "osm:node/348069056",
+          "name": "Môle Ouest Léchiagat",
+          "type": "lighthouse",
+          "status": "review",
+          "score": 53
+        }
+      ],
+      [
+        {
+          "placeKey": "osm:node/344783763",
+          "name": "Menhir de Lanvar",
+          "type": "other",
+          "status": "review",
+          "score": 35
+        },
+        {
+          "placeKey": "osm:node/344441083",
+          "name": "Ancien blockhaus",
+          "type": "other",
+          "status": "rejected",
+          "score": 14
+        },
+        {
+          "placeKey": "osm:node/6376776782",
+          "name": "Ancien blockhaus",
+          "type": "other",
+          "status": "rejected",
+          "score": 14
+        }
+      ],
+      [
+        {
+          "placeKey": "osm:node/1370800988",
+          "name": "Phare du Guilvinec",
+          "type": "lighthouse",
+          "status": "premium",
+          "score": 84
+        },
+        {
+          "placeKey": "osm:node/348069074",
+          "name": "Môle Sud",
+          "type": "lighthouse",
+          "status": "review",
+          "score": 53
+        },
+        {
+          "placeKey": "osm:node/348522765",
+          "name": "Feu Antérieur",
+          "type": "lighthouse",
+          "status": "review",
+          "score": 53
+        },
+        {
+          "placeKey": "osm:node/2203260712",
+          "name": "Feu intermédiaire \"Men Faoutès\"",
+          "type": "lighthouse",
+          "status": "review",
+          "score": 31
+        }
+      ],
+      [
+        {
+          "placeKey": "osm:way/129732484",
+          "name": "Ancienne mine (bâtiment administratif)",
+          "type": "ruins",
+          "status": "review",
+          "score": 31
+        },
+        {
+          "placeKey": "osm:node/354789247",
+          "name": "Carreau de la mine",
+          "type": "ruins",
+          "status": "rejected",
+          "score": 34
+        }
+      ],
+      [
+        {
+          "placeKey": "osm:node/354924007",
+          "name": "Tumulus de Poulguen",
+          "type": "other",
+          "status": "review",
+          "score": 34
+        },
+        {
+          "placeKey": "osm:node/1941582673",
+          "name": "Dolmen",
+          "type": "other",
+          "status": "rejected",
+          "score": 19
+        }
+      ],
+      [
+        {
+          "placeKey": "osm:node/357238608",
+          "name": "Éoliennes de Saint-Alban",
+          "type": "wind_farm",
+          "status": "rejected",
+          "score": 12
+        },
+        {
+          "placeKey": "osm:node/357238635",
+          "name": "Éoliennes de Hénansal",
+          "type": "wind_farm",
+          "status": "rejected",
+          "score": 12
+        }
+      ],
+      [
+        {
+          "placeKey": "osm:node/418933713",
+          "name": "Pierre Blanche",
+          "type": "other",
+          "status": "rejected",
+          "score": 19
+        },
+        {
+          "placeKey": "osm:node/13671103373",
+          "name": "(Tumulus)",
+          "type": "other",
+          "status": "rejected",
+          "score": 19
+        }
+      ],
+      [
+        {
+          "placeKey": "osm:node/440188579",
+          "name": "Porte de la Caserne Guépin",
+          "type": "ruins",
+          "status": "review",
+          "score": 42
+        },
+        {
+          "placeKey": "osm:way/37563754",
+          "name": "Remparts de Brest",
+          "type": "ruins",
+          "status": "review",
+          "score": 41
+        }
+      ]
+    ]
+  },
+  "quality": {
+    "pass": true,
+    "validation": {
+      "invalidTypes": 0,
+      "invalidFamilies": 0,
+      "invalidCoordinates": 0,
+      "duplicatePlaceKeys": 0,
+      "nullScores": 0,
+      "outOfRangeScores": 0
+    },
+    "thresholds": {
+      "remarkableThreshold": 40,
+      "photographicThreshold": 50,
+      "premiumThreshold": 80,
+      "reviewHeuristic": {
+        "baseRankingScore": 50,
+        "remarkableScore": 30,
+        "photographicScore": 40
+      }
+    },
+    "deduplication": {
+      "inputCandidates": 10959,
+      "outputSpots": 7230,
+      "groupsMerged": 1675,
+      "mergedRepresentations": 3729
+    }
+  },
+  "comparisonAquitaine": {
+    "candidates": 65055,
+    "premium": 76,
+    "review": 73,
+    "rejected": 64906,
+    "dominantPremiumTypes": {
+      "summit": 38,
+      "dune": 13,
+      "lighthouse": 11,
+      "oyster_harbour": 8,
+      "observatory": 3,
+      "sandbank": 1,
+      "viewpoint": 1,
+      "bird_reserve": 1
+    }
+  }
+}

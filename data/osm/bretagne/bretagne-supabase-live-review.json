@@ -1,0 +1,648 @@
+{
+  "blocked": true,
+  "blocker": "La lecture live disponible via la clé publishable locale ne retourne que 22 spots verified visibles. L’état complet de public.spots n’est pas accessible, donc la comparaison exhaustive des 105 spots avec la base réelle est incomplète.",
+  "accessScope": {
+    "visibleLiveRows": 22,
+    "visibleStatuses": {
+      "verified": 22
+    }
+  },
+  "counts": {
+    "EXISTANT_CORRECT": 0,
+    "EXISTANT_A_CORRIGER": 0,
+    "NOUVEAU": 105,
+    "DOUBLON_AMBIGU": 0
+  },
+  "results": [
+    {
+      "name": "Phare de la Jument",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare de Pen-Men",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare des Roches-Douvres",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare du Four",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare du Petit Minou",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare des Sept-Îles",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare de la Croix",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare de Tévennec",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare de Trézien",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare des Moutons",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare des Pierres-Noires",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare du Créac'h",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare du Grand-Jardin",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare du Millier",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare du Portzic",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare du Rosédo",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Château de Fougères",
+      "type": "castle",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Observatoire du marais de Séné",
+      "type": "observatory",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Château de Rustéphan",
+      "type": "ruins",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare de Kéréon",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare de Kergadec",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare de l'Aber Ildut",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare de l'île de Sein",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare de l'Île Vierge",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare de la Vieille",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare du Toulinguet",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare et fort de Penfret",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Fort Cigogne",
+      "type": "fortification",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare de Goulphar",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare de Lanvaon",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare du Cap Fréhel",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Château de Fontenay",
+      "type": "castle",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Château de Kéralio",
+      "type": "castle",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Château de la Sécardais",
+      "type": "castle",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Château de Lupin",
+      "type": "castle",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Château du Bot",
+      "type": "castle",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Fort de Taillefer",
+      "type": "fortification",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Le Vieux Pont Suspendu",
+      "type": "monument",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Observatoire",
+      "type": "observatory",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Observatoire",
+      "type": "observatory",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Observatoire",
+      "type": "observatory",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Observatoire de Kersanton",
+      "type": "observatory",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Observatoire de l'étang du Hézo",
+      "type": "observatory",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Observatoire de Lanveur",
+      "type": "observatory",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Observatoire de Penfoul",
+      "type": "observatory",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Observatoire de Pennaras",
+      "type": "observatory",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Observatoire ornithologique",
+      "type": "observatory",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Observatoire ornithologique",
+      "type": "observatory",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Observatoire ornithologique de la Musse",
+      "type": "observatory",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare de l'île de Batz",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare de la Teignouse",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare de Pontusval",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare des Grands Cardinaux",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Château de la Grand'Ville",
+      "type": "castle",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Château de Mesléan",
+      "type": "castle",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Château de Trémohar",
+      "type": "castle",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Lech de Pen-er-Pont",
+      "type": "monument",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Abbaye Saint-Maurice",
+      "type": "ruins",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Batterie Basse de Cornouaille",
+      "type": "ruins",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Château de Beaumont",
+      "type": "castle",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Château de Coat-Trédrez",
+      "type": "castle",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Château de Lezergué",
+      "type": "castle",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Château de Sourdéac",
+      "type": "castle",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Château de Talhouët",
+      "type": "castle",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Château de Troménec",
+      "type": "castle",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Château du Hénant",
+      "type": "castle",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Fort du Minou",
+      "type": "ruins",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare d'Eckmühl",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare de Kermorvan",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare de Langoz",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare de Mean Ruz",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare de Port-Navalo",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare de Roscoff",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Réserve Ornithologique Koh Kastel",
+      "type": "bird_reserve",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Ruines du château de La Chèze",
+      "type": "ruins",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Anciens Fours à chaux",
+      "type": "ruins",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Butte de César",
+      "type": "viewpoint",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Château de Boutavent",
+      "type": "castle",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Château de Cargouët",
+      "type": "ruins",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Château de Coëtquen",
+      "type": "ruins",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Château de la Touche-à-la Vache",
+      "type": "ruins",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Château de Perrien",
+      "type": "ruins",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Château du Bois de la Salle",
+      "type": "castle",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Ensemble fortifié de La Ferrière",
+      "type": "fortification",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Fort du Cabellou",
+      "type": "fortification",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "La Citadelle",
+      "type": "fortification",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "observatoire",
+      "type": "observatory",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Observatoire",
+      "type": "observatory",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Observatoire aquatique",
+      "type": "observatory",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Observatoire astronomique de la pointe du Diable",
+      "type": "observatory",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Observatoire de l'Astro-Club Alnitak",
+      "type": "observatory",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Observatoire faune",
+      "type": "observatory",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Observatoire n°1",
+      "type": "observatory",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Observatoire n°3",
+      "type": "observatory",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Observatoire nº 1",
+      "type": "observatory",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Observatoire nº 2",
+      "type": "observatory",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Observatoire ornithologique",
+      "type": "observatory",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare de la Balue",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Phare de La Croix",
+      "type": "lighthouse",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Réserve ornithologique du Verdelet",
+      "type": "bird_reserve",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Restes du château",
+      "type": "ruins",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Ruines de la chapelle de Lochrist et calvaire",
+      "type": "ruins",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Vestiges de l'ancien château de Crénan",
+      "type": "ruins",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Viaduc de Port-Nieux",
+      "type": "bridge",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    },
+    {
+      "name": "Village déserté fortifié de Goarem-ar-Manec'h",
+      "type": "ruins",
+      "category": "NOUVEAU",
+      "reason": "Aucune correspondance fiable dans les 22 spots live visibles avec la clé publishable"
+    }
+  ]
+}

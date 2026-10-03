@@ -1,0 +1,3048 @@
+{
+  "dataset": "/Users/seb/Pictures/Site Web PhotoAtlas/data/osm/aquitaine-photo-candidates.jsonl",
+  "generatedAt": "2026-10-01T21:03:22.711Z",
+  "thresholds": {
+    "remarkableThreshold": 40,
+    "photographicThreshold": 50,
+    "premiumThreshold": 80
+  },
+  "before": 65055,
+  "beforePrevious": 194,
+  "premium": 76,
+  "nonPremium": 64979,
+  "premiumByFamily": {
+    "Littoral": 14,
+    "Maritime": 19,
+    "Nature": 1,
+    "Relief": 39,
+    "Architecture": 0,
+    "Observation": 3,
+    "Faune": 0,
+    "Structures": 0
+  },
+  "premiumByType": {
+    "summit": 38,
+    "dune": 13,
+    "lighthouse": 11,
+    "oyster_harbour": 8,
+    "observatory": 3,
+    "sandbank": 1,
+    "viewpoint": 1,
+    "bird_reserve": 1
+  },
+  "confidence": {
+    "HIGH": 64,
+    "MEDIUM": 12,
+    "LOW": 0
+  },
+  "top200": [
+    {
+      "name": "Phare de Ciboure",
+      "type": "lighthouse",
+      "family": "Maritime",
+      "remarkableScore": 90,
+      "photographicScore": 62,
+      "premiumScore": 90,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "protected_or_heritage_status",
+        "cross_documented_landmark",
+        "specific_structural_descriptor",
+        "explicit_thematic_context",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Phare identifié directement",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte descriptif ou institutionnel présent",
+        "Identité métier explicite du lieu",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Phare d'Hourtin",
+      "type": "lighthouse",
+      "family": "Maritime",
+      "remarkableScore": 82,
+      "photographicScore": 66,
+      "premiumScore": 89,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "protected_or_heritage_status",
+        "cross_documented_landmark",
+        "specific_structural_descriptor",
+        "explicit_thematic_context",
+        "visual_documentation",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Phare identifié directement",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Identité métier explicite du lieu",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Phare de la Pointe de Grave",
+      "type": "lighthouse",
+      "family": "Maritime",
+      "remarkableScore": 82,
+      "photographicScore": 66,
+      "premiumScore": 89,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "protected_or_heritage_status",
+        "cross_documented_landmark",
+        "specific_structural_descriptor",
+        "explicit_thematic_context",
+        "visual_documentation",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Phare identifié directement",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Identité métier explicite du lieu",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Dune du Pilat",
+      "type": "dune",
+      "family": "Littoral",
+      "remarkableScore": 64,
+      "photographicScore": 75,
+      "premiumScore": 88,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "cross_documented_landmark",
+        "specific_structural_descriptor",
+        "explicit_thematic_context",
+        "scenic_context_nearby",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Type dune identifié directement",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Identité métier explicite du lieu",
+        "Contexte paysager ou photogénique cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Phare de Contis",
+      "type": "lighthouse",
+      "family": "Maritime",
+      "remarkableScore": 82,
+      "photographicScore": 62,
+      "premiumScore": 88,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "protected_or_heritage_status",
+        "cross_documented_landmark",
+        "specific_structural_descriptor",
+        "explicit_thematic_context",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Phare identifié directement",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Identité métier explicite du lieu",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Phare du Cap-Ferret",
+      "type": "lighthouse",
+      "family": "Maritime",
+      "remarkableScore": 82,
+      "photographicScore": 62,
+      "premiumScore": 88,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "protected_or_heritage_status",
+        "cross_documented_landmark",
+        "specific_structural_descriptor",
+        "explicit_thematic_context",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Phare identifié directement",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Identité métier explicite du lieu",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Dune du Pilat",
+      "type": "dune",
+      "family": "Littoral",
+      "remarkableScore": 52,
+      "photographicScore": 79,
+      "premiumScore": 86,
+      "confidence": "MEDIUM",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "explicit_thematic_context",
+        "scenic_context_nearby",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Point haut nommé associé à une dune",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Identité métier explicite du lieu",
+        "Contexte paysager ou photogénique cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Observatoire Sainte-Cécile",
+      "type": "observatory",
+      "family": "Observation",
+      "remarkableScore": 66,
+      "photographicScore": 64,
+      "premiumScore": 85,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "protected_or_heritage_status",
+        "specific_structural_descriptor",
+        "explicit_thematic_context",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Tour d'observation nommée comme observatoire",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Signal patrimonial ou de protection présent",
+        "Contexte descriptif ou institutionnel présent",
+        "Identité métier explicite du lieu",
+        "Fonction d'observation explicitement démontrée",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Phare de Patiras",
+      "type": "lighthouse",
+      "family": "Maritime",
+      "remarkableScore": 64,
+      "photographicScore": 66,
+      "premiumScore": 85,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "cross_documented_landmark",
+        "specific_structural_descriptor",
+        "explicit_thematic_context",
+        "visual_documentation",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Phare identifié directement",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Identité métier explicite du lieu",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Añelarra",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 54,
+      "photographicScore": 68,
+      "premiumScore": 84,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "cross_documented_landmark",
+        "specific_structural_descriptor",
+        "high_elevation_peak",
+        "scenic_context_nearby"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Sommet avec altitude significative",
+        "Contexte paysager ou photogénique cohérent à proximité",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Phare Saint-Nicolas",
+      "type": "lighthouse",
+      "family": "Maritime",
+      "remarkableScore": 56,
+      "photographicScore": 66,
+      "premiumScore": 84,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "explicit_thematic_context",
+        "visual_documentation",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Phare identifié directement",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Identité métier explicite du lieu",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Dune du Pilat",
+      "type": "dune",
+      "family": "Littoral",
+      "remarkableScore": 52,
+      "photographicScore": 67,
+      "premiumScore": 83,
+      "confidence": "MEDIUM",
+      "distinctiveSignals": [
+        "cross_documented_landmark",
+        "explicit_thematic_context",
+        "scenic_context_nearby",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Point de vue nommé directement associé à une dune",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Identité métier explicite du lieu",
+        "Contexte paysager ou photogénique cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Phare de la Pointe Saint-Martin",
+      "type": "viewpoint",
+      "family": "Relief",
+      "remarkableScore": 70,
+      "photographicScore": 51,
+      "premiumScore": 83,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "protected_or_heritage_status",
+        "cross_documented_landmark",
+        "specific_structural_descriptor",
+        "explicit_thematic_context"
+      ],
+      "reasons": [
+        "Point de vue nommé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte descriptif ou institutionnel présent",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Grande Fache",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 62,
+      "photographicScore": 54,
+      "premiumScore": 82,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "cross_documented_landmark",
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Contexte descriptif ou institutionnel présent",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Pic du Balaïtous",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 62,
+      "photographicScore": 54,
+      "premiumScore": 82,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "cross_documented_landmark",
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Contexte descriptif ou institutionnel présent",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Port de Larros",
+      "type": "oyster_harbour",
+      "family": "Maritime",
+      "remarkableScore": 56,
+      "photographicScore": 62,
+      "premiumScore": 82,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "explicit_thematic_context",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Port ostréicole explicitement identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Contexte descriptif ou institutionnel présent",
+        "Identité métier explicite du lieu",
+        "Port ostréicole explicitement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Dune de Ginestras",
+      "type": "dune",
+      "family": "Littoral",
+      "remarkableScore": 44,
+      "photographicScore": 65,
+      "premiumScore": 81,
+      "confidence": "MEDIUM",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "explicit_thematic_context",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Point haut nommé associé à une dune",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité métier explicite du lieu",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Dune de la Canillouse",
+      "type": "dune",
+      "family": "Littoral",
+      "remarkableScore": 44,
+      "photographicScore": 65,
+      "premiumScore": 81,
+      "confidence": "MEDIUM",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "explicit_thematic_context",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Point haut nommé associé à une dune",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité métier explicite du lieu",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Dune de Lespinglade",
+      "type": "dune",
+      "family": "Littoral",
+      "remarkableScore": 44,
+      "photographicScore": 65,
+      "premiumScore": 81,
+      "confidence": "MEDIUM",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "explicit_thematic_context",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Point haut nommé associé à une dune",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité métier explicite du lieu",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Dune des Abits",
+      "type": "dune",
+      "family": "Littoral",
+      "remarkableScore": 44,
+      "photographicScore": 65,
+      "premiumScore": 81,
+      "confidence": "MEDIUM",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "explicit_thematic_context",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Point haut nommé associé à une dune",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité métier explicite du lieu",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Dune du Crohot Nègre",
+      "type": "dune",
+      "family": "Littoral",
+      "remarkableScore": 44,
+      "photographicScore": 65,
+      "premiumScore": 81,
+      "confidence": "MEDIUM",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "explicit_thematic_context",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Point haut nommé associé à une dune",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité métier explicite du lieu",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Dune du Nègre",
+      "type": "dune",
+      "family": "Littoral",
+      "remarkableScore": 44,
+      "photographicScore": 65,
+      "premiumScore": 81,
+      "confidence": "MEDIUM",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "explicit_thematic_context",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Point haut nommé associé à une dune",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité métier explicite du lieu",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Dune du Petit Crohot Nègre",
+      "type": "dune",
+      "family": "Littoral",
+      "remarkableScore": 44,
+      "photographicScore": 65,
+      "premiumScore": 81,
+      "confidence": "MEDIUM",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "explicit_thematic_context",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Point haut nommé associé à une dune",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité métier explicite du lieu",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Dune Du Rocher",
+      "type": "dune",
+      "family": "Littoral",
+      "remarkableScore": 44,
+      "photographicScore": 65,
+      "premiumScore": 81,
+      "confidence": "MEDIUM",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "explicit_thematic_context",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Point haut nommé associé à une dune",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité métier explicite du lieu",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Dunes de la Barreyre",
+      "type": "dune",
+      "family": "Littoral",
+      "remarkableScore": 44,
+      "photographicScore": 65,
+      "premiumScore": 81,
+      "confidence": "MEDIUM",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "explicit_thematic_context",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Point haut nommé associé à une dune",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité métier explicite du lieu",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Dunes de Labiau",
+      "type": "dune",
+      "family": "Littoral",
+      "remarkableScore": 44,
+      "photographicScore": 65,
+      "premiumScore": 81,
+      "confidence": "MEDIUM",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "explicit_thematic_context",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Point haut nommé associé à une dune",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité métier explicite du lieu",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "L'Adour Jetee Nord",
+      "type": "lighthouse",
+      "family": "Maritime",
+      "remarkableScore": 48,
+      "photographicScore": 64,
+      "premiumScore": 81,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "explicit_thematic_context",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Phare identifié directement",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité métier explicite du lieu",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "L'Adour Jetee Sud",
+      "type": "lighthouse",
+      "family": "Maritime",
+      "remarkableScore": 48,
+      "photographicScore": 64,
+      "premiumScore": 81,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "explicit_thematic_context",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Phare identifié directement",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité métier explicite du lieu",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Port ostréicole d'Arès",
+      "type": "oyster_harbour",
+      "family": "Maritime",
+      "remarkableScore": 48,
+      "photographicScore": 62,
+      "premiumScore": 81,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "explicit_thematic_context",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Port ostréicole explicitement identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité métier explicite du lieu",
+        "Port ostréicole explicitement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Port ostréicole de La Teste",
+      "type": "oyster_harbour",
+      "family": "Maritime",
+      "remarkableScore": 48,
+      "photographicScore": 62,
+      "premiumScore": 81,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "explicit_thematic_context",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Port ostréicole explicitement identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité métier explicite du lieu",
+        "Port ostréicole explicitement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Port ostréicole du Rocher",
+      "type": "oyster_harbour",
+      "family": "Maritime",
+      "remarkableScore": 48,
+      "photographicScore": 62,
+      "premiumScore": 81,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "explicit_thematic_context",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Port ostréicole explicitement identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité métier explicite du lieu",
+        "Port ostréicole explicitement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Port ostréicole et de plaisance",
+      "type": "oyster_harbour",
+      "family": "Maritime",
+      "remarkableScore": 48,
+      "photographicScore": 62,
+      "premiumScore": 81,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "explicit_thematic_context",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Port ostréicole explicitement identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité métier explicite du lieu",
+        "Port ostréicole explicitement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Arlas",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 54,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "cross_documented_landmark",
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Arthanolatze Gaïna",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 46,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Banc d'Arguin",
+      "type": "sandbank",
+      "family": "Littoral",
+      "remarkableScore": 40,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "explicit_thematic_context",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Littoral nommé évoquant un banc de sable",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité métier explicite du lieu",
+        "Banc de sable explicitement individualisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Binbaleta",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 46,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Budogia",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 54,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "cross_documented_landmark",
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Dent de Soques",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 46,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Feu de Sainte Barbe",
+      "type": "lighthouse",
+      "family": "Maritime",
+      "remarkableScore": 56,
+      "photographicScore": 52,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Phare identifié directement",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Contexte descriptif ou institutionnel présent",
+        "Identité métier explicite du lieu",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Feux de Sainte-Barbe (1870)",
+      "type": "lighthouse",
+      "family": "Maritime",
+      "remarkableScore": 48,
+      "photographicScore": 52,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Phare identifié directement",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité métier explicite du lieu",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Frondella SW",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 46,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Grande aiguille d'Ansabère",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 46,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Hiru Erregeen Mahaia",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 54,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Contexte descriptif ou institutionnel présent",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Izarbe",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 46,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "L'Escarpu ou Pic de Sesques",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 46,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Lakartxela",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 46,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Lakhura",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 54,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Contexte descriptif ou institutionnel présent",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "O Casterillet / Torre de Cadier",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 46,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Observatoire de Bordeaux",
+      "type": "observatory",
+      "family": "Observation",
+      "remarkableScore": 56,
+      "photographicScore": 52,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "explicit_thematic_context",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Site d'observation identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Contexte descriptif ou institutionnel présent",
+        "Identité métier explicite du lieu",
+        "Fonction d'observation explicitement démontrée",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Observatoire de Dax",
+      "type": "observatory",
+      "family": "Observation",
+      "remarkableScore": 48,
+      "photographicScore": 52,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "explicit_thematic_context",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Site d'observation identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Contexte descriptif ou institutionnel présent",
+        "Identité métier explicite du lieu",
+        "Fonction d'observation explicitement démontrée",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Orhi",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 54,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Contexte descriptif ou institutionnel présent",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Otsogorrigaina",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 46,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Pic d'Anie",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 54,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "cross_documented_landmark",
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Pic d'Ansabère / Petrechema",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 46,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Pic d'Arnousse Norte",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 46,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Contexte descriptif ou institutionnel présent",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Pic de Bizkarzé",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 54,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "cross_documented_landmark",
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Pic de Burcq",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 46,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Pic de Gabizos",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 46,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Pic de Ger",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 54,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "cross_documented_landmark",
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Pic de Soques",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 46,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Pic du Midi d'Ossau",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 54,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "cross_documented_landmark",
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Pic Durban",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 46,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Pic Palas",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 54,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "cross_documented_landmark",
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Pic Peyreget",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 46,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Pico d'Arriel / Punta dero Saldiecho",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 54,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "cross_documented_landmark",
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Pico de Arnousse",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 46,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Contexte descriptif ou institutionnel présent",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Pico de Cambalés",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 46,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Port de Gujan",
+      "type": "oyster_harbour",
+      "family": "Maritime",
+      "remarkableScore": 48,
+      "photographicScore": 50,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "explicit_thematic_context",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Port ostréicole explicitement identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Contexte descriptif ou institutionnel présent",
+        "Identité métier explicite du lieu",
+        "Port ostréicole explicitement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Port de la Mole",
+      "type": "oyster_harbour",
+      "family": "Maritime",
+      "remarkableScore": 48,
+      "photographicScore": 52,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "explicit_thematic_context",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Port ostréicole explicitement identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Contexte descriptif ou institutionnel présent",
+        "Identité métier explicite du lieu",
+        "Port ostréicole explicitement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Port de Meyran",
+      "type": "oyster_harbour",
+      "family": "Maritime",
+      "remarkableScore": 48,
+      "photographicScore": 50,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "explicit_thematic_context",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Port ostréicole explicitement identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Contexte descriptif ou institutionnel présent",
+        "Identité métier explicite du lieu",
+        "Port ostréicole explicitement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Punta Acué",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 54,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "cross_documented_landmark",
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Punta O Risté",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 46,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Réserve ornithologique du Teich",
+      "type": "bird_reserve",
+      "family": "Nature",
+      "remarkableScore": 56,
+      "photographicScore": 50,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "cross_documented_landmark",
+        "explicit_thematic_context",
+        "type_specific_identity"
+      ],
+      "reasons": [
+        "Réserve nommée à vocation ornithologique",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Identité métier explicite du lieu",
+        "Vocation d'observation ornithologique explicite",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Sommet de Batcrabère",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 46,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Soum d'Ypy",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 54,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "cross_documented_landmark",
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    },
+    {
+      "name": "Table des Trois Rois",
+      "type": "summit",
+      "family": "Relief",
+      "remarkableScore": 46,
+      "photographicScore": 54,
+      "premiumScore": 80,
+      "confidence": "HIGH",
+      "distinctiveSignals": [
+        "specific_structural_descriptor",
+        "high_elevation_peak"
+      ],
+      "reasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Sommet avec altitude significative",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ]
+    }
+  ],
+  "falsePremiums": [
+    {
+      "name": "Añelarra",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 68,
+      "premiumScore": 55,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Contexte paysager ou photogénique cohérent à proximité",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Pic d'Anchet",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 68,
+      "premiumScore": 55,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Contexte paysager ou photogénique cohérent à proximité",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Pic d'Anchet",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 68,
+      "premiumScore": 55,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Contexte paysager ou photogénique cohérent à proximité",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Pico Bénou",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 68,
+      "premiumScore": 55,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Contexte paysager ou photogénique cohérent à proximité",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Pico Bénou",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 68,
+      "premiumScore": 55,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Contexte paysager ou photogénique cohérent à proximité",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Dune du Pilat",
+      "photoAtlasType": "dune",
+      "remarkableScore": 36,
+      "photographicScore": 67,
+      "premiumScore": 53,
+      "confidence": "MEDIUM",
+      "rejectionReasons": [
+        "Point de vue nommé directement associé à une dune",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité métier explicite du lieu",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Contexte paysager ou photogénique cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "tourism=viewpoint"
+    },
+    {
+      "name": "Château fort de Mauléon",
+      "photoAtlasType": "castle",
+      "remarkableScore": 70,
+      "photographicScore": 38,
+      "premiumScore": 52,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Château identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte descriptif ou institutionnel présent",
+        "Expression visuelle identifiable de la structure patrimoniale",
+        "Intérêt photographique insuffisamment démontré par les données",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "photographic",
+        "premiumScore"
+      ],
+      "principalTag": "historic=castle"
+    },
+    {
+      "name": "Phare de Socoa",
+      "photoAtlasType": "lighthouse",
+      "remarkableScore": 36,
+      "photographicScore": 64,
+      "premiumScore": 51,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Phare identifié directement",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "man_made=lighthouse"
+    },
+    {
+      "name": "Baigura",
+      "photoAtlasType": "summit",
+      "remarkableScore": 36,
+      "photographicScore": 62,
+      "premiumScore": 50,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Contexte paysager ou photogénique cohérent à proximité",
+        "Altitude notable mais modérée",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Baigura",
+      "photoAtlasType": "summit",
+      "remarkableScore": 36,
+      "photographicScore": 62,
+      "premiumScore": 50,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Contexte paysager ou photogénique cohérent à proximité",
+        "Altitude notable mais modérée",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Iguzki",
+      "photoAtlasType": "summit",
+      "remarkableScore": 36,
+      "photographicScore": 62,
+      "premiumScore": 50,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Contexte descriptif ou institutionnel présent",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Contexte paysager ou photogénique cohérent à proximité",
+        "Altitude notable mais modérée",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Iguzki",
+      "photoAtlasType": "summit",
+      "remarkableScore": 36,
+      "photographicScore": 62,
+      "premiumScore": 50,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Contexte descriptif ou institutionnel présent",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Contexte paysager ou photogénique cohérent à proximité",
+        "Altitude notable mais modérée",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Laurinaga",
+      "photoAtlasType": "summit",
+      "remarkableScore": 36,
+      "photographicScore": 62,
+      "premiumScore": 50,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Contexte descriptif ou institutionnel présent",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Contexte paysager ou photogénique cohérent à proximité",
+        "Altitude notable mais modérée",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Phare de Saint-Jean-de-Luz",
+      "photoAtlasType": "lighthouse",
+      "remarkableScore": 36,
+      "photographicScore": 62,
+      "premiumScore": 50,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Phare identifié directement",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "man_made=lighthouse"
+    },
+    {
+      "name": "Maison forte de Reignac",
+      "photoAtlasType": "castle",
+      "remarkableScore": 62,
+      "photographicScore": 38,
+      "premiumScore": 49,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Château identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte descriptif ou institutionnel présent",
+        "Expression visuelle identifiable de la structure patrimoniale",
+        "Intérêt photographique insuffisamment démontré par les données",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "photographic",
+        "premiumScore"
+      ],
+      "principalTag": "historic=castle"
+    },
+    {
+      "name": "Port du Canal",
+      "photoAtlasType": "oyster_harbour",
+      "remarkableScore": 48,
+      "photographicScore": 48,
+      "premiumScore": 48,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Port ostréicole explicitement identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Contexte descriptif ou institutionnel présent",
+        "Identité métier explicite du lieu",
+        "Port ostréicole explicitement caractérisé",
+        "Intérêt photographique insuffisamment démontré par les données",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "photographic",
+        "premiumScore"
+      ],
+      "principalTag": "leisure=marina"
+    },
+    {
+      "name": "A Coroneta",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 54,
+      "premiumScore": 47,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "A Forqueta",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 54,
+      "premiumScore": 47,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Aiguille",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 54,
+      "premiumScore": 47,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Aiguille de la Brèche",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 54,
+      "premiumScore": 47,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Aiguilles des Quintètes",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 54,
+      "premiumScore": 47,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Alkatetxaia",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 54,
+      "premiumScore": 47,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Alto de Somport",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 54,
+      "premiumScore": 47,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Añelarra Occidental",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 54,
+      "premiumScore": 47,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Arbotiko Phünta",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 54,
+      "premiumScore": 47,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Arralla de las Foyas",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 54,
+      "premiumScore": 47,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Arre-Sourins",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 54,
+      "premiumScore": 47,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Artikulugagna",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 54,
+      "premiumScore": 47,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "As Gralleras",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 54,
+      "premiumScore": 47,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Aucupat",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 54,
+      "premiumScore": 47,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Axurterria",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 54,
+      "premiumScore": 47,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Baldetosas",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 54,
+      "premiumScore": 47,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Belhaï",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 54,
+      "premiumScore": 47,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Berdoulet",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 54,
+      "premiumScore": 47,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Bessata",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 54,
+      "premiumScore": 47,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Betzulagaña",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 54,
+      "premiumScore": 47,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Budogia Occidental",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 54,
+      "premiumScore": 47,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Caillabet de Rébec",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 54,
+      "premiumScore": 47,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Cailloux de Lagne",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 54,
+      "premiumScore": 47,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Cambeilh",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 54,
+      "premiumScore": 47,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Cambouet",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 54,
+      "premiumScore": 47,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Campana d'Anéou",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 54,
+      "premiumScore": 47,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Cap de Leuba",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 54,
+      "premiumScore": 47,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Capéran Sud de Ger",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 54,
+      "premiumScore": 47,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Cima de Arre",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 54,
+      "premiumScore": 47,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Coste Lizo",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 54,
+      "premiumScore": 47,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Cotdoquy",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 54,
+      "premiumScore": 47,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Crête de Barthèque",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 54,
+      "premiumScore": 47,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Crète de Pène Sarrière",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 54,
+      "premiumScore": 47,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    },
+    {
+      "name": "Crête de Pombie",
+      "photoAtlasType": "summit",
+      "remarkableScore": 38,
+      "photographicScore": 54,
+      "premiumScore": 47,
+      "confidence": "HIGH",
+      "rejectionReasons": [
+        "Sommet identifié",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Sommet avec altitude significative",
+        "Caractère remarquable insuffisamment établi par les données",
+        "Altitude significative pour un sommet",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "missingConditions": [
+        "remarkable",
+        "premiumScore"
+      ],
+      "principalTag": "natural=peak"
+    }
+  ],
+  "premiumDeduplicated": 73,
+  "deduplication": {
+    "groupsMerged": 2,
+    "alternateRepresentations": 3,
+    "thresholdPolicy": {
+      "pointLikeMeters": 400,
+      "maritimeNatureMeters": 2500,
+      "largeAreaMeters": 3000,
+      "preciseStructuresMeters": 600
+    }
+  },
+  "basinSpots": [
+    {
+      "name": "Dune du Pilat",
+      "foundInCandidates": true,
+      "premium": true,
+      "score": 88,
+      "type": "dune",
+      "remarkableScore": 64,
+      "photographicScore": 75,
+      "confidence": "HIGH",
+      "expectedType": "dune",
+      "currentPhotoAtlasType": "dune",
+      "candidateCount": 4
+    },
+    {
+      "name": "Banc d'Arguin",
+      "foundInCandidates": true,
+      "premium": true,
+      "score": 80,
+      "type": "sandbank",
+      "remarkableScore": 40,
+      "photographicScore": 54,
+      "confidence": "HIGH",
+      "expectedType": "sandbank",
+      "currentPhotoAtlasType": "nature",
+      "candidateCount": 1
+    },
+    {
+      "name": "Port de Larros",
+      "foundInCandidates": true,
+      "premium": false,
+      "score": 12,
+      "type": "harbour",
+      "remarkableScore": 16,
+      "photographicScore": 9,
+      "confidence": "MEDIUM",
+      "expectedType": "harbour",
+      "currentPhotoAtlasType": "harbour",
+      "candidateCount": 2
+    },
+    {
+      "name": "Port ostréicole de La Teste",
+      "foundInCandidates": true,
+      "premium": true,
+      "score": 81,
+      "type": "oyster_harbour",
+      "remarkableScore": 48,
+      "photographicScore": 62,
+      "confidence": "HIGH",
+      "expectedType": "oyster_harbour",
+      "currentPhotoAtlasType": "harbour",
+      "candidateCount": 1
+    },
+    {
+      "name": "Jetée d'Andernos",
+      "foundInCandidates": true,
+      "premium": false,
+      "score": 30,
+      "type": "pier",
+      "remarkableScore": 20,
+      "photographicScore": 39,
+      "confidence": "HIGH",
+      "expectedType": "pier",
+      "currentPhotoAtlasType": "pier",
+      "candidateCount": 1
+    },
+    {
+      "name": "Jetée Bélisaire",
+      "foundInCandidates": true,
+      "premium": false,
+      "score": 30,
+      "type": "pier",
+      "remarkableScore": 20,
+      "photographicScore": 39,
+      "confidence": "HIGH",
+      "expectedType": "pier",
+      "currentPhotoAtlasType": "pier",
+      "candidateCount": 1
+    },
+    {
+      "name": "Phare du Cap-Ferret",
+      "foundInCandidates": true,
+      "premium": true,
+      "score": 88,
+      "type": "lighthouse",
+      "remarkableScore": 82,
+      "photographicScore": 62,
+      "confidence": "HIGH",
+      "expectedType": "lighthouse",
+      "currentPhotoAtlasType": "lighthouse",
+      "candidateCount": 1
+    },
+    {
+      "name": "Plage du Moulleau",
+      "foundInCandidates": true,
+      "premium": false,
+      "score": 7,
+      "type": "beach",
+      "remarkableScore": 16,
+      "photographicScore": 0,
+      "confidence": "MEDIUM",
+      "expectedType": "beach",
+      "currentPhotoAtlasType": "beach",
+      "candidateCount": 1
+    },
+    {
+      "name": "Réserve ornithologique du Teich",
+      "foundInCandidates": true,
+      "premium": true,
+      "score": 80,
+      "type": "bird_reserve",
+      "remarkableScore": 56,
+      "photographicScore": 50,
+      "confidence": "HIGH",
+      "expectedType": "bird_reserve",
+      "currentPhotoAtlasType": "nature",
+      "candidateCount": 1
+    },
+    {
+      "name": "Observatoire Sainte-Cécile",
+      "foundInCandidates": true,
+      "premium": true,
+      "score": 85,
+      "type": "observatory",
+      "remarkableScore": 66,
+      "photographicScore": 64,
+      "confidence": "HIGH",
+      "expectedType": "observatory",
+      "currentPhotoAtlasType": "architecture",
+      "candidateCount": 1
+    }
+  ],
+  "genericTypes": {
+    "beach": 0,
+    "forest": 0,
+    "village": 0,
+    "religious_building": 0,
+    "viewpoint": 1,
+    "tourism=attraction": 0
+  },
+  "quality": {
+    "highPriorityPremiums": 76,
+    "genericPremiums": 0,
+    "largeAreaPremiums": 1,
+    "architectureShare": 0,
+    "premiumBelow80Count": 0
+  },
+  "limitations": {
+    "missingObservatoireSainteCecileFromCandidates": false,
+    "missingJeteeBelisaireExactNameFromCandidates": false,
+    "note": "La seconde passe ne relit pas le PBF et dépend strictement du JSONL intermédiaire issu du premier filtre."
+  },
+  "tests": {
+    "passed": true,
+    "failures": []
+  }
+}

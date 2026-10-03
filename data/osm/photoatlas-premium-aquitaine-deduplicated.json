@@ -1,0 +1,2778 @@
+[
+  {
+    "placeKey": "phare de ciboure--lighthouse--43380--1670",
+    "name": "Phare de Ciboure",
+    "nameFr": null,
+    "latitude": 43.38,
+    "longitude": -1.67,
+    "photoAtlasType": "lighthouse",
+    "photoAtlasFamily": "Maritime",
+    "remarkableScore": 90,
+    "photographicScore": 62,
+    "premiumScore": 90,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Phare identifié directement",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation croisée Wikidata/Wikipedia",
+      "Signal patrimonial ou de protection fort",
+      "Contexte descriptif ou institutionnel présent",
+      "Identité métier explicite du lieu",
+      "Phare structurellement caractérisé",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "way",
+        "osmId": 72598412,
+        "sourceExternalId": "osm:way/72598412",
+        "photoAtlasType": "lighthouse",
+        "principalTag": "man_made=lighthouse",
+        "coordinateSource": "representative_way_geometry",
+        "confidence": "HIGH",
+        "premiumScore": 90,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "phare d hourtin--lighthouse--45140--1160",
+    "name": "Phare d'Hourtin",
+    "nameFr": null,
+    "latitude": 45.14,
+    "longitude": -1.16,
+    "photoAtlasType": "lighthouse",
+    "photoAtlasFamily": "Maritime",
+    "remarkableScore": 82,
+    "photographicScore": 66,
+    "premiumScore": 89,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Phare identifié directement",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation croisée Wikidata/Wikipedia",
+      "Signal patrimonial ou de protection fort",
+      "Identité métier explicite du lieu",
+      "Phare structurellement caractérisé",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "way",
+        "osmId": 513934973,
+        "sourceExternalId": "osm:way/513934973",
+        "photoAtlasType": "lighthouse",
+        "principalTag": "man_made=lighthouse",
+        "coordinateSource": "representative_way_geometry",
+        "confidence": "HIGH",
+        "premiumScore": 89,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "phare de la pointe de grave--lighthouse--45570--1070",
+    "name": "Phare de la Pointe de Grave",
+    "nameFr": null,
+    "latitude": 45.57,
+    "longitude": -1.07,
+    "photoAtlasType": "lighthouse",
+    "photoAtlasFamily": "Maritime",
+    "remarkableScore": 82,
+    "photographicScore": 66,
+    "premiumScore": 89,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Phare identifié directement",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation croisée Wikidata/Wikipedia",
+      "Signal patrimonial ou de protection fort",
+      "Identité métier explicite du lieu",
+      "Phare structurellement caractérisé",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "way",
+        "osmId": 759021127,
+        "sourceExternalId": "osm:way/759021127",
+        "photoAtlasType": "lighthouse",
+        "principalTag": "man_made=lighthouse",
+        "coordinateSource": "representative_way_geometry",
+        "confidence": "HIGH",
+        "premiumScore": 89,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "dune du pilat--dune--44580--1220",
+    "name": "Dune du Pilat",
+    "nameFr": null,
+    "latitude": 44.58,
+    "longitude": -1.22,
+    "photoAtlasType": "dune",
+    "photoAtlasFamily": "Littoral",
+    "remarkableScore": 64,
+    "photographicScore": 75,
+    "premiumScore": 88,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Type dune identifié directement",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation croisée Wikidata/Wikipedia",
+      "Identité métier explicite du lieu",
+      "Contexte paysager ou photogénique cohérent à proximité",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "relation",
+        "osmId": 2244861,
+        "sourceExternalId": "osm:relation/2244861",
+        "photoAtlasType": "dune",
+        "principalTag": "natural=dune",
+        "coordinateSource": "representative_relation_geometry",
+        "confidence": "HIGH",
+        "premiumScore": 88,
+        "premium": true,
+        "isPrimary": true
+      },
+      {
+        "osmType": "node",
+        "osmId": 9597543783,
+        "sourceExternalId": "osm:node/9597543783",
+        "photoAtlasType": "dune",
+        "principalTag": "natural=peak",
+        "confidence": "MEDIUM",
+        "premiumScore": 86,
+        "premium": true,
+        "isPrimary": false
+      },
+      {
+        "osmType": "node",
+        "osmId": 3726353536,
+        "sourceExternalId": "osm:node/3726353536",
+        "photoAtlasType": "dune",
+        "principalTag": "tourism=viewpoint",
+        "confidence": "MEDIUM",
+        "premiumScore": 83,
+        "premium": true,
+        "isPrimary": false
+      },
+      {
+        "osmType": "node",
+        "osmId": 1785218583,
+        "sourceExternalId": "osm:node/1785218583",
+        "photoAtlasType": "dune",
+        "principalTag": "tourism=viewpoint",
+        "confidence": "MEDIUM",
+        "premiumScore": 53,
+        "premium": false,
+        "isPrimary": false
+      }
+    ],
+    "duplicateCount": 4
+  },
+  {
+    "placeKey": "phare de contis--lighthouse--44090--1320",
+    "name": "Phare de Contis",
+    "nameFr": null,
+    "latitude": 44.09,
+    "longitude": -1.32,
+    "photoAtlasType": "lighthouse",
+    "photoAtlasFamily": "Maritime",
+    "remarkableScore": 82,
+    "photographicScore": 62,
+    "premiumScore": 88,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Phare identifié directement",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation croisée Wikidata/Wikipedia",
+      "Signal patrimonial ou de protection fort",
+      "Identité métier explicite du lieu",
+      "Phare structurellement caractérisé",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "way",
+        "osmId": 201248452,
+        "sourceExternalId": "osm:way/201248452",
+        "photoAtlasType": "lighthouse",
+        "principalTag": "man_made=lighthouse",
+        "coordinateSource": "representative_way_geometry",
+        "confidence": "HIGH",
+        "premiumScore": 88,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "phare du cap ferret--lighthouse--44650--1250",
+    "name": "Phare du Cap-Ferret",
+    "nameFr": null,
+    "latitude": 44.65,
+    "longitude": -1.25,
+    "photoAtlasType": "lighthouse",
+    "photoAtlasFamily": "Maritime",
+    "remarkableScore": 82,
+    "photographicScore": 62,
+    "premiumScore": 88,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Phare identifié directement",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation croisée Wikidata/Wikipedia",
+      "Signal patrimonial ou de protection fort",
+      "Identité métier explicite du lieu",
+      "Phare structurellement caractérisé",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "way",
+        "osmId": 715849418,
+        "sourceExternalId": "osm:way/715849418",
+        "photoAtlasType": "lighthouse",
+        "principalTag": "man_made=lighthouse",
+        "coordinateSource": "representative_way_geometry",
+        "confidence": "HIGH",
+        "premiumScore": 88,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "observatoire sainte cecile--observatory--44660--1180",
+    "name": "Observatoire Sainte-Cécile",
+    "nameFr": null,
+    "latitude": 44.66,
+    "longitude": -1.18,
+    "photoAtlasType": "observatory",
+    "photoAtlasFamily": "Observation",
+    "remarkableScore": 66,
+    "photographicScore": 64,
+    "premiumScore": 85,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Tour d'observation nommée comme observatoire",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Signal patrimonial ou de protection présent",
+      "Contexte descriptif ou institutionnel présent",
+      "Identité métier explicite du lieu",
+      "Fonction d'observation explicitement démontrée",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "way",
+        "osmId": 113325940,
+        "sourceExternalId": "osm:way/113325940",
+        "photoAtlasType": "observatory",
+        "principalTag": "tower:type=observation",
+        "coordinateSource": "representative_way_geometry",
+        "confidence": "HIGH",
+        "premiumScore": 85,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "phare de patiras--lighthouse--45200--720",
+    "name": "Phare de Patiras",
+    "nameFr": null,
+    "latitude": 45.2,
+    "longitude": -0.72,
+    "photoAtlasType": "lighthouse",
+    "photoAtlasFamily": "Maritime",
+    "remarkableScore": 64,
+    "photographicScore": 66,
+    "premiumScore": 85,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Phare identifié directement",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation croisée Wikidata/Wikipedia",
+      "Identité métier explicite du lieu",
+      "Phare structurellement caractérisé",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "way",
+        "osmId": 162906928,
+        "sourceExternalId": "osm:way/162906928",
+        "photoAtlasType": "lighthouse",
+        "principalTag": "man_made=lighthouse",
+        "coordinateSource": "representative_way_geometry",
+        "confidence": "HIGH",
+        "premiumScore": 85,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "anelarra--summit--42940--730",
+    "name": "Añelarra",
+    "nameFr": null,
+    "latitude": 42.94,
+    "longitude": -0.73,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 54,
+    "photographicScore": 68,
+    "premiumScore": 84,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation croisée Wikidata/Wikipedia",
+      "Sommet avec altitude significative",
+      "Contexte paysager ou photogénique cohérent à proximité",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 3296698802,
+        "sourceExternalId": "osm:node/3296698802",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 84,
+        "premium": true,
+        "isPrimary": true
+      },
+      {
+        "osmType": "node",
+        "osmId": 11646993906,
+        "sourceExternalId": "osm:node/11646993906",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "confidence": "HIGH",
+        "premiumScore": 55,
+        "premium": false,
+        "isPrimary": false
+      }
+    ],
+    "duplicateCount": 2
+  },
+  {
+    "placeKey": "phare saint nicolas--lighthouse--45560--1080",
+    "name": "Phare Saint-Nicolas",
+    "nameFr": null,
+    "latitude": 45.56,
+    "longitude": -1.08,
+    "photoAtlasType": "lighthouse",
+    "photoAtlasFamily": "Maritime",
+    "remarkableScore": 56,
+    "photographicScore": 66,
+    "premiumScore": 84,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Phare identifié directement",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation externe partielle",
+      "Identité métier explicite du lieu",
+      "Phare structurellement caractérisé",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "way",
+        "osmId": 192421345,
+        "sourceExternalId": "osm:way/192421345",
+        "photoAtlasType": "lighthouse",
+        "principalTag": "man_made=lighthouse",
+        "coordinateSource": "representative_way_geometry",
+        "confidence": "HIGH",
+        "premiumScore": 84,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "phare de la pointe saint martin--viewpoint--43490--1550",
+    "name": "Phare de la Pointe Saint-Martin",
+    "nameFr": null,
+    "latitude": 43.49,
+    "longitude": -1.55,
+    "photoAtlasType": "viewpoint",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 70,
+    "photographicScore": 51,
+    "premiumScore": 83,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Point de vue nommé",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation croisée Wikidata/Wikipedia",
+      "Signal patrimonial ou de protection fort",
+      "Contexte descriptif ou institutionnel présent",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "way",
+        "osmId": 71996554,
+        "sourceExternalId": "osm:way/71996554",
+        "photoAtlasType": "viewpoint",
+        "principalTag": "tourism=viewpoint",
+        "coordinateSource": "representative_way_geometry",
+        "confidence": "HIGH",
+        "premiumScore": 83,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "grande fache--summit--42810--240",
+    "name": "Grande Fache",
+    "nameFr": "Grande Fâche",
+    "latitude": 42.81,
+    "longitude": -0.24,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 62,
+    "photographicScore": 54,
+    "premiumScore": 82,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation croisée Wikidata/Wikipedia",
+      "Contexte descriptif ou institutionnel présent",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 575896583,
+        "sourceExternalId": "osm:node/575896583",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 82,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "pic du balaitous--summit--42840--290",
+    "name": "Pic du Balaïtous",
+    "nameFr": "Pic du Balaïtous",
+    "latitude": 42.84,
+    "longitude": -0.29,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 62,
+    "photographicScore": 54,
+    "premiumScore": 82,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation croisée Wikidata/Wikipedia",
+      "Contexte descriptif ou institutionnel présent",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 494395635,
+        "sourceExternalId": "osm:node/494395635",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 82,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "port de larros--oyster_harbour--44640--1070",
+    "name": "Port de Larros",
+    "nameFr": null,
+    "latitude": 44.64,
+    "longitude": -1.07,
+    "photoAtlasType": "oyster_harbour",
+    "photoAtlasFamily": "Maritime",
+    "remarkableScore": 56,
+    "photographicScore": 62,
+    "premiumScore": 82,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Port ostréicole explicitement identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Contexte descriptif ou institutionnel présent",
+      "Identité métier explicite du lieu",
+      "Port ostréicole explicitement caractérisé",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "way",
+        "osmId": 444290457,
+        "sourceExternalId": "osm:way/444290457",
+        "photoAtlasType": "oyster_harbour",
+        "principalTag": "harbour=yes",
+        "coordinateSource": "representative_way_geometry",
+        "confidence": "HIGH",
+        "premiumScore": 82,
+        "premium": true,
+        "isPrimary": true
+      },
+      {
+        "osmType": "relation",
+        "osmId": 3789458,
+        "sourceExternalId": "osm:relation/3789458",
+        "photoAtlasType": "harbour",
+        "principalTag": "leisure=marina",
+        "confidence": "MEDIUM",
+        "premiumScore": 12,
+        "premium": false,
+        "isPrimary": false
+      }
+    ],
+    "duplicateCount": 2
+  },
+  {
+    "placeKey": "dune de ginestras--dune--45310--1130",
+    "name": "Dune de Ginestras",
+    "nameFr": null,
+    "latitude": 45.31,
+    "longitude": -1.13,
+    "photoAtlasType": "dune",
+    "photoAtlasFamily": "Littoral",
+    "remarkableScore": 44,
+    "photographicScore": 65,
+    "premiumScore": 81,
+    "confidence": "MEDIUM",
+    "premiumReasons": [
+      "Point haut nommé associé à une dune",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Identité métier explicite du lieu",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 4930644737,
+        "sourceExternalId": "osm:node/4930644737",
+        "photoAtlasType": "dune",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "MEDIUM",
+        "premiumScore": 81,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "dune de la canillouse--dune--45390--1120",
+    "name": "Dune de la Canillouse",
+    "nameFr": null,
+    "latitude": 45.39,
+    "longitude": -1.12,
+    "photoAtlasType": "dune",
+    "photoAtlasFamily": "Littoral",
+    "remarkableScore": 44,
+    "photographicScore": 65,
+    "premiumScore": 81,
+    "confidence": "MEDIUM",
+    "premiumReasons": [
+      "Point haut nommé associé à une dune",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Identité métier explicite du lieu",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 4929145507,
+        "sourceExternalId": "osm:node/4929145507",
+        "photoAtlasType": "dune",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "MEDIUM",
+        "premiumScore": 81,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "dune de lespinglade--dune--45340--1120",
+    "name": "Dune de Lespinglade",
+    "nameFr": null,
+    "latitude": 45.34,
+    "longitude": -1.12,
+    "photoAtlasType": "dune",
+    "photoAtlasFamily": "Littoral",
+    "remarkableScore": 44,
+    "photographicScore": 65,
+    "premiumScore": 81,
+    "confidence": "MEDIUM",
+    "premiumReasons": [
+      "Point haut nommé associé à une dune",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Identité métier explicite du lieu",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 4930640798,
+        "sourceExternalId": "osm:node/4930640798",
+        "photoAtlasType": "dune",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "MEDIUM",
+        "premiumScore": 81,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "dune des abits--dune--45370--1120",
+    "name": "Dune des Abits",
+    "nameFr": null,
+    "latitude": 45.37,
+    "longitude": -1.12,
+    "photoAtlasType": "dune",
+    "photoAtlasFamily": "Littoral",
+    "remarkableScore": 44,
+    "photographicScore": 65,
+    "premiumScore": 81,
+    "confidence": "MEDIUM",
+    "premiumReasons": [
+      "Point haut nommé associé à une dune",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Identité métier explicite du lieu",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 4930635305,
+        "sourceExternalId": "osm:node/4930635305",
+        "photoAtlasType": "dune",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "MEDIUM",
+        "premiumScore": 81,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "dune du crohot negre--dune--45350--1120",
+    "name": "Dune du Crohot Nègre",
+    "nameFr": null,
+    "latitude": 45.35,
+    "longitude": -1.12,
+    "photoAtlasType": "dune",
+    "photoAtlasFamily": "Littoral",
+    "remarkableScore": 44,
+    "photographicScore": 65,
+    "premiumScore": 81,
+    "confidence": "MEDIUM",
+    "premiumReasons": [
+      "Point haut nommé associé à une dune",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Identité métier explicite du lieu",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 4930638210,
+        "sourceExternalId": "osm:node/4930638210",
+        "photoAtlasType": "dune",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "MEDIUM",
+        "premiumScore": 81,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "dune du negre--dune--45360--1130",
+    "name": "Dune du Nègre",
+    "nameFr": null,
+    "latitude": 45.36,
+    "longitude": -1.13,
+    "photoAtlasType": "dune",
+    "photoAtlasFamily": "Littoral",
+    "remarkableScore": 44,
+    "photographicScore": 65,
+    "premiumScore": 81,
+    "confidence": "MEDIUM",
+    "premiumReasons": [
+      "Point haut nommé associé à une dune",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Identité métier explicite du lieu",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 4930634858,
+        "sourceExternalId": "osm:node/4930634858",
+        "photoAtlasType": "dune",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "MEDIUM",
+        "premiumScore": 81,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "dune du petit crohot negre--dune--45350--1120",
+    "name": "Dune du Petit Crohot Nègre",
+    "nameFr": null,
+    "latitude": 45.35,
+    "longitude": -1.12,
+    "photoAtlasType": "dune",
+    "photoAtlasFamily": "Littoral",
+    "remarkableScore": 44,
+    "photographicScore": 65,
+    "premiumScore": 81,
+    "confidence": "MEDIUM",
+    "premiumReasons": [
+      "Point haut nommé associé à une dune",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Identité métier explicite du lieu",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 4930634571,
+        "sourceExternalId": "osm:node/4930634571",
+        "photoAtlasType": "dune",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "MEDIUM",
+        "premiumScore": 81,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "dune du rocher--dune--45560--1090",
+    "name": "Dune Du Rocher",
+    "nameFr": null,
+    "latitude": 45.56,
+    "longitude": -1.09,
+    "photoAtlasType": "dune",
+    "photoAtlasFamily": "Littoral",
+    "remarkableScore": 44,
+    "photographicScore": 65,
+    "premiumScore": 81,
+    "confidence": "MEDIUM",
+    "premiumReasons": [
+      "Point haut nommé associé à une dune",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Identité métier explicite du lieu",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 4919222481,
+        "sourceExternalId": "osm:node/4919222481",
+        "photoAtlasType": "dune",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "MEDIUM",
+        "premiumScore": 81,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "dunes de la barreyre--dune--45420--1110",
+    "name": "Dunes de la Barreyre",
+    "nameFr": null,
+    "latitude": 45.42,
+    "longitude": -1.11,
+    "photoAtlasType": "dune",
+    "photoAtlasFamily": "Littoral",
+    "remarkableScore": 44,
+    "photographicScore": 65,
+    "premiumScore": 81,
+    "confidence": "MEDIUM",
+    "premiumReasons": [
+      "Point haut nommé associé à une dune",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Identité métier explicite du lieu",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 4917711989,
+        "sourceExternalId": "osm:node/4917711989",
+        "photoAtlasType": "dune",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "MEDIUM",
+        "premiumScore": 81,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "dunes de labiau--dune--45430--1120",
+    "name": "Dunes de Labiau",
+    "nameFr": null,
+    "latitude": 45.43,
+    "longitude": -1.12,
+    "photoAtlasType": "dune",
+    "photoAtlasFamily": "Littoral",
+    "remarkableScore": 44,
+    "photographicScore": 65,
+    "premiumScore": 81,
+    "confidence": "MEDIUM",
+    "premiumReasons": [
+      "Point haut nommé associé à une dune",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Identité métier explicite du lieu",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 4917713184,
+        "sourceExternalId": "osm:node/4917713184",
+        "photoAtlasType": "dune",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "MEDIUM",
+        "premiumScore": 81,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "l adour jetee nord--lighthouse--43530--1520",
+    "name": "L'Adour Jetee Nord",
+    "nameFr": null,
+    "latitude": 43.53,
+    "longitude": -1.52,
+    "photoAtlasType": "lighthouse",
+    "photoAtlasFamily": "Maritime",
+    "remarkableScore": 48,
+    "photographicScore": 64,
+    "premiumScore": 81,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Phare identifié directement",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Identité métier explicite du lieu",
+      "Phare structurellement caractérisé",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 1370799000,
+        "sourceExternalId": "osm:node/1370799000",
+        "photoAtlasType": "lighthouse",
+        "principalTag": "man_made=lighthouse",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 81,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "l adour jetee sud--lighthouse--43530--1520",
+    "name": "L'Adour Jetee Sud",
+    "nameFr": null,
+    "latitude": 43.53,
+    "longitude": -1.52,
+    "photoAtlasType": "lighthouse",
+    "photoAtlasFamily": "Maritime",
+    "remarkableScore": 48,
+    "photographicScore": 64,
+    "premiumScore": 81,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Phare identifié directement",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Identité métier explicite du lieu",
+      "Phare structurellement caractérisé",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 1370798999,
+        "sourceExternalId": "osm:node/1370798999",
+        "photoAtlasType": "lighthouse",
+        "principalTag": "man_made=lighthouse",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 81,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "port ostreicole d ares--oyster_harbour--44760--1150",
+    "name": "Port ostréicole d'Arès",
+    "nameFr": null,
+    "latitude": 44.76,
+    "longitude": -1.15,
+    "photoAtlasType": "oyster_harbour",
+    "photoAtlasFamily": "Maritime",
+    "remarkableScore": 48,
+    "photographicScore": 62,
+    "premiumScore": 81,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Port ostréicole explicitement identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Identité métier explicite du lieu",
+      "Port ostréicole explicitement caractérisé",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "way",
+        "osmId": 799367188,
+        "sourceExternalId": "osm:way/799367188",
+        "photoAtlasType": "oyster_harbour",
+        "principalTag": "leisure=marina",
+        "coordinateSource": "representative_way_geometry",
+        "confidence": "HIGH",
+        "premiumScore": 81,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "port ostreicole de la teste--oyster_harbour--44650--1150",
+    "name": "Port ostréicole de La Teste",
+    "nameFr": null,
+    "latitude": 44.65,
+    "longitude": -1.15,
+    "photoAtlasType": "oyster_harbour",
+    "photoAtlasFamily": "Maritime",
+    "remarkableScore": 48,
+    "photographicScore": 62,
+    "premiumScore": 81,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Port ostréicole explicitement identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Identité métier explicite du lieu",
+      "Port ostréicole explicitement caractérisé",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "way",
+        "osmId": 835299189,
+        "sourceExternalId": "osm:way/835299189",
+        "photoAtlasType": "oyster_harbour",
+        "principalTag": "leisure=marina",
+        "coordinateSource": "representative_way_geometry",
+        "confidence": "HIGH",
+        "premiumScore": 81,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "port ostreicole du rocher--oyster_harbour--44650--1130",
+    "name": "Port ostréicole du Rocher",
+    "nameFr": null,
+    "latitude": 44.65,
+    "longitude": -1.13,
+    "photoAtlasType": "oyster_harbour",
+    "photoAtlasFamily": "Maritime",
+    "remarkableScore": 48,
+    "photographicScore": 62,
+    "premiumScore": 81,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Port ostréicole explicitement identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Identité métier explicite du lieu",
+      "Port ostréicole explicitement caractérisé",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "way",
+        "osmId": 802920636,
+        "sourceExternalId": "osm:way/802920636",
+        "photoAtlasType": "oyster_harbour",
+        "principalTag": "harbour=yes",
+        "coordinateSource": "representative_way_geometry",
+        "confidence": "HIGH",
+        "premiumScore": 81,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "port ostreicole et de plaisance--oyster_harbour--44740--1110",
+    "name": "Port ostréicole et de plaisance",
+    "nameFr": null,
+    "latitude": 44.74,
+    "longitude": -1.11,
+    "photoAtlasType": "oyster_harbour",
+    "photoAtlasFamily": "Maritime",
+    "remarkableScore": 48,
+    "photographicScore": 62,
+    "premiumScore": 81,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Port ostréicole explicitement identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Identité métier explicite du lieu",
+      "Port ostréicole explicitement caractérisé",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "way",
+        "osmId": 41692914,
+        "sourceExternalId": "osm:way/41692914",
+        "photoAtlasType": "oyster_harbour",
+        "principalTag": "leisure=marina",
+        "coordinateSource": "representative_way_geometry",
+        "confidence": "HIGH",
+        "premiumScore": 81,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "arlas--summit--42970--750",
+    "name": "Arlas",
+    "nameFr": "Pic d'Arlas",
+    "latitude": 42.97,
+    "longitude": -0.75,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 54,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation croisée Wikidata/Wikipedia",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 733817074,
+        "sourceExternalId": "osm:node/733817074",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "arthanolatze gaina--summit--43050--1040",
+    "name": "Arthanolatze Gaïna",
+    "nameFr": null,
+    "latitude": 43.05,
+    "longitude": -1.04,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 46,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation externe partielle",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 11646993922,
+        "sourceExternalId": "osm:node/11646993922",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "banc d arguin--sandbank--44570--1260",
+    "name": "Banc d'Arguin",
+    "nameFr": "Banc d'Arguin",
+    "latitude": 44.57,
+    "longitude": -1.26,
+    "photoAtlasType": "sandbank",
+    "photoAtlasFamily": "Littoral",
+    "remarkableScore": 40,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Littoral nommé évoquant un banc de sable",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Identité métier explicite du lieu",
+      "Banc de sable explicitement individualisé",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "way",
+        "osmId": 42726876,
+        "sourceExternalId": "osm:way/42726876",
+        "photoAtlasType": "sandbank",
+        "principalTag": "natural=coastline",
+        "coordinateSource": "representative_way_geometry",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "binbaleta--summit--42960--880",
+    "name": "Binbaleta",
+    "nameFr": null,
+    "latitude": 42.96,
+    "longitude": -0.88,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 46,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation externe partielle",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 1115626044,
+        "sourceExternalId": "osm:node/1115626044",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "budogia--summit--42920--740",
+    "name": "Budogia",
+    "nameFr": null,
+    "latitude": 42.92,
+    "longitude": -0.74,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 54,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation croisée Wikidata/Wikipedia",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 1304119639,
+        "sourceExternalId": "osm:node/1304119639",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "dent de soques--summit--42820--360",
+    "name": "Dent de Soques",
+    "nameFr": null,
+    "latitude": 42.82,
+    "longitude": -0.36,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 46,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation externe partielle",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 4323544311,
+        "sourceExternalId": "osm:node/4323544311",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      },
+      {
+        "osmType": "node",
+        "osmId": 732425776,
+        "sourceExternalId": "osm:node/732425776",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": false
+      }
+    ],
+    "duplicateCount": 2
+  },
+  {
+    "placeKey": "feu de sainte barbe--lighthouse--43400--1660",
+    "name": "Feu de Sainte Barbe",
+    "nameFr": null,
+    "latitude": 43.4,
+    "longitude": -1.66,
+    "photoAtlasType": "lighthouse",
+    "photoAtlasFamily": "Maritime",
+    "remarkableScore": 56,
+    "photographicScore": 52,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Phare identifié directement",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Contexte descriptif ou institutionnel présent",
+      "Identité métier explicite du lieu",
+      "Phare structurellement caractérisé",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 2013114667,
+        "sourceExternalId": "osm:node/2013114667",
+        "photoAtlasType": "lighthouse",
+        "principalTag": "man_made=lighthouse",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "feux de sainte barbe 1870--lighthouse--43400--1660",
+    "name": "Feux de Sainte-Barbe (1870)",
+    "nameFr": null,
+    "latitude": 43.4,
+    "longitude": -1.66,
+    "photoAtlasType": "lighthouse",
+    "photoAtlasFamily": "Maritime",
+    "remarkableScore": 48,
+    "photographicScore": 52,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Phare identifié directement",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Identité métier explicite du lieu",
+      "Phare structurellement caractérisé",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 1370798980,
+        "sourceExternalId": "osm:node/1370798980",
+        "photoAtlasType": "lighthouse",
+        "principalTag": "man_made=lighthouse",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "frondella sw--summit--42830--300",
+    "name": "Frondella SW",
+    "nameFr": null,
+    "latitude": 42.83,
+    "longitude": -0.3,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 46,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation externe partielle",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 652132477,
+        "sourceExternalId": "osm:node/652132477",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "grande aiguille d ansabere--summit--42900--730",
+    "name": "Grande aiguille d'Ansabère",
+    "nameFr": null,
+    "latitude": 42.9,
+    "longitude": -0.73,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 46,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation externe partielle",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 4215642939,
+        "sourceExternalId": "osm:node/4215642939",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "hiru erregeen mahaia--summit--42920--730",
+    "name": "Hiru Erregeen Mahaia",
+    "nameFr": "Pic des Trois Rois",
+    "latitude": 42.92,
+    "longitude": -0.73,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 54,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation externe partielle",
+      "Contexte descriptif ou institutionnel présent",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 1142984775,
+        "sourceExternalId": "osm:node/1142984775",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "izarbe--summit--43020--800",
+    "name": "Izarbe",
+    "nameFr": null,
+    "latitude": 43.02,
+    "longitude": -0.8,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 46,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation externe partielle",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 733858766,
+        "sourceExternalId": "osm:node/733858766",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "l escarpu ou pic de sesques--summit--42920--500",
+    "name": "L'Escarpu ou Pic de Sesques",
+    "nameFr": null,
+    "latitude": 42.92,
+    "longitude": -0.5,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 46,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation externe partielle",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 732725482,
+        "sourceExternalId": "osm:node/732725482",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "lakartxela--summit--42950--890",
+    "name": "Lakartxela",
+    "nameFr": null,
+    "latitude": 42.95,
+    "longitude": -0.89,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 46,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation externe partielle",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 1142897713,
+        "sourceExternalId": "osm:node/1142897713",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "lakhura--summit--42960--840",
+    "name": "Lakhura",
+    "nameFr": "Pic Lakhoura",
+    "latitude": 42.96,
+    "longitude": -0.84,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 54,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation externe partielle",
+      "Contexte descriptif ou institutionnel présent",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 788356306,
+        "sourceExternalId": "osm:node/788356306",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "o casterillet torre de cadier--summit--42840--290",
+    "name": "O Casterillet / Torre de Cadier",
+    "nameFr": "Tour de Costérillou",
+    "latitude": 42.84,
+    "longitude": -0.29,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 46,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation externe partielle",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 3253918830,
+        "sourceExternalId": "osm:node/3253918830",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "observatoire de bordeaux--observatory--44830--530",
+    "name": "Observatoire de Bordeaux",
+    "nameFr": null,
+    "latitude": 44.83,
+    "longitude": -0.53,
+    "photoAtlasType": "observatory",
+    "photoAtlasFamily": "Observation",
+    "remarkableScore": 56,
+    "photographicScore": 52,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Site d'observation identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation externe partielle",
+      "Contexte descriptif ou institutionnel présent",
+      "Identité métier explicite du lieu",
+      "Fonction d'observation explicitement démontrée",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "way",
+        "osmId": 305715700,
+        "sourceExternalId": "osm:way/305715700",
+        "photoAtlasType": "observatory",
+        "principalTag": "man_made=observatory",
+        "coordinateSource": "representative_way_geometry",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      },
+      {
+        "osmType": "way",
+        "osmId": 162256757,
+        "sourceExternalId": "osm:way/162256757",
+        "photoAtlasType": null,
+        "principalTag": "power=generator",
+        "confidence": "LOW",
+        "premiumScore": 14,
+        "premium": false,
+        "isPrimary": false
+      }
+    ],
+    "duplicateCount": 2
+  },
+  {
+    "placeKey": "observatoire de dax--observatory--43690--1030",
+    "name": "Observatoire de Dax",
+    "nameFr": null,
+    "latitude": 43.69,
+    "longitude": -1.03,
+    "photoAtlasType": "observatory",
+    "photoAtlasFamily": "Observation",
+    "remarkableScore": 48,
+    "photographicScore": 52,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Site d'observation identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Contexte descriptif ou institutionnel présent",
+      "Identité métier explicite du lieu",
+      "Fonction d'observation explicitement démontrée",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "way",
+        "osmId": 146764651,
+        "sourceExternalId": "osm:way/146764651",
+        "photoAtlasType": "observatory",
+        "principalTag": "man_made=observatory",
+        "coordinateSource": "representative_way_geometry",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "orhi--summit--42990--1010",
+    "name": "Orhi",
+    "nameFr": "Pic d'Orhy",
+    "latitude": 42.99,
+    "longitude": -1.01,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 54,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation externe partielle",
+      "Contexte descriptif ou institutionnel présent",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 26864262,
+        "sourceExternalId": "osm:node/26864262",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "otsogorrigaina--summit--42960--920",
+    "name": "Otsogorrigaina",
+    "nameFr": null,
+    "latitude": 42.96,
+    "longitude": -0.92,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 46,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation externe partielle",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 1115546576,
+        "sourceExternalId": "osm:node/1115546576",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "pic d anie--summit--42940--720",
+    "name": "Pic d'Anie",
+    "nameFr": "Pic d'Anie",
+    "latitude": 42.94,
+    "longitude": -0.72,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 54,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation croisée Wikidata/Wikipedia",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 26864230,
+        "sourceExternalId": "osm:node/26864230",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "pic d ansabere petrechema--summit--42900--730",
+    "name": "Pic d'Ansabère / Petrechema",
+    "nameFr": "Pic d'Ansabère",
+    "latitude": 42.9,
+    "longitude": -0.73,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 46,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation externe partielle",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 1896334132,
+        "sourceExternalId": "osm:node/1896334132",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "pic d arnousse norte--summit--42810--530",
+    "name": "Pic d'Arnousse Norte",
+    "nameFr": null,
+    "latitude": 42.81,
+    "longitude": -0.53,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 46,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Contexte descriptif ou institutionnel présent",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 732586941,
+        "sourceExternalId": "osm:node/732586941",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "pic de bizkarze--summit--43000--1040",
+    "name": "Pic de Bizkarzé",
+    "nameFr": "Pic de Bizkarzé",
+    "latitude": 43,
+    "longitude": -1.04,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 54,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation croisée Wikidata/Wikipedia",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 5064537739,
+        "sourceExternalId": "osm:node/5064537739",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "pic de burcq--summit--42870--660",
+    "name": "Pic de Burcq",
+    "nameFr": null,
+    "latitude": 42.87,
+    "longitude": -0.66,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 46,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation externe partielle",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 5081087065,
+        "sourceExternalId": "osm:node/5081087065",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "pic de gabizos--summit--42940--280",
+    "name": "Pic de Gabizos",
+    "nameFr": null,
+    "latitude": 42.94,
+    "longitude": -0.28,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 46,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation externe partielle",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 957125592,
+        "sourceExternalId": "osm:node/957125592",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "pic de ger--summit--42940--350",
+    "name": "Pic de Ger",
+    "nameFr": null,
+    "latitude": 42.94,
+    "longitude": -0.35,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 54,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation croisée Wikidata/Wikipedia",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 732266081,
+        "sourceExternalId": "osm:node/732266081",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "pic du midi d ossau--summit--42840--440",
+    "name": "Pic du Midi d'Ossau",
+    "nameFr": null,
+    "latitude": 42.84,
+    "longitude": -0.44,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 54,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation croisée Wikidata/Wikipedia",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 26864244,
+        "sourceExternalId": "osm:node/26864244",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "pic durban--summit--43050--310",
+    "name": "Pic Durban",
+    "nameFr": null,
+    "latitude": 43.05,
+    "longitude": -0.31,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 46,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation externe partielle",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 6362514041,
+        "sourceExternalId": "osm:node/6362514041",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "pic palas--summit--42850--310",
+    "name": "Pic Palas",
+    "nameFr": null,
+    "latitude": 42.85,
+    "longitude": -0.31,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 54,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation croisée Wikidata/Wikipedia",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 494395676,
+        "sourceExternalId": "osm:node/494395676",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "pic peyreget--summit--42830--440",
+    "name": "Pic Peyreget",
+    "nameFr": null,
+    "latitude": 42.83,
+    "longitude": -0.44,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 46,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation externe partielle",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 732586957,
+        "sourceExternalId": "osm:node/732586957",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "pico d arriel punta dero saldiecho--summit--42830--330",
+    "name": "Pico d'Arriel / Punta dero Saldiecho",
+    "nameFr": "Pic d'Arriel",
+    "latitude": 42.83,
+    "longitude": -0.33,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 54,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation croisée Wikidata/Wikipedia",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 652132535,
+        "sourceExternalId": "osm:node/652132535",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "pico de arnousse--summit--42810--530",
+    "name": "Pico de Arnousse",
+    "nameFr": null,
+    "latitude": 42.81,
+    "longitude": -0.53,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 46,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Contexte descriptif ou institutionnel présent",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 1250030510,
+        "sourceExternalId": "osm:node/1250030510",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "pico de cambales--summit--42820--240",
+    "name": "Pico de Cambalés",
+    "nameFr": "Pic de Cambalès",
+    "latitude": 42.82,
+    "longitude": -0.24,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 46,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation externe partielle",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 494395411,
+        "sourceExternalId": "osm:node/494395411",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "port de gujan--oyster_harbour--44640--1080",
+    "name": "Port de Gujan",
+    "nameFr": null,
+    "latitude": 44.64,
+    "longitude": -1.08,
+    "photoAtlasType": "oyster_harbour",
+    "photoAtlasFamily": "Maritime",
+    "remarkableScore": 48,
+    "photographicScore": 50,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Port ostréicole explicitement identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Contexte descriptif ou institutionnel présent",
+      "Identité métier explicite du lieu",
+      "Port ostréicole explicitement caractérisé",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "way",
+        "osmId": 285592011,
+        "sourceExternalId": "osm:way/285592011",
+        "photoAtlasType": "oyster_harbour",
+        "principalTag": "harbour=yes",
+        "coordinateSource": "representative_way_geometry",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "port de la mole--oyster_harbour--44640--1050",
+    "name": "Port de la Mole",
+    "nameFr": null,
+    "latitude": 44.64,
+    "longitude": -1.05,
+    "photoAtlasType": "oyster_harbour",
+    "photoAtlasFamily": "Maritime",
+    "remarkableScore": 48,
+    "photographicScore": 52,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Port ostréicole explicitement identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Contexte descriptif ou institutionnel présent",
+      "Identité métier explicite du lieu",
+      "Port ostréicole explicitement caractérisé",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 7512119236,
+        "sourceExternalId": "osm:node/7512119236",
+        "photoAtlasType": "oyster_harbour",
+        "principalTag": "leisure=marina",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "port de meyran--oyster_harbour--44640--1100",
+    "name": "Port de Meyran",
+    "nameFr": null,
+    "latitude": 44.64,
+    "longitude": -1.1,
+    "photoAtlasType": "oyster_harbour",
+    "photoAtlasFamily": "Maritime",
+    "remarkableScore": 48,
+    "photographicScore": 50,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Port ostréicole explicitement identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Contexte descriptif ou institutionnel présent",
+      "Identité métier explicite du lieu",
+      "Port ostréicole explicitement caractérisé",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "way",
+        "osmId": 286188443,
+        "sourceExternalId": "osm:way/286188443",
+        "photoAtlasType": "oyster_harbour",
+        "principalTag": "harbour=yes",
+        "coordinateSource": "representative_way_geometry",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "punta acue--summit--42820--600",
+    "name": "Punta Acué",
+    "nameFr": null,
+    "latitude": 42.82,
+    "longitude": -0.6,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 54,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation croisée Wikidata/Wikipedia",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 1250039703,
+        "sourceExternalId": "osm:node/1250039703",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "punta o riste--summit--42870--660",
+    "name": "Punta O Risté",
+    "nameFr": null,
+    "latitude": 42.87,
+    "longitude": -0.66,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 46,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation externe partielle",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 9732305342,
+        "sourceExternalId": "osm:node/9732305342",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "reserve ornithologique du teich--bird_reserve--44650--1040",
+    "name": "Réserve ornithologique du Teich",
+    "nameFr": null,
+    "latitude": 44.65,
+    "longitude": -1.04,
+    "photoAtlasType": "bird_reserve",
+    "photoAtlasFamily": "Nature",
+    "remarkableScore": 56,
+    "photographicScore": 50,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Réserve nommée à vocation ornithologique",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation croisée Wikidata/Wikipedia",
+      "Identité métier explicite du lieu",
+      "Vocation d'observation ornithologique explicite",
+      "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "way",
+        "osmId": 279790575,
+        "sourceExternalId": "osm:way/279790575",
+        "photoAtlasType": "bird_reserve",
+        "principalTag": "leisure=nature_reserve",
+        "coordinateSource": "representative_way_geometry",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "sommet de batcrabere--summit--42840--310",
+    "name": "Sommet de Batcrabère",
+    "nameFr": null,
+    "latitude": 42.84,
+    "longitude": -0.31,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 46,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation externe partielle",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 4315547276,
+        "sourceExternalId": "osm:node/4315547276",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  },
+  {
+    "placeKey": "soum d ypy--summit--42920--550",
+    "name": "Soum d'Ypy",
+    "nameFr": null,
+    "latitude": 42.92,
+    "longitude": -0.55,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 54,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation croisée Wikidata/Wikipedia",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 3175033361,
+        "sourceExternalId": "osm:node/3175033361",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      },
+      {
+        "osmType": "node",
+        "osmId": 1825350319,
+        "sourceExternalId": "osm:node/1825350319",
+        "photoAtlasType": "village",
+        "principalTag": "place=village",
+        "confidence": "MEDIUM",
+        "premiumScore": 14,
+        "premium": false,
+        "isPrimary": false
+      }
+    ],
+    "duplicateCount": 2
+  },
+  {
+    "placeKey": "table des trois rois--summit--42920--720",
+    "name": "Table des Trois Rois",
+    "nameFr": "Table des Trois Rois",
+    "latitude": 42.92,
+    "longitude": -0.72,
+    "photoAtlasType": "summit",
+    "photoAtlasFamily": "Relief",
+    "remarkableScore": 46,
+    "photographicScore": 54,
+    "premiumScore": 80,
+    "confidence": "HIGH",
+    "premiumReasons": [
+      "Sommet identifié",
+      "Lieu physiquement identifiable et distinct",
+      "Lieu nommé",
+      "Documentation externe partielle",
+      "Sommet avec altitude significative",
+      "Altitude significative pour un sommet",
+      "Au moins un signal distinctif au-delà du type est présent"
+    ],
+    "osmRepresentations": [
+      {
+        "osmType": "node",
+        "osmId": 1896334134,
+        "sourceExternalId": "osm:node/1896334134",
+        "photoAtlasType": "summit",
+        "principalTag": "natural=peak",
+        "coordinateSource": "node",
+        "confidence": "HIGH",
+        "premiumScore": 80,
+        "premium": true,
+        "isPrimary": true
+      }
+    ],
+    "duplicateCount": 1
+  }
+]
