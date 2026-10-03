@@ -47,7 +47,7 @@ export function AstroTimeSlider() {
           <Sparkles className="h-5 w-5 shrink-0" aria-hidden="true" />
           <span className="truncate">Mode Astro · {selectedPlace.name}</span>
         </span>
-        <span className="flex shrink-0 items-center gap-1.5 font-mono text-sm font-bold text-white tabular-nums">
+        <span className="text-foreground flex shrink-0 items-center gap-1.5 font-mono text-sm font-bold tabular-nums">
           <Clock3 className="text-astro h-5 w-5" aria-hidden="true" />
           {formatAstronomyTime(selectedTime)}
         </span>

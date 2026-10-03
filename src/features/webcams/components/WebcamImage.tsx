@@ -29,7 +29,7 @@ export function WebcamImage({ src, alt, sourceUrl, className, onExpired }: Webca
       href={sourceUrl}
       target="_blank"
       rel="noopener noreferrer"
-      className={`bg-black ${className ?? ""}`}
+      className={`bg-card ${className ?? ""}`}
       aria-label={`Ouvrir ${alt} sur Windy`}
     >
       {/* Les domaines et jetons d’image Windy sont dynamiques : l’optimiseur Next ne convient pas. */}

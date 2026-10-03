@@ -5,6 +5,8 @@ import Link from "next/link";
 
 import { SearchBar } from "@/features/search/components";
 
+import { ThemeToggle } from "./ThemeToggle";
+
 interface HeaderProps {
   onMobileMenuToggle: () => void;
   mobileSidebarOpen: boolean;
@@ -40,12 +42,16 @@ export function Header({ onMobileMenuToggle, mobileSidebarOpen }: HeaderProps) {
       {/* Barre de recherche */}
       <SearchBar />
 
-      <Link
-        href="/pourquoi-photoatlas"
-        className="text-muted-foreground hover:bg-accent hover:text-foreground ml-auto hidden min-h-11 items-center rounded-xl px-3 text-sm font-medium transition-colors md:inline-flex"
-      >
-        À propos
-      </Link>
+      <div className="ml-auto flex items-center gap-2">
+        <ThemeToggle />
+
+        <Link
+          href="/pourquoi-photoatlas"
+          className="text-muted-foreground hover:bg-accent hover:text-foreground hidden min-h-11 items-center rounded-xl px-3 text-sm font-medium transition-colors md:inline-flex"
+        >
+          À propos
+        </Link>
+      </div>
     </header>
   );
 }

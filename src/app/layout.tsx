@@ -6,6 +6,21 @@ import { PROJECT_IDENTITY } from "@/lib/projectIdentity";
 
 import "./globals.css";
 
+const themeInitScript = `
+(() => {
+  try {
+    const storedTheme = window.localStorage.getItem('photoatlas-theme');
+    const theme = storedTheme === 'dark' ? 'dark' : 'light';
+    const root = document.documentElement;
+    root.classList.toggle('dark', theme === 'dark');
+    root.dataset.theme = theme;
+  } catch {
+    document.documentElement.classList.remove('dark');
+    document.documentElement.dataset.theme = 'light';
+  }
+})();
+`;
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -45,7 +60,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr" className={`${geistSans.variable} ${geistMono.variable} dark antialiased`}>
+    <html
+      lang="fr"
+      suppressHydrationWarning
+      className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+    >
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
+      </head>
       <body>
         <AppLayout>{children}</AppLayout>
       </body>
