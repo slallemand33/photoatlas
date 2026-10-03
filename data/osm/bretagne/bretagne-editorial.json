@@ -1,0 +1,4314 @@
+{
+  "version": 1,
+  "region": "Bretagne",
+  "catalogue": "premium",
+  "generatedAt": "2026-10-03T18:36:32.171Z",
+  "spots": [
+    {
+      "placeKey": "osm:node/117081598",
+      "name": "Phare de la Jument",
+      "latitude": 48.42,
+      "longitude": -5.13,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 91,
+      "remarkableScore": 74,
+      "photographicScore": 78,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 117081598,
+          "sourceExternalId": "osm:node/117081598",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "node",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 91,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "phare-de-la-jument"
+    },
+    {
+      "placeKey": "osm:node/255359392",
+      "name": "Phare de Pen-Men",
+      "latitude": 47.65,
+      "longitude": -3.51,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 91,
+      "remarkableScore": 74,
+      "photographicScore": 78,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 255359392,
+          "sourceExternalId": "osm:node/255359392",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "node",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 91,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "phare-de-pen-men"
+    },
+    {
+      "placeKey": "osm:node/1378041353",
+      "name": "Phare des Roches-Douvres",
+      "latitude": 49.11,
+      "longitude": -2.81,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 91,
+      "remarkableScore": 74,
+      "photographicScore": 78,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 1378041353,
+          "sourceExternalId": "osm:node/1378041353",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "node",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 91,
+          "confidence": "HIGH",
+          "isPrimary": true
+        },
+        {
+          "osmType": "way",
+          "osmId": 368957560,
+          "sourceExternalId": "osm:way/368957560",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 81,
+          "confidence": "HIGH",
+          "isPrimary": false
+        }
+      ],
+      "slug": "phare-des-roches-douvres"
+    },
+    {
+      "placeKey": "osm:node/1269267113",
+      "name": "Phare du Four",
+      "latitude": 48.52,
+      "longitude": -4.81,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 91,
+      "remarkableScore": 74,
+      "photographicScore": 78,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 1269267113,
+          "sourceExternalId": "osm:node/1269267113",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "node",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 91,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "phare-du-four"
+    },
+    {
+      "placeKey": "osm:node/1370801434",
+      "name": "Phare du Petit Minou",
+      "latitude": 48.34,
+      "longitude": -4.61,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 91,
+      "remarkableScore": 74,
+      "photographicScore": 78,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 1370801434,
+          "sourceExternalId": "osm:node/1370801434",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "node",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 91,
+          "confidence": "HIGH",
+          "isPrimary": true
+        },
+        {
+          "osmType": "way",
+          "osmId": 42619356,
+          "sourceExternalId": "osm:way/42619356",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "HIGH",
+          "isPrimary": false
+        }
+      ],
+      "slug": "phare-du-petit-minou"
+    },
+    {
+      "placeKey": "osm:node/6793206641",
+      "name": "Phare des Sept-Îles",
+      "latitude": 48.88,
+      "longitude": -3.49,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 89,
+      "remarkableScore": 66,
+      "photographicScore": 78,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection présent",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 6793206641,
+          "sourceExternalId": "osm:node/6793206641",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "node",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 89,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "phare-des-sept-iles"
+    },
+    {
+      "placeKey": "osm:node/1543882146",
+      "name": "Phare de la Croix",
+      "latitude": 48.84,
+      "longitude": -3.05,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 87,
+      "remarkableScore": 56,
+      "photographicScore": 78,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 1543882146,
+          "sourceExternalId": "osm:node/1543882146",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "node",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 87,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "phare-de-la-croix-le-trieux"
+    },
+    {
+      "placeKey": "osm:node/1269200222",
+      "name": "Phare de Tévennec",
+      "latitude": 48.07,
+      "longitude": -4.8,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 87,
+      "remarkableScore": 74,
+      "photographicScore": 64,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Identité explicite du lieu",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 1269200222,
+          "sourceExternalId": "osm:node/1269200222",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "node",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 87,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "phare-de-tevennec"
+    },
+    {
+      "placeKey": "osm:node/1370801507",
+      "name": "Phare de Trézien",
+      "latitude": 48.42,
+      "longitude": -4.78,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 87,
+      "remarkableScore": 56,
+      "photographicScore": 78,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 1370801507,
+          "sourceExternalId": "osm:node/1370801507",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "node",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 87,
+          "confidence": "HIGH",
+          "isPrimary": true
+        },
+        {
+          "osmType": "way",
+          "osmId": 42960770,
+          "sourceExternalId": "osm:way/42960770",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "review",
+          "premiumScore": 41,
+          "confidence": "HIGH",
+          "isPrimary": false
+        }
+      ],
+      "slug": "phare-de-trezien"
+    },
+    {
+      "placeKey": "osm:node/1395067584",
+      "name": "Phare des Moutons",
+      "latitude": 47.77,
+      "longitude": -4.03,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 87,
+      "remarkableScore": 56,
+      "photographicScore": 78,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 1395067584,
+          "sourceExternalId": "osm:node/1395067584",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "node",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 87,
+          "confidence": "HIGH",
+          "isPrimary": true
+        },
+        {
+          "osmType": "way",
+          "osmId": 83221817,
+          "sourceExternalId": "osm:way/83221817",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "rejected",
+          "premiumScore": 29,
+          "confidence": "HIGH",
+          "isPrimary": false
+        }
+      ],
+      "slug": "phare-des-moutons"
+    },
+    {
+      "placeKey": "osm:node/1370801478",
+      "name": "Phare des Pierres-Noires",
+      "latitude": 48.31,
+      "longitude": -4.91,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 87,
+      "remarkableScore": 74,
+      "photographicScore": 64,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Identité explicite du lieu",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 1370801478,
+          "sourceExternalId": "osm:node/1370801478",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "node",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 87,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "phare-des-pierres-noires"
+    },
+    {
+      "placeKey": "osm:node/13138447296",
+      "name": "Phare du Créac'h",
+      "latitude": 48.46,
+      "longitude": -5.13,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 87,
+      "remarkableScore": 56,
+      "photographicScore": 78,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 13138447296,
+          "sourceExternalId": "osm:node/13138447296",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "node",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 87,
+          "confidence": "HIGH",
+          "isPrimary": true
+        },
+        {
+          "osmType": "way",
+          "osmId": 282723238,
+          "sourceExternalId": "osm:way/282723238",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 85,
+          "confidence": "HIGH",
+          "isPrimary": false
+        }
+      ],
+      "slug": "phare-du-creac-h"
+    },
+    {
+      "placeKey": "osm:way/94677643",
+      "name": "Phare du Grand-Jardin",
+      "latitude": 48.67,
+      "longitude": -2.08,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 87,
+      "remarkableScore": 82,
+      "photographicScore": 58,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte descriptif ou institutionnel présent",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "way",
+          "osmId": 94677643,
+          "sourceExternalId": "osm:way/94677643",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 87,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "phare-du-grand-jardin"
+    },
+    {
+      "placeKey": "osm:node/535700544",
+      "name": "Phare du Millier",
+      "latitude": 48.1,
+      "longitude": -4.47,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 87,
+      "remarkableScore": 56,
+      "photographicScore": 78,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 535700544,
+          "sourceExternalId": "osm:node/535700544",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "node",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 87,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "phare-du-millier"
+    },
+    {
+      "placeKey": "osm:node/1370801418",
+      "name": "Phare du Portzic",
+      "latitude": 48.36,
+      "longitude": -4.53,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 87,
+      "remarkableScore": 56,
+      "photographicScore": 78,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 1370801418,
+          "sourceExternalId": "osm:node/1370801418",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "node",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 87,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "phare-du-portzic"
+    },
+    {
+      "placeKey": "osm:node/2715566908",
+      "name": "Phare du Rosédo",
+      "latitude": 48.86,
+      "longitude": -3,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 87,
+      "remarkableScore": 56,
+      "photographicScore": 78,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 2715566908,
+          "sourceExternalId": "osm:node/2715566908",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "node",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 87,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "phare-du-rosedo"
+    },
+    {
+      "placeKey": "osm:way/1429681256",
+      "name": "Château de Fougères",
+      "latitude": 48.35,
+      "longitude": -1.21,
+      "photoAtlasType": "castle",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 86,
+      "remarkableScore": 70,
+      "photographicScore": 62,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte descriptif ou institutionnel présent",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "way",
+          "osmId": 1429681256,
+          "sourceExternalId": "osm:way/1429681256",
+          "principalTag": "historic=castle",
+          "coordinateSource": "representative_way_bbox_center",
+          "photoAtlasType": "castle",
+          "qualificationStatus": "premium",
+          "premiumScore": 86,
+          "confidence": "HIGH",
+          "isPrimary": true
+        },
+        {
+          "osmType": "node",
+          "osmId": 13968718601,
+          "sourceExternalId": "osm:node/13968718601",
+          "principalTag": "historic=castle",
+          "coordinateSource": "node",
+          "photoAtlasType": "castle",
+          "qualificationStatus": "review",
+          "premiumScore": 51,
+          "confidence": "HIGH",
+          "isPrimary": false
+        }
+      ],
+      "slug": "chateau-de-fougeres"
+    },
+    {
+      "placeKey": "osm:node/7786979338",
+      "name": "Observatoire du marais de Séné",
+      "latitude": 47.62,
+      "longitude": -2.71,
+      "photoAtlasType": "observatory",
+      "photoAtlasFamily": "Observation",
+      "premiumScore": 86,
+      "remarkableScore": 48,
+      "photographicScore": 80,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type observatory issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Contexte descriptif ou institutionnel présent",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Fonction d'observation explicitement démontrée",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 7786979338,
+          "sourceExternalId": "osm:node/7786979338",
+          "principalTag": "tourism=viewpoint",
+          "coordinateSource": "node",
+          "photoAtlasType": "observatory",
+          "qualificationStatus": "premium",
+          "premiumScore": 86,
+          "confidence": "HIGH",
+          "isPrimary": true
+        },
+        {
+          "osmType": "way",
+          "osmId": 125424829,
+          "sourceExternalId": "osm:way/125424829",
+          "principalTag": "leisure=bird_hide",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "observatory",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "HIGH",
+          "isPrimary": false
+        },
+        {
+          "osmType": "way",
+          "osmId": 125427386,
+          "sourceExternalId": "osm:way/125427386",
+          "principalTag": "leisure=bird_hide",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "observatory",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "HIGH",
+          "isPrimary": false
+        },
+        {
+          "osmType": "way",
+          "osmId": 125431077,
+          "sourceExternalId": "osm:way/125431077",
+          "principalTag": "leisure=bird_hide",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "observatory",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "HIGH",
+          "isPrimary": false
+        },
+        {
+          "osmType": "way",
+          "osmId": 1421990506,
+          "sourceExternalId": "osm:way/1421990506",
+          "principalTag": "leisure=bird_hide",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "observatory",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "HIGH",
+          "isPrimary": false
+        }
+      ],
+      "slug": "observatoire-du-marais-de-sene"
+    },
+    {
+      "placeKey": "osm:node/4938217707",
+      "name": "Château de Rustéphan",
+      "latitude": 47.86,
+      "longitude": -3.77,
+      "photoAtlasType": "ruins",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 85,
+      "remarkableScore": 62,
+      "photographicScore": 65,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type ruins issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 4938217707,
+          "sourceExternalId": "osm:node/4938217707",
+          "principalTag": "historic=ruins",
+          "coordinateSource": "node",
+          "photoAtlasType": "ruins",
+          "qualificationStatus": "premium",
+          "premiumScore": 85,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "chateau-de-rustephan"
+    },
+    {
+      "placeKey": "osm:way/627188299",
+      "name": "Phare de Kéréon",
+      "latitude": 48.44,
+      "longitude": -5.03,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 85,
+      "remarkableScore": 74,
+      "photographicScore": 58,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "way",
+          "osmId": 627188299,
+          "sourceExternalId": "osm:way/627188299",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 85,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "phare-de-kereon"
+    },
+    {
+      "placeKey": "osm:node/602214530",
+      "name": "Phare de Kergadec",
+      "latitude": 48.02,
+      "longitude": -4.55,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 85,
+      "remarkableScore": 48,
+      "photographicScore": 78,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 602214530,
+          "sourceExternalId": "osm:node/602214530",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "node",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 85,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "phare-de-kergadec"
+    },
+    {
+      "placeKey": "osm:node/1269226414",
+      "name": "Phare de l'Aber Ildut",
+      "latitude": 48.47,
+      "longitude": -4.76,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 85,
+      "remarkableScore": 48,
+      "photographicScore": 78,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 1269226414,
+          "sourceExternalId": "osm:node/1269226414",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "node",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 85,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "phare-de-l-aber-ildut"
+    },
+    {
+      "placeKey": "osm:way/364993683",
+      "name": "Phare de l'île de Sein",
+      "latitude": 48.04,
+      "longitude": -4.87,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 85,
+      "remarkableScore": 74,
+      "photographicScore": 58,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "way",
+          "osmId": 364993683,
+          "sourceExternalId": "osm:way/364993683",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 85,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "phare-de-l-ile-de-sein"
+    },
+    {
+      "placeKey": "osm:way/93055283",
+      "name": "Phare de l'Île Vierge",
+      "latitude": 48.64,
+      "longitude": -4.57,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 85,
+      "remarkableScore": 74,
+      "photographicScore": 58,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "way",
+          "osmId": 93055283,
+          "sourceExternalId": "osm:way/93055283",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 85,
+          "confidence": "HIGH",
+          "isPrimary": true
+        },
+        {
+          "osmType": "way",
+          "osmId": 93055783,
+          "sourceExternalId": "osm:way/93055783",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "rejected",
+          "premiumScore": 32,
+          "confidence": "HIGH",
+          "isPrimary": false
+        }
+      ],
+      "slug": "phare-de-l-ile-vierge"
+    },
+    {
+      "placeKey": "osm:way/737263555",
+      "name": "Phare de la Vieille",
+      "latitude": 48.04,
+      "longitude": -4.76,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 85,
+      "remarkableScore": 74,
+      "photographicScore": 58,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "way",
+          "osmId": 737263555,
+          "sourceExternalId": "osm:way/737263555",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 85,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "phare-de-la-vieille"
+    },
+    {
+      "placeKey": "osm:node/1269394756",
+      "name": "Phare du Toulinguet",
+      "latitude": 48.28,
+      "longitude": -4.63,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 85,
+      "remarkableScore": 48,
+      "photographicScore": 78,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 1269394756,
+          "sourceExternalId": "osm:node/1269394756",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "node",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 85,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "phare-du-toulinguet"
+    },
+    {
+      "placeKey": "osm:node/5907022932",
+      "name": "Phare et fort de Penfret",
+      "latitude": 47.72,
+      "longitude": -3.95,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 85,
+      "remarkableScore": 62,
+      "photographicScore": 68,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent",
+        "Identité explicite du lieu"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 5907022932,
+          "sourceExternalId": "osm:node/5907022932",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "node",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 85,
+          "confidence": "HIGH",
+          "isPrimary": true
+        },
+        {
+          "osmType": "way",
+          "osmId": 40024237,
+          "sourceExternalId": "osm:way/40024237",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 81,
+          "confidence": "HIGH",
+          "isPrimary": false
+        }
+      ],
+      "slug": "phare-et-fort-de-penfret"
+    },
+    {
+      "placeKey": "osm:node/3034504597",
+      "name": "Fort Cigogne",
+      "latitude": 47.72,
+      "longitude": -3.99,
+      "photoAtlasType": "fortification",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 84,
+      "remarkableScore": 62,
+      "photographicScore": 64,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type fortification issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 3034504597,
+          "sourceExternalId": "osm:node/3034504597",
+          "principalTag": "historic=fort",
+          "coordinateSource": "node",
+          "photoAtlasType": "fortification",
+          "qualificationStatus": "premium",
+          "premiumScore": 84,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "fort-cigogne"
+    },
+    {
+      "placeKey": "osm:way/63697430",
+      "name": "Phare de Goulphar",
+      "latitude": 47.31,
+      "longitude": -3.23,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 84,
+      "remarkableScore": 66,
+      "photographicScore": 58,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "way",
+          "osmId": 63697430,
+          "sourceExternalId": "osm:way/63697430",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 84,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "phare-de-goulphar"
+    },
+    {
+      "placeKey": "osm:way/232642575",
+      "name": "Phare de Lanvaon",
+      "latitude": 48.61,
+      "longitude": -4.54,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 84,
+      "remarkableScore": 66,
+      "photographicScore": 58,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection présent",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "way",
+          "osmId": 232642575,
+          "sourceExternalId": "osm:way/232642575",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 84,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "phare-de-lanvaon"
+    },
+    {
+      "placeKey": "osm:way/135722236",
+      "name": "Phare du Cap Fréhel",
+      "latitude": 48.68,
+      "longitude": -2.32,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 84,
+      "remarkableScore": 66,
+      "photographicScore": 58,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection présent",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "way",
+          "osmId": 135722236,
+          "sourceExternalId": "osm:way/135722236",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 84,
+          "confidence": "HIGH",
+          "isPrimary": true
+        },
+        {
+          "osmType": "way",
+          "osmId": 717175344,
+          "sourceExternalId": "osm:way/717175344",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 83,
+          "confidence": "HIGH",
+          "isPrimary": false
+        }
+      ],
+      "slug": "phare-du-cap-frehel"
+    },
+    {
+      "placeKey": "osm:node/4968595050",
+      "name": "Château de Fontenay",
+      "latitude": 48.05,
+      "longitude": -1.7,
+      "photoAtlasType": "castle",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 83,
+      "remarkableScore": 62,
+      "photographicScore": 60,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 4968595050,
+          "sourceExternalId": "osm:node/4968595050",
+          "principalTag": "historic=castle",
+          "coordinateSource": "node",
+          "photoAtlasType": "castle",
+          "qualificationStatus": "premium",
+          "premiumScore": 83,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "chateau-de-fontenay"
+    },
+    {
+      "placeKey": "osm:node/3029844736",
+      "name": "Château de Kéralio",
+      "latitude": 48.82,
+      "longitude": -3.25,
+      "photoAtlasType": "castle",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 83,
+      "remarkableScore": 62,
+      "photographicScore": 60,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 3029844736,
+          "sourceExternalId": "osm:node/3029844736",
+          "principalTag": "historic=castle",
+          "coordinateSource": "node",
+          "photoAtlasType": "castle",
+          "qualificationStatus": "premium",
+          "premiumScore": 83,
+          "confidence": "HIGH",
+          "isPrimary": true
+        },
+        {
+          "osmType": "way",
+          "osmId": 77996685,
+          "sourceExternalId": "osm:way/77996685",
+          "principalTag": "historic=castle",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "castle",
+          "qualificationStatus": "review",
+          "premiumScore": 46,
+          "confidence": "HIGH",
+          "isPrimary": false
+        }
+      ],
+      "slug": "chateau-de-keralio"
+    },
+    {
+      "placeKey": "osm:node/4990866348",
+      "name": "Château de la Sécardais",
+      "latitude": 48.3,
+      "longitude": -1.46,
+      "photoAtlasType": "castle",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 83,
+      "remarkableScore": 62,
+      "photographicScore": 60,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 4990866348,
+          "sourceExternalId": "osm:node/4990866348",
+          "principalTag": "historic=castle",
+          "coordinateSource": "node",
+          "photoAtlasType": "castle",
+          "qualificationStatus": "premium",
+          "premiumScore": 83,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "chateau-de-la-secardais"
+    },
+    {
+      "placeKey": "osm:node/4990866347",
+      "name": "Château de Lupin",
+      "latitude": 48.68,
+      "longitude": -1.94,
+      "photoAtlasType": "castle",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 83,
+      "remarkableScore": 62,
+      "photographicScore": 60,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 4990866347,
+          "sourceExternalId": "osm:node/4990866347",
+          "principalTag": "historic=castle",
+          "coordinateSource": "node",
+          "photoAtlasType": "castle",
+          "qualificationStatus": "premium",
+          "premiumScore": 83,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "chateau-de-lupin"
+    },
+    {
+      "placeKey": "osm:node/4674932670",
+      "name": "Château du Bot",
+      "latitude": 47.81,
+      "longitude": -3.3,
+      "photoAtlasType": "castle",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 83,
+      "remarkableScore": 62,
+      "photographicScore": 60,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 4674932670,
+          "sourceExternalId": "osm:node/4674932670",
+          "principalTag": "historic=castle",
+          "coordinateSource": "node",
+          "photoAtlasType": "castle",
+          "qualificationStatus": "premium",
+          "premiumScore": 83,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "chateau-du-bot"
+    },
+    {
+      "placeKey": "osm:node/4354560524",
+      "name": "Fort de Taillefer",
+      "latitude": 47.36,
+      "longitude": -3.16,
+      "photoAtlasType": "fortification",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 83,
+      "remarkableScore": 54,
+      "photographicScore": 64,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type fortification issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 4354560524,
+          "sourceExternalId": "osm:node/4354560524",
+          "principalTag": "historic=fort",
+          "coordinateSource": "node",
+          "photoAtlasType": "fortification",
+          "qualificationStatus": "premium",
+          "premiumScore": 83,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "fort-de-taillefer"
+    },
+    {
+      "placeKey": "osm:way/37106950",
+      "name": "Le Vieux Pont Suspendu",
+      "latitude": 47.64,
+      "longitude": -2.95,
+      "photoAtlasType": "monument",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 83,
+      "remarkableScore": 62,
+      "photographicScore": 59,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type monument issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "way",
+          "osmId": 37106950,
+          "sourceExternalId": "osm:way/37106950",
+          "principalTag": "historic=monument",
+          "coordinateSource": "representative_way_bbox_center",
+          "photoAtlasType": "monument",
+          "qualificationStatus": "premium",
+          "premiumScore": 83,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "le-vieux-pont-suspendu"
+    },
+    {
+      "placeKey": "osm:node/4715006920",
+      "name": "Observatoire",
+      "latitude": 48.52,
+      "longitude": -1.52,
+      "photoAtlasType": "observatory",
+      "photoAtlasFamily": "Observation",
+      "premiumScore": 83,
+      "remarkableScore": 40,
+      "photographicScore": 80,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type observatory issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Fonction d'observation explicitement démontrée",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 4715006920,
+          "sourceExternalId": "osm:node/4715006920",
+          "principalTag": "tourism=viewpoint",
+          "coordinateSource": "node",
+          "photoAtlasType": "observatory",
+          "qualificationStatus": "premium",
+          "premiumScore": 83,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "observatoire-n48-5193-w1-5153"
+    },
+    {
+      "placeKey": "osm:node/5590864486",
+      "name": "Observatoire",
+      "latitude": 47.76,
+      "longitude": -3.32,
+      "photoAtlasType": "observatory",
+      "photoAtlasFamily": "Observation",
+      "premiumScore": 83,
+      "remarkableScore": 40,
+      "photographicScore": 80,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type observatory issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Fonction d'observation explicitement démontrée",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 5590864486,
+          "sourceExternalId": "osm:node/5590864486",
+          "principalTag": "leisure=bird_hide",
+          "coordinateSource": "node",
+          "photoAtlasType": "observatory",
+          "qualificationStatus": "premium",
+          "premiumScore": 83,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "observatoire-n47-7609-w3-3239"
+    },
+    {
+      "placeKey": "osm:node/6022818160",
+      "name": "Observatoire",
+      "latitude": 47.77,
+      "longitude": -3.5,
+      "photoAtlasType": "observatory",
+      "photoAtlasFamily": "Observation",
+      "premiumScore": 83,
+      "remarkableScore": 40,
+      "photographicScore": 80,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type observatory issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Fonction d'observation explicitement démontrée",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 6022818160,
+          "sourceExternalId": "osm:node/6022818160",
+          "principalTag": "leisure=bird_hide",
+          "coordinateSource": "node",
+          "photoAtlasType": "observatory",
+          "qualificationStatus": "premium",
+          "premiumScore": 83,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "observatoire-n47-7686-w3-5019"
+    },
+    {
+      "placeKey": "osm:node/11897628369",
+      "name": "Observatoire de Kersanton",
+      "latitude": 48.35,
+      "longitude": -4.3,
+      "photoAtlasType": "observatory",
+      "photoAtlasFamily": "Observation",
+      "premiumScore": 83,
+      "remarkableScore": 40,
+      "photographicScore": 80,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type observatory issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Fonction d'observation explicitement démontrée",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 11897628369,
+          "sourceExternalId": "osm:node/11897628369",
+          "principalTag": "leisure=bird_hide",
+          "coordinateSource": "node",
+          "photoAtlasType": "observatory",
+          "qualificationStatus": "premium",
+          "premiumScore": 83,
+          "confidence": "HIGH",
+          "isPrimary": true
+        },
+        {
+          "osmType": "node",
+          "osmId": 11897628380,
+          "sourceExternalId": "osm:node/11897628380",
+          "principalTag": "unknown",
+          "coordinateSource": "node",
+          "photoAtlasType": "observatory",
+          "qualificationStatus": "review",
+          "premiumScore": 52,
+          "confidence": "HIGH",
+          "isPrimary": false
+        }
+      ],
+      "slug": "observatoire-de-kersanton"
+    },
+    {
+      "placeKey": "osm:node/14080691020",
+      "name": "Observatoire de l'étang du Hézo",
+      "latitude": 47.58,
+      "longitude": -2.7,
+      "photoAtlasType": "observatory",
+      "photoAtlasFamily": "Observation",
+      "premiumScore": 83,
+      "remarkableScore": 40,
+      "photographicScore": 80,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type observatory issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Fonction d'observation explicitement démontrée",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 14080691020,
+          "sourceExternalId": "osm:node/14080691020",
+          "principalTag": "leisure=bird_hide",
+          "coordinateSource": "node",
+          "photoAtlasType": "observatory",
+          "qualificationStatus": "premium",
+          "premiumScore": 83,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "observatoire-de-l-etang-du-hezo"
+    },
+    {
+      "placeKey": "osm:node/11897628406",
+      "name": "Observatoire de Lanveur",
+      "latitude": 48.36,
+      "longitude": -4.3,
+      "photoAtlasType": "observatory",
+      "photoAtlasFamily": "Observation",
+      "premiumScore": 83,
+      "remarkableScore": 40,
+      "photographicScore": 80,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type observatory issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Fonction d'observation explicitement démontrée",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 11897628406,
+          "sourceExternalId": "osm:node/11897628406",
+          "principalTag": "leisure=bird_hide",
+          "coordinateSource": "node",
+          "photoAtlasType": "observatory",
+          "qualificationStatus": "premium",
+          "premiumScore": 83,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "observatoire-de-lanveur"
+    },
+    {
+      "placeKey": "osm:node/10299619646",
+      "name": "Observatoire de Penfoul",
+      "latitude": 48.33,
+      "longitude": -4.31,
+      "photoAtlasType": "observatory",
+      "photoAtlasFamily": "Observation",
+      "premiumScore": 83,
+      "remarkableScore": 40,
+      "photographicScore": 80,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type observatory issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Fonction d'observation explicitement démontrée",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 10299619646,
+          "sourceExternalId": "osm:node/10299619646",
+          "principalTag": "leisure=bird_hide",
+          "coordinateSource": "node",
+          "photoAtlasType": "observatory",
+          "qualificationStatus": "premium",
+          "premiumScore": 83,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "observatoire-de-penfoul"
+    },
+    {
+      "placeKey": "osm:node/6739769293",
+      "name": "Observatoire de Pennaras",
+      "latitude": 48.33,
+      "longitude": -4.3,
+      "photoAtlasType": "observatory",
+      "photoAtlasFamily": "Observation",
+      "premiumScore": 83,
+      "remarkableScore": 40,
+      "photographicScore": 80,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type observatory issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Fonction d'observation explicitement démontrée",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 6739769293,
+          "sourceExternalId": "osm:node/6739769293",
+          "principalTag": "leisure=bird_hide",
+          "coordinateSource": "node",
+          "photoAtlasType": "observatory",
+          "qualificationStatus": "premium",
+          "premiumScore": 83,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "observatoire-de-pennaras"
+    },
+    {
+      "placeKey": "osm:node/10556615855",
+      "name": "Observatoire ornithologique",
+      "latitude": 48.07,
+      "longitude": -2.01,
+      "photoAtlasType": "observatory",
+      "photoAtlasFamily": "Observation",
+      "premiumScore": 83,
+      "remarkableScore": 40,
+      "photographicScore": 80,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type observatory issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Fonction d'observation explicitement démontrée",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 10556615855,
+          "sourceExternalId": "osm:node/10556615855",
+          "principalTag": "leisure=bird_hide",
+          "coordinateSource": "node",
+          "photoAtlasType": "observatory",
+          "qualificationStatus": "premium",
+          "premiumScore": 83,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "observatoire-ornithologique-n48-0698-w2-0120"
+    },
+    {
+      "placeKey": "osm:node/10556663392",
+      "name": "Observatoire ornithologique",
+      "latitude": 48.08,
+      "longitude": -2.01,
+      "photoAtlasType": "observatory",
+      "photoAtlasFamily": "Observation",
+      "premiumScore": 83,
+      "remarkableScore": 40,
+      "photographicScore": 80,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type observatory issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Fonction d'observation explicitement démontrée",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 10556663392,
+          "sourceExternalId": "osm:node/10556663392",
+          "principalTag": "leisure=bird_hide",
+          "coordinateSource": "node",
+          "photoAtlasType": "observatory",
+          "qualificationStatus": "premium",
+          "premiumScore": 83,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "observatoire-ornithologique-n48-0751-w2-0137"
+    },
+    {
+      "placeKey": "osm:node/4714905290",
+      "name": "Observatoire ornithologique de la Musse",
+      "latitude": 48.51,
+      "longitude": -1.51,
+      "photoAtlasType": "observatory",
+      "photoAtlasFamily": "Observation",
+      "premiumScore": 83,
+      "remarkableScore": 40,
+      "photographicScore": 80,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type observatory issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Fonction d'observation explicitement démontrée",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 4714905290,
+          "sourceExternalId": "osm:node/4714905290",
+          "principalTag": "tourism=viewpoint",
+          "coordinateSource": "node",
+          "photoAtlasType": "observatory",
+          "qualificationStatus": "premium",
+          "premiumScore": 83,
+          "confidence": "HIGH",
+          "isPrimary": true
+        },
+        {
+          "osmType": "node",
+          "osmId": 1433073933,
+          "sourceExternalId": "osm:node/1433073933",
+          "principalTag": "tourism=viewpoint",
+          "coordinateSource": "node",
+          "photoAtlasType": "observatory",
+          "qualificationStatus": "review",
+          "premiumScore": 52,
+          "confidence": "HIGH",
+          "isPrimary": false
+        }
+      ],
+      "slug": "observatoire-ornithologique-de-la-musse"
+    },
+    {
+      "placeKey": "osm:way/72268409",
+      "name": "Phare de l'île de Batz",
+      "latitude": 48.75,
+      "longitude": -4.03,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 83,
+      "remarkableScore": 70,
+      "photographicScore": 52,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte descriptif ou institutionnel présent",
+        "Contexte paysager cohérent à proximité",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "way",
+          "osmId": 72268409,
+          "sourceExternalId": "osm:way/72268409",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 83,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "phare-de-l-ile-de-batz"
+    },
+    {
+      "placeKey": "osm:node/1370799982",
+      "name": "Phare de la Teignouse",
+      "latitude": 47.46,
+      "longitude": -3.05,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 83,
+      "remarkableScore": 56,
+      "photographicScore": 64,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Identité explicite du lieu",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 1370799982,
+          "sourceExternalId": "osm:node/1370799982",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "node",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 83,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "phare-de-la-teignouse"
+    },
+    {
+      "placeKey": "osm:node/1865624218",
+      "name": "Phare de Pontusval",
+      "latitude": 48.68,
+      "longitude": -4.35,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 83,
+      "remarkableScore": 40,
+      "photographicScore": 78,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 1865624218,
+          "sourceExternalId": "osm:node/1865624218",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "node",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 83,
+          "confidence": "HIGH",
+          "isPrimary": true
+        },
+        {
+          "osmType": "way",
+          "osmId": 54001309,
+          "sourceExternalId": "osm:way/54001309",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "review",
+          "premiumScore": 54,
+          "confidence": "HIGH",
+          "isPrimary": false
+        }
+      ],
+      "slug": "phare-de-pontusval"
+    },
+    {
+      "placeKey": "osm:node/2883454480",
+      "name": "Phare des Grands Cardinaux",
+      "latitude": 47.32,
+      "longitude": -2.83,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 83,
+      "remarkableScore": 56,
+      "photographicScore": 64,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Identité explicite du lieu",
+        "Phare structurellement caractérisé",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 2883454480,
+          "sourceExternalId": "osm:node/2883454480",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "node",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 83,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "phare-des-grands-cardinaux"
+    },
+    {
+      "placeKey": "osm:node/5599719757",
+      "name": "Château de la Grand'Ville",
+      "latitude": 48.58,
+      "longitude": -2.99,
+      "photoAtlasType": "castle",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 82,
+      "remarkableScore": 70,
+      "photographicScore": 50,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte descriptif ou institutionnel présent",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 5599719757,
+          "sourceExternalId": "osm:node/5599719757",
+          "principalTag": "historic=castle",
+          "coordinateSource": "node",
+          "photoAtlasType": "castle",
+          "qualificationStatus": "premium",
+          "premiumScore": 82,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "chateau-de-la-grand-ville"
+    },
+    {
+      "placeKey": "osm:node/1920516166",
+      "name": "Château de Mesléan",
+      "latitude": 48.44,
+      "longitude": -4.46,
+      "photoAtlasType": "castle",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 82,
+      "remarkableScore": 70,
+      "photographicScore": 50,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte descriptif ou institutionnel présent",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 1920516166,
+          "sourceExternalId": "osm:node/1920516166",
+          "principalTag": "historic=castle",
+          "coordinateSource": "node",
+          "photoAtlasType": "castle",
+          "qualificationStatus": "premium",
+          "premiumScore": 82,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "chateau-de-meslean"
+    },
+    {
+      "placeKey": "osm:node/2580167031",
+      "name": "Château de Trémohar",
+      "latitude": 47.63,
+      "longitude": -2.57,
+      "photoAtlasType": "castle",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 82,
+      "remarkableScore": 70,
+      "photographicScore": 50,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte descriptif ou institutionnel présent",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 2580167031,
+          "sourceExternalId": "osm:node/2580167031",
+          "principalTag": "historic=castle",
+          "coordinateSource": "node",
+          "photoAtlasType": "castle",
+          "qualificationStatus": "premium",
+          "premiumScore": 82,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "chateau-de-tremohar"
+    },
+    {
+      "placeKey": "osm:node/5283040087",
+      "name": "Lech de Pen-er-Pont",
+      "latitude": 47.7,
+      "longitude": -3.13,
+      "photoAtlasType": "monument",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 82,
+      "remarkableScore": 54,
+      "photographicScore": 61,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type monument issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 5283040087,
+          "sourceExternalId": "osm:node/5283040087",
+          "principalTag": "historic=monument",
+          "coordinateSource": "node",
+          "photoAtlasType": "monument",
+          "qualificationStatus": "premium",
+          "premiumScore": 82,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "lech-de-pen-er-pont"
+    },
+    {
+      "placeKey": "osm:node/4728503207",
+      "name": "Abbaye Saint-Maurice",
+      "latitude": 47.8,
+      "longitude": -3.53,
+      "photoAtlasType": "ruins",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 81,
+      "remarkableScore": 62,
+      "photographicScore": 53,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type ruins issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 4728503207,
+          "sourceExternalId": "osm:node/4728503207",
+          "principalTag": "historic=ruins",
+          "coordinateSource": "node",
+          "photoAtlasType": "ruins",
+          "qualificationStatus": "premium",
+          "premiumScore": 81,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "abbaye-saint-maurice"
+    },
+    {
+      "placeKey": "osm:node/6227948399",
+      "name": "Batterie Basse de Cornouaille",
+      "latitude": 48.33,
+      "longitude": -4.57,
+      "photoAtlasType": "ruins",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 81,
+      "remarkableScore": 62,
+      "photographicScore": 53,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type ruins issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 6227948399,
+          "sourceExternalId": "osm:node/6227948399",
+          "principalTag": "historic=ruins",
+          "coordinateSource": "node",
+          "photoAtlasType": "ruins",
+          "qualificationStatus": "premium",
+          "premiumScore": 81,
+          "confidence": "HIGH",
+          "isPrimary": true
+        },
+        {
+          "osmType": "way",
+          "osmId": 254993411,
+          "sourceExternalId": "osm:way/254993411",
+          "principalTag": "historic=ruins",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "ruins",
+          "qualificationStatus": "review",
+          "premiumScore": 37,
+          "confidence": "HIGH",
+          "isPrimary": false
+        }
+      ],
+      "slug": "batterie-basse-de-cornouaille"
+    },
+    {
+      "placeKey": "osm:node/5599719764",
+      "name": "Château de Beaumont",
+      "latitude": 48.3,
+      "longitude": -2.09,
+      "photoAtlasType": "castle",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 81,
+      "remarkableScore": 54,
+      "photographicScore": 60,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 5599719764,
+          "sourceExternalId": "osm:node/5599719764",
+          "principalTag": "historic=castle",
+          "coordinateSource": "node",
+          "photoAtlasType": "castle",
+          "qualificationStatus": "premium",
+          "premiumScore": 81,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "chateau-de-beaumont"
+    },
+    {
+      "placeKey": "osm:node/1258865133",
+      "name": "Château de Coat-Trédrez",
+      "latitude": 48.71,
+      "longitude": -3.55,
+      "photoAtlasType": "castle",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 81,
+      "remarkableScore": 54,
+      "photographicScore": 60,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 1258865133,
+          "sourceExternalId": "osm:node/1258865133",
+          "principalTag": "historic=castle",
+          "coordinateSource": "node",
+          "photoAtlasType": "castle",
+          "qualificationStatus": "premium",
+          "premiumScore": 81,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "chateau-de-coat-tredrez"
+    },
+    {
+      "placeKey": "osm:node/4938217715",
+      "name": "Château de Lezergué",
+      "latitude": 48.01,
+      "longitude": -4.02,
+      "photoAtlasType": "castle",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 81,
+      "remarkableScore": 54,
+      "photographicScore": 60,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 4938217715,
+          "sourceExternalId": "osm:node/4938217715",
+          "principalTag": "historic=castle",
+          "coordinateSource": "node",
+          "photoAtlasType": "castle",
+          "qualificationStatus": "premium",
+          "premiumScore": 81,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "chateau-de-lezergue"
+    },
+    {
+      "placeKey": "osm:node/4674932671",
+      "name": "Château de Sourdéac",
+      "latitude": 47.73,
+      "longitude": -2.12,
+      "photoAtlasType": "castle",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 81,
+      "remarkableScore": 54,
+      "photographicScore": 60,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 4674932671,
+          "sourceExternalId": "osm:node/4674932671",
+          "principalTag": "historic=castle",
+          "coordinateSource": "node",
+          "photoAtlasType": "castle",
+          "qualificationStatus": "premium",
+          "premiumScore": 81,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "chateau-de-sourdeac"
+    },
+    {
+      "placeKey": "osm:node/4567694428",
+      "name": "Château de Talhouët",
+      "latitude": 47.72,
+      "longitude": -2.37,
+      "photoAtlasType": "castle",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 81,
+      "remarkableScore": 54,
+      "photographicScore": 60,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 4567694428,
+          "sourceExternalId": "osm:node/4567694428",
+          "principalTag": "historic=castle",
+          "coordinateSource": "node",
+          "photoAtlasType": "castle",
+          "qualificationStatus": "premium",
+          "premiumScore": 81,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "chateau-de-talhouet"
+    },
+    {
+      "placeKey": "osm:node/4938217712",
+      "name": "Château de Troménec",
+      "latitude": 48.59,
+      "longitude": -4.56,
+      "photoAtlasType": "castle",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 81,
+      "remarkableScore": 54,
+      "photographicScore": 60,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 4938217712,
+          "sourceExternalId": "osm:node/4938217712",
+          "principalTag": "historic=castle",
+          "coordinateSource": "node",
+          "photoAtlasType": "castle",
+          "qualificationStatus": "premium",
+          "premiumScore": 81,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "chateau-de-tromenec"
+    },
+    {
+      "placeKey": "osm:node/4938217711",
+      "name": "Château du Hénant",
+      "latitude": 47.83,
+      "longitude": -3.76,
+      "photoAtlasType": "castle",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 81,
+      "remarkableScore": 54,
+      "photographicScore": 60,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 4938217711,
+          "sourceExternalId": "osm:node/4938217711",
+          "principalTag": "historic=castle",
+          "coordinateSource": "node",
+          "photoAtlasType": "castle",
+          "qualificationStatus": "premium",
+          "premiumScore": 81,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "chateau-du-henant"
+    },
+    {
+      "placeKey": "osm:node/2012913656",
+      "name": "Fort du Minou",
+      "latitude": 48.34,
+      "longitude": -4.61,
+      "photoAtlasType": "ruins",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 81,
+      "remarkableScore": 44,
+      "photographicScore": 65,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type ruins issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 2012913656,
+          "sourceExternalId": "osm:node/2012913656",
+          "principalTag": "historic=ruins",
+          "coordinateSource": "node",
+          "photoAtlasType": "ruins",
+          "qualificationStatus": "premium",
+          "premiumScore": 81,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "fort-du-minou"
+    },
+    {
+      "placeKey": "osm:way/33779845",
+      "name": "Phare d'Eckmühl",
+      "latitude": 47.8,
+      "longitude": -4.37,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 81,
+      "remarkableScore": 56,
+      "photographicScore": 58,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "way",
+          "osmId": 33779845,
+          "sourceExternalId": "osm:way/33779845",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 81,
+          "confidence": "HIGH",
+          "isPrimary": true
+        },
+        {
+          "osmType": "node",
+          "osmId": 9121274190,
+          "sourceExternalId": "osm:node/9121274190",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "node",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "review",
+          "premiumScore": 40,
+          "confidence": "HIGH",
+          "isPrimary": false
+        }
+      ],
+      "slug": "phare-d-eckmuhl"
+    },
+    {
+      "placeKey": "osm:way/232707096",
+      "name": "Phare de Kermorvan",
+      "latitude": 48.36,
+      "longitude": -4.79,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 81,
+      "remarkableScore": 56,
+      "photographicScore": 58,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "way",
+          "osmId": 232707096,
+          "sourceExternalId": "osm:way/232707096",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 81,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "phare-de-kermorvan"
+    },
+    {
+      "placeKey": "osm:way/93512248",
+      "name": "Phare de Langoz",
+      "latitude": 47.83,
+      "longitude": -4.16,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 81,
+      "remarkableScore": 56,
+      "photographicScore": 58,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "way",
+          "osmId": 93512248,
+          "sourceExternalId": "osm:way/93512248",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 81,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "phare-de-langoz"
+    },
+    {
+      "placeKey": "osm:way/81963847",
+      "name": "Phare de Mean Ruz",
+      "latitude": 48.84,
+      "longitude": -3.48,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 81,
+      "remarkableScore": 56,
+      "photographicScore": 58,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "way",
+          "osmId": 81963847,
+          "sourceExternalId": "osm:way/81963847",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 81,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "phare-de-mean-ruz"
+    },
+    {
+      "placeKey": "osm:way/171076270",
+      "name": "Phare de Port-Navalo",
+      "latitude": 47.55,
+      "longitude": -2.92,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 81,
+      "remarkableScore": 56,
+      "photographicScore": 58,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "way",
+          "osmId": 171076270,
+          "sourceExternalId": "osm:way/171076270",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 81,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "phare-de-port-navalo"
+    },
+    {
+      "placeKey": "osm:way/72072235",
+      "name": "Phare de Roscoff",
+      "latitude": 48.72,
+      "longitude": -3.98,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 81,
+      "remarkableScore": 56,
+      "photographicScore": 58,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "way",
+          "osmId": 72072235,
+          "sourceExternalId": "osm:way/72072235",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 81,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "phare-de-roscoff"
+    },
+    {
+      "placeKey": "osm:way/40402853",
+      "name": "Réserve Ornithologique Koh Kastel",
+      "latitude": 47.37,
+      "longitude": -3.26,
+      "photoAtlasType": "bird_reserve",
+      "photoAtlasFamily": "Nature",
+      "premiumScore": 81,
+      "remarkableScore": 50,
+      "photographicScore": 62,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type bird_reserve issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Signal patrimonial ou de protection présent",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Vocation d'observation ornithologique explicite",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "way",
+          "osmId": 40402853,
+          "sourceExternalId": "osm:way/40402853",
+          "principalTag": "boundary=protected_area",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "bird_reserve",
+          "qualificationStatus": "premium",
+          "premiumScore": 81,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "reserve-ornithologique-koh-kastel"
+    },
+    {
+      "placeKey": "osm:node/5599719758",
+      "name": "Ruines du château de La Chèze",
+      "latitude": 48.13,
+      "longitude": -2.66,
+      "photoAtlasType": "ruins",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 81,
+      "remarkableScore": 62,
+      "photographicScore": 51,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type ruins issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 5599719758,
+          "sourceExternalId": "osm:node/5599719758",
+          "principalTag": "historic=ruins",
+          "coordinateSource": "node",
+          "photoAtlasType": "ruins",
+          "qualificationStatus": "premium",
+          "premiumScore": 81,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "ruines-du-chateau-de-la-cheze"
+    },
+    {
+      "placeKey": "osm:node/6110181120",
+      "name": "Anciens Fours à chaux",
+      "latitude": 48.04,
+      "longitude": -1.72,
+      "photoAtlasType": "ruins",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 80,
+      "remarkableScore": 46,
+      "photographicScore": 53,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type ruins issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 6110181120,
+          "sourceExternalId": "osm:node/6110181120",
+          "principalTag": "historic=ruins",
+          "coordinateSource": "node",
+          "photoAtlasType": "ruins",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "anciens-fours-a-chaux"
+    },
+    {
+      "placeKey": "osm:node/1675115889",
+      "name": "Butte de César",
+      "latitude": 47.54,
+      "longitude": -2.87,
+      "photoAtlasType": "viewpoint",
+      "photoAtlasFamily": "Relief",
+      "premiumScore": 80,
+      "remarkableScore": 54,
+      "photographicScore": 55,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type viewpoint issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 1675115889,
+          "sourceExternalId": "osm:node/1675115889",
+          "principalTag": "tourism=viewpoint",
+          "coordinateSource": "node",
+          "photoAtlasType": "viewpoint",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "butte-de-cesar"
+    },
+    {
+      "placeKey": "osm:node/3001278312",
+      "name": "Château de Boutavent",
+      "latitude": 48.07,
+      "longitude": -2.05,
+      "photoAtlasType": "castle",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 80,
+      "remarkableScore": 44,
+      "photographicScore": 60,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 3001278312,
+          "sourceExternalId": "osm:node/3001278312",
+          "principalTag": "historic=castle",
+          "coordinateSource": "node",
+          "photoAtlasType": "castle",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "chateau-de-boutavent"
+    },
+    {
+      "placeKey": "osm:node/5599719768",
+      "name": "Château de Cargouët",
+      "latitude": 48.45,
+      "longitude": -2.6,
+      "photoAtlasType": "ruins",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 80,
+      "remarkableScore": 54,
+      "photographicScore": 51,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type ruins issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 5599719768,
+          "sourceExternalId": "osm:node/5599719768",
+          "principalTag": "historic=ruins",
+          "coordinateSource": "node",
+          "photoAtlasType": "ruins",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "chateau-de-cargouet"
+    },
+    {
+      "placeKey": "osm:node/5599719778",
+      "name": "Château de Coëtquen",
+      "latitude": 48.47,
+      "longitude": -1.94,
+      "photoAtlasType": "ruins",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 80,
+      "remarkableScore": 54,
+      "photographicScore": 51,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type ruins issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 5599719778,
+          "sourceExternalId": "osm:node/5599719778",
+          "principalTag": "historic=ruins",
+          "coordinateSource": "node",
+          "photoAtlasType": "ruins",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "chateau-de-coetquen"
+    },
+    {
+      "placeKey": "osm:node/4893955029",
+      "name": "Château de la Touche-à-la Vache",
+      "latitude": 48.52,
+      "longitude": -2.2,
+      "photoAtlasType": "ruins",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 80,
+      "remarkableScore": 54,
+      "photographicScore": 51,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type ruins issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 4893955029,
+          "sourceExternalId": "osm:node/4893955029",
+          "principalTag": "historic=ruins",
+          "coordinateSource": "node",
+          "photoAtlasType": "ruins",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "chateau-de-la-touche-a-la-vache"
+    },
+    {
+      "placeKey": "osm:node/5599719766",
+      "name": "Château de Perrien",
+      "latitude": 48.48,
+      "longitude": -3.02,
+      "photoAtlasType": "ruins",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 80,
+      "remarkableScore": 54,
+      "photographicScore": 51,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type ruins issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 5599719766,
+          "sourceExternalId": "osm:node/5599719766",
+          "principalTag": "historic=ruins",
+          "coordinateSource": "node",
+          "photoAtlasType": "ruins",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "chateau-de-perrien"
+    },
+    {
+      "placeKey": "osm:node/5599719774",
+      "name": "Château du Bois de la Salle",
+      "latitude": 48.62,
+      "longitude": -2.93,
+      "photoAtlasType": "castle",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 80,
+      "remarkableScore": 62,
+      "photographicScore": 50,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type castle issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Contexte descriptif ou institutionnel présent",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 5599719774,
+          "sourceExternalId": "osm:node/5599719774",
+          "principalTag": "historic=castle",
+          "coordinateSource": "node",
+          "photoAtlasType": "castle",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "chateau-du-bois-de-la-salle"
+    },
+    {
+      "placeKey": "osm:node/4309832845",
+      "name": "Ensemble fortifié de La Ferrière",
+      "latitude": 47.32,
+      "longitude": -3.11,
+      "photoAtlasType": "fortification",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 80,
+      "remarkableScore": 44,
+      "photographicScore": 64,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type fortification issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 4309832845,
+          "sourceExternalId": "osm:node/4309832845",
+          "principalTag": "historic=fort",
+          "coordinateSource": "node",
+          "photoAtlasType": "fortification",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "HIGH",
+          "isPrimary": true
+        },
+        {
+          "osmType": "way",
+          "osmId": 63733943,
+          "sourceExternalId": "osm:way/63733943",
+          "principalTag": "historic=fort",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "fortification",
+          "qualificationStatus": "review",
+          "premiumScore": 49,
+          "confidence": "HIGH",
+          "isPrimary": false
+        }
+      ],
+      "slug": "ensemble-fortifie-de-la-ferriere"
+    },
+    {
+      "placeKey": "osm:node/430910388",
+      "name": "Fort du Cabellou",
+      "latitude": 47.86,
+      "longitude": -3.92,
+      "photoAtlasType": "fortification",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 80,
+      "remarkableScore": 44,
+      "photographicScore": 64,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type fortification issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 430910388,
+          "sourceExternalId": "osm:node/430910388",
+          "principalTag": "historic=fort",
+          "coordinateSource": "node",
+          "photoAtlasType": "fortification",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "fort-du-cabellou"
+    },
+    {
+      "placeKey": "osm:way/147054705",
+      "name": "La Citadelle",
+      "latitude": 47.35,
+      "longitude": -3.15,
+      "photoAtlasType": "fortification",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 80,
+      "remarkableScore": 62,
+      "photographicScore": 50,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type fortification issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Signal patrimonial ou de protection fort",
+        "Contexte paysager cohérent à proximité",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "way",
+          "osmId": 147054705,
+          "sourceExternalId": "osm:way/147054705",
+          "principalTag": "historic=fort",
+          "coordinateSource": "representative_way_bbox_center",
+          "photoAtlasType": "fortification",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "la-citadelle"
+    },
+    {
+      "placeKey": "osm:node/3761248071",
+      "name": "observatoire",
+      "latitude": 48.2,
+      "longitude": -1.58,
+      "photoAtlasType": "observatory",
+      "photoAtlasFamily": "Observation",
+      "premiumScore": 80,
+      "remarkableScore": 40,
+      "photographicScore": 66,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type observatory issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Fonction d'observation explicitement démontrée",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 3761248071,
+          "sourceExternalId": "osm:node/3761248071",
+          "principalTag": "leisure=bird_hide",
+          "coordinateSource": "node",
+          "photoAtlasType": "observatory",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "observatoire-n48-1988-w1-5808"
+    },
+    {
+      "placeKey": "osm:node/4938382192",
+      "name": "Observatoire",
+      "latitude": 48.25,
+      "longitude": -3.39,
+      "photoAtlasType": "observatory",
+      "photoAtlasFamily": "Observation",
+      "premiumScore": 80,
+      "remarkableScore": 40,
+      "photographicScore": 66,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type observatory issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Fonction d'observation explicitement démontrée",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 4938382192,
+          "sourceExternalId": "osm:node/4938382192",
+          "principalTag": "leisure=bird_hide",
+          "coordinateSource": "node",
+          "photoAtlasType": "observatory",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "observatoire-n48-2460-w3-3935"
+    },
+    {
+      "placeKey": "osm:node/4507117298",
+      "name": "Observatoire aquatique",
+      "latitude": 48.2,
+      "longitude": -4.09,
+      "photoAtlasType": "observatory",
+      "photoAtlasFamily": "Observation",
+      "premiumScore": 80,
+      "remarkableScore": 40,
+      "photographicScore": 58,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type observatory issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Contexte descriptif ou institutionnel présent",
+        "Identité explicite du lieu",
+        "Fonction d'observation explicitement démontrée",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 4507117298,
+          "sourceExternalId": "osm:node/4507117298",
+          "principalTag": "unknown",
+          "coordinateSource": "node",
+          "photoAtlasType": "observatory",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "observatoire-aquatique"
+    },
+    {
+      "placeKey": "osm:way/359597183",
+      "name": "Observatoire astronomique de la pointe du Diable",
+      "latitude": 48.36,
+      "longitude": -4.57,
+      "photoAtlasType": "observatory",
+      "photoAtlasFamily": "Observation",
+      "premiumScore": 80,
+      "remarkableScore": 40,
+      "photographicScore": 52,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type observatory issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Contexte descriptif ou institutionnel présent",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Fonction d'observation explicitement démontrée",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "way",
+          "osmId": 359597183,
+          "sourceExternalId": "osm:way/359597183",
+          "principalTag": "unknown",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "observatory",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "observatoire-astronomique-de-la-pointe-du-diable"
+    },
+    {
+      "placeKey": "osm:node/14062411951",
+      "name": "Observatoire de l'Astro-Club Alnitak",
+      "latitude": 48.44,
+      "longitude": -4.15,
+      "photoAtlasType": "observatory",
+      "photoAtlasFamily": "Observation",
+      "premiumScore": 80,
+      "remarkableScore": 48,
+      "photographicScore": 58,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type observatory issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Contexte descriptif ou institutionnel présent",
+        "Identité explicite du lieu",
+        "Fonction d'observation explicitement démontrée",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 14062411951,
+          "sourceExternalId": "osm:node/14062411951",
+          "principalTag": "man_made=observatory",
+          "coordinateSource": "node",
+          "photoAtlasType": "observatory",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "observatoire-de-l-astro-club-alnitak"
+    },
+    {
+      "placeKey": "osm:way/184001154",
+      "name": "Observatoire faune",
+      "latitude": 47.8,
+      "longitude": -4.27,
+      "photoAtlasType": "observatory",
+      "photoAtlasFamily": "Observation",
+      "premiumScore": 80,
+      "remarkableScore": 40,
+      "photographicScore": 60,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type observatory issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Fonction d'observation explicitement démontrée",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "way",
+          "osmId": 184001154,
+          "sourceExternalId": "osm:way/184001154",
+          "principalTag": "unknown",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "observatory",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "observatoire-faune"
+    },
+    {
+      "placeKey": "osm:way/173491752",
+      "name": "Observatoire n°1",
+      "latitude": 47.61,
+      "longitude": -2.72,
+      "photoAtlasType": "observatory",
+      "photoAtlasFamily": "Observation",
+      "premiumScore": 80,
+      "remarkableScore": 40,
+      "photographicScore": 60,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type observatory issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Fonction d'observation explicitement démontrée",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "way",
+          "osmId": 173491752,
+          "sourceExternalId": "osm:way/173491752",
+          "principalTag": "leisure=bird_hide",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "observatory",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "observatoire-n-1-n47-6138-w2-7166"
+    },
+    {
+      "placeKey": "osm:way/125425427",
+      "name": "Observatoire n°3",
+      "latitude": 47.62,
+      "longitude": -2.72,
+      "photoAtlasType": "observatory",
+      "photoAtlasFamily": "Observation",
+      "premiumScore": 80,
+      "remarkableScore": 40,
+      "photographicScore": 60,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type observatory issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Fonction d'observation explicitement démontrée",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "way",
+          "osmId": 125425427,
+          "sourceExternalId": "osm:way/125425427",
+          "principalTag": "leisure=bird_hide",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "observatory",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "observatoire-n-3"
+    },
+    {
+      "placeKey": "osm:way/299846400",
+      "name": "Observatoire nº 1",
+      "latitude": 47.54,
+      "longitude": -2.73,
+      "photoAtlasType": "observatory",
+      "photoAtlasFamily": "Observation",
+      "premiumScore": 80,
+      "remarkableScore": 40,
+      "photographicScore": 60,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type observatory issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Fonction d'observation explicitement démontrée",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "way",
+          "osmId": 299846400,
+          "sourceExternalId": "osm:way/299846400",
+          "principalTag": "tourism=viewpoint",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "observatory",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "observatoire-n-1-n47-5411-w2-7344"
+    },
+    {
+      "placeKey": "osm:way/299846399",
+      "name": "Observatoire nº 2",
+      "latitude": 47.54,
+      "longitude": -2.74,
+      "photoAtlasType": "observatory",
+      "photoAtlasFamily": "Observation",
+      "premiumScore": 80,
+      "remarkableScore": 40,
+      "photographicScore": 60,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type observatory issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Fonction d'observation explicitement démontrée",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "way",
+          "osmId": 299846399,
+          "sourceExternalId": "osm:way/299846399",
+          "principalTag": "tourism=viewpoint",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "observatory",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "observatoire-n-2"
+    },
+    {
+      "placeKey": "osm:way/265721290",
+      "name": "Observatoire ornithologique",
+      "latitude": 48.78,
+      "longitude": -3.58,
+      "photoAtlasType": "observatory",
+      "photoAtlasFamily": "Observation",
+      "premiumScore": 80,
+      "remarkableScore": 40,
+      "photographicScore": 60,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type observatory issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Fonction d'observation explicitement démontrée",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "way",
+          "osmId": 265721290,
+          "sourceExternalId": "osm:way/265721290",
+          "principalTag": "tower:type=observation",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "observatory",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "observatoire-ornithologique-n48-7816-w3-5771"
+    },
+    {
+      "placeKey": "osm:way/54974026",
+      "name": "Phare de la Balue",
+      "latitude": 48.63,
+      "longitude": -2,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 80,
+      "remarkableScore": 48,
+      "photographicScore": 58,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "way",
+          "osmId": 54974026,
+          "sourceExternalId": "osm:way/54974026",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "phare-de-la-balue"
+    },
+    {
+      "placeKey": "osm:way/118445466",
+      "name": "Phare de La Croix",
+      "latitude": 47.87,
+      "longitude": -3.92,
+      "photoAtlasType": "lighthouse",
+      "photoAtlasFamily": "Maritime",
+      "premiumScore": 80,
+      "remarkableScore": 48,
+      "photographicScore": 58,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type lighthouse issu de l'extraction",
+        "Type fortement signalé",
+        "Phare identifié avec signal fort",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Phare structurellement caractérisé",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "way",
+          "osmId": 118445466,
+          "sourceExternalId": "osm:way/118445466",
+          "principalTag": "man_made=lighthouse",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "lighthouse",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "phare-de-la-croix-n47-8693-w3-9181"
+    },
+    {
+      "placeKey": "osm:way/26809265",
+      "name": "Réserve ornithologique du Verdelet",
+      "latitude": 48.6,
+      "longitude": -2.56,
+      "photoAtlasType": "bird_reserve",
+      "photoAtlasFamily": "Nature",
+      "premiumScore": 80,
+      "remarkableScore": 40,
+      "photographicScore": 62,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type bird_reserve issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Vocation d'observation ornithologique explicite",
+        "Grande zone : le point représentatif n'est pas nécessairement un point photo",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "way",
+          "osmId": 26809265,
+          "sourceExternalId": "osm:way/26809265",
+          "principalTag": "leisure=nature_reserve",
+          "coordinateSource": "representative_area_bbox_center",
+          "photoAtlasType": "bird_reserve",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "reserve-ornithologique-du-verdelet"
+    },
+    {
+      "placeKey": "osm:node/2293790132",
+      "name": "Restes du château",
+      "latitude": 48.32,
+      "longitude": -3.06,
+      "photoAtlasType": "ruins",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 80,
+      "remarkableScore": 54,
+      "photographicScore": 51,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type ruins issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 2293790132,
+          "sourceExternalId": "osm:node/2293790132",
+          "principalTag": "historic=ruins",
+          "coordinateSource": "node",
+          "photoAtlasType": "ruins",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "restes-du-chateau"
+    },
+    {
+      "placeKey": "osm:node/4938073668",
+      "name": "Ruines de la chapelle de Lochrist et calvaire",
+      "latitude": 48.07,
+      "longitude": -3.88,
+      "photoAtlasType": "ruins",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 80,
+      "remarkableScore": 54,
+      "photographicScore": 51,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type ruins issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 4938073668,
+          "sourceExternalId": "osm:node/4938073668",
+          "principalTag": "historic=ruins",
+          "coordinateSource": "node",
+          "photoAtlasType": "ruins",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "ruines-de-la-chapelle-de-lochrist-et-calvaire"
+    },
+    {
+      "placeKey": "osm:node/5599719759",
+      "name": "Vestiges de l'ancien château de Crénan",
+      "latitude": 48.42,
+      "longitude": -2.89,
+      "photoAtlasType": "ruins",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 80,
+      "remarkableScore": 54,
+      "photographicScore": 51,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type ruins issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 5599719759,
+          "sourceExternalId": "osm:node/5599719759",
+          "principalTag": "historic=ruins",
+          "coordinateSource": "node",
+          "photoAtlasType": "ruins",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "vestiges-de-l-ancien-chateau-de-crenan"
+    },
+    {
+      "placeKey": "osm:way/320177779",
+      "name": "Viaduc de Port-Nieux",
+      "latitude": 48.63,
+      "longitude": -2.33,
+      "photoAtlasType": "bridge",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 80,
+      "remarkableScore": 52,
+      "photographicScore": 52,
+      "confidence": "MEDIUM",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type bridge issu de l'extraction",
+        "Pont soumis à un filtrage sévère",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation croisée Wikidata/Wikipedia",
+        "Identité explicite du lieu",
+        "Contexte paysager cohérent à proximité",
+        "Viaduc explicitement individualisé",
+        "Type PhotoAtlas générique ou bruyant",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "way",
+          "osmId": 320177779,
+          "sourceExternalId": "osm:way/320177779",
+          "principalTag": "bridge=viaduct",
+          "coordinateSource": "representative_way_bbox_center",
+          "photoAtlasType": "bridge",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "MEDIUM",
+          "isPrimary": true
+        }
+      ],
+      "slug": "viaduc-de-port-nieux"
+    },
+    {
+      "placeKey": "osm:node/1686968468",
+      "name": "Village déserté fortifié de Goarem-ar-Manec'h",
+      "latitude": 48.4,
+      "longitude": -3.83,
+      "photoAtlasType": "ruins",
+      "photoAtlasFamily": "Architecture",
+      "premiumScore": 80,
+      "remarkableScore": 54,
+      "photographicScore": 51,
+      "confidence": "HIGH",
+      "editorialStatus": "premium",
+      "premiumReasons": [
+        "Type ruins issu de l'extraction",
+        "Type fortement signalé",
+        "Lieu physiquement identifiable et distinct",
+        "Lieu nommé",
+        "Documentation externe partielle",
+        "Signal patrimonial ou de protection fort",
+        "Au moins un signal distinctif au-delà du type est présent"
+      ],
+      "osmRepresentations": [
+        {
+          "osmType": "node",
+          "osmId": 1686968468,
+          "sourceExternalId": "osm:node/1686968468",
+          "principalTag": "historic=ruins",
+          "coordinateSource": "node",
+          "photoAtlasType": "ruins",
+          "qualificationStatus": "premium",
+          "premiumScore": 80,
+          "confidence": "HIGH",
+          "isPrimary": true
+        }
+      ],
+      "slug": "village-deserte-fortifie-de-goarem-ar-manec-h"
+    }
+  ]
+}

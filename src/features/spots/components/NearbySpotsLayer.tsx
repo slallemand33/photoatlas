@@ -14,8 +14,6 @@ import { nearbySpotsDefaultRadiusKm, useNearbySpotsStore } from "../store";
 import { toNearbySpotsGeoJson } from "../utils/geojson";
 import { getRenderableNearbySpots, toSearchResult } from "../utils/selection";
 
-const MAX_MAP_SPOTS = 10;
-
 function removeNearbySpots(map: MaplibreMap): void {
   if (map.getLayer(NEARBY_SPOTS_LAYER_ID)) map.removeLayer(NEARBY_SPOTS_LAYER_ID);
   if (map.getSource(NEARBY_SPOTS_SOURCE_ID)) map.removeSource(NEARBY_SPOTS_SOURCE_ID);
@@ -73,7 +71,7 @@ export function NearbySpotsLayer() {
 
   const spots = useMemo(() => {
     if (!selectedPlace) return [];
-    return getRenderableNearbySpots(selectedPlace, query.data?.spots ?? []).slice(0, MAX_MAP_SPOTS);
+    return getRenderableNearbySpots(selectedPlace, query.data?.spots ?? []);
   }, [query.data?.spots, selectedPlace]);
 
   const geoJson = useMemo(() => toNearbySpotsGeoJson(spots), [spots]);

@@ -103,48 +103,54 @@ export function AstronomyPanelCard({ place }: { place: SearchResult }) {
             </AstronomyMetric>
           </div>
 
-          <AstronomyMetric
-            icon={Sparkles}
-            title="Voie Lactée"
-            className="border-astro/30 bg-astro/10"
-          >
-            <div className="flex items-start justify-between gap-3">
-              <div>
-                <p className="text-foreground text-lg font-black">
-                  {data.milkyWay.visible ? "Noyau visible" : "Noyau non visible maintenant"}
-                </p>
-                <p className="text-muted-foreground mt-2 text-sm leading-relaxed">
-                  Azimut {data.milkyWay.core.position.azimuth}° ·{" "}
-                  {data.milkyWay.core.position.cardinalDirection}
-                  {" · "}hauteur {data.milkyWay.core.position.altitude}°
-                </p>
-              </div>
-              <span
-                className={cn(
-                  "mt-0.5 h-2.5 w-2.5 shrink-0 rounded-full",
-                  data.milkyWay.visible ? "bg-success shadow-sm" : "bg-muted-foreground/25",
-                )}
-                aria-hidden="true"
-              />
-            </div>
-            <div className="border-border mt-4 flex items-center justify-between border-t pt-3 text-sm">
-              <span className="text-muted-foreground/50">Passage au plus haut</span>
-              <span className="text-foreground/75 font-mono tabular-nums">
-                {formatAstronomyTime(data.milkyWay.core.transit)} ·{" "}
-                {data.milkyWay.core.transitAltitude}°
-              </span>
-            </div>
-          </AstronomyMetric>
+          <details className="group border-border bg-background/30 rounded-xl border p-3.5">
+            <summary className="text-foreground flex cursor-pointer list-none items-center justify-between gap-3 text-sm font-semibold">
+              <span>Détails astronomiques</span>
+              <span className="text-muted-foreground text-xs group-open:hidden">Voie Lactée et repères</span>
+              <span className="text-muted-foreground hidden text-xs group-open:inline">Masquer</span>
+            </summary>
+            <div className="mt-3 space-y-3">
+              <AstronomyMetric
+                icon={Sparkles}
+                title="Voie Lactée"
+                className="border-astro/30 bg-astro/10"
+              >
+                <div className="flex items-start justify-between gap-3">
+                  <div>
+                    <p className="text-foreground text-lg font-black">
+                      {data.milkyWay.visible ? "Noyau visible" : "Noyau non visible maintenant"}
+                    </p>
+                    <p className="text-muted-foreground mt-2 text-sm leading-relaxed">
+                      Azimut {data.milkyWay.core.position.azimuth}° · {data.milkyWay.core.position.cardinalDirection}
+                      {" · "}hauteur {data.milkyWay.core.position.altitude}°
+                    </p>
+                  </div>
+                  <span
+                    className={cn(
+                      "mt-0.5 h-2.5 w-2.5 shrink-0 rounded-full",
+                      data.milkyWay.visible ? "bg-success shadow-sm" : "bg-muted-foreground/25",
+                    )}
+                    aria-hidden="true"
+                  />
+                </div>
+                <div className="border-border mt-4 flex items-center justify-between border-t pt-3 text-sm">
+                  <span className="text-muted-foreground/50">Passage au plus haut</span>
+                  <span className="text-foreground/75 font-mono tabular-nums">
+                    {formatAstronomyTime(data.milkyWay.core.transit)} · {data.milkyWay.core.transitAltitude}°
+                  </span>
+                </div>
+              </AstronomyMetric>
 
-          <div className="text-muted-foreground flex flex-wrap items-center justify-between gap-2 px-1 text-sm font-semibold">
-            <span>Lever {formatAstronomyTime(data.sun.rise)}</span>
-            <span>Coucher {formatAstronomyTime(data.sun.set)}</span>
-            <span>Lune {formatAstronomyTime(data.moon.rise)}</span>
-          </div>
-          <p className="text-muted-foreground text-sm leading-relaxed">
-            Astronomy Engine · horaires affichés dans le fuseau de votre appareil · horizon
-            théorique.
-          </p>
+              <div className="text-muted-foreground flex flex-wrap items-center justify-between gap-2 px-1 text-sm font-semibold">
+                <span>Lever {formatAstronomyTime(data.sun.rise)}</span>
+                <span>Coucher {formatAstronomyTime(data.sun.set)}</span>
+                <span>Lune {formatAstronomyTime(data.moon.rise)}</span>
+              </div>
+              <p className="text-muted-foreground text-sm leading-relaxed">
+                Astronomy Engine · horaires affichés dans le fuseau de votre appareil · horizon théorique.
+              </p>
+            </div>
+          </details>
         </div>
       )}
     </PlaceDashboardSection>

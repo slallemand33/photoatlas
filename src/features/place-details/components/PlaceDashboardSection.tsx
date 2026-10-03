@@ -25,20 +25,20 @@ export function PlaceDashboardSection({
         className,
       )}
     >
-      <header className="border-border flex items-center justify-between gap-3 border-b px-5 py-4">
+      <header className="border-border flex items-center justify-between gap-3 border-b px-4 py-3.5">
         <div className="flex min-w-0 items-center gap-3">
-          <span className="bg-primary/10 text-primary grid h-11 w-11 shrink-0 place-items-center rounded-xl">
-            <Icon className="h-5 w-5" aria-hidden="true" />
+          <span className="bg-primary/10 text-primary grid h-10 w-10 shrink-0 place-items-center rounded-xl">
+            <Icon className="h-4.5 w-4.5" aria-hidden="true" />
           </span>
-          <h3 className="text-foreground truncate text-lg font-bold tracking-tight">{title}</h3>
+          <h3 className="text-foreground truncate text-base font-bold tracking-tight sm:text-lg">{title}</h3>
         </div>
         {status && (
-          <span className="border-border bg-muted text-muted-foreground shrink-0 rounded-full border px-3 py-1.5 text-sm font-semibold">
+          <span className="border-border bg-muted text-muted-foreground shrink-0 rounded-full border px-2.5 py-1 text-xs font-semibold sm:text-sm">
             {status}
           </span>
         )}
       </header>
-      <div className="p-5">{children}</div>
+      <div className="p-4">{children}</div>
     </section>
   );
 }

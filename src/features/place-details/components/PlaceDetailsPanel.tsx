@@ -13,12 +13,12 @@ function PanelContent() {
   return (
     <>
       <PlaceHeader place={selectedPlace} onClose={closePanel} />
-      <div className="flex-1 overflow-y-auto overscroll-contain px-5 py-6">
+      <div className="flex-1 overflow-y-auto overscroll-contain px-4 py-4 sm:px-5 sm:py-5">
         <PlaceGeoInfo place={selectedPlace} />
-        <div className="my-7 flex items-center gap-4" aria-hidden="true">
+        <div className="my-5 flex items-center gap-3" aria-hidden="true">
           <div className="bg-border/25 h-px flex-1" />
           <span className="text-muted-foreground text-sm font-bold tracking-[0.12em] uppercase">
-            Tableau de bord photo
+            Conditions photo
           </span>
           <div className="bg-border/25 h-px flex-1" />
         </div>
