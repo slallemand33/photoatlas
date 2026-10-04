@@ -49,6 +49,20 @@ export function HomePageEditorial() {
         </div>
       </section>
 
+      <section className="story-reveal border-border/70 bg-card/70 mx-auto -mt-10 max-w-4xl rounded-3xl border px-6 py-8 shadow-sm backdrop-blur-sm sm:px-8 sm:py-10">
+        <div className="mx-auto max-w-3xl text-center">
+          <p className="text-info mb-3 text-sm font-black tracking-[0.18em] uppercase">
+            L’atlas commence ici
+          </p>
+          <p className="text-foreground text-balance text-xl font-bold sm:text-2xl">
+            PhotoAtlas est actuellement disponible en <span className="text-foreground">Aquitaine</span> et en <span className="text-foreground">Bretagne</span>.
+          </p>
+          <p className="text-muted-foreground mx-auto mt-4 max-w-2xl text-base leading-relaxed sm:text-lg">
+            Deux régions déjà explorables. D&apos;autres territoires suivront.
+          </p>
+        </div>
+      </section>
+
       <div className="mx-auto max-w-7xl px-6 py-20 sm:py-28">
         <section className="story-reveal mb-24">
           <SectionHeading
