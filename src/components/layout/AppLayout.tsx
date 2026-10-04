@@ -17,6 +17,7 @@ interface AppLayoutProps {
 
 export function AppLayout({ children }: AppLayoutProps) {
   const pathname = usePathname();
+  const isMapRoute = pathname === "/map";
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
   const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false);
   const [queryClient] = useState(
@@ -43,10 +44,11 @@ export function AppLayout({ children }: AppLayoutProps) {
             <Header
               onMobileMenuToggle={() => setMobileSidebarOpen((v) => !v)}
               mobileSidebarOpen={mobileSidebarOpen}
+              showToolNavigation={isMapRoute}
             />
 
             <div className="relative flex flex-1 overflow-hidden">
-              {mobileSidebarOpen && (
+              {isMapRoute && mobileSidebarOpen && (
                 <div
                   className="bg-overlay fixed inset-0 z-30 backdrop-blur-sm lg:hidden"
                   onClick={() => setMobileSidebarOpen(false)}
@@ -54,18 +56,20 @@ export function AppLayout({ children }: AppLayoutProps) {
                 />
               )}
 
-              <Sidebar
-                collapsed={sidebarCollapsed}
-                onCollapsedToggle={() => setSidebarCollapsed((v) => !v)}
-                mobileOpen={mobileSidebarOpen}
-                onMobileClose={() => setMobileSidebarOpen(false)}
-              />
+              {isMapRoute ? (
+                <Sidebar
+                  collapsed={sidebarCollapsed}
+                  onCollapsedToggle={() => setSidebarCollapsed((v) => !v)}
+                  mobileOpen={mobileSidebarOpen}
+                  onMobileClose={() => setMobileSidebarOpen(false)}
+                />
+              ) : null}
 
               <div className="flex flex-1 flex-col overflow-hidden">
                 {children}
                 <Footer />
               </div>
-              {pathname === "/" && <PlaceDetailsPanel />}
+              {isMapRoute && <PlaceDetailsPanel />}
             </div>
           </div>
         </>

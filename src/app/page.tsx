@@ -1,5 +1,7 @@
-import { MainContent } from "@/components/layout";
+import { HomePageEditorial, homePageMetadata } from "@/features/homepage/components/HomePageEditorial";
+
+export const metadata = homePageMetadata;
 
 export default function HomePage() {
-  return <MainContent />;
+  return <HomePageEditorial />;
 }

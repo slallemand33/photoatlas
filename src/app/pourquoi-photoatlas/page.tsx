@@ -1,28 +1,21 @@
 import {
   ArrowRight,
   Binoculars,
-  CloudRain,
-  Compass,
   ExternalLink,
   History,
-  Layers3,
   MapPinned,
   Moon,
   Radar,
-  Search,
   Sparkles,
   Star,
   Sun,
-  Telescope,
-  Timeline,
   UserRound,
   Users,
-  WandSparkles,
-  type LucideIcon,
 } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
 
+import { AVAILABLE, CardGrid, SectionHeading, type StoryCard } from "@/features/homepage/components/EditorialShared";
 import { PROJECT_IDENTITY } from "@/lib/projectIdentity";
 
 export const metadata: Metadata = {
@@ -36,60 +29,6 @@ export const metadata: Metadata = {
     type: "article",
   },
 };
-
-interface StoryCard {
-  icon: LucideIcon;
-  title: string;
-  description: string;
-}
-
-const AVAILABLE: StoryCard[] = [
-  {
-    icon: MapPinned,
-    title: "Carte interactive",
-    description: "Tous les signaux utiles réunis autour du lieu choisi.",
-  },
-  {
-    icon: Search,
-    title: "Recherche de lieux",
-    description: "Passer d’une idée à un terrain concret en quelques secondes.",
-  },
-  {
-    icon: Layers3,
-    title: "Pollution lumineuse",
-    description: "Repérer les zones favorables à un ciel réellement sombre.",
-  },
-  {
-    icon: CloudRain,
-    title: "Nuages et radar",
-    description: "Lire les conditions présentes sans quitter la carte.",
-  },
-  {
-    icon: Telescope,
-    title: "Astronomie",
-    description: "Soleil, Lune, crépuscules et nuit astronomique au même endroit.",
-  },
-  {
-    icon: Sparkles,
-    title: "Voie Lactée",
-    description: "Comprendre la direction et le passage du noyau galactique.",
-  },
-  {
-    icon: Timeline,
-    title: "Timeline photo",
-    description: "Voir immédiatement les moments importants de la journée.",
-  },
-  {
-    icon: WandSparkles,
-    title: "Photo Advisor",
-    description: "Transformer les données en recommandations compréhensibles.",
-  },
-  {
-    icon: Compass,
-    title: "Guides photographiques",
-    description: "Préparer le cadrage directement depuis la carte.",
-  },
-];
 
 const FUTURE: StoryCard[] = [
   {
@@ -134,47 +73,6 @@ const FUTURE: StoryCard[] = [
   },
 ];
 
-function SectionHeading({
-  eyebrow,
-  title,
-  children,
-}: {
-  eyebrow: string;
-  title: string;
-  children?: React.ReactNode;
-}) {
-  return (
-    <div className="mx-auto mb-12 max-w-3xl text-center">
-      <p className="text-info mb-3 text-sm font-black tracking-[0.16em] uppercase">{eyebrow}</p>
-      <h2 className="text-foreground text-3xl font-black tracking-tight sm:text-4xl">{title}</h2>
-      {children && (
-        <div className="text-muted-foreground mt-5 text-base leading-relaxed sm:text-lg">
-          {children}
-        </div>
-      )}
-    </div>
-  );
-}
-
-function CardGrid({ cards, muted = false }: { cards: StoryCard[]; muted?: boolean }) {
-  return (
-    <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
-      {cards.map(({ icon: Icon, title, description }) => (
-        <article
-          key={title}
-          className={`story-card border-border rounded-2xl border p-6 ${muted ? "bg-muted/35" : "bg-card"}`}
-        >
-          <span className="bg-info/10 text-info mb-5 grid h-12 w-12 place-items-center rounded-xl">
-            <Icon className="h-6 w-6" aria-hidden="true" />
-          </span>
-          <h3 className="text-foreground text-xl font-bold">{title}</h3>
-          <p className="text-muted-foreground mt-3 text-base leading-relaxed">{description}</p>
-        </article>
-      ))}
-    </div>
-  );
-}
-
 export default function WhyPhotoAtlasPage() {
   return (
     <main id="main-content" className="bg-background flex-1 overflow-y-auto" tabIndex={-1}>
@@ -202,7 +100,7 @@ export default function WhyPhotoAtlasPage() {
             réellement pensé pour photographier.
           </p>
           <Link
-            href="/"
+            href="/map"
             className="bg-primary text-primary-foreground mt-10 inline-flex min-h-12 items-center gap-2 rounded-xl px-6 py-3 text-base font-bold transition-transform hover:-translate-y-0.5"
           >
             Ouvrir la carte <ArrowRight className="h-5 w-5" aria-hidden="true" />

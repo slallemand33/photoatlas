@@ -123,7 +123,7 @@ export function Sidebar({ collapsed, onCollapsedToggle, mobileOpen, onMobileClos
           </p>
         </div>
 
-        {pathname === "/" ? (
+        {pathname === "/map" ? (
           <>
             <section className={cn("border-border/20 border-b", collapsed && "lg:hidden")}>
               <PhotoGuidesPanel />
